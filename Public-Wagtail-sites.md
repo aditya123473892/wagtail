@@ -1,4 +1,4 @@
-In the future we hope to create a testimonial/directory site, listing both agencies offering wagtail and the sites launched on it. To start that list we'd really like to hear from anyone who has *launched* a publicly viewable site on Wagtail.
+In the future we hope to create a testimonial/directory site, listing both agencies offering wagtail and the sites launched on it. To start that list we'd really like to hear from anyone who has *launched* a *public* site on Wagtail.
 
 ## "That's me!"
 
