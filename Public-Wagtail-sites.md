@@ -12,5 +12,5 @@ Using a new bullet in the "Site list" below, please give
 
 ## Site list
 
-* http://rca.ac.uk developed by Torchbox Ltd, Oxford UK
+* http://rca.ac.uk developed by [Torchbox Ltd](http://torchbox.com), Oxford UK
 * 
