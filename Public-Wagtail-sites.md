@@ -2,7 +2,7 @@ In the future we hope to create a testimonial-cum-directory site, listing both a
 
 ## "That's me!"
 
-Using a new bullet in the list below, please give
+Using a new bullet in the "Site list" below, please give
 
 1. the URL of the site, 
 2. who it was developed by and 
