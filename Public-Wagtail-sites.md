@@ -1,12 +1,12 @@
-Using a new bullet in the list below, please provide
+Using a new bullet in the list below, please give
 
-1. when URL of the site, 
+1. the URL of the site, 
 2. who it was developed by and 
 3. an approximate town/country of the developer e.g, "Oxford UK", or simply "NZ" etc.
 
 In the future we hope to create a testimonial-cum-directory site, listing both agencies offering wagtail and the sites launched on it.
 
-(Obviously, please only add your site if you're happy for it to be listing publicly. If you're unhappy giving your location just skip that bit.)
+(Obviously only add your site if you're happy for it to be listing publicly. If you're unhappy giving a part of this information, just skip it.)
 
 ## Site list
 
