@@ -8,7 +8,7 @@ Using a new bullet in the "Site list" below, please give
 2. (optional) who it was developed by and 
 3. (even more optional) an approximate town/country of the developer e.g, "Oxford UK", or simply "NZ" etc.
 
-(Obviously only add your site if you're happy for it to be listing publicly. If you're unhappy giving a part of this information, just provide whatever information you can.)
+(Obviously only add your site if you're happy for it to be listing publicly.)
 
 ## Site list
 
