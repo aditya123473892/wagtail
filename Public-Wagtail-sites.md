@@ -5,8 +5,8 @@ In the future we hope to create a testimonial/directory site, listing both agenc
 Using a new bullet in the "Site list" below, please give
 
 1. the URL of the site, 
-2. who it was developed by and 
-3. an approximate town/country of the developer e.g, "Oxford UK", or simply "NZ" etc.
+2. (optional) who it was developed by and 
+3. (even more optional) an approximate town/country of the developer e.g, "Oxford UK", or simply "NZ" etc.
 
 (Obviously only add your site if you're happy for it to be listing publicly. If you're unhappy giving a part of this information, just provide whatever information you can.)
 
