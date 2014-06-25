@@ -1,5 +1,6 @@
 Using a new bullet in the list below, please provide
-1. whe URL of the site, 
+
+1. when URL of the site, 
 2. who it was developed by and 
 3. an approximate town/country of the developer e.g, "Oxford UK", or simply "NZ" etc.
 
