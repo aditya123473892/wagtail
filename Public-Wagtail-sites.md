@@ -2,7 +2,7 @@ In the future we hope to create a testimonial/directory site, listing both agenc
 
 ## "That's me!"
 
-Using a new bullet in the "Site list" below, please give
+Edit this wiki page and using a new bullet in the "Site list" below, please give
 
 1. the URL of the site, 
 2. (optional) who it was developed by and 
