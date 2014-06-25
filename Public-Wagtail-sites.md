@@ -6,7 +6,7 @@ Using a new bullet in the "Site list" below, please give
 
 1. the URL of the site, 
 2. (optional) who it was developed by and 
-3. (even more optional) an approximate town/country of the developer e.g, "Oxford UK", or simply "NZ" etc.
+3. (even more optional) an approximate town/country of the developer e.g, "Oxford UK", "NZ" etc.
 
 (Obviously only add your site if you're happy for it to be listing publicly.)
 
