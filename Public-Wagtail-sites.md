@@ -13,7 +13,7 @@ Edit this wiki page and using a new bullet in the "Site list" below, please give
 ## Site list
 
 * http://rca.ac.uk by [Torchbox Ltd](http://torchbox.com), Oxford UK
-* http://election.kingsfund.org.uk/ by [Torchbox Ltd](http://torchbox.com), Oxford UK
-* http://lisasander.de/ by [Karl Sander](http://kall.ws), Dresden Germany
-* http://www.moidigital.ac.uk/ by [King's College London](http://www.kcl.ac.uk/), UK
-* http://www.historicalpageants.ac.uk/ [King's College London](http://www.kcl.ac.uk/), UK
+* http://election.kingsfund.org.uk by [Torchbox Ltd](http://torchbox.com), Oxford UK
+* http://lisasander.de by [Karl Sander](http://kall.ws), Dresden Germany
+* http://www.moidigital.ac.uk by [King's College London](http://www.kcl.ac.uk/), UK
+* http://www.historicalpageants.ac.uk by [King's College London](http://www.kcl.ac.uk/), UK
