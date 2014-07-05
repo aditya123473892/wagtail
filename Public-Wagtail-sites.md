@@ -18,4 +18,4 @@ Edit this wiki page and using a new bullet in the "Site list" below, please give
 * http://www.moidigital.ac.uk by [King's College London](http://www.kcl.ac.uk/), UK
 * http://www.historicalpageants.ac.uk by [King's College London](http://www.kcl.ac.uk/), UK
 * http://www.contextis.com by Context Information Security, UK
-* http:/http://www.angelinamargolis.com/ by [Ben Margolis](http://www.sixpearls.com/), San Francisco/New York City, USA
+* http://www.angelinamargolis.com/ by [Ben Margolis](http://www.sixpearls.com/), San Francisco/New York City, USA
