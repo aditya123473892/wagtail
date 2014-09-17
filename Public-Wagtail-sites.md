@@ -16,15 +16,15 @@ Website                             | Developed by                        | Town
 ------------------------------------|-------------------------------------|------------------
 http://www.rca.ac.uk                | [Torchbox Ltd](http://torchbox.com) | Oxford, UK
 http://election.kingsfund.org.uk    | [Torchbox Ltd](http://torchbox.com) | Oxford, UK
-http://www.100shapes.com/           | [100 Shapes](http://www.100shapes.com) | London, UK
-http://lisasander.de                | [Karl Sander](http://kall.ws)       | Dresden Germany
-http://www.moidigital.ac.uk         | [King's College London](http://www.kcl.ac.uk/) | UK
-http://www.historicalpageants.ac.uk | [King's College London](http://www.kcl.ac.uk/) | UK
-http://www.contextis.com            | Context Information Security        | UK
-http://www.angelinamargolis.com/    | [Ben Margolis](http://www.sixpearls.com/) | San Francisco/New York City, USA
-http://www.southwales.ac.uk         | University of South Wales           | UK
-http://london.southwales.ac.uk      | University of South Wales           | UK
-http://www.bablmedia.com/           | Babl Media                          |
-http://www.misoclear.com/           | [Torchbox Ltd](http://torchbox.com) | Oxford, UK
-http://www.mariprist.com/           | [Torchbox Ltd](http://torchbox.com) | Oxford, UK
-http://www.meetcuro.com/            | Curo                                | Melbourne, Australia
+http://www.100shapes.com            | [100 Shapes](http://www.100shapes.com) | London, UK
+http://lisasander.de                | [Karl Sander](http://kall.ws)       | Dresden, Germany
+http://www.moidigital.ac.uk         | [King's College London](http://www.kcl.ac.uk/) | London, UK
+http://www.historicalpageants.ac.uk | [King's College London](http://www.kcl.ac.uk/) | London, UK
+http://www.contextis.com            | Context Information Security        | London, UK
+http://www.angelinamargolis.com     | [Ben Margolis](http://www.sixpearls.com/) | San Francisco/New York City, USA
+http://www.southwales.ac.uk         | University of South Wales           | Newport, UK
+http://london.southwales.ac.uk      | University of South Wales           | Newport, UK
+http://www.bablmedia.com            | Babl Media                          | Shaker Heights, USA
+http://www.misoclear.com            | [Torchbox Ltd](http://torchbox.com) | Oxford, UK
+http://www.mariprist.com            | [Torchbox Ltd](http://torchbox.com) | Oxford, UK
+http://www.meetcuro.com             | Curo                                | Melbourne, Australia
