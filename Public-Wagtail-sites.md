@@ -1,14 +1,12 @@
-In the future we hope to create a testimonial/directory site, listing both agencies offering wagtail and the sites launched on it. To start that list we'd really like to hear from anyone who has *launched* a *public* site on Wagtail.
+In the future we hope to create a directory site, listing both agencies offering Wagtail and the sites launched on it. To start that list we'd really like to hear from anyone who has launched a public site on Wagtail.
 
 ## Add your site
 
-Edit this wiki page and using a new bullet in the "Site list" below, please give
+Edit this page and using a new row in the "Site list" below, please give
 
 1. the URL of the site, 
 2. (optional) who it was developed by and 
 3. (even more optional) an approximate town/country of the developer e.g, "Oxford UK", "NZ" etc.
-
-(Obviously only add your site if you're happy for it to be listing publicly.)
 
 ## Site list
 
