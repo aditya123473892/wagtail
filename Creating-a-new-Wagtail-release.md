@@ -6,13 +6,13 @@
 * There should be a release notes page about the release in docs/releases/ - ensure that any IN DEVELOPMENT text is removed
 * CHANGELOG.txt should contain a section about the new release - ensure that the date is filled in, not left as xx.xx.20xx
 * Update translations:
- - Pull new translation strings from transifex (tx pull -t)
+ - Pull new translation strings from transifex (`tx pull -t`)
  - Run compilemessages on all modules
 * Confirm that the latest revision is passing on Travis 
 
 ## GitHub release
 
-From https://github.com/torchbox/wagtail/releases, click 'draft a new release':
+From https://github.com/torchbox/wagtail/releases, click 'Draft a new release':
 
 * Tag version should be of the form "v0.4" - the target should be the stable/0.4.x branch (in practice, for a new 0.x version this will probably be identical to master)
 * Release title should be "0.4" (without the 'v')
@@ -25,7 +25,7 @@ From the root of the wagtail codebase on your machine - NOT within Vagrant (beca
 
         python ./setup.py register
 
-You will be prompted for a PyPI username/password - search pwman for 'pypi'. (If you're already logged in under your personal pypi account, edit ~/.pypirc with the torchbox details. Or ask me to add your own account as a maintainer of wagtail...). Then run:
+You will be prompted for a PyPI username/password - search pwman for 'pypi'. (If you're already logged in under your personal pypi account, edit `~/.pypirc` with the Torchbox details. Or ask [@gasman](https://github.com/gasman) to add your own account as a maintainer of wagtail...). Then run:
 
         python ./setup.py sdist upload
 
