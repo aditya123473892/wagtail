@@ -48,7 +48,27 @@ Typically this will be used to define snippets of HTML within `<script type="tex
 
 ### render(self, value, prefix)
 
-Return the HTML for an instance of this block with the content given by 'value'. All element IDs and names must be prefixed by the given prefix. For example, `render(['peas', 'carrots', 'toothpaste'], 'matts-shopping-list')` would return a `<ul>` with three items, plus any extra furniture such as the 'add new' button. Any associated Javascript will typically not be rendered at this point (although for simple scripts that don't involve nesting blocks, an inline `<script>` tag will work).
+Return the HTML for an instance of this block with the content given by 'value'. All element IDs and names must be prefixed by the given prefix. For example, `render(['peas', 'carrots', 'toothpaste'], 'matts-shopping-list')` would return something like:
+
+    <ul id="matts-shopping-list-ul">
+        <li>
+            <label for="matts-shopping-list-item-0">Product:</label>
+            <input type="text" id="matts-shopping-list-item-0" name="matts-shopping-list-item-0" value="peas">
+        </li>
+        <li>
+            <label for="matts-shopping-list-item-1">Product:</label>
+            <input type="text" id="matts-shopping-list-item-1" name="matts-shopping-list-item-1" value="carrots">
+        </li>
+        <li>
+            <label for="matts-shopping-list-item-2">Product:</label>
+            <input type="text" id="matts-shopping-list-item-2" name="matts-shopping-list-item-2" value="toothpaste">
+        </li>
+        <li>
+            <input type="button" id="matts-shopping-list-addnew" value="Add new">
+        </li>
+    </ul>
+
+Any associated Javascript will typically not be rendered at this point (although for simple scripts that don't involve nesting blocks, an inline `<script>` tag will work).
 
 ### js_declaration(self, definition_prefix)
 
@@ -128,7 +148,7 @@ In shopping_list.js:
 
                 /* Make the 'add new' button work */
                 $('#' + htmlPrefix + '-addnew').click(function() {
-                    $('#' + htmlPrefix + '-list').append(newItemHtml);
+                    $('#' + htmlPrefix + '-ul').append(newItemHtml);
                     /* not shown here: fiddling the identifiers in newItemHtml to assign a new unique ID */
                 });
             };
