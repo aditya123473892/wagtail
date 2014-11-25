@@ -190,9 +190,9 @@ then these will be passed to the Javascript at this point too:
 
 Return the Javascript parameter list (a string consisting of zero or more JS expressions separated by commas) that should be passed to the meta-initializer function for a block whose content is 'value'. In other words: this picks out any characteristics of the value that we know will have a bearing on the initialiser code, and packages them up as something we can pass to the meta-initializer. For our shopping list example, the length of the list is one such characteristic (i.e. different length lists will need different initializer functions). Therefore: if 'value' is a list of length 3 then js_declaration_params should return `"{itemCount: 3}"`.
 
+> **Q.** Can't we just stick our Javascript initialization code inline after the HTML blocks that need it, and avoid this whole chain of initializer functions?
+> **A.** No - this approach breaks down when we have nested lists. We would end up with one `<script type="text/x-template"></script>` block embedded in another - which is not a problem in itself as long as we consistently escape the `<script>` tags. The problem comes when we replace the `"__PREFIX__"` strings in the template content, since we need to keep any occurrences of `__PREFIX__` within the inner template intact - and that isn't possible with naive string replacement.
+
 ### default
 
 The default value for blocks of this type; used as the initial value for newly-created instances of this block. For our shopping list, this is `[]`.
-
-> **Q.** Can't we just stick our Javascript initialization code inline after the HTML blocks that need it, and avoid this whole chain of initializer functions?
-> **A.** No - this approach breaks down when we have nested lists. We would end up with one `<script type="text/x-template"></script>` block embedded in another - which is not a problem in itself as long as we consistently escape the `<script>` tags. The problem comes when we replace the `"__PREFIX__"` strings in the template content, since we need to keep any occurrences of `__PREFIX__` within the inner template intact - and that isn't possible with naive string replacement.
