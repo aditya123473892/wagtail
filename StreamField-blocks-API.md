@@ -26,7 +26,7 @@ Implementing a block type is a matter of defining a 'block factory' object, whic
 
 Because the definition `ShoppingListBlock(classname='polkadot')` is not very usable in isolation without that extra context, this object is essentially just a mundane bundle of properties. This is referred to as a 'block options' object. The constructor for this object can take whatever args/kwargs it likes - Wagtail does not impose any restrictions here.
 
-The logic within wagtailadmin (or, to be exact, the parent StreamField) will then take care of building a block factory object based on these options and the relevant context information. This will be done with 
+The logic within wagtailadmin (or, to be exact, the parent StreamField) will then take care of building a block factory object based on these options and the relevant context information. This will be done with the following call:
 
     ShoppingListFactory(block_options, name='shopping_list', definition_prefix='def-content-shopping_list')
 
