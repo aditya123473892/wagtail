@@ -8,19 +8,35 @@ This document illustrates the blocks API by showing how to implement 'shopping l
 
 So let's get started...
 
-We need to define a "block definition" object which will be placed into the page's panel definitions. A page consisting of a StreamField that only allowed you to create shopping lists would look like:
+## Block factories and block options
 
-    ShoppingListPage.content_panels = [
-        StreamField('shopping_lists', [my_shopping_list_block_definition])
-    ]
+Implementing a block type is a matter of defining a 'block factory' object, which knows how to generate the HTML and Javascript for a block of any value. (Here, a 'value' consists of basic Python data types, of the sort that can be serialised to JSON - for a shopping list, this might be `['peas', 'carrots', 'toothpaste']`). The information needed to set up a block factory comes from two places:
 
-Like most Python objects, this object would probably be created by instantiating a class:
+1. Options passed in through the page's panel definitions, such as `classname='polkadot'` in the following:
 
-    ShoppingListPage.content_panels = [
-        StreamField('shopping_lists', [ShoppingListBlock()])
-    ]
+        ShoppingListPage.content_panels = [
+            StreamField('content', block_types=[
+                ('shopping_list', ShoppingListBlock(classname='polkadot'))
+            ])
+        ]
 
-...but that's not important right now. The important thing is that this object provides the following attributes/methods:
+  (This is a page consisting of a StreamField where the only block type that's available to be inserted is a shopping list.)
+
+2. The context in which the `ShoppingListBlock` definition is placed. In the above code, the fact that our ShoppingListBlock has been given the name `shopping_list` is relevant, as is the fact that it's a child of the block called `content`. (This is because we'll need to allocate a namespace like `def-content-shopping_list` for the IDs  - this namespace needs to be distinct from any other polka-dotted shopping lists that might exist elsewhere on the page. In addition, we might want to munge the name `shopping_list` into the human-friendly string "Shopping list" for use as a label when the site implementer hasn't explicitly provided one.)
+
+Because the definition `ShoppingListBlock(classname='polkadot')` is not very usable in isolation without that extra context, this object is essentially just a mundane bundle of properties. This is referred to as a 'block options' object. The constructor for this object can take whatever args/kwargs it likes - Wagtail does not impose any restrictions here.
+
+The logic within wagtailadmin (or, to be exact, the parent StreamField) will then take care of building a block factory object based on these options and the relevant context information. This will be done with 
+
+    ShoppingListFactory(block_options, name='shopping_list', definition_prefix='def-content-shopping_list')
+
+where the ShoppingListFactory class is obtained from `block_options.factory`.
+
+Therefore, implementing a new block type involves defining a 'block options' class such as ShoppingList - which is the one that a site implementer will include their panel definitions - and a 'block factory' class such as ShoppingListFactory which does the actual work. The only requirement for a 'block options' object is that it provides a `factory` attribute pointing to the block factory class. The requirements for a factory object are a bit more onerous...
+
+## The block factory API
+
+Block factory objects need to provide the following attributes/methods:
 
 ### media
 
@@ -50,7 +66,7 @@ Typically this will be used to define snippets of HTML within `<script type="tex
 
 Return the HTML for an instance of this block with the content given by 'value'. All element IDs and names must be prefixed by the given prefix. For example, `render(['peas', 'carrots', 'toothpaste'], 'matts-shopping-list')` would return something like:
 
-    <ul id="matts-shopping-list-ul">
+    <ul id="matts-shopping-list-ul" class="polkadot">
         <li>
             <label for="matts-shopping-list-item-0">Product:</label>
             <input type="text" id="matts-shopping-list-item-0" name="matts-shopping-list-item-0" value="peas">
