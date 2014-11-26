@@ -32,7 +32,7 @@ The logic within wagtailadmin (or, to be exact, the parent StreamField) will the
 
 where the ShoppingListFactory class is obtained from `block_options.factory`.
 
-Therefore, implementing a new block type involves defining a 'block options' class such as ShoppingList - which is the one that a site implementer will include their panel definitions - and a 'block factory' class such as ShoppingListFactory which does the actual work. The only requirement for a 'block options' object is that it provides a `factory` attribute pointing to the block factory class. The requirements for a factory object are a bit more onerous...
+Therefore, implementing a new block type involves defining a 'block options' class such as ShoppingListBlock - which is the one that a site implementer will include their panel definitions - and a 'block factory' class such as ShoppingListFactory which does the actual work. The only requirement for a 'block options' object is that it provides a `factory` attribute pointing to the block factory class. The requirements for a factory object are a bit more onerous...
 
 ## The block factory API
 
@@ -42,13 +42,13 @@ Block factory objects need to provide the following attributes/methods:
 
 A [Django media object](https://docs.djangoproject.com/en/1.7/topics/forms/media/#media-objects) specifying any external static JS/CSS files required by this block definition. The actual low-level Javascript implementation (such as making an 'add new' button that spawns a new "Product" text field when clicked) would usually be written here - in a file called 'shopping_list.js', say.
 
-### html_declaration(self, definition_prefix)
+### html_declaration(self)
 
-Returns a (possibly empty) string of HTML. This HTML will be included on the edit page - ONCE per block definition, regardless of how many occurrences of the block there are on the page - and it will appear in a non-specific place on the page. Any element IDs within this block of HTML must be prefixed by definition_prefix.
+Returns a (possibly empty) string of HTML. This HTML will be included on the edit page - ONCE per block definition, regardless of how many occurrences of the block there are on the page - and it will appear in a non-specific place on the page. Any element IDs within this block of HTML must be prefixed by the factory's definition_prefix.
 
 Typically this will be used to define snippets of HTML within `<script type="text/x-template"></script>` blocks, for our Javascript code to work with. For example, our shopping list block type might define this snippet to be dynamically inserted when you click the 'add new' button:
 
-    <script type="text/x-template" id="{{ definition_prefix }}-shoppinglistitem">
+    <script type="text/x-template" id="{{ self.definition_prefix }}-shoppinglistitem">
         <label for="__PREFIX__">Product:</label> <input type="text" id="__PREFIX__" name="__PREFIX__" value="">
     </script>
 
@@ -64,7 +64,7 @@ Typically this will be used to define snippets of HTML within `<script type="tex
 
 ### render(self, value, prefix)
 
-Return the HTML for an instance of this block with the content given by 'value'. All element IDs and names must be prefixed by the given prefix. For example, `render(['peas', 'carrots', 'toothpaste'], 'matts-shopping-list')` would return something like:
+Return the HTML for an instance of this block with the content given by 'value'. All element IDs and names must be prefixed by the given prefix. (This is not the same as definition_prefix; here the prefix has to be unique for each individual block instance that appears in the form.) For example, `render(['peas', 'carrots', 'toothpaste'], 'matts-shopping-list')` would return something like:
 
     <ul id="matts-shopping-list-ul" class="polkadot">
         <li>
@@ -86,7 +86,7 @@ Return the HTML for an instance of this block with the content given by 'value'.
 
 Any associated Javascript will typically not be rendered at this point (although for simple scripts that don't involve nesting blocks, an inline `<script>` tag will work).
 
-### js_declaration(self, definition_prefix)
+### js_declaration(self)
 
 Returns a Javascript expression string, or None if this block does not require any Javascript behaviour. This expression will be evaluated ONCE per block definition, regardless of how many occurrences of the block there are on the page. This expression evaluates to a "meta-initializer function".
 
@@ -121,10 +121,12 @@ So, it's a two-stage process:
 
 > ?
 
-> **A.** The entity that we refer to as "this one particular shopping list" might appear multiple times on the page, with different prefixes each time. "Matt's shopping list" and "Karl's shopping list" are shopping lists that will only ever appear once, but "the empty shopping list" is one that we might render any number of times. This situation occurs when our shopping list block appears within a parent block that allows repeats, as in:
+> **A.** The entity that we refer to as "this one particular shopping list" might appear multiple times on the page, with different prefixes each time. "Matt's shopping list" and "Karl's shopping list" are shopping lists that will only ever appear once, but "the empty shopping list" is one that we might render any number of times. This situation occurs when our shopping list block appears within a parent block that allows repeats, as StreamField does:
 
 >     ShoppingListPage.content_panels = [
->         StreamField('shopping_lists', [ShoppingListBlock()])
+>         StreamField('content', block_types=[
+>             ('shopping_list', ShoppingListBlock())
+>         ])
 >     ]
 
 > To implement this, StreamField will render an empty shopping list within a `<script type="text/x-template"></script>` block, and prepare an initializer function that can be used on the empty list each time it is inserted into the page (with some crafty prefix rewriting each time):
@@ -183,11 +185,11 @@ In summary:
 
 So, back in Python world, we come back to js_initializer:
 
-### js_declaration(self, definition_prefix)
+### js_declaration(self)
 
 Returns a Javascript expression string, or None if this block does not require any Javascript behaviour. This expression will be evaluated ONCE per block definition, regardless of how many occurrences of the block there are on the page. This expression evaluates to a "meta-initializer function".
 
-In other words: this method supplies the Javascript function call that kicks this whole sequence of events off: `'ShoppingList("{{ definition_prefix }}")'`.
+In other words: this method supplies the Javascript function call that kicks this whole sequence of events off: `'ShoppingList("{{ self.definition_prefix }}")'`.
 
 If the block definition has parameters that affect Javascript behaviour - for example, if the block was declared as:
 
@@ -198,8 +200,8 @@ If the block definition has parameters that affect Javascript behaviour - for ex
 then these will be passed to the Javascript at this point too:
 
     ShoppingList(
-        "{{ definition_prefix }}",
-        {'autocomplete': {% if self.autocomplete %}true{% else %}false{% endif %}}
+        "{{ self.definition_prefix }}",
+        {'autocomplete': {% if self.block_options.autocomplete %}true{% else %}false{% endif %}}
     )
 
 ### js_declaration_params(self, value)
