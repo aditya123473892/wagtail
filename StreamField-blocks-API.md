@@ -220,4 +220,4 @@ The default value for blocks of this type; used as the initial value for newly-c
 Implementation details that should be covered here (but aren't totally set in stone yet):
 
 * Javascript API refactor - rather than two levels of indirection (meta-initialiser and initialiser), there's just an initialiser function that takes js_declaration_param and prefix as its two parameters
-* BoundBlock as a helper; calls to js_declaration_param should be done as block_factory.bind(val, prefix).js_declaration_param() rather than block_factory.js_declaration_param(val) so that blocks can potentially subclass BoundBlock to carry extra data around
+* BoundBlock as a helper; ~~calls to js_declaration_param should be done as block_factory.bind(val, prefix).js_declaration_param() rather than block_factory.js_declaration_param(val) so that blocks can potentially subclass BoundBlock to carry extra data around~~ (not yet; it means recursive/structural blocks are forced into that pattern too, in order to be able to pass prefix to child_block_factory.bind())
