@@ -20,25 +20,15 @@ A 'block definition' object roughly corresponds to a 'widget' in Django's forms 
 
 (This is a page consisting of a StreamField where the only block type that's available to be inserted is a shopping list.)
 
-The constructor can take whatever parameters it likes, but the base `Block` class handles the parameters 'default' and 'label' as standard. Block objects should be considered immutable once they're created, with one exception: the parent block may assign it an internal name (`'shopping_list'` in this example) for its own purposes by calling `set_name(name)` on the block. This is not essential, and blocks must still work correctly without a name; for example, in the construction `ListBlock(ShoppingListBlock(classname='polkadot'))` (a list of shopping lists), ShoppingListBlock is not given a name. As far as the block itself is concerned, the name is typically only used as a fallback label for when an explicit 'label' parameter has not been supplied. (Again, the base `Block` class takes care of this.)
+The constructor can take whatever parameters it likes, but the base `Block` class handles the parameters 'default' and 'label' as standard. Block definition objects should be considered immutable once they're created, with one exception: the parent block may assign it an internal name (`'shopping_list'` in this example) for its own purposes by calling `set_name(name)` on the block. This is not essential, and blocks must still work correctly without a name; for example, in the construction `ListBlock(ShoppingListBlock(classname='polkadot'))` (a list of shopping lists), the ShoppingListBlock is not given a name. As far as the block itself is concerned, the name is typically only used as a fallback label for when an explicit 'label' parameter has not been supplied. (Again, the base `Block` class takes care of this.)
 
 ## The block API
 
-Block factory objects need to provide the following attributes/methods:
+Subclasses of `Block` must implement the following methods:
 
-### media
+### render_form(self, value, prefix='')
 
-A [Django media object](https://docs.djangoproject.com/en/1.7/topics/forms/media/#media-objects) specifying any external static JS/CSS files required by this block definition. The actual low-level Javascript implementation (such as making an 'add new' button that spawns a new "Product" text field when clicked) would usually be written here - in a file called 'shopping_list.js', say.
-
-### html_declaration(self)
-
-Returns a (possibly empty) string of HTML. This HTML will be included on the edit page - ONCE per block definition, regardless of how many occurrences of the block there are on the page - and it will appear in a non-specific place on the page. Any element IDs within this block of HTML must be prefixed by the factory's definition_prefix.
-
-Typically this will be used to define snippets of HTML within `<script type="text/x-template"></script>` blocks, for our Javascript code to work with. For example, our shopping list block type might define this snippet to be dynamically inserted when you click the 'add new' button:
-
-    <script type="text/x-template" id="{{ self.definition_prefix }}-shoppinglistitem">
-        <label for="__PREFIX__">Product:</label> <input type="text" id="__PREFIX__" name="__PREFIX__" value="">
-    </script>
+Return the HTML for an instance of this block with the content given by 'value'. All element IDs and names must be prefixed by the given prefix. (The calling code will ensure that this prefix is unique for each individual block instance that appears in the form, in the case of repeatable blocks.)
 
 > **A short aside about ID prefixing:**
 > 
@@ -50,10 +40,9 @@ Typically this will be used to define snippets of HTML within `<script type="tex
 >
 > In the case of complex blocks that have child blocks nested inside them, the parent block is responsible for allocating a subset of its namespace to each child, and ensuring that this doesn't create any name collisions. (In particular, it should avoid mixing its own internal identifiers with user-defined child ones: for example, if a block had a 'count' field and an arbitrary set of named child blocks, it cannot use the names "myprefix-count" and "myprefix-{childname}", in case there happens to be a child named "count".)
 
-### render(self, value, prefix)
+For example, `render_form(['peas', 'carrots', 'toothpaste'], 'matts-shopping-list')` would return something like:
 
-Return the HTML for an instance of this block with the content given by 'value'. All element IDs and names must be prefixed by the given prefix. (This is not the same as definition_prefix; here the prefix has to be unique for each individual block instance that appears in the form.) For example, `render(['peas', 'carrots', 'toothpaste'], 'matts-shopping-list')` would return something like:
-
+    <input type="text" id="matts-shopping-list-count" name="matts-shopping-list-count" value="3">
     <ul id="matts-shopping-list-ul" class="polkadot">
         <li>
             <label for="matts-shopping-list-item-0">Product:</label>
@@ -73,6 +62,27 @@ Return the HTML for an instance of this block with the content given by 'value'.
     </ul>
 
 Any associated Javascript will typically not be rendered at this point (although for simple scripts that don't involve nesting blocks, an inline `<script>` tag will work).
+
+### value_from_datadict(self, data, files, prefix)
+
+Extract data from the 'data' and 'files' dictionaries (which will usually be the `request.POST` and `request.FILES` properties of a POST request, from a form that included the HTML as output by `render_form`) and return it as a value (of whatever type this block is designed to handle - a list, in this case).
+
+The base `Block` class also implements the following methods / properties, which subclasses may wish to override:
+
+### media
+
+A [Django media object](https://docs.djangoproject.com/en/1.7/topics/forms/media/#media-objects) specifying any external static JS/CSS files required by this block definition. The actual low-level Javascript implementation (such as making the 'add new' button spawn a new "Product" text field when clicked) would usually be written here - in a file called 'shopping_list.js', say.
+
+### html_declarations(self)
+
+Returns a (possibly empty) string of HTML. This HTML will be included on the edit page - ONCE per block definition, regardless of how many occurrences of the block there are on the page - and it will appear in a non-specific place on the page. Any element IDs within this block of HTML must be prefixed by the block definition's definition prefix; this is a unique string that is assigned to the block definition on creation, by the base `Block` class, and is accessible as `self.definition_prefix`.
+
+Typically this will be used to define snippets of HTML within `<script type="text/x-template"></script>` blocks, for our Javascript code to work with. For example, our shopping list block type might define this snippet to be dynamically inserted when you click the 'add new' button:
+
+    <script type="text/x-template" id="{{ self.definition_prefix }}-shoppinglistitem">
+        <label for="__PREFIX__">Product:</label> <input type="text" id="__PREFIX__" name="__PREFIX__" value="">
+    </script>
+
 
 ### js_declaration(self)
 
