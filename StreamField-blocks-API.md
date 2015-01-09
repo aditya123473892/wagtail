@@ -2,17 +2,15 @@
 
 A core aim for the StreamField development is to allow content blocks to be nested to any depth. To achieve this, each block will implement a common API that defines how that block is inserted into the edit page, along with any Javascript or other resources that it depends on. Basic block types such as text fields and image choosers will implement this; this then opens up the possibility of creating 'structural' block types such as StructBlock - which embeds a collection of sub-blocks and presents them as a single block - ListBlock, which allows a sub-block to repeated any number of times - and StreamBlock, which provides the main mechanic of StreamField by embedding a collection of sub-blocks that can be repeated and mixed freely.
 
-As long as these structural types accept any kind of sub-block that conforms to the blocks API, and expose the blocks API themselves, it's possible to nest these structures to any depth. Unfortunately, achieving this level of flexibility (and in particular, supporting arbitrarily complex Javascript at each level of recursion) demands a rather complicated API. (Be prepared to encounter the phrase "meta-initialiser function" below...)
+As long as these structural types accept any kind of sub-block that conforms to the blocks API, and expose the blocks API themselves, it's possible to nest these structures to any depth.
 
 This document illustrates the blocks API by showing how to implement 'shopping list' as a block type, from first principles - this is a dynamically extendable list of products (each of which is a text box labelled "Product"). In practice, a Wagtail site implementer will never need to go to this trouble to define a type like this - they would just define it as a special case of ListBlock. Rather, this document introduces the concepts that will be required to implement ListBlock itself (along with the other structural types). It will not cover recursive inclusion of blocks (here our Product text boxes will just be plain `<input>` fields, not blocks themselves) or how this example can be generalised to any kind of list without the need to write new Javascript on a case-by-case basis - I believe this API provides everything we need to accomplish that, though.
 
 So let's get started...
 
-## Block factories and block options
+## Block definition objects
 
-Implementing a block type is a matter of defining a 'block factory' object, which knows how to generate the HTML and Javascript for a block of any value. (Here, a 'value' consists of basic Python data types, of the sort that can be serialised to JSON - for a shopping list, this might be `['peas', 'carrots', 'toothpaste']`). The information needed to set up a block factory comes from two places:
-
-1. Options passed in through the page's panel definitions, such as `classname='polkadot'` in the following:
+A 'block definition' object roughly corresponds to a 'widget' in Django's forms framework: it's responsible for the process of translating a value into a fragment of HTML form markup that can be used to edit that value; and turning the submitted data of such a form back into a value. (Here, a 'value' consists of basic Python data types, of the sort that can be serialised to JSON - for a shopping list, this might be `['peas', 'carrots', 'toothpaste']`). Block definition objects will generally be created as part of a content panel definition:
 
         ShoppingListPage.content_panels = [
             StreamField('content', block_types=[
@@ -20,21 +18,11 @@ Implementing a block type is a matter of defining a 'block factory' object, whic
             ])
         ]
 
-  (This is a page consisting of a StreamField where the only block type that's available to be inserted is a shopping list.)
+(This is a page consisting of a StreamField where the only block type that's available to be inserted is a shopping list.)
 
-2. The context in which the `ShoppingListBlock` definition is placed. In the above code, the fact that our ShoppingListBlock has been given the name `shopping_list` is relevant, as is the fact that it's a child of the block called `content`. (This is because we'll need to allocate a namespace like `def-content-shopping_list` for the IDs  - this namespace needs to be distinct from any other polka-dotted shopping lists that might exist elsewhere on the page. In addition, we might want to munge the name `shopping_list` into the human-friendly string "Shopping list" for use as a label when the site implementer hasn't explicitly provided one.)
+The constructor can take whatever parameters it likes, but the base `Block` class handles the parameters 'default' and 'label' as standard. Block objects should be considered immutable once they're created, with one exception: the parent block may assign it an internal name (`'shopping_list'` in this example) for its own purposes by calling `set_name(name)` on the block. This is not essential, and blocks must still work correctly without a name; for example, in the construction `ListBlock(ShoppingListBlock(classname='polkadot'))` (a list of shopping lists), ShoppingListBlock is not given a name. As far as the block itself is concerned, the name is typically only used as a fallback label for when an explicit 'label' parameter has not been supplied. (Again, the base `Block` class takes care of this.)
 
-Because the definition `ShoppingListBlock(classname='polkadot')` is not very usable in isolation without that extra context, this object is essentially just a mundane bundle of properties. This is referred to as a 'block options' object. The constructor for this object can take whatever args/kwargs it likes - Wagtail does not impose any restrictions here.
-
-The logic within wagtailadmin (or, to be exact, the parent StreamField) will then take care of building a block factory object based on these options and the relevant context information. This will be done with the following call:
-
-    ShoppingListFactory(block_options, name='shopping_list', definition_prefix='def-content-shopping_list')
-
-where the ShoppingListFactory class is obtained from `block_options.factory`.
-
-Therefore, implementing a new block type involves defining a 'block options' class such as ShoppingListBlock - which is the one that a site implementer will include their panel definitions - and a 'block factory' class such as ShoppingListFactory which does the actual work. The only requirement for a 'block options' object is that it provides a `factory` attribute pointing to the block factory class. The requirements for a factory object are a bit more onerous...
-
-## The block factory API
+## The block API
 
 Block factory objects need to provide the following attributes/methods:
 
