@@ -75,7 +75,7 @@ A [Django media object](https://docs.djangoproject.com/en/1.7/topics/forms/media
 
 ### html_declarations(self)
 
-Returns a (possibly empty) string of HTML. This HTML will be included on the edit page - ONCE per block definition, regardless of how many occurrences of the block there are on the page - and it will appear in a non-specific place on the page. Any element IDs within this block of HTML must be prefixed by the block definition's definition prefix; this is a unique string that is assigned to the block definition on creation, by the base `Block` class, and is accessible as `self.definition_prefix`.
+Returns a (possibly empty) string of HTML. This HTML will be included on the edit page - ONCE per block definition, regardless of how many occurrences of the block there are on the page - and it will appear in a non-specific place on the page. Any element IDs within this block of HTML must be prefixed by the block definition's definition prefix; this is a unique string that is assigned to the block definition on creation, by the base `Block` class, and is accessible as `self.definition_prefix`. (Note that this is distinct from any prefixes that may be passed to `render_form`; those ones have to be unique for each time the block is repeated in the HTML, whereas definition_prefix is constant throughout the lifetime of the block definition object.)
 
 Typically this will be used to define snippets of HTML within `<script type="text/x-template"></script>` blocks, for our Javascript code to work with. For example, our shopping list block type might define this snippet to be dynamically inserted when you click the 'add new' button:
 
