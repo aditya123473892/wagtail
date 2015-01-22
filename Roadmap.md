@@ -1,9 +1,11 @@
 ***This is a rough draft***
 
-* <del>Replace the image backends with Willow</del>
-* StreamField
-* API
+* [x] Replace the image backends with Willow
+* [ ] Block-level editing UI ([StreamField](https://github.com/torchbox/wagtail/issues/823))
+* [ ] API
     - Our first implementation will be read-only, with listing and detail end points for pages, images, documents 
     - Listing end points will support filtering, ordering and pagination.
     - Caching and cache invalidation
-* Private pages based on user accounts
+* [ ] Private pages based on user accounts
+* [ ] Better documentation: simple setup guides for all levels of user, a manual for editors and administrators, in-depth intstructions for Django developers.
+* [ ] Simple inline stats
