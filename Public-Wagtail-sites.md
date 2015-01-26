@@ -36,3 +36,4 @@ http://kenyaapps.net                | [Kenya Apps Network Ltd](http://kenyaapps.
 http://burkesoftware.com            | Burke Software and Consulting       | New York, NY
 http://torchbox.com                 | [Torchbox Ltd](http://torchbox.com) | Oxford, UK 
 http://kbsp.com                     | [KBS+](http://kbsp.com)             | New York, NY
+http://www.tedxlawrence.com         | TEDxLawrence                        | Lawrence, KS
