@@ -37,3 +37,4 @@ http://burkesoftware.com            | Burke Software and Consulting       | New 
 http://torchbox.com                 | [Torchbox Ltd](http://torchbox.com) | Oxford, UK 
 http://kbsp.com                     | [KBS+](http://kbsp.com)             | New York, NY
 http://www.tedxlawrence.com         | TEDxLawrence                        | Lawrence, KS
+https://www.luckyvoicekaraoke.com   | Lucky Voice                         | London, UK
