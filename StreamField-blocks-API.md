@@ -84,130 +84,63 @@ Typically this will be used to define snippets of HTML within `<script type="tex
     </script>
 
 
-### js_declaration(self)
+### js_initializer(self)
 
-Returns a Javascript expression string, or None if this block does not require any Javascript behaviour. This expression will be evaluated ONCE per block definition, regardless of how many occurrences of the block there are on the page. This expression evaluates to a "meta-initializer function".
+Returns a Javascript expression string, or None if this block does not require any Javascript behaviour. This expression will be evaluated once per page, and evaluates to an initializer function. This initializer function takes an element prefix (e.g. 'matts-shopping-list') and applies Javascript behaviours to the elements with that prefix (as previously rendered by `self.render`). In the simplest cases, where the behaviour can be defined entirely up-front in shopping_list.js, the expression string returned by js_initializer can simply be a function name:
 
-In the case of our shopping list, we ultimately want a function that can take a chunk of dumb HTML, consisting of some list items, text inputs and a button labelled "Add new", and turn it into a beautiful, fully-functional dynamic shopping list. This function is going to have the signature:
+    # shopping_list_block.py
+    class ShoppingListBlock(Block):
+        def js_initializer(self):
+            return "doAwesomeAjaxyStuff"
 
-    doAwesomeAjaxyStuff('matts-shopping-list')
-
-where 'matts-shopping-list' is the prefix that we've used on all our element names and IDs - namely, the text inputs and the buttons - when rendering that dumb HTML.
-
-So, we just need to define doAwesomeAjaxyStuff inside shopping_list.js, and we're done, right?
-
-Unfortunately not. We can't get away with a single doAwesomeAjaxyStuff function that covers all possible shopping lists - it's possible that Matt's shopping list might require a different set of JS behaviours to Karl's shopping list. For example, suppose we added autocompletion to each text input. Matt's shopping list might have 3 items and Karl's shopping list has 2 items, so the JS initializer has different work to do for the two lists.
-
-(Sure, we could handle this by getting doAwesomeAjaxyStuff to inspect the HTML and find out how many text inputs there are. But that's not possible in the general case. Trust me on this.)
-
-So, it's a two-stage process:
-
-    initializeMattsShoppingList = generateShoppingListInitializer({'itemCount': 3});
-    initializeMattsShoppingList('matts-shopping-list');
-
-    initializeKarlsShoppingList = generateShoppingListInitializer({'itemCount': 2});
-    initializeKarlsShoppingList('karls-shopping-list');
-
-> **Q.** If initializeMattsShoppingList is a function that only works for this one particular shopping list, why do we need to pass in the prefix in a separate function call? Why can't we just do
-
->     initializeMattsShoppingList = generateShoppingListInitializer({'itemCount': 3, 'prefix': 'matts-shopping-list'});
->     initializeMattsShoppingList();
-
-> ...or for that matter
-
->     initializeShoppingList({'itemCount': 3, 'prefix': 'matts-shopping-list'});
-
-> ?
-
-> **A.** The entity that we refer to as "this one particular shopping list" might appear multiple times on the page, with different prefixes each time. "Matt's shopping list" and "Karl's shopping list" are shopping lists that will only ever appear once, but "the empty shopping list" is one that we might render any number of times. This situation occurs when our shopping list block appears within a parent block that allows repeats, as StreamField does:
-
->     ShoppingListPage.content_panels = [
->         StreamField('content', block_types=[
->             ('shopping_list', ShoppingListBlock())
->         ])
->     ]
-
-> To implement this, StreamField will render an empty shopping list within a `<script type="text/x-template"></script>` block, and prepare an initializer function that can be used on the empty list each time it is inserted into the page (with some crafty prefix rewriting each time):
-
->     initializeEmptyShoppingList = generateShoppingListInitializer({'itemCount': 0});
->     ...
->     initializeEmptyShoppingList('shopping_lists-child-0');
->     initializeEmptyShoppingList('shopping_lists-child-1');
->     initializeEmptyShoppingList('shopping_lists-child-2');
-
-generateShoppingListInitializer is a function for generating initializer functions for specific blocks, so we call it a meta-initializer function. So *that's* what we define in shopping_list.js, right?
-
-Almost, but not quite. The logic within generateShoppingListInitializer needs to access the `<script type="text/x-template"></script>` block that we inserted from html_declaration. This script element has an ID derived from definition_prefix, so we don't know this ID in advance when we're writing shopping_list.js. Instead, we have to write a function that takes the definition_prefix and returns generateShoppingListInitializer.
-
-In shopping_list.js:
-
-    function ShoppingList(definitionPrefix) {
-
-        /*
-            Set up all the global stuff generateShoppingListInitializer needs -
-            specifically, fetch the HTML snippet that will be used when spawning new shopping list items.
-        */
-        var newItemHtml = $('#' + definitionPrefix + '-shoppinglistitem').html();
-
-        var generateShoppingListInitializer = function(contentParams) {
-
-            /* Set up the stuff initializeShoppingList depends on */
-            var itemCount = contentParams['itemCount'];
-
-            var initializeShoppingList = function(htmlPrefix) {
-                /* Set up the Javascript behaviours for a shopping list with 'itemCount' initial items */
-
-                /* Attach autocomplete to each existing field */
-                for (var i = 0; i < itemCount; i++) {
-                    $('#' + htmlPrefix + '-item-' + i).autocomplete();
-                }
-
-                /* Make the 'add new' button work */
-                $('#' + htmlPrefix + '-addnew').click(function() {
-                    $('#' + htmlPrefix + '-ul').append(newItemHtml);
-                    /* not shown here: fiddling the identifiers in newItemHtml to assign a new unique ID */
-                });
-            };
-
-            return initializeShoppingList;
-        };
-
-        return generateShoppingListInitializer;
+    # shopping_list.js
+    function doAwesomeAjaxyStuff(prefix) {
+        $('#' + prefix + '-button).click(function() { alert('hello world!'); });
     }
 
-In summary:
+However, this isn't sufficient for our shopping list block, because the Javascript code needs to know the definition_prefix used by our `<script type="text/x-template"></script>` block, which is assigned on page load and not known in advance. Instead, our js_initializer will be a function call that returns the initializer function:
 
-* `metaInit = ShoppingList("{{ definition_prefix }}")` will give you back a meta-initializer function that can tell you how to initialize any shopping list that we might encounter.
-* `init = metaInit({itemCount: 3})` will give you back an initializer function to tell you how to initialize a shopping list of length 3.
-* `init('matts-shopping-list')` will initialize the Javascript behaviour for the 3-item shopping list whose HTML elements begin with 'matts-shopping-list'.
+    # shopping_list_block.py
+    class ShoppingListBlock(Block):
+        def js_initializer(self):
+            return "ShoppingList('%s')" % self.definition_prefix
 
-So, back in Python world, we come back to js_initializer:
+    # shopping_list.js
+    function ShoppingList(definitionPrefix) {
+        var newItemHtml = $('#' + definitionPrefix + '-shoppinglistitem').html();
 
-### js_declaration(self)
+        var initShoppingList = function(elementPrefix) {
+            var itemCountField = $('#' + elementPrefix + '-count');
+            var itemCount = parseInt(itemCountField.val(), 10);
 
-Returns a Javascript expression string, or None if this block does not require any Javascript behaviour. This expression will be evaluated ONCE per block definition, regardless of how many occurrences of the block there are on the page. This expression evaluates to a "meta-initializer function".
+            /* Attach autocomplete to each existing field */
+            for (var i = 0; i < itemCount; i++) {
+                $('#' + htmlPrefix + '-item-' + i).autocomplete();
+            }
 
-In other words: this method supplies the Javascript function call that kicks this whole sequence of events off: `'ShoppingList("{{ self.definition_prefix }}")'`.
+            /* Make the 'add new' button work */
+            $('#' + htmlPrefix + '-addnew').click(function() {
+                $('#' + htmlPrefix + '-ul').append(newItemHtml);
+                /* not shown here: fiddling the identifiers in newItemHtml to assign a new unique ID */
+                itemCount++;
+                itemCountField.val(itemCount);
+            });
+        };
+        return initShoppingList;
+    }
 
-If the block definition has parameters that affect Javascript behaviour - for example, if the block was declared as:
+In this way, any parameters that need to be passed from the Python code to the Javascript can be passed within js_initializer. For example, if the block was declared as:
 
     ShoppingListPage.content_panels = [
         StreamField('shopping_lists', [ShoppingListBlock(autocomplete=True)])
     ]
 
-then these will be passed to the Javascript at this point too:
+then this can be passed to the Javascript at this point too:
 
     ShoppingList(
         "{{ self.definition_prefix }}",
         {'autocomplete': {% if self.block_options.autocomplete %}true{% else %}false{% endif %}}
     )
-
-### js_declaration_params(self, value)
-
-Return the Javascript parameter list (a string consisting of zero or more JS expressions separated by commas) that should be passed to the meta-initializer function for a block whose content is 'value'. In other words: this picks out any characteristics of the value that we know will have a bearing on the initialiser code, and packages them up as something we can pass to the meta-initializer. For our shopping list example, the length of the list is one such characteristic (i.e. different length lists will need different initializer functions). Therefore: if 'value' is a list of length 3 then js_declaration_params should return `"{itemCount: 3}"`.
-
-> **Q.** Can't we just stick our Javascript initialization code inline after the HTML blocks that need it, and avoid this whole chain of initializer functions?
-> **A.** No - this approach breaks down when we have nested lists. We would end up with one `<script type="text/x-template"></script>` block embedded in another - which is not a problem in itself as long as we consistently escape the `<script>` tags. The problem comes when we replace the `"__PREFIX__"` strings in the template content, since we need to keep any occurrences of `__PREFIX__` within the inner template intact - and that isn't possible with naive string replacement.
 
 ### default
 
@@ -217,5 +150,4 @@ The default value for blocks of this type; used as the initial value for newly-c
 
 Implementation details that should be covered here (but aren't totally set in stone yet):
 
-* Javascript API refactor - rather than two levels of indirection (meta-initialiser and initialiser), there's just an initialiser function that takes js_declaration_param and prefix as its two parameters
 * BoundBlock as a helper; ~~calls to js_declaration_param should be done as block_factory.bind(val, prefix).js_declaration_param() rather than block_factory.js_declaration_param(val) so that blocks can potentially subclass BoundBlock to carry extra data around~~ (not yet; it means recursive/structural blocks are forced into that pattern too, in order to be able to pass prefix to child_block_factory.bind())
