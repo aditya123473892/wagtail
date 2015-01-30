@@ -10,7 +10,7 @@ So let's get started...
 
 ## Block definition objects
 
-A 'block definition' object roughly corresponds to a 'widget' in Django's forms framework: it's responsible for the process of translating a value into a fragment of HTML form markup that can be used to edit that value; and turning the submitted data of such a form back into a value. (Here, a 'value' consists of basic Python data types, of the sort that can be serialised to JSON - for a shopping list, this might be `['peas', 'carrots', 'toothpaste']`). Block definition objects will generally be created as part of a content panel definition:
+A 'block definition' object roughly corresponds to a 'widget' in Django's forms framework: it's responsible for the process of translating a value into a fragment of HTML form markup that can be used to edit that value; and turning the submitted data of such a form back into a value. (A 'value' here can be a Python data type as complex as you like, such as a Django model - but for a shopping list, this will be a plain list such as `['peas', 'carrots', 'toothpaste']`). Block definition objects will generally be created as part of a content panel definition:
 
         ShoppingListPage.content_panels = [
             StreamField('content', block_types=[
@@ -26,7 +26,7 @@ The constructor can take whatever parameters it likes, but the base `Block` clas
 
 Subclasses of `Block` must implement the following methods:
 
-### render_form(self, value, prefix='')
+### render_form(self, value, prefix='', error=None)
 
 Return the HTML for an instance of this block with the content given by 'value'. All element IDs and names must be prefixed by the given prefix. (The calling code will ensure that this prefix is unique for each individual block instance that appears in the form, in the case of repeatable blocks.)
 
@@ -63,9 +63,22 @@ For example, `render_form(['peas', 'carrots', 'toothpaste'], 'matts-shopping-lis
 
 Any associated Javascript will typically not be rendered at this point (although for simple scripts that don't involve nesting blocks, an inline `<script>` tag will work).
 
+If an `error` parameter is passed to `render_form`, the block is responsible for displaying the error message in an appropriate format. This parameter will always be a `ValidationError` instance that was previously thrown by the block's `clean` method (see below).
+
 ### value_from_datadict(self, data, files, prefix)
 
 Extract data from the 'data' and 'files' dictionaries (which will usually be the `request.POST` and `request.FILES` properties of a POST request, from a form that included the HTML as output by `render_form`) and return it as a value (of whatever type this block is designed to handle - a list, in this case).
+
+### default
+
+Each block must define a default value; this will be used as the initial value of any new 'empty' blocks that are created. For ShoppingListBlock, this will be an empty list:
+
+    class ShoppingListBlock(Block):
+        default = []
+
+Any `default` parameter passed as part of the block definition will override this, e.g. `ShoppingListBlock(default=['eggs', 'milk'])`.
+
+***
 
 The base `Block` class also implements the following methods / properties, which subclasses may wish to override:
 
@@ -142,12 +155,20 @@ then this can be passed to the Javascript at this point too:
         {'autocomplete': {% if self.block_options.autocomplete %}true{% else %}false{% endif %}}
     )
 
-### default
+### clean(self, value)
 
-The default value for blocks of this type; used as the initial value for newly-created instances of this block. For our shopping list, this is `[]`.
+Validates 'value' and returns a cleaned version of it, or throw a ValidationError if validation fails. This ValidationError will ultimately be passed back to `render_form` when the form is re-rendered, so 
 
-## Addendum
+The default implementation of `clean` simply returns 'value' unchanged.
 
-Implementation details that should be covered here (but aren't totally set in stone yet):
+### get_prep_value(self, value)
 
-* BoundBlock as a helper; ~~calls to js_declaration_param should be done as block_factory.bind(val, prefix).js_declaration_param() rather than block_factory.js_declaration_param(val) so that blocks can potentially subclass BoundBlock to carry extra data around~~ (not yet; it means recursive/structural blocks are forced into that pattern too, in order to be able to pass prefix to child_block_factory.bind())
+Return a version of 'value' converted to JSON-serialisable data (i.e. numeric, string, list and dict values only). Our shopping list data type (a list of strings) is JSON-serialisable already, so we can just use the default implementation which returns 'value' unchanged.
+
+### to_python(self, value)
+
+The reverse of `get_prep_value`; convert the JSON-serialisable data back to the block's 'native' value type. Again, ShoppingListBlock doesn't have to do anything here.
+
+### render(self, value)
+
+Return a text rendering of 'value', suitable for display on templates. This may include HTML markup, in which case the `render` method is responsible for returning the result as a SafeString (having performed the necessary escaping to prevent HTML injection).
