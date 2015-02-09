@@ -39,5 +39,5 @@ http://kbsp.com                     | [KBS+](http://kbsp.com)             | New 
 http://www.tedxlawrence.com         | TEDxLawrence                        | Lawrence, KS
 https://www.luckyvoicekaraoke.com   | Lucky Voice                         | London, UK
 http://www.net-aware.org.uk         | [NSPCC](http://www.nspcc.org.uk) and [Beyond](https://bynd.com) | London, UK
-http://freebsd.ideavirgin.com       | [Jian Li](https://github.com/kidlj/orgfreebsd) | A Wagtail demo
+http://freebsd.ideavirgin.com       | [Jian Li](https://github.com/kidlj/orgfreebsd) |
 https://www.meningitisnow.org/      | [Torchbox Ltd](http://torchbox.com) | Oxford, UK
