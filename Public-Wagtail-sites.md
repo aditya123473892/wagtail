@@ -41,3 +41,4 @@ https://www.luckyvoicekaraoke.com   | Lucky Voice                         | Lond
 http://www.net-aware.org.uk         | [NSPCC](http://www.nspcc.org.uk) and [Beyond](https://bynd.com) | London, UK
 http://freebsd.ideavirgin.com       | [Jian Li](https://github.com/kidlj/orgfreebsd) |
 https://www.meningitisnow.org/      | [Torchbox Ltd](http://torchbox.com) | Oxford, UK
+http://www.mowbrayeducation.org/    | [Rock Kitchen Harris](http://www.rkh.co.uk/) | Leicester, UK
