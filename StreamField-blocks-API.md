@@ -26,7 +26,7 @@ The constructor can take whatever parameters it likes, but the base `Block` clas
 
 Subclasses of `Block` must implement the following methods:
 
-### render_form(self, value, prefix='', error=None)
+### render_form(self, value, prefix='', errors=None)
 
 Return the HTML for an instance of this block with the content given by 'value'. All element IDs and names must be prefixed by the given prefix. (The calling code will ensure that this prefix is unique for each individual block instance that appears in the form, in the case of repeatable blocks.)
 
@@ -63,7 +63,7 @@ For example, `render_form(['peas', 'carrots', 'toothpaste'], 'matts-shopping-lis
 
 Any associated Javascript will typically not be rendered at this point (although for simple scripts that don't involve nesting blocks, an inline `<script>` tag will work).
 
-If an `error` parameter is passed to `render_form`, the block is responsible for displaying the error message in an appropriate format. This parameter will always be a `ValidationError` instance that was previously thrown by the block's `clean` method (see below).
+If an `errors` parameter is passed to `render_form`, the block is responsible for displaying the error messages in an appropriate format. This parameter will always be an `ErrorList` consisting of `ValidationError` instances that were previously thrown by the block's `clean` method (see below). (In practice, the ErrorList will always be of length 1, since we currently have no way of throwing multiple errors per block.)
 
 ### value_from_datadict(self, data, files, prefix)
 
