@@ -42,3 +42,6 @@ http://www.net-aware.org.uk         | [NSPCC](http://www.nspcc.org.uk) and [Beyo
 https://www.meningitisnow.org/      | [Torchbox Ltd](http://torchbox.com) | Oxford, UK
 http://www.mowbrayeducation.org/    | [Rock Kitchen Harris](http://www.rkh.co.uk/) | Leicester, UK
 http://www.headquarterscounselingcenter.org/ | [Revolution Systems](http://www.revsys.com/) | Lawrence, KS
+http://hobartairporttouristpark.com.au/ | [Takeflight](http://www.takeflight.com.au/) | Hobart, Australia
+http://icrestoration.com.au/        | [Takeflight](http://www.takeflight.com.au/) | Hobart, Australia
+http://125timeline.utas.edu.au/     | [Takeflight](http://www.takeflight.com.au/) | Hobart, Australia
