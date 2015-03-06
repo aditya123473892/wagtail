@@ -34,6 +34,7 @@ The new version should now be up on https://pypi.python.org/pypi/wagtail .
 * Test that it works:
     - install it in a clean virtualenv and check that "wagtail start myproject" creates a codebase that starts successfully under vagrant
     - bring up a fresh instance of wagtaildemo with the new version
+* Update readthedocs so that the new version is visible and the 'stable' version points to it; if this is a minor point release, disable the docs for the previous minor release (see 'Documentation versions' below)
 * Email wagtail@googlegroups.com with the release announcement
 * Blog and tweet about it
 
