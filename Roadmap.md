@@ -1,8 +1,8 @@
 ***This is a rough draft***
 
 * [x] Replace the image backends with Willow
-* [ ] Block-level editing UI ([StreamField](https://github.com/torchbox/wagtail/issues/823))
-* [ ] API
+* [x] Block-level editing UI ([StreamField](https://github.com/torchbox/wagtail/issues/823))
+* [x] API
     - Our first implementation will be read-only, with listing and detail end points for pages, images, documents 
     - Listing end points will support filtering, ordering and pagination.
     - Caching and cache invalidation
