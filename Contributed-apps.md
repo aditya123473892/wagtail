@@ -16,6 +16,6 @@ Edit this page and use a new row in the table below to add your Wagtail app/plug
 
 - https://github.com/mhnbcu/wagtailbakery
 
-## Settings management
+### Settings management
 
 - https://bitbucket.org/takeflight/wagtailsettings
