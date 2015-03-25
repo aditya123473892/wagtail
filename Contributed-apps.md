@@ -6,3 +6,5 @@ Edit this page and use a new row in the table below to add your Wagtail app/plug
 - https://github.com/springload/wagtailembedder
 - https://github.com/springload/wagtailgmaps
 - https://github.com/mhnbcu/wagtailbakery
+- https://bitbucket.org/takeflight/wagtailsettings
+- https://bitbucket.org/takeflight/wagtailnews
