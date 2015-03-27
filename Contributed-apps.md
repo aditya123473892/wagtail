@@ -7,10 +7,6 @@ Edit this page and use a new row in the table below to add your Wagtail app/plug
 - https://github.com/thelabnyc/wagtail_blog
 - https://bitbucket.org/takeflight/wagtailnews
 
-### Maps
-
-- https://github.com/springload/wagtailgmaps
-
 ### Rich text editor extensions
 
 - https://github.com/springload/wagtailembedder
