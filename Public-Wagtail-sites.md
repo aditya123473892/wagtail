@@ -51,3 +51,4 @@ http://csheatpumps.co.uk/           | [Uprise Marketing](http://uprisemarketing.
 https://akletkov.cz/                | Matěj Plch                           | Praha, CZ
 https://www.ax-semantics.com  | AX Semantics  | Stuttgart, Germany 
 http://acys.info/     | [Takeflight](http://www.takeflight.com.au/) | Hobart, Australia
+http://cool-solution.co.uk/         | [Uprise Marketing](http://uprisemarketing.co.uk/) | Cardiff, UK
