@@ -59,3 +59,4 @@ http://www.polosafaris.com/    | [Sparkplug](http://sparkpl.ug) | Kampala, Ugand
 http://arsskyrsla2014.hsorka.is/     | [Overcast Software](http://www.overcast.io) | Reykjavík, Iceland
 http://fosi.org  | [iStrategyLabs](http://istrategylabs.com) | DC, USA
 https://www.victimsinformationservice.org.uk   | [UK Ministry of Justice](http://www.justice.gov.uk) | London, UK
+https://www.globalwitness.org  | Torchbox | Oxford and Bristol, UK
