@@ -1,12 +1,6 @@
-In the future we hope to create a directory site, listing both agencies offering Wagtail and the sites launched on it. To start that list we'd really like to hear from anyone who has launched a public site on Wagtail.
+THIS WIKI PAGE HAS BEEN SUPERSEDED BY http://madewithwagtail.org/
 
-## Add your site
-
-Edit this page and using a new row in the "Site list" below, please give
-
-1. the URL of the site, 
-2. (optional) who it was developed by and 
-3. (even more optional) an approximate town/country of the developer e.g, "Oxford UK", "NZ" etc.
+Feel free to add your site here if you wish, but http://madewithwagtail.org/ is your best bet now.
 
 ## Site list
 
