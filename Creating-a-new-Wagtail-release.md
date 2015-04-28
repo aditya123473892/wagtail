@@ -19,7 +19,7 @@ From https://github.com/torchbox/wagtail/releases, click 'Draft a new release':
 
 ## PyPi
 
-From the root of the wagtail codebase on your machine - NOT within Vagrant (because it needs to fiddle with symlinks) and with the correct branch checked out, run:
+From the root of the wagtail codebase on your machine - **NOT** within Vagrant (because it needs to fiddle with symlinks) - and with the correct branch checked out, run:
 
         python ./setup.py register
 
@@ -28,6 +28,26 @@ You will be prompted for a PyPI username/password - search pwman for 'pypi'. (If
         python ./setup.py sdist upload
 
 The new version should now be up on https://pypi.python.org/pypi/wagtail .
+
+## releases.wagtail.io
+
+Once the new release is out, please update https://releases.wagtail.io/latest.txt accordingly.
+
+1. Edit [latest.txt](https://releases.wagtail.io/latest.txt) to match the new release version.
+1. Log in to AWS. The credentials are in pwman under "Amazon Web Services".
+2. Upload the new latest.txt to the releases.wagtail.io bucket.
+
+Note that the expected release.txt format is as follows:
+
+```JSON
+{
+    "version" : "1.2.3",
+    "url" : "https://wagtail.io"
+}
+```
+
+Where `version` is the version number. It can only contain numbers and a decimal point.
+`url` is an absolute URL to the page/file containing release notes or the actual package.
 
 ## Post-release
 
