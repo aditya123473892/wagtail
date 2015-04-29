@@ -17,7 +17,24 @@ From https://github.com/torchbox/wagtail/releases, click 'Draft a new release':
 * For the "Describe the release", we usually just paste in the CHANGELOG.txt entry
 * Click "Publish release" - this will create a new git tag for the release, and a new entry on https://github.com/torchbox/wagtail/releases
 
-## PyPi
+## Packaging dry run
+
+From the root of the wagtail codebase on your machine - **NOT** within Vagrant (because it needs to fiddle with symlinks) - and with the correct branch checked out, run:
+
+        python ./setup.py sdist
+
+This will create a .tar.gz package in the 'dist' directory. We now need to test that this installs successfully - from a location other than wagtail root (because the presence of the 'wagtail' directory confuses the installer), run:
+
+        mkvirtualenv wagtailinstalltest
+        pip install /path/to/wagtail-0.x.x.tar.gz
+        wagtail start myproject
+        cd myproject
+        ./manage.py migrate
+        ./manage.py runserver
+
+and confirm that the site starts up successfully at http://localhost:8000/ . (Note that bringing up a Vagrant VM will not work at this point, because the provisioning script will try to install a version of Wagtail that isn't on PyPI yet)
+
+## PyPI
 
 From the root of the wagtail codebase on your machine - **NOT** within Vagrant (because it needs to fiddle with symlinks) - and with the correct branch checked out, run:
 
@@ -28,6 +45,11 @@ You will be prompted for a PyPI username/password - search pwman for 'pypi'. (If
         python ./setup.py sdist upload
 
 The new version should now be up on https://pypi.python.org/pypi/wagtail .
+
+## Testing the release
+
+  - install it in a clean virtualenv and check that "wagtail start myproject" creates a codebase that starts successfully under vagrant
+  - bring up a fresh instance of wagtaildemo with the new version
 
 ## releases.wagtail.io
 
@@ -51,9 +73,6 @@ Where `version` is the version number. It can only contain numbers and a decimal
 
 ## Post-release
 
-* Test that it works:
-    - install it in a clean virtualenv and check that "wagtail start myproject" creates a codebase that starts successfully under vagrant
-    - bring up a fresh instance of wagtaildemo with the new version
 * Update readthedocs so that the new version is visible and the 'stable' version points to it; if this is a minor point release, disable the docs for the previous minor release (see 'Documentation versions' below)
 * Email wagtail@googlegroups.com with the release announcement
 * Blog and tweet about it
