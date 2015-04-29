@@ -71,6 +71,8 @@ Note that the expected release.txt format is as follows:
 Where `version` is the version number. It can only contain numbers and a decimal point.
 `url` is an absolute URL to the page/file containing release notes or the actual package.
 
+(It will take up to a day for changes to propagate to the Cloudfront cache. If you need it to update faster than that, you can purge it through the horrible AWS interface...)
+
 ## Post-release
 
 * Update readthedocs so that the new version is visible and the 'stable' version points to it; if this is a minor point release, disable the docs for the previous minor release (see 'Documentation versions' below)
