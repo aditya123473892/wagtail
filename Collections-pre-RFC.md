@@ -2,12 +2,29 @@
 
 ## Introduction
 
-'Collections' (name TBC) are a concept for organising images, documents and potential future entities into logical, non-hierarchical groups. This is expected to be particularly useful for multi-site implementations, and should support the following scenarios:
+'Collections' (or possibly 'Libraries'; name TBC) are a concept for organising images, documents and potential future entities. This is expected to be particularly useful for multi-site implementations, and should support the following scenarios:
 
 - A user in group 'Site X editors' can use, add, edit and delete images from 'Collection X' and 'Global Collection' but not 'Collection Y'.
 - A user in group 'Site Y editors' can use images in 'Collection X' and 'Global Collection', but can only add, edit or delete images in 'Collection Y'.
 - A user in 'Site Z editors' can only see and use images in 'Collection Z'.
 
+## Structure
+
+Collections are non-hierarchical groups with unique names. Items cannot be shared between collections. Collections can be used for multiple types of content (currently images and documents).
+
+## New sites
+
+New Wagtail sites will have a single, default collection enabled. Collections will be created and edited through an admin-only interface, under 'Groups' in the Settings menu. 
+
+## Migrations
+
+Upgraded sites will have all existing images and documents moved into a single, default collection, which inherits the object permissions for images and documents.
+
+## Single-collection implementations
+
+Collections should be as invisible as possible for Wagtail implementations which only need one. In particular, users should never have to 'choose' a collection where only one exists, e.g. when uploading or searching for images and documents.
+
 ## Notes
 
-- Edit and delete permissions are not distinguished
+- Edit and delete permissions are not distinguished; if users can edit items, they can also delete them.
+- While the option to _select_ items in the editor interface will be limited by permissions, the _use_ of an image or document in the page will not be validated when saving pages.
