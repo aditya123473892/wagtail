@@ -29,7 +29,7 @@ Administrators will be able to add, edit (the name of) and remove collections. N
 
 ## Search
 
-Users will only see search results for the contents of collections they have view/use permissions on. Users with view/use permissions on multiple collections should be able to filter search results by collection. If there are multiple collections, the collection assigned to each image or document should be indicated in the search results.
+Users will only see search results for the contents of collections they have view/use permissions on. Users with view/use permissions on multiple collections will be able to filter search results by collection. If there are multiple collections, the collection assigned to each image or document will be indicated in the search results.
 
 ## Migrations
 
