@@ -16,6 +16,21 @@ Collections are non-hierarchical groups with unique names. Items cannot be share
 
 New Wagtail sites will have a single, default collection enabled. Collections will be created and edited through an admin-only interface, under 'Groups' in the Settings menu. 
 
+## Collection management UI
+
+Administrators will be able to add, edit (the name of) and remove collections. Non-empty collections should not be deletable. Administrators will be able to assign the following group permissions to collections:
+
+- Use documents from
+- Use images from
+- Add documents to
+- Add images to
+- Edit documents in
+- Edit images in
+
+## Search
+
+Users will only see search results for the contents of collections they have view/use permissions on. Users with view/use permissions on multiple collections should be able to filter search results by collection. If there are multiple collections, the collection assigned to each image or document should be indicated in the search results.
+
 ## Migrations
 
 Upgraded sites will have all existing images and documents moved into a single, default collection, which inherits the object permissions for images and documents.
