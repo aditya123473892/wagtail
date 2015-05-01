@@ -14,11 +14,11 @@ Collections are non-hierarchical groups with unique names. Items cannot be share
 
 ## New sites
 
-New Wagtail sites will have a single, default collection enabled. Collections will be created and edited through an admin-only interface, under 'Groups' in the Settings menu. 
+New Wagtail sites will have a single, default collection enabled. Collections will be created and edited through an admin-only interface, under a new 'Collections' item in the Settings menu. 
 
 ## Collection management UI
 
-Administrators will be able to add, edit (the name of) and remove collections. Non-empty collections should not be deletable. Administrators will be able to assign the following group permissions to collections:
+Administrators will be able to add, edit (the name of) and remove collections. Non-empty collections should not be deletable. Administrators will be able to assign the following group permissions to collections, through the 'Groups' area under the Settings menu:
 
 - Use documents from
 - Use images from
