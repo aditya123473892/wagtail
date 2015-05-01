@@ -27,6 +27,12 @@ Administrators will be able to add, edit (the name of) and remove collections. N
 - Edit documents in
 - Edit images in
 
+## Adding / editing images and documents
+
+If a user has 'add' permission on two or more collections, the 'add image' and 'add document' forms will include a field for the user to specify which collection the item is to be added to. In the case of the multiple image uploader, a set of images uploaded in one go will all be assigned to the same collection.
+
+When editing an image or document, the form will include a 'collection' field allowing the user to move the item to any other collection that they have 'add' or 'edit' permission on.
+
 ## Search
 
 Users will only see search results for the contents of collections they have view/use permissions on. Users with view/use permissions on multiple collections will be able to filter search results by collection. If there are multiple collections, the collection assigned to each image or document will be indicated in the search results.
@@ -41,5 +47,6 @@ Collections should be as invisible as possible for Wagtail implementations which
 
 ## Notes
 
-- Edit and delete permissions are not distinguished; if users can edit items, they can also delete them.
+- As with the current implementation, granting 'add' permission also provides users with the ability to edit items that they added themselves.
+- Likewise, edit and delete permissions are not distinguished; if users can edit items, they can also delete them.
 - While the option to _select_ items in the editor interface will be limited by permissions, the _use_ of an image or document in the page will not be validated when saving pages.
