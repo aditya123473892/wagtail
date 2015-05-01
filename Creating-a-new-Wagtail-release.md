@@ -56,8 +56,9 @@ The new version should now be up on https://pypi.python.org/pypi/wagtail .
 Once the new release is out, please update https://releases.wagtail.io/latest.txt accordingly.
 
 1. Edit [latest.txt](https://releases.wagtail.io/latest.txt) to match the new release version.
-1. Log in to AWS. The credentials are in pwman under "Amazon Web Services".
-2. Upload the new latest.txt to the releases.wagtail.io bucket.
+2. Log in to AWS. The credentials are in pwman under "Amazon Web Services".
+3. Upload the new latest.txt to the releases.wagtail.io bucket.
+4. Change the file permissions to be World readable.
 
 Note that the expected release.txt format is as follows:
 
