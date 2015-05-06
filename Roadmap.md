@@ -9,3 +9,4 @@
 * [ ] Private pages based on user accounts
 * [ ] Better documentation: simple setup guides for all levels of user, a manual for editors and administrators, in-depth intstructions for Django developers.
 * [ ] Simple inline stats
+* [ ] [Collections](https://github.com/torchbox/wagtail/wiki/Collections-pre-RFC)
