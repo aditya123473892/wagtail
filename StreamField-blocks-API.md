@@ -157,7 +157,7 @@ then this can be passed to the Javascript at this point too:
 
 ### clean(self, value)
 
-Validates 'value' and returns a cleaned version of it, or throw a ValidationError if validation fails. This ValidationError will ultimately be passed back to `render_form` when the form is re-rendered, so 
+Validates 'value' and returns a cleaned version of it, or throw a ValidationError if validation fails. This ValidationError will ultimately be passed back to `render_form` when the form is re-rendered, so the 'params' attribute of the ValidationError can be used to pass additional information required for re-rendering the form.
 
 The default implementation of `clean` simply returns 'value' unchanged.
 
