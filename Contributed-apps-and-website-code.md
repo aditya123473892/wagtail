@@ -2,14 +2,14 @@ This is a provisional directory of third-party contributed Wagtail websites and 
 
 Edit this page and use a new row in the table below to add your Wagtail app/plugin/OSS site.
 
-## Website sources
+## Open-sourced Wagtail sites
 
-- [Burford Orchestra website](https://github.com/nimasmi/orchestra)
 - [Made with Wagtail](https://github.com/springload/wagtailsites)
 - [RCA](https://github.com/torchbox/verdant-rca)
 - [torchbox.com](https://github.com/torchbox/wagtail-torchbox)
 - [wagtaildemo](https://github.com/torchbox/wagtaildemo)
 - [wagtail.io](https://github.com/torchbox/wagtail-wagtailsite)
+- [Burford Orchestra](https://github.com/nimasmi/orchestra)
 
 ## Apps
 
