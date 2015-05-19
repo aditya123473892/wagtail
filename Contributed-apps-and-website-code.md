@@ -15,8 +15,8 @@ The following is a list of sites with source code available:
 
 Also on Github:
 
-- https://github.com/search?q=path%3Arequirements+filename%3Abase+wagtail&type=Code
-- https://github.com/search?q=filename%3Arequirements+wagtail&type=Code
+- [recent projects with 'wagtail' in requirements/base.txt](https://github.com/search?o=desc&q=path%3Arequirements+filename%3Abase+wagtail&s=indexed&type=Code)
+- [recent projects with 'wagtail' in requirements.txt](https://github.com/search?o=desc&q=filename%3Arequirements+wagtail&s=indexed&type=Code)
 
 ## Apps
 
