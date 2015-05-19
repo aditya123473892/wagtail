@@ -4,11 +4,13 @@ Edit this page and use a new row in the table below to add your Wagtail app/plug
 
 ## Open-sourced Wagtail sites
 
+The following is a list of sites with source code available:
+
 - [Made with Wagtail](https://github.com/springload/wagtailsites)
-- [RCA](https://github.com/torchbox/verdant-rca)
 - [torchbox.com](https://github.com/torchbox/wagtail-torchbox)
-- [wagtaildemo](https://github.com/torchbox/wagtaildemo)
 - [wagtail.io](https://github.com/torchbox/wagtail-wagtailsite)
+- [wagtaildemo](https://github.com/torchbox/wagtaildemo)
+- [RCA](https://github.com/torchbox/verdant-rca)
 - [Burford Orchestra](https://github.com/nimasmi/orchestra)
 
 ## Apps
