@@ -1,6 +1,16 @@
-This is a provisional directory of third-party contributed Wagtail apps.
+This is a provisional directory of third-party contributed Wagtail websites and apps.
 
-Edit this page and use a new row in the table below to add your Wagtail app/plugin.
+Edit this page and use a new row in the table below to add your Wagtail app/plugin/OSS site.
+
+## Website sources
+
+- [Made with Wagtail](https://github.com/springload/wagtailsites)
+- [RCA](https://github.com/torchbox/verdant-rca)
+- [torchbox.com](https://github.com/torchbox/wagtail-torchbox)
+- [wagtaildemo](https://github.com/torchbox/wagtaildemo)
+- [Wagtail.io](https://github.com/torchbox/wagtail-wagtailsite)
+
+## Apps
 
 ### Blogging/news
 
