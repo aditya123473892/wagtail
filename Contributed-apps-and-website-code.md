@@ -44,3 +44,4 @@ Edit this page and use a new row in the table below to add your Wagtail app/plug
 - https://github.com/gilsondev/wagtail-carousel
 - https://github.com/mope/wagtail_map
 - https://github.com/sixpearls/wagtail-menutia
+- https://github.com/infoportugal/wagtail-modeltranslation
