@@ -13,6 +13,11 @@ The following is a list of sites with source code available:
 - [RCA](https://github.com/torchbox/verdant-rca)
 - [Burford Orchestra](https://github.com/nimasmi/orchestra)
 
+Also on Github:
+
+- https://github.com/search?q=path%3Arequirements+filename%3Abase+wagtail&type=Code
+- https://github.com/search?q=filename%3Arequirements+wagtail&type=Code
+
 ## Apps
 
 #### Blogging/news
