@@ -44,6 +44,7 @@ You will be prompted for a PyPI username/password - search pwman for 'pypi'. (If
 
         python ./setup.py sdist upload
         python ./setup.py bdist_wheel upload
+        python3 ./setup.py bdist_wheel upload
 
 The new version should now be up on https://pypi.python.org/pypi/wagtail .
 
