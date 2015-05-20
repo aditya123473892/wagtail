@@ -43,6 +43,7 @@ From the root of the wagtail codebase on your machine - **NOT** within Vagrant (
 You will be prompted for a PyPI username/password - search pwman for 'pypi'. (If you're already logged in under your personal pypi account, edit `~/.pypirc` with the Torchbox details. Or ask [@gasman](https://github.com/gasman) to add your own account as a maintainer of wagtail...). Then run:
 
         python ./setup.py sdist upload
+        python ./setup.py bdist_wheel upload
 
 The new version should now be up on https://pypi.python.org/pypi/wagtail .
 
