@@ -52,3 +52,4 @@ Also on Github:
 - https://github.com/mope/wagtail_map
 - https://github.com/sixpearls/wagtail-menutia
 - https://github.com/infoportugal/wagtail-modeltranslation
+- https://github.com/infoportugal/wagtail-embedvideos
