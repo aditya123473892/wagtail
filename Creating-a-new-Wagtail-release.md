@@ -60,7 +60,7 @@ Once the new release is out, please update https://releases.wagtail.io/latest.tx
 1. Edit [latest.txt](https://releases.wagtail.io/latest.txt) to match the new release version.
 2. Log in to AWS. The credentials are in pwman under "Amazon Web Services".
 3. Upload the new latest.txt to the releases.wagtail.io bucket.
-4. Change the file permissions to be World readable.
+4. Change the file permissions to be World readable. (Allow `access-control-allow-origin`, see https://docs.aws.amazon.com/AmazonS3/latest/dev/cors.html)
 
 Note that the expected release.txt format is as follows:
 
