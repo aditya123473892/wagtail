@@ -24,6 +24,7 @@ Also on Github:
 
 - https://github.com/thelabnyc/wagtail_blog
 - https://bitbucket.org/takeflight/wagtailnews
+- https://github.com/Tivix/wagtail-blog-app
 
 #### Rich text editor extensions
 
