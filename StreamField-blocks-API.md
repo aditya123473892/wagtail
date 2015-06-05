@@ -172,3 +172,7 @@ The reverse of `get_prep_value`; convert the JSON-serialisable data back to the 
 ### render(self, value)
 
 Return a text rendering of 'value', suitable for display on templates. This may include HTML markup, in which case the `render` method is responsible for returning the result as a SafeString (having performed the necessary escaping to prevent HTML injection).
+
+### id_for_label(self, prefix)
+
+Return the ID to use as the `for` attribute of `<label>` elements that refer to this block, when the given `prefix` is in use.
