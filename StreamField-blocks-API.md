@@ -176,3 +176,7 @@ Return a text rendering of 'value', suitable for display on templates. This may 
 ### id_for_label(self, prefix)
 
 Return the ID to use as the `for` attribute of `<label>` elements that refer to this block, when the given `prefix` is in use.
+
+### check(self, **kwargs)
+
+Hook for the [Django system checks framework](https://docs.djangoproject.com/en/1.8/topics/checks/#field-model-and-manager-checks) - returns a list of `django.core.checks.Error` objects indicating validity errors in the block.
