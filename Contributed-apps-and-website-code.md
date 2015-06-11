@@ -31,6 +31,10 @@ Also on Github:
 - https://github.com/springload/wagtailembedder
 - https://github.com/springload/wagtailgmaps
 
+#### Streamfield
+
+- https://gist.github.com/frankwiles/74a882f16704db9caa27 syntax highlighted code block
+
 #### Static site generation
 
 - https://github.com/mhnbcu/wagtailbakery
