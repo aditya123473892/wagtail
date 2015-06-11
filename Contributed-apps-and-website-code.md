@@ -33,7 +33,7 @@ Also on Github:
 
 #### Streamfield
 
-- https://gist.github.com/frankwiles/74a882f16704db9caa27 syntax highlighted code block
+- CodeBlock: syntax highlighted code - https://gist.github.com/frankwiles/74a882f16704db9caa27 
 
 #### Static site generation
 
