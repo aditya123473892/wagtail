@@ -36,6 +36,8 @@ and confirm that the site starts up successfully at http://localhost:8000/ . (No
 
 ## PyPI
 
+For this step, you will need the `wheel` package (`pip install wheel` from a fresh empty virtualenv will work fine) and a working Node/NPM build on your host machine.
+
 From the root of the wagtail codebase on your machine - **NOT** within Vagrant (because it needs to fiddle with symlinks) - and with the correct branch checked out, run:
 
         python ./setup.py register
