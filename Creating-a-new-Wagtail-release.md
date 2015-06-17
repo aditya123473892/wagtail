@@ -2,7 +2,7 @@
 
 * A 'stable' branch should exist in git, e.g. "stable/0.4.x"
 * `wagtail/wagtailcore/__init__.py` should be updated with the new version number
-* `wagtail/project_template/requirements.txt` (if there is one - there isn't as of 1.0rc1) should specify the new version number
+* `wagtail/project_template/requirements.txt` should specify the new version number
 * There should be a release notes page about the release in docs/releases/ - ensure that any IN DEVELOPMENT text is removed
 * CHANGELOG.txt should contain a section about the new release - ensure that the date is filled in, not left as xx.xx.20xx
 * Update translations - see https://github.com/torchbox/wagtail/wiki/Managing-Wagtail-translations#fetching-new-translations-from-transifex
