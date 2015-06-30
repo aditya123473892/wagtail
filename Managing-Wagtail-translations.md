@@ -25,6 +25,8 @@ To be done periodically, ideally just before a new Wagtail release. From the roo
 
 and 'git add' any new folders that are created.
 
+**Important** - check the output of `fetch-translations-sh` for errors, and sanity-check the changes with `git status` / `git diff` before committing. Failures during the script's run can result in files erroneously being deleted.
+
 # Generating new source files for translation
 
 To be done periodically, particularly after any piece of development that involves creating / editing / moving a significant number of translatable strings. Within each submodule with a 'locale' folder (run `find . -name locale` to find them):
