@@ -20,14 +20,10 @@ Create a `.transifexrc` file in your home directory containing the following:
 
 To be done periodically, ideally just before a new Wagtail release. From the root of the wagtail codebase:
 
-    tx pull -a --minimum-perc=30
+    cd scripts
+    ./fetch-translations.sh
 
-and 'git add' any new folders that are created. Then, within each submodule with a 'locale' folder (run `find . -name locale` to find them):
-
-    cd wagtail/wagtailfoo
-    django-admin compilemessages
-
-Again, 'git add' any new .mo files that are created.
+and 'git add' any new folders that are created.
 
 # Generating new source files for translation
 
