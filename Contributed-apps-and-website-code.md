@@ -42,10 +42,14 @@ Also on Github:
 
 - https://bitbucket.org/takeflight/wagtailsettings
 
-#### e-commerce
+#### E-commerce
 
 - https://github.com/mirumee/wagtail-saleor
 - https://github.com/mope/wagtail_shop
+
+#### Security
+
+- https://github.com/springload/wagtailenforcer
 
 #### Misc
 
