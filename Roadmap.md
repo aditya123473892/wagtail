@@ -26,3 +26,5 @@ iOS app | 1.x | Generic iOS front-end for Wagtail content
 Integrated multi-language support | 1.x | e.g. tighter integration with wagtail-modeltranslation
 Swappable rich text editor | 1.x | https://github.com/torchbox/wagtail/pull/1521
 UI / API separation | 1.x | e.g. React admin UI
+Group-based view permissions | 1.x | 
+Versioning UI | 1.x | 
