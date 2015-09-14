@@ -63,3 +63,4 @@ Also on Github:
 - https://github.com/infoportugal/wagtail-embedvideos
 - https://wagtailinvoices.readthedocs.org/
 - https://github.com/ababic/wagtailmodeladmin
+- https://github.com/torchbox/wagtail-markdown (Markdown page field and StreamField block)
