@@ -67,7 +67,7 @@ With the AWS client configured, run:
 
 replacing the version number as appropriate.
 
-(It will take up to a day for changes to propagate to the Cloudfront cache. If you need it to update faster than that, you can purge it through the horrible AWS interface...)
+(It will take up to a day for changes to propagate to the Cloudfront cache. If you need it to update faster than that, you can purge it through the horrible AWS interface... log in with the "Sysadmin Amazon" details from pwman, and the relevant operation to perform is "Create invalidation".)
 
 ## Post-release
 
