@@ -10,7 +10,7 @@ The following is a list of sites with source code available:
 - [torchbox.com](https://github.com/torchbox/wagtail-torchbox)
 - [wagtaildemo](https://github.com/torchbox/wagtaildemo)
 - [RCA](https://github.com/torchbox/verdant-rca)
-- [Burford Orchestra](https://github.com/nimasmi/orchestra)
+- [Open Canada](https://github.com/OpenCanada/website)
 
 Also on Github:
 
