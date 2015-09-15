@@ -19,11 +19,11 @@ StreamField | 1.0 | [StreamField blog post](https://torchbox.com/blog/rich-text-
 RESTful API | 1.0 | [1.0 release notes](http://docs.wagtail.io/en/v1.0/releases/1.0.html)
 MySQL support | 1.0 | 
 Installation simplification | 1.0 | libsass removal
+Django REST Framework integration | 1.1 |
 
 ## To do
 Feature | Version | Notes
 ------- | ------- | -----
-Django REST Framework integration | 1.1 | Done in master
 Improved support for remote storages | 1.1 | Done in master
 Improved support for very large sites | 1.1 | Done in master
 Image and document collections | 1.1 | [RFC](https://github.com/torchbox/wagtail/wiki/Collections-RFC)
