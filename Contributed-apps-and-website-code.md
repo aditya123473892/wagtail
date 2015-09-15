@@ -4,13 +4,14 @@ Edit this page and use a new row in the table below to add your Wagtail app/plug
 
 ## Open-sourced Wagtail sites
 
-The following is a list of sites with source code available:
+The following is a selection of sites with source code available:
 
 - [Made with Wagtail](https://github.com/springload/wagtailsites)
 - [torchbox.com](https://github.com/torchbox/wagtail-torchbox)
 - [wagtaildemo](https://github.com/torchbox/wagtaildemo)
 - [RCA](https://github.com/torchbox/verdant-rca)
 - [Open Canada](https://github.com/OpenCanada/website)
+- [Federal Electoral Commission](https://github.com/18F/fec-cms)
 
 Also on Github:
 
