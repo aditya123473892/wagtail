@@ -32,7 +32,8 @@ Also on Github:
 
 #### Streamfield
 
-- CodeBlock: syntax highlighted code - https://gist.github.com/frankwiles/74a882f16704db9caa27 
+- CodeBlock: syntax highlighted code - https://gist.github.com/frankwiles/74a882f16704db9caa27
+- MarkdownBlock: https://github.com/torchbox/wagtail-markdown 
 
 #### Static site generation
 
