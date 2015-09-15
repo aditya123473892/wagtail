@@ -58,22 +58,14 @@ The new version should now be up on https://pypi.python.org/pypi/wagtail .
 
 Once the new release is out, please update https://releases.wagtail.io/latest.txt accordingly.
 
-1. Edit [latest.txt](https://releases.wagtail.io/latest.txt) to match the new release version.
-2. Log in to AWS. The credentials are in pwman under "Amazon Web Services".
-3. Upload the new latest.txt to the releases.wagtail.io bucket.
-4. Change the file permissions to be World readable. (Allow `access-control-allow-origin`, see https://docs.aws.amazon.com/AmazonS3/latest/dev/cors.html)
+Set up the AWS client, if you haven't already - `pip install awscli`, then `aws configure` and enter the credentials from pwman (Others -> Amazon -> Amazon Web Services).
 
-Note that the expected release.txt format is as follows:
+With the AWS client configured, run:
 
-```JSON
-{
-    "version" : "1.2.3",
-    "url" : "https://wagtail.io"
-}
-```
+    cd wagtail/scripts
+    ./make-latest.sh --version=1.1 --url=https://wagtail.io/
 
-Where `version` is the version number. It can only contain numbers and a decimal point.
-`url` is an absolute URL to the page/file containing release notes or the actual package.
+replacing the version number as appropriate.
 
 (It will take up to a day for changes to propagate to the Cloudfront cache. If you need it to update faster than that, you can purge it through the horrible AWS interface...)
 
