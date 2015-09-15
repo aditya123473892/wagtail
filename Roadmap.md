@@ -26,8 +26,9 @@ Feature | Version | Notes
 ------- | ------- | -----
 Improved support for remote storages | 1.1 | Done in master
 Improved support for very large sites | 1.1 | Done in master
-Image and document collections | 1.1 | [RFC](https://github.com/torchbox/wagtail/wiki/Collections-RFC)
-iOS app | 1.x | Generic iOS front-end for Wagtail content
+Image and document collections | 1.2 | [RFC](https://github.com/torchbox/wagtail/wiki/Collections-RFC)
+Deferred image renditions | 1.2 | 
+iOS app | 1.2 | Generic iOS front-end for Wagtail content
 Improved multi-language support | 1.x | e.g. tighter integration with wagtail-modeltranslation
 Swappable rich text editor | 1.x | [Relevant PR](https://github.com/torchbox/wagtail/pull/1521)
 UI / API separation | 1.x | enabling e.g. React admin UI and [ColumnView ideas](https://www.youtube.com/watch?v=fRo4YHdsQp4)
