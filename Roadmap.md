@@ -34,6 +34,7 @@ Swappable rich text editor | 1.x | [Relevant PR](https://github.com/torchbox/wag
 UI / API separation | 1.x | enabling e.g. React admin UI and [ColumnView ideas](https://www.youtube.com/watch?v=fRo4YHdsQp4)
 Group-based view permissions | 1.x | 
 Versioning UI | 1.x | 
+In-page preview | 1.x | 
 Migration framework | 1.x | cf. Drupal's [migrate](https://www.drupal.org/project/migrate) module
 StreamField phase 2 | 1.x | More fluid editing experience
 Modeladmin | 1.x | e.g. integrating https://github.com/ababic/wagtailmodeladmin
