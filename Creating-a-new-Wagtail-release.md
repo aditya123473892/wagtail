@@ -63,7 +63,7 @@ Set up the AWS client, if you haven't already - `pip install awscli`, then `aws 
 With the AWS client configured, run:
 
     cd wagtail/scripts
-    ./make-latest.sh --version=1.1 --url=https://wagtail.io/
+    ./make-latest.sh --version=1.1 --url=http://docs.wagtail.io/en/v1.1/releases/1.1.html
 
 replacing the version number as appropriate.
 
