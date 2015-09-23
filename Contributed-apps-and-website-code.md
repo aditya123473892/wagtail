@@ -35,7 +35,8 @@ Also on Github:
 #### Streamfield
 
 - CodeBlock: syntax highlighted code - https://gist.github.com/frankwiles/74a882f16704db9caa27
-- MarkdownBlock: https://github.com/torchbox/wagtail-markdown 
+- MarkdownBlock: https://github.com/torchbox/wagtail-markdown
+- [360 degree product views](http://www.djangopaths.com/interactive-360-degree-product-views-wagtail-streamfield-block/)
 
 #### Static site generation
 
