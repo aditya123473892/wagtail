@@ -22,6 +22,7 @@ Also on Github:
 
 #### Blogging/news
 
+- http://puput.readthedocs.org/
 - https://github.com/thelabnyc/wagtail_blog
 - https://bitbucket.org/takeflight/wagtailnews
 - https://github.com/Tivix/wagtail-blog-app
