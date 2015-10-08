@@ -33,7 +33,7 @@ Improved multi-language support | 1.x | e.g. tighter integration with wagtail-mo
 Swappable rich text editor | 1.x | [Relevant PR](https://github.com/torchbox/wagtail/pull/1521)
 Write API | 1.x | 
 UI / API separation | 1.x | enabling e.g. React admin UI and [ColumnView ideas](https://www.youtube.com/watch?v=fRo4YHdsQp4)
-Group-based view permissions | 1.x | 
+Group-based view permissions | 1.x | [Relevant ticket](https://github.com/torchbox/wagtail/issues/257)
 Versioning UI | 1.x | 
 In-page preview | 1.x | 
 Migration framework | 1.x | cf. Drupal's [migrate](https://www.drupal.org/project/migrate) module
