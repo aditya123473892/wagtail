@@ -26,9 +26,9 @@ Improved support for very large sites | 1.1 | Done in master
 ## To do
 Feature | Version | Notes
 ------- | ------- | -----
-Image and document collections | 1.2 | [PR](https://github.com/torchbox/wagtail/pull/1751), [RFC](https://github.com/torchbox/wagtail/wiki/Collections-RFC)
-Deferred image renditions | 1.2 | 
-iOS app | 1.2 | Generic iOS front-end for Wagtail content
+Image and document collections | 1.x | [PR](https://github.com/torchbox/wagtail/pull/1751), [RFC](https://github.com/torchbox/wagtail/wiki/Collections-RFC)
+Deferred image renditions | 1.x | 
+iOS app | 1.x | Generic iOS front-end for Wagtail content
 Improved multi-language support | 1.x | e.g. tighter integration with wagtail-modeltranslation
 Swappable rich text editor | 1.x | [Relevant PR](https://github.com/torchbox/wagtail/pull/1521)
 Write API | 1.x | 
