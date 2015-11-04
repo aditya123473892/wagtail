@@ -27,6 +27,12 @@ and 'git add' any new folders that are created.
 
 **Important** - check the output of `fetch-translations.sh` for errors, and sanity-check the changes with `git status` / `git diff` before committing. Failures during the script's run can result in files erroneously being deleted.
 
+Once this is done, run
+
+    python ./get-translator-credits.py
+
+(NB currently Python2 only) and update CONTRIBUTORS.txt with any translators / languages not already mentioned. Also add a release note in CHANGELOG.txt and docs/releases for any new languages.
+
 # Generating new source files for translation
 
 To be done periodically, particularly after any piece of development that involves creating / editing / moving a significant number of translatable strings. Within each submodule with a 'locale' folder (run `find . -name locale` to find them):
