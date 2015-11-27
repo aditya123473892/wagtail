@@ -48,6 +48,7 @@ Also on Github:
 
 #### E-commerce
 
+- https://github.com/SableWalnut/wagtailinvoices
 - https://github.com/mirumee/wagtail-saleor
 - https://github.com/mope/wagtail_shop
 
@@ -57,6 +58,7 @@ Also on Github:
 
 #### Misc
 
+- https://github.com/takeflight/wagtailpolls
 - https://github.com/rfosterslo/wagtailplus
 - https://github.com/bgrace/wagtail-commons
 - https://github.com/kaedroho/wagtailforums
@@ -65,6 +67,5 @@ Also on Github:
 - https://github.com/sixpearls/wagtail-menutia
 - https://github.com/infoportugal/wagtail-modeltranslation
 - https://github.com/infoportugal/wagtail-embedvideos
-- https://wagtailinvoices.readthedocs.org/
 - https://github.com/ababic/wagtailmodeladmin
 - https://github.com/torchbox/wagtail-markdown (Markdown page field and StreamField block)
