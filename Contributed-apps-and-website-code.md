@@ -29,6 +29,7 @@ Also on Github:
 
 #### Rich text editor extensions
 
+- https://github.com/takeflight/wagtail-readability
 - https://github.com/springload/wagtailembedder
 - https://github.com/springload/wagtailgmaps
 
