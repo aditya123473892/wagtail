@@ -47,6 +47,7 @@ Also on Github:
 #### Settings management
 
 - https://bitbucket.org/takeflight/wagtailsettings
+- https://github.com/MechanisM/wagtail-constance
 
 #### E-commerce
 
