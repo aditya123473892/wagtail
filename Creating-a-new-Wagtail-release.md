@@ -8,6 +8,31 @@
 * Update translations - see https://github.com/torchbox/wagtail/wiki/Managing-Wagtail-translations#fetching-new-translations-from-transifex
 * Confirm that the latest revision is passing on Travis 
 
+## Prerequisites
+
+You will need the `wheel` package (`pip install wheel` from a fresh empty virtualenv will work fine) and a working Node/NPM build on your host machine.
+
+## Packaging dry run
+
+Create a fresh clone of the Wagtail repo, and check out the appropriate 'stable' branch. (Using a Vagrant dev instance will not work: running the setup.py command within Vagrant will fail because it creates symlinks, which aren't supported by Virtualbox shared folders; and running it on the host machine will fail because it will try to run the copy of node-sass in node_modules, which is built for the VM's architecture. Also, by creating a fresh clone, we minimise the risk of having random development files floating around the codebase that screw up the package.)
+
+From the root of the wagtail codebase, run:
+
+        npm install
+        python ./setup.py sdist
+        python ./setup.py bdist_wheel
+
+This will create a .tar.gz package and a .whl package in the 'dist' directory. We now need to test that these installs successfully - from a location other than wagtail root (because the presence of the 'wagtail' directory confuses the installer), run:
+
+        mkvirtualenv wagtailinstalltest
+        pip install /path/to/wagtail-0.x.x.tar.gz
+        wagtail start myproject
+        cd myproject
+        ./manage.py migrate
+        ./manage.py runserver
+
+and confirm that the site starts up successfully at http://localhost:8000/ . Repeat the test with the .whl package. (Note that bringing up a Vagrant VM will not work at this point, because the provisioning script will try to install a version of Wagtail that isn't on PyPI yet)
+
 ## GitHub release
 
 From https://github.com/torchbox/wagtail/releases, click 'Draft a new release':
@@ -17,28 +42,9 @@ From https://github.com/torchbox/wagtail/releases, click 'Draft a new release':
 * For the "Describe the release", we usually just paste in the CHANGELOG.txt entry
 * Click "Publish release" - this will create a new git tag for the release, and a new entry on https://github.com/torchbox/wagtail/releases
 
-## Packaging dry run
-
-From the root of the wagtail codebase on your machine - **NOT** within Vagrant (because it needs to fiddle with symlinks) - and with the correct branch checked out, run:
-
-        python ./setup.py sdist
-
-This will create a .tar.gz package in the 'dist' directory. We now need to test that this installs successfully - from a location other than wagtail root (because the presence of the 'wagtail' directory confuses the installer), run:
-
-        mkvirtualenv wagtailinstalltest
-        pip install /path/to/wagtail-0.x.x.tar.gz
-        wagtail start myproject
-        cd myproject
-        ./manage.py migrate
-        ./manage.py runserver
-
-and confirm that the site starts up successfully at http://localhost:8000/ . (Note that bringing up a Vagrant VM will not work at this point, because the provisioning script will try to install a version of Wagtail that isn't on PyPI yet)
-
 ## PyPI
 
-For this step, you will need the `wheel` package (`pip install wheel` from a fresh empty virtualenv will work fine) and a working Node/NPM build on your host machine.
-
-From the root of the wagtail codebase on your machine - **NOT** within Vagrant (because it needs to fiddle with symlinks) - and with the correct branch checked out, run:
+From the root of the checkout you created in 'Packaging dry run', and with the correct branch checked out, run:
 
         python ./setup.py register
 
