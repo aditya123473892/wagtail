@@ -53,7 +53,6 @@ Also on Github:
 
 - https://github.com/SableWalnut/wagtailinvoices
 - https://github.com/mirumee/wagtail-saleor
-- https://github.com/mope/wagtail_shop
 
 #### Security
 
