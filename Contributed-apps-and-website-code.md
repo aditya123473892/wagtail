@@ -60,6 +60,7 @@ Also on Github:
 
 #### Misc
 
+- https://github.com/takeflight/wagtail-linkchecker
 - https://github.com/takeflight/wagtailpolls
 - https://github.com/rfosterslo/wagtailplus
 - https://github.com/bgrace/wagtail-commons
