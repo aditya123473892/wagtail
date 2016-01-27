@@ -12,6 +12,8 @@ The following is a selection of sites with source code available:
 - [RCA](https://github.com/torchbox/verdant-rca)
 - [Open Canada](https://github.com/OpenCanada/website)
 - [Federal Electoral Commission](https://github.com/18F/fec-cms)
+- [Table Tennis Wellington Business Class](https://github.com/jordij/bctt.nz)
+- [Jordi's blog](https://github.com/jordij/jordijoan.me)
 
 Also on Github:
 
@@ -39,6 +41,7 @@ Also on Github:
 - MarkdownBlock: https://github.com/torchbox/wagtail-markdown
 - [360 degree product views](http://www.djangopaths.com/interactive-360-degree-product-views-wagtail-streamfield-block/)
 - WagtailFontAwesome: Add FontAwesome icons to StreamField - https://github.com/alexgleason/wagtailfontawesome
+- Wagtailblocks: reusable common blocks [wagtailcommonblocks](https://github.com/springload/wagtailblocks)
 
 #### Static site generation
 
@@ -72,3 +75,4 @@ Also on Github:
 - https://github.com/infoportugal/wagtail-embedvideos
 - https://github.com/ababic/wagtailmodeladmin
 - https://github.com/torchbox/wagtail-markdown (Markdown page field and StreamField block)
+- https://github.com/springload/wagtail-django-recaptcha
