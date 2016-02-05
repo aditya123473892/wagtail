@@ -1,4 +1,4 @@
-1. Create a new "Newsletter" page in Wagtail.io
+1. Create a new "Newsletter" page on Wagtail.io, in the appropriate place.
 2. Enter your content and publish it once ready to email.
 3. Log into Mailchimp
 4. Create Campaign -> Regular campaign
