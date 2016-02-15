@@ -76,3 +76,4 @@ Also on Github:
 - https://github.com/ababic/wagtailmodeladmin
 - https://github.com/torchbox/wagtail-markdown (Markdown page field and StreamField block)
 - https://github.com/springload/wagtail-django-recaptcha
+- https://github.com/alexgleason/wagtailerrorpages
