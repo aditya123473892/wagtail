@@ -78,3 +78,4 @@ Also on Github:
 - https://github.com/springload/wagtail-django-recaptcha
 - https://github.com/alexgleason/wagtailerrorpages
 - https://github.com/takeflight/wagtail-metadata
+- https://github.com/tomdyson/wagalytics (Google Analytics in Wagtail admin)
