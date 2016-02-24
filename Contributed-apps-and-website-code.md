@@ -49,7 +49,7 @@ Also on Github:
 
 #### Settings management
 
-- https://bitbucket.org/takeflight/wagtailsettings
+- https://bitbucket.org/takeflight/wagtailsettings (now in Wagtail core)
 - https://github.com/MechanisM/wagtail-constance
 
 #### E-commerce
