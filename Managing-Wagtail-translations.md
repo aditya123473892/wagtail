@@ -47,3 +47,22 @@ NOTE: `django-admin` is run from the app's root, NOT the 'locale' folder.
 Then, from the root of the Wagtail codebase:
 
     tx push -s
+
+# Setting up translations for a new app
+
+This assumes that strings have already been marked for translation throughout the app codebase (using `ugettext`, `{% trans %}` etc). From the app root, run:
+
+    mkdir locale
+    django-admin makemessages --locale=en --extension=html,txt,py
+
+(Add `js` to the `--extension` list if this app uses JS templates. New apps really shouldn't though!)
+
+Edit the file `.tx/config` to add a new section (replace `myapp` and `/path/to/myapp` as appropriate):
+
+    [wagtail.myapp]
+    file_filter = wagtail/path/to/myapp/locale/<lang>/LC_MESSAGES/django.po
+    source_file = wagtail/path/to/myapp/locale/en/LC_MESSAGES/django.po
+    source_lang = en
+    type = PO
+
+Commit the updated config file and new locale files to git.
