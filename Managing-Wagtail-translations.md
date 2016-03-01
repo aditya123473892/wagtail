@@ -66,3 +66,5 @@ Edit the file `.tx/config` to add a new section (replace `myapp` and `/path/to/m
     type = PO
 
 Commit the updated config file and new locale files to git.
+
+From https://www.transifex.com/torchbox/wagtail/content/, click "Add a new resource", and upload the django.po file, setting the name to 'myapp' and specifying 'PO File' as the file type.
