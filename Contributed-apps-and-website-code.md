@@ -70,6 +70,7 @@ Also on Github:
 - https://github.com/kaedroho/wagtailforums
 - https://github.com/gilsondev/wagtail-carousel
 - https://github.com/mope/wagtail_map
+- https://github.com/benjaoming/wagtailosm (Open Street Map integration)
 - https://github.com/sixpearls/wagtail-menutia
 - https://github.com/rkhleics/wagtailmenus (multi-level navigation and flat menus)
 - https://github.com/infoportugal/wagtail-modeltranslation
