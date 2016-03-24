@@ -81,3 +81,9 @@ Also on Github:
 - https://github.com/alexgleason/wagtailerrorpages
 - https://github.com/takeflight/wagtail-metadata
 - https://github.com/tomdyson/wagalytics (Google Analytics in Wagtail admin)
+
+## Snippets
+
+#### Media
+
+- https://gist.github.com/davecranwell/baf42b089d71b94fd229 (Responsive image tag)
