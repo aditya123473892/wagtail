@@ -60,6 +60,7 @@ Also on Github:
 #### Security
 
 - https://github.com/springload/wagtailenforcer
+- https://github.com/ahopkins/wagtail-yubikey (two factor authentication)
 
 #### Misc
 
