@@ -62,6 +62,10 @@ Also on Github:
 - https://github.com/springload/wagtailenforcer
 - https://github.com/ahopkins/wagtail-yubikey (two factor authentication)
 
+#### Media
+
+- https://github.com/torchbox/wagtailmedia (Audio and video files in Wagtail)
+
 #### Misc
 
 - https://github.com/takeflight/wagtail-linkchecker
@@ -82,6 +86,7 @@ Also on Github:
 - https://github.com/alexgleason/wagtailerrorpages
 - https://github.com/takeflight/wagtail-metadata
 - https://github.com/tomdyson/wagalytics (Google Analytics in Wagtail admin)
+- https://github.com/torchbox/wagtailsurveys (Polls and surveys in Wagtail admin)
 
 ## Snippets
 
