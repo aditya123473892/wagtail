@@ -2,6 +2,10 @@
 Wagtail's release process
 =========================
 
+.. note::
+
+Based on Django's release process
+
 Official releases
 =================
 
