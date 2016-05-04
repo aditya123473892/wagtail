@@ -51,14 +51,15 @@ issued from those branches.
   Long-term support release
     Certain feature releases will be designated as long-term support (LTS)
     releases. These releases will get security and data loss fixes applied for
-    a guaranteed period of time, typically three months.
+    a guaranteed period of time, typically six months.
 
 ..
 
 .. note::
 
-    Or four months for long-term release? Maybe less than three?
-
+    I think long-term support release, should be really long-term (six months or more),
+    but probably it will be hard to support this release because
+    of frequent non-long-term releases.
 
 Release cadence
 ===============
@@ -75,7 +76,7 @@ Deprecation policy
 
 A feature release may deprecate certain features from previous releases. If a
 feature is deprecated in feature release A.B, it will continue to work in
-following version but raise warnings. Feature deprecated in release A.B
+the following version but raise warnings. Feature deprecated in release A.B
 will be removed in the A.B+2 release to ensure deprecations are done
 over at least 2 feature releases.
 
@@ -96,7 +97,7 @@ A more generic example:
 
 * X.0
 * X.1
-* X.2 LTS: Drop deprecation shims added in X.0.
+* X.2: Drop deprecation shims added in X.0.
 * X.3: Drop deprecation shims added in X.1.
 * X.4: Drop deprecation shims added in X.2.
 * X.5 LTS: Drop deprecation shims added in X.3.
@@ -104,7 +105,7 @@ A more generic example:
 
 .. note::
 
-    Argh! It will be easier to understand and follow deprecation policy and versions compatibility, if LTS release will bump to the next “dot zero” version (X.0, X.1, X.3 (LTS), Y.0, Y.1, Y.2, Y.3 (LTS), Z.0 and so on).
+    Argh! It will be easier to understand and follow deprecation policy and versions compatibility, if LTS release will bump to the next “dot zero” version (X.0, X.1, X.2, X.3, X.4, X.5 (LTS), Z.0 and so on).
 
 Supported versions
 ==================
@@ -137,10 +138,17 @@ varying levels.
   last two feature release branches, and any other supported long-term
   support release branches.
 
+.. note::
+
+    Probably we can start with "current master, the last feature release branch and
+    supported long-term support release branch" because it's too hard to support.
+    See an example below.
+
 * Documentation fixes generally will be more freely backported to the last
   release branch. That's because it's highly advantageous to have the docs for
   the last release be up-to-date and correct, and the risk of introducing
   regressions is much less of a concern.
+
 
 As a concrete example, consider a moment in time halfway between the release of
 Wagtail 1.6 and 1.7. At this point in time:
