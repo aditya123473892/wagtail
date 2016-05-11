@@ -20,9 +20,9 @@ As soon as a ticket is opened - ideally within one day - a member of the core te
 
 The possible milestones that it might be assigned to are as follows:
 
-* *invalid* (closed): this issue doesn't identify a specific action to be taken, or the action is not one that we want to take. For example - a bug report for something that's working as designed, or a feature request for something that's actively harmful.
-* *some-day*: the issue is accepted as valid (i.e. it's a bug report for a legitimate bug, or a useful feature request) but not deemed a priority to work on (in the opinion of the core team). For example - a bug that's only cosmetic, or a feature that would be kind of neat but not really essential. Feel free to take it on!
-* *real-soon-now*: the issue is considered important by the core team (roughly speaking: it's a bug or missing feature that's causing headaches for people) but isn't necessarily going to be completed on any set timescale. Feel free to take it on!
+* **invalid** (closed): this issue doesn't identify a specific action to be taken, or the action is not one that we want to take. For example - a bug report for something that's working as designed, or a feature request for something that's actively harmful.
+* **some-day**: the issue is accepted as valid (i.e. it's a bug report for a legitimate bug, or a useful feature request) but not deemed a priority to work on (in the opinion of the core team). For example - a bug that's only cosmetic, or a feature that would be kind of neat but not really essential. Feel free to take it on!
+* **real-soon-now**: the issue is considered important by the core team (roughly speaking: it's a bug or missing feature that's causing headaches for people) but isn't necessarily going to be completed on any set timescale. Feel free to take it on!
 * A specific version number: the issue is important enough that it needs to be fixed in this version.
 
 On some occasions it may take longer for the core team to classify an issue into a milestone. For example:
