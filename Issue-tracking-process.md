@@ -1,4 +1,4 @@
-# Issue tracking process (aka: how to github)
+# Issue tracking process (aka: how to GitHub)
 
 _draft document_
 
