@@ -14,6 +14,7 @@ The following is a selection of sites with source code available:
 - [Federal Electoral Commission](https://github.com/18F/fec-cms)
 - [Table Tennis Wellington Business Class](https://github.com/jordij/bctt.nz)
 - [Jordi's blog](https://github.com/jordij/jordijoan.me)
+- [Localore: Finding America](https://github.com/ghostwords/localore)
 
 Also on Github:
 
