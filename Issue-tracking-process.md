@@ -29,7 +29,7 @@ On some occasions it may take longer for the core team to classify an issue into
 * It may require a non-trivial amount of work to confirm the presence of a bug. In this case, feedback and further details from other contributors, whether or not they can replicate the bug, would be particularly welcomed.
 * It may require further discussion to decide whether the proposal is a good idea or not - if so, it will be tagged "design decision needed".
 
-We will endeavour to make sure that issues don't remain in this state for prolonged periods.
+We will endeavour to make sure that issues don't remain in this state for prolonged periods. Issues and PRs tagged "design decision needed" will be revisited regularly and discussed with at least two core contributors - we aim to review each ticket at least once per release cycle (= 6 weeks).
 
 ## Pull requests
 
