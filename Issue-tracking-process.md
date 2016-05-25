@@ -11,7 +11,7 @@ Do not use issues for support queries or other questions ("How do I do X?" - alt
 As soon as a ticket is opened - ideally within one day - a member of the core team will give it an initial classification, by either closing it as invalid or assigning it to a milestone. This classification isn't permanent, and may be changed at any time in response to user feedback. To that end:
 
 * Feedback via comments and reactions on the issue is always welcome - before and after it's been classified; from core and non-core contributors; on open and closed tickets. This includes:
-	* straightforward thumb-up / thumb-downs
+	* straightforward :thumbsup:s / :thumbsdown:s
 	* arguments about whether the proposal is or isn't a good idea
 	* for bug reports, confirmation that it's a genuine bug and further details of how to replicate it
 	* for feature requests, suggestions about how it could be implemented
