@@ -14,7 +14,13 @@ You will need the `wheel` package (`pip install wheel` from a fresh empty virtua
 
 ## Packaging dry run
 
-Create a fresh clone of the Wagtail repo, and check out the appropriate 'stable' branch. (Using a Vagrant dev instance will not work: running the setup.py command within Vagrant will fail because it creates symlinks, which aren't supported by Virtualbox shared folders; and running it on the host machine will fail because it will try to run the copy of node-sass in node_modules, which is built for the VM's architecture. Also, by creating a fresh clone, we minimise the risk of having random development files floating around the codebase that screw up the package.)
+Create a fresh clone of the Wagtail repo, and check out the appropriate 'stable' branch.
+
+        git clone https://github.com/torchbox/wagtail.git
+        cd wagtail
+        git checkout stable/1.<x>.x
+
+(Using a Vagrant dev instance will not work: running the setup.py command within Vagrant will fail because it creates symlinks, which aren't supported by Virtualbox shared folders; and running it on the host machine will fail because it will try to run the copy of node-sass in node_modules, which is built for the VM's architecture. Also, by creating a fresh clone, we minimise the risk of having random development files floating around the codebase that screw up the package.)
 
 From the root of the wagtail codebase, run:
 
