@@ -84,6 +84,7 @@ replacing the version number as appropriate.
 ## Post-release
 
 * Update readthedocs so that the new version is visible and the 'stable' version points to it; if this is a minor point release, disable the docs for the previous minor release (see 'Documentation versions' below)
+* Close the milestone on https://github.com/torchbox/wagtail/milestones
 * Email wagtail@googlegroups.com with the release announcement
 * Blog and tweet about it
 
