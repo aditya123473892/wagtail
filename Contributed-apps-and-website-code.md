@@ -35,6 +35,8 @@ Also on Github:
 - https://github.com/takeflight/wagtail-readability
 - https://github.com/springload/wagtailembedder
 - https://github.com/springload/wagtailgmaps
+- https://github.com/isotoma/wagtailtinymce
+- https://github.com/jaydensmith/wagtailfroala
 
 #### Streamfield
 
