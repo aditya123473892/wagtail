@@ -8,15 +8,9 @@ An issue must always correspond to a specific action with a well-defined complet
 
 Do not use issues for support queries or other questions ("How do I do X?" - although "Implement a way of doing X" or "Document how to do X" could well be valid issues).
 
-As soon as a ticket is opened - ideally within one day - a member of the core team will give it an initial classification, by either closing it as invalid or assigning it to a milestone. This classification isn't permanent, and may be changed at any time in response to user feedback. To that end:
+As soon as a ticket is opened - ideally within one day - a member of the core team will give it an initial classification, by either closing it as invalid or assigning it to a milestone. Don't be discouraged if you feel that your ticket has been given a lower priority than it deserves - this decision isn't permanent. We will consider all feedback, and reassign or reopen tickets where appropriate.
 
-* Feedback via comments and reactions on the issue is always welcome - before and after it's been classified; from core and non-core contributors; on open and closed tickets. This includes:
-	* straightforward :thumbsup:s / :thumbsdown:s
-	* arguments about whether the proposal is or isn't a good idea
-	* for bug reports, confirmation that it's a genuine bug and further details of how to replicate it
-	* for feature requests, suggestions about how it could be implemented
-* The core team member doing the classification should feel free to make bold unilateral decisions - there's no need for them to seek consensus first.
-* Don't be put off if your issue gets closed or de-prioritised - that decision isn't final.
+(From the other side, this means that the core team member doing the classification should feel free to make bold unilateral decisions - there's no need to seek consensus first. If they make the wrong judgment call, that can always be reversed later.)
 
 The possible milestones that it might be assigned to are as follows:
 
