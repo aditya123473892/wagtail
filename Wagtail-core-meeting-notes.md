@@ -10,7 +10,7 @@
 
 #### Public meeting notes
 
-Starting 29.06.2016 we will share meeting notes. We decided to start on Github wiki page, but probably we will move them into separate repo and will create pull requests for discussions (something like [reactjs/core-notes](https://github.com/reactjs/core-notes)).
+Starting 29.06.2016 we will share meeting notes. We're starting them on this Wiki page, but we'll probably move them into a separate repo with pull requests for discussions (something like [reactjs/core-notes](https://github.com/reactjs/core-notes)).
 
 #### Wagtail 1.6rc1 and 1.7rc1 release dates
 * 1.6 - August 1st
@@ -37,7 +37,7 @@ Starting 29.06.2016 we will share meeting notes. We decided to start on Github w
 
 **Tom Dyson**
 * Create a style guide for screenshots in docs
-* Move of roadmap to Trello
+* Move roadmap to Trello
 
 **Mikalai Radchuk**
 * Create meeting notes on Github wiki
