@@ -90,6 +90,7 @@ Also on Github:
 - https://github.com/takeflight/wagtail-metadata
 - https://github.com/tomdyson/wagalytics (Google Analytics in Wagtail admin)
 - https://github.com/torchbox/wagtailsurveys (Polls and surveys in Wagtail admin)
+- https://github.com/chrisdev/django-wagtail-feeds (RSS feeds, supports Facebook Instant Articles and Apple News)
 
 ## Snippets
 
