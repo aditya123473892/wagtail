@@ -1,3 +1,26 @@
+## 06.07.2016
+
+### Attendees
+* [Matthew Westcott](https://github.com/gasman)
+* [Karl Hobley](https://github.com/kaedroho)
+* [Tom Dyson](https://github.com/tomdyson)
+* [Mikalai Radchuk](https://github.com/m1kola)
+
+### Actions
+
+**Tom Dyson**
+* Promote [wagtailsurveys](https://github.com/torchbox/wagtailsurveys) and [wagtailmedia](https://github.com/torchbox/wagtailmedia) modules
+    * There is [the pull request](https://github.com/torchbox/wagtail/pull/2617) that backports this functionality into the Wagtail core (into `wagtailforms`)
+
+#### Uncompleted actions
+**Matthew Westcott**
+* Send initial email to wagtail-developers to get people back in the loop - everyone to announce things on there when appropriate
+* Collect thoughts on RTE / Draft next steps
+
+**Tom Dyson**
+* Create a style guide for screenshots in docs
+
+
 ## 29.06.2016
 
 ### Attendees
