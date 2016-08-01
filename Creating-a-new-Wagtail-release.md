@@ -10,9 +10,9 @@
 
 ## Prerequisites
 
-You will need the `wheel` package (`pip install wheel` from a fresh empty virtualenv will work fine) and a working Node/NPM build on your host machine.
+You will need the `wheel` and `twine` packages (`pip install wheel`, `pip install twine` from a fresh empty virtualenv will work fine) and a working Node/NPM build on your host machine.
 
-## Packaging dry run
+## Package build
 
 Create a fresh clone of the Wagtail repo, and check out the appropriate 'stable' branch.
 
@@ -50,14 +50,11 @@ From https://github.com/torchbox/wagtail/releases, click 'Draft a new release':
 
 ## PyPI
 
-From the root of the checkout you created in 'Packaging dry run', and with the correct branch checked out, run:
+_At the moment (Aug 2016) PyPI and Python deployment tools seem to be totally in limbo over whether they require HTTP vs HTTPS, which API endpoints to use and so on. The following steps work, even if they're a bit rubbish:_
 
-        python ./setup.py register
-
-You will be prompted for a PyPI username/password - search pwman for 'pypi'. (If you're already logged in under your personal pypi account, edit `~/.pypirc` with the Torchbox details. Or ask [@gasman](https://github.com/gasman) to add your own account as a maintainer of wagtail...). Then run:
-
-        python ./setup.py sdist upload
-        python ./setup.py bdist_wheel upload
+* Log in to https://pypi.python.org/ (search pwman for 'pypi', or ask [@gasman](https://github.com/gasman) to add your own account as a maintainer of wagtail) and visit https://pypi.python.org/pypi?%3Aaction=submit_form
+* Under option 2 "upload your PKG-INFO file", select the file wagtail.egg-info/PKG-INFO from your checkout and 'Add Package Info'
+* From the root of your checkout, run: `twine upload dist/*`
 
 The new version should now be up on https://pypi.python.org/pypi/wagtail .
 
