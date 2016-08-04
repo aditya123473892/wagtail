@@ -12,7 +12,7 @@
 
 The release candidate for Wagtail 1.6 was released on 1st of August, as planned.
 
-Please try this version on your projects and report [an issue](https://github.com/torchbox/wagtail/issues if you find any problems.
+Please try this version on your projects and report [an issue](https://github.com/torchbox/wagtail/issues) if you find any problems.
 
 #### Django 1.10 support
 
