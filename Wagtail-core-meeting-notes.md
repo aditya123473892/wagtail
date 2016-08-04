@@ -1,3 +1,67 @@
+## 03.08.2016
+
+### Attendees
+* [Matthew Westcott](https://github.com/gasman)
+* [Karl Hobley](https://github.com/kaedroho)
+* [Tom Dyson](https://github.com/tomdyson)
+* [Mikalai Radchuk](https://github.com/m1kola)
+
+### Discussions
+
+#### 1.6rc1
+
+Release candidate for Wagtail 1.6 was released on 1st of August, as planned.
+
+Please, try this version on your projects and report [an issue](https://github.com/torchbox/wagtail/issues) or submit a pull request, if any problem.
+
+#### Django 1.10 support
+
+Django 1.10 had been released on 1st of August. We are going to release 1.6 with full support.
+
+Please, try Wagtail 1.6rc1 together with Django 1.10.
+
+#### Roadmap
+
+[Roadmap](https://trello.com/b/h9qi3N6V/wagtail-roadmap) had been updated. Now it contains planned features for 1.7.
+
+1.7rc1 planned for October 1st.
+
+#### wagtailmedusa
+
+We need to decide what to do about wagtailmedusa (see [#2504](https://github.com/torchbox/wagtail/issues/2504) for details).
+
+Ideas:
+* Remove from the main repo and leave as is (django-medusa also is unmaintained)
+* Replace with an alternative (based on django-bakery or something else)
+* Update django-medusa and wagtailmedusa to be compatible with Django 1.8+
+
+### Actions
+
+**Tom Dyson**
+* Ask Josh re Draft progress (PR?) and React Explorer progress
+* Write on reviewers needed, contact developers / agencies directly
+* Find funding for medusa replacement
+
+**Matthew Westcott**
+* Write short blog post on limiting explorer
+
+
+**Karl Hobley**
+* Write blog post on cropping
+
+
+#### Uncompleted actions
+**Matthew Westcott**
+* Send initial email to wagtail-developers to get people back in the loop - everyone to announce things on there when appropriate
+* Collect thoughts on RTE / Draft next steps
+
+**Tom Dyson**
+* Create a style guide for screenshots in docs
+* Promote [wagtailsurveys](https://github.com/torchbox/wagtailsurveys) and [wagtailmedia](https://github.com/torchbox/wagtailmedia) modules
+    * There is [the pull request](https://github.com/torchbox/wagtail/pull/2617) that backports this functionality into the Wagtail core (into `wagtailforms`)
+
+
+
 ## 06.07.2016
 
 ### Attendees
