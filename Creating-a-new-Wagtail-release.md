@@ -80,7 +80,11 @@ replacing the version number as appropriate.
 
 ## Post-release
 
-* Update readthedocs so that the new version is visible and the 'stable' version points to it; if this is a minor point release, disable the docs for the previous minor release (see 'Documentation versions' below)
+* Update readthedocs so that the new version is active by default:
+  * Go to https://readthedocs.org/dashboard/wagtail/versions/ and set 'Default version' to the new release
+  * Go to https://readthedocs.org/projects/wagtail/builds/ and republish ALL versions - this will update the 'canonical' URL in the HTML to point to the new version, hopefully preventing old versions from being indexed by Google
+  * If any documentation has been moved around since the previous release, now is a good time to add redirects via https://readthedocs.org/dashboard/wagtail/redirects/ . (Protip: [remember to add leading slashes on URLs](https://github.com/rtfd/readthedocs.org/issues/1826#issuecomment-247995569).)
+  * If this is a minor point release, disable the docs for the previous minor release by unticking it on https://readthedocs.org/dashboard/wagtail/versions/
 * Close the milestone on https://github.com/torchbox/wagtail/milestones
 * Email wagtail@googlegroups.com with the release announcement
 * Blog and tweet about it
@@ -98,12 +102,3 @@ For example, lets say we are releasing wagtail 0.5:
     - Delete RemovedInWagtail05Warning
     - Change RemovedInWagtail06Warning to a DeprecationWarning
     - Create a new warning called RemovedInWagtail07Warning which inherits from PendingDeprecationWarning
-
-## Documentation versions
-
-The Wagtail [documentation](http://docs.wagtail.io) is now versioned. To control which versions show up:
-
-* Go to [Read The Docs versions](https://readthedocs.org/dashboard/wagtail/versions/)
-    - Tick or untick the "active" checkbox next to the relevant tag (or branch) and save the form.
-* Go to ["Builds"](https://readthedocs.org/builds/wagtail/)
-  - Select the new version to build from the dropdown and click "Build version"
