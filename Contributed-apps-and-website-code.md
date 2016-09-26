@@ -37,6 +37,7 @@ Also on Github:
 - https://github.com/springload/wagtailgmaps
 - https://github.com/isotoma/wagtailtinymce
 - https://github.com/jaydensmith/wagtailfroala
+- https://github.com/takeflight/wagtail-charcount
 
 #### Streamfield
 
@@ -68,6 +69,7 @@ Also on Github:
 #### Media
 
 - https://github.com/torchbox/wagtailmedia (Audio and video files in Wagtail)
+- https://github.com/takeflight/wagtailvideos (Transcoded video files in Wagtail)
 
 #### Misc
 
