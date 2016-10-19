@@ -90,6 +90,7 @@ Also on Github:
 - https://github.com/springload/wagtail-django-recaptcha
 - https://github.com/alexgleason/wagtailerrorpages
 - https://github.com/takeflight/wagtail-metadata (HTML Metatag plugin)
+- https://github.com/bashu/wagtail-metadata-mixin (OpenGraph, Twitter Card and Google+ snippet tags)
 - https://github.com/tomdyson/wagalytics (Google Analytics in Wagtail admin)
 - https://github.com/torchbox/wagtailsurveys (Polls and surveys in Wagtail admin)
 - https://github.com/chrisdev/django-wagtail-feeds (RSS feeds, supports Facebook Instant Articles and Apple News)
