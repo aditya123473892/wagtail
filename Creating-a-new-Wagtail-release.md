@@ -1,7 +1,7 @@
 ## Before making a new release
 
 * A 'stable' branch should exist in git, e.g. "stable/0.4.x"
-* `wagtail/wagtailcore/__init__.py` should be updated with the new version number
+* `wagtail/__init__.py` should be updated with the new version number
 * `wagtail/project_template/requirements.txt` should specify the new version number, as a range (e.g. `wagtail>=1.5,<1.6`)
 * There should be a release notes page about the release in docs/releases/ - ensure that any IN DEVELOPMENT text is removed
 * Ensure that any deprecated features are mentioned in the "Upgrade considerations" section of the release notes
