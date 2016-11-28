@@ -92,14 +92,23 @@ replacing the version number as appropriate.
 
 ### Clean-up
 
-* Update deprecated features:
-    - Delete features deprecated in this release
-    - Update wagtail.utils.deprecation
+#### Update deprecated features
 
-For example, lets say we are releasing wagtail 0.5:
+ - Delete features deprecated in this release
+ - Update wagtail.utils.deprecation
 
-1. Look for RemovedInWagtail05Warning messages and remove the features they are warning about
+For example, lets say we are releasing wagtail 3.5:
+
+1. Look for RemovedInWagtail35Warning messages and remove the features they are warning about
 2. In wagtail.utils.deprecation:
-    - Delete RemovedInWagtail05Warning
-    - Change RemovedInWagtail06Warning to a DeprecationWarning
-    - Create a new warning called RemovedInWagtail07Warning which inherits from PendingDeprecationWarning
+    - Delete RemovedInWagtail35Warning
+    - Change RemovedInWagtail36Warning to a DeprecationWarning
+    - Create a new warning called RemovedInWagtail37Warning which inherits from PendingDeprecationWarning
+
+#### Drop support for old versions of Django
+
+Search the code base for `django.VERSION` and `DJANGO_VERSION`. Remove any code for versions of Django that are no longer supported in future releases. Look in `setup.py` to check which versions of Django are currently supported.
+
+#### Remove old `versionadded` notes in the docs
+
+`versionadded` notes for old versions of Wagtail should be removed from the docs. `versionadded` tags are kept for two releases. If Wagtail 3.5 had just been released, `versionadded` notes from version `3.4` should be dropped. This will leave `versionadded` notes for only version 3.5 in the docs, with notes added for 3.6 being added for the next release.
