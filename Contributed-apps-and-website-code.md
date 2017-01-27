@@ -6,7 +6,7 @@ Edit this page and use a new row in the table below to add your Wagtail app/plug
 
 The following is a selection of sites with source code available:
 
-- [Made with Wagtail](https://github.com/springload/wagtailsites)
+- [Made with Wagtail](https://github.com/springload/madewithwagtail)
 - [torchbox.com](https://github.com/torchbox/wagtail-torchbox)
 - [wagtaildemo](https://github.com/torchbox/wagtaildemo)
 - [RCA](https://github.com/torchbox/verdant-rca)
