@@ -31,7 +31,7 @@ Once this is done, run
 
     python ./get-translator-credits.py
 
-(NB currently Python2 only) and update CONTRIBUTORS.txt with any translators / languages not already mentioned. Also add a release note in CHANGELOG.txt and docs/releases for any new languages.
+and update CONTRIBUTORS.txt with any translators / languages not already mentioned. Also add a release note in CHANGELOG.txt and docs/releases for any new languages.
 
 # Generating new source files for translation
 
