@@ -79,6 +79,8 @@ replacing the version number as appropriate.
 
 (It will take up to a day for changes to propagate to the Cloudfront cache. If you need it to update faster than that, you can purge it through the horrible AWS interface... log in with the "Sysadmin Amazon" details from pwman, and the relevant operation to perform is "Create invalidation".)
 
+_The SSL certificate for releases.wagtail.io needs to be manually renewed once a year: https://projects.torchbox.com/projects/sysadmin/notebook/releases.wagtail.io.md_
+
 ## Post-release
 
 * Update readthedocs so that the new version is active by default:
