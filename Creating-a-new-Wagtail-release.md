@@ -64,6 +64,14 @@ The new version should now be up on https://pypi.python.org/pypi/wagtail .
   - install it in a clean virtualenv and check that "wagtail start myproject" creates a codebase that starts successfully under vagrant
   - bring up a fresh instance of wagtaildemo with the new version
 
+## Docs
+
+* Update readthedocs so that the new version is active by default:
+  * Go to https://readthedocs.org/dashboard/wagtail/versions/ and set 'Default version' to the new release
+  * Go to https://readthedocs.org/projects/wagtail/builds/ and republish ALL versions - this will update the 'canonical' URL in the HTML to point to the new version, hopefully preventing old versions from being indexed by Google
+  * If any documentation has been moved around since the previous release, now is a good time to add redirects via https://readthedocs.org/dashboard/wagtail/redirects/ . (Protip: [remember to add leading slashes on URLs](https://github.com/rtfd/readthedocs.org/issues/1826#issuecomment-247995569).)
+  * If this is a minor point release, disable the docs for the previous minor release by unticking it on https://readthedocs.org/dashboard/wagtail/versions/
+
 ## releases.wagtail.io
 
 Once the new release is out, please update https://releases.wagtail.io/latest.txt accordingly.
@@ -83,11 +91,6 @@ _The SSL certificate for releases.wagtail.io needs to be manually renewed once a
 
 ## Post-release
 
-* Update readthedocs so that the new version is active by default:
-  * Go to https://readthedocs.org/dashboard/wagtail/versions/ and set 'Default version' to the new release
-  * Go to https://readthedocs.org/projects/wagtail/builds/ and republish ALL versions - this will update the 'canonical' URL in the HTML to point to the new version, hopefully preventing old versions from being indexed by Google
-  * If any documentation has been moved around since the previous release, now is a good time to add redirects via https://readthedocs.org/dashboard/wagtail/redirects/ . (Protip: [remember to add leading slashes on URLs](https://github.com/rtfd/readthedocs.org/issues/1826#issuecomment-247995569).)
-  * If this is a minor point release, disable the docs for the previous minor release by unticking it on https://readthedocs.org/dashboard/wagtail/versions/
 * Close the milestone on https://github.com/torchbox/wagtail/milestones
 * Email wagtail@googlegroups.com with the release announcement
 * Blog and tweet about it
