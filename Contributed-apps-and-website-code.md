@@ -1,3 +1,5 @@
+> See [Awesome Wagtail](https://github.com/springload/awesome-wagtail) for a more up to date list.
+
 This is a provisional directory of third-party contributed Wagtail websites and apps.
 
 Edit this page and use a new row in the table below to add your Wagtail app/plugin/OSS site.
