@@ -6,6 +6,7 @@
 * There should be a release notes page about the release in docs/releases/ - ensure that any IN DEVELOPMENT text is removed
 * Ensure that any deprecated features are mentioned in the "Upgrade considerations" section of the release notes
 * CHANGELOG.txt should contain a section about the new release - ensure that the date is filled in, not left as xx.xx.20xx
+* The release should be listed in the 'compatible Django / Python versions' table in docs/releases/upgrading.rst
 * Update translations - see https://github.com/torchbox/wagtail/wiki/Managing-Wagtail-translations#fetching-new-translations-from-transifex
 * Confirm that the latest revision is passing on Travis (including Elasticsearch tests, which are marked as 'allow failures' to avoid false alarms during routine dev work, but we really do want to see them pass here)
 
