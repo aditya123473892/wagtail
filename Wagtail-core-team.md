@@ -7,6 +7,6 @@ The Wagtail core team are:
 - Tim Heap ([Takeflight](https://www.takeflight.com.au), Australia)
 - Thibaud Colas ([Springload](https://www.springload.co.nz), New Zealand)
 - Janneke Janssen ([Lukkien](https://www.lukkien.com), the Netherlands)
-- Mike Dingjan ([Lukkien](https://www.lukkien.com), the Netherlands)
+- Mike Dingjan ([Lab Digital](http://www.labdigital.nl), the Netherlands)
 - Rob Moorman ([Moor Interactive](https://www.moori.nl), the Netherlands)
 - Bertrand Bordage ([NoriPyt](https://noripyt.com), France)
