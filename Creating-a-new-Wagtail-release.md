@@ -52,11 +52,7 @@ From https://github.com/torchbox/wagtail/releases, click 'Draft a new release':
 
 ## PyPI
 
-_At the moment (Aug 2016) PyPI and Python deployment tools seem to be totally in limbo over whether they require HTTP vs HTTPS, which API endpoints to use and so on. The following steps work, even if they're a bit rubbish:_
-
-* Log in to https://pypi.python.org/ (search pwman for 'pypi', or ask [@gasman](https://github.com/gasman) to add your own account as a maintainer of wagtail) and visit https://pypi.python.org/pypi?%3Aaction=submit_form
-* Under option 2 "upload your PKG-INFO file", select the file wagtail.egg-info/PKG-INFO from your checkout and 'Add Package Info'
-* From the root of your checkout, run: `twine upload dist/*`
+From the root of your checkout, run: `twine upload dist/*`
 
 The new version should now be up on https://pypi.python.org/pypi/wagtail .
 
