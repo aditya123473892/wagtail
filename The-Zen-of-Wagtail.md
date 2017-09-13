@@ -14,6 +14,8 @@ A common mistake is to push too much power and responsibility into the hands of 
 
 ## A CMS should get information out of an editor's head and into a database, as efficiently and directly as possible.
 
+Keeping design concerns out of page content has numerous advantages. It ensures that the design remains consistent across the whole site, not subject to the whims of editors from one day to the next. It allows you to make full use of the informational content of the pages - for example, if your pages are about events, then having a dedicated "Event" page type with data fields for the event date and location will let you present the events in a calendar view or filtered listing, which wouldn't be possible if those were just implemented as different styles of heading on a generic page. Finally, if you redesign the site at some point in the future, or move it to a different platform entirely, you can be confident that the site content will work in its new setting, and not be reliant on being formatted a particular way.
+
 ## The best user interface for a programmer is usually a programming language.
 
 A common sight in content management systems is a point-and-click interface to let you define the data model that makes up a page:
