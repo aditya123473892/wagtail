@@ -10,4 +10,4 @@ The Wagtail core team are:
 - Rob Moorman ([Moor Interactive](https://www.moori.nl), the Netherlands, UTC +2)
 - Bertrand Bordage ([NoriPyt](https://noripyt.com), France, UTC +2)
 - Emily Horsman ([Little Weaver](https://littleweaverweb.com), Canada, UTC -4)
-- Loïc Teixeira ([Springload](https://www.springload.co.nz), Australia, UTC -10)
+- Loïc Teixeira ([Springload](https://www.springload.co.nz), Australia, UTC +10)
