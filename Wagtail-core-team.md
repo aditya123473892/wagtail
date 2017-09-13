@@ -4,7 +4,7 @@ The Wagtail core team are:
 - Karl Hobley ([Torchbox](https://www.torchbox.com), UK, UTC +1)
 - Mikalai Radchuk ([Torchbox](https://www.torchbox.com), UK, UTC +1)
 - Tom Dyson ([Torchbox](https://www.torchbox.com), UK, UTC +1)
-- Thibaud Colas ([Springload](https://www.springload.co.nz), ~Finland /~ NZ, ~EET-EEST UTC+2 - UTC+3 /~ NZDT-NZST UTC+12 - UTC+13)
+- Thibaud Colas ([Springload](https://www.springload.co.nz), NZ, NZST UTC+12)
 - Janneke Janssen ([Lukkien](https://www.lukkien.com), the Netherlands, UTC +2)
 - Mike Dingjan ([Lab Digital](http://www.labdigital.nl), the Netherlands, UTC +2)
 - Rob Moorman ([Moor Interactive](https://www.moori.nl), the Netherlands, UTC +2)
