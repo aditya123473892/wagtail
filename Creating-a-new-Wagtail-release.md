@@ -18,7 +18,7 @@ You will need the `wheel` and `twine` packages (`pip install wheel`, `pip instal
 
 Create a fresh clone of the Wagtail repo, and check out the appropriate 'stable' branch.
 
-    git clone https://github.com/torchbox/wagtail.git
+    git clone https://github.com/wagtail/wagtail.git
     cd wagtail
     git checkout stable/1.<x>.x
 
@@ -43,7 +43,7 @@ and confirm that the site starts up successfully at http://localhost:8000/ . Rep
 
 ## GitHub release
 
-From https://github.com/torchbox/wagtail/releases, click 'Draft a new release':
+From https://github.com/wagtail/wagtail/releases, click 'Draft a new release':
 
 * Tag version should be of the form "v0.4" - the target should be the stable/0.4.x branch (in practice, for a new 0.x version this will probably be identical to master)
 * Release title should be "0.4" (without the 'v')
