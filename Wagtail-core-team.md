@@ -7,7 +7,6 @@ The Wagtail core team are:
 - Thibaud Colas ([Springload](https://www.springload.co.nz), [Finland, EET/EEST UTC+2/3](https://www.timeanddate.com/time/zone/finland/helsinki))
 - Janneke Janssen ([Lukkien](https://www.lukkien.com), the Netherlands, UTC +2)
 - Mike Dingjan ([Lab Digital](http://www.labdigital.nl), the Netherlands, UTC +2)
-- Rob Moorman ([Moor Interactive](https://www.moori.nl), the Netherlands, UTC +2)
 - Bertrand Bordage ([NoriPyt](https://noripyt.com), France, UTC +2)
 - Emily Horsman ([Little Weaver](https://littleweaverweb.com), Canada, UTC -4)
 - Loïc Teixeira ([Springload](https://www.springload.co.nz), Australia, UTC +10)
