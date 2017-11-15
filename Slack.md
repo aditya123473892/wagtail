@@ -2,7 +2,7 @@
 
 The Wagtail Slack workspace is open to all users and developers of Wagtail. To join, head to: https://wagtail.io/slack/ 
 
-When posting to the group, please be respectful of people's time and attention - remember that this is a community resource, not a tech support hotline. In particular, please refrain from using **@here** notifications if your message doesn't absolutely need the attention of several hundred people!
+When posting to the group, please be respectful of people's time and attention - remember that this is a community resource, not a tech support hotline. In particular, please avoid using **@here** notifications, unless your message _absolutely_ needs the attention of several hundred people!
 
 ## #support
 
