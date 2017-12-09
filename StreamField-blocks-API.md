@@ -1,3 +1,5 @@
+**Warning**: This is a design document created during the design and development of the StreamField API for Wagtail 1.0, and may not be fully consistent with the final implementation as released. You are advised to cross-reference with the code: https://github.com/wagtail/wagtail/blob/master/wagtail/core/blocks/base.py
+
 # Shopping list: a worked example of the blocks API
 
 A core aim for the StreamField development is to allow content blocks to be nested to any depth. To achieve this, each block will implement a common API that defines how that block is inserted into the edit page, along with any Javascript or other resources that it depends on. Basic block types such as text fields and image choosers will implement this; this then opens up the possibility of creating 'structural' block types such as StructBlock (which embeds a collection of sub-blocks and presents them as a single block), ListBlock (which allows a sub-block to repeated any number of times) and StreamBlock (which provides the main mechanic of StreamField by embedding a collection of sub-blocks that can be repeated and mixed freely).
