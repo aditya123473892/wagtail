@@ -12,4 +12,4 @@ The Wagtail core team are:
 - Loïc Teixeira ([Springload](https://www.springload.co.nz), Australia, UTC +10)
 - Andy Chosak ([consumerfinance.gov](https://www.consumerfinance.gov), USA, UTC -4)
 - Will Barton ([consumerfinance.gov](https://www.consumerfinance.gov), USA, UTC -4)
-- LB Johnston ([lb.ee](https://lb.ee), nomadic!)
+- LB Johnston ([lb.ee](https://lb.ee), Australia, UTC +10)
