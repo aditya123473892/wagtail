@@ -33,7 +33,7 @@ Once this is done, run
 
 and update CONTRIBUTORS.txt with any translators / languages not already mentioned. Also add a release note in CHANGELOG.txt and docs/releases for any new languages.
 
-All languages with >= 90% coverage should be in the `WAGTAILADMIN_PROVIDED_LANGUAGES` list in [wagtail/wagtailadmin/utils.py](https://github.com/wagtail/wagtail/blob/master/wagtail/wagtailadmin/utils.py), whch defines the default list of languages under 'language preferences' in the admin. Compare this list against the progress list at https://www.transifex.com/torchbox/wagtail/languages/ and add any languages with >= 90% coverage not already listed.
+All languages with >= 90% coverage should be in the `WAGTAILADMIN_PROVIDED_LANGUAGES` list in [wagtail/admin/utils.py](https://github.com/wagtail/wagtail/blob/master/wagtail/admin/utils.py), whch defines the default list of languages under 'language preferences' in the admin. Compare this list against the progress list at https://www.transifex.com/torchbox/wagtail/languages/ and add any languages with >= 90% coverage not already listed.
 
 # Generating new source files for translation
 
