@@ -9,7 +9,7 @@ The Wagtail core team are:
 - Mike Dingjan ([Lab Digital](http://www.labdigital.nl), the Netherlands, UTC +2)
 - Bertrand Bordage ([NoriPyt](https://noripyt.com), France, UTC +2)
 - Emily Horsman ([Little Weaver](https://littleweaverweb.com), Canada, UTC -4)
-- Loïc Teixeira ([Springload](https://www.springload.co.nz), Australia, UTC +10)
+- Loïc Teixeira ([Springload](https://www.springload.co.nz), Australia, AEDT/UTC +10)
 - Andy Chosak ([consumerfinance.gov](https://www.consumerfinance.gov), USA, UTC -4)
 - Will Barton ([consumerfinance.gov](https://www.consumerfinance.gov), USA, UTC -4)
 - LB Johnston ([lb.ee](https://lb.ee), Australia, UTC +10)
