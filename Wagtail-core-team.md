@@ -4,7 +4,7 @@ The Wagtail core team are:
 - Karl Hobley ([Torchbox](https://www.torchbox.com), UK, UTC +1)
 - Mikalai Radchuk ([Torchbox](https://www.torchbox.com), UK, UTC +1)
 - Tom Dyson ([Torchbox](https://www.torchbox.com), UK, UTC +1)
-- Thibaud Colas (Finland, [EET/EEST UTC+2/3](https://www.timeanddate.com/time/zone/finland/helsinki))
+- [Thibaud Colas](https://twitter.com/thibaud_colas) (Finland, [EET/EEST UTC+2/3](https://www.timeanddate.com/time/zone/finland/helsinki))
 - Janneke Janssen ([Lukkien](https://www.lukkien.com), the Netherlands, UTC +2)
 - Mike Dingjan ([Lab Digital](http://www.labdigital.nl), the Netherlands, UTC +2)
 - Bertrand Bordage ([NoriPyt](https://noripyt.com), France, UTC +2)
