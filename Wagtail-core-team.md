@@ -13,3 +13,4 @@ The Wagtail core team are:
 - Andy Chosak ([consumerfinance.gov](https://www.consumerfinance.gov), USA, UTC -4)
 - Will Barton ([consumerfinance.gov](https://www.consumerfinance.gov), USA, UTC -4)
 - LB Johnston ([lb.ee](https://lb.ee), Australia, UTC +10)
+- Coen van der Kamp ([Four Digits](https://www.fourdigits.nl/), The Netherlands, UTC +2)
