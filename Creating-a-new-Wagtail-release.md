@@ -113,6 +113,6 @@ For example, lets say we are releasing wagtail 3.5:
 
 Search the code base for `django.VERSION` and `DJANGO_VERSION`. Remove any code for versions of Django that are no longer supported in future releases. Look in `setup.py` to check which versions of Django are currently supported.
 
-#### Remove old `versionadded` notes in the docs
+#### Remove old `versionadded` / `versionchanged` notes in the docs
 
-`versionadded` notes for old versions of Wagtail should be removed from the docs. `versionadded` tags are kept for two releases. If Wagtail 3.5 had just been released, `versionadded` notes from version `3.4` should be dropped. This will leave `versionadded` notes for only version 3.5 in the docs, with notes added for 3.6 being added for the next release.
+`versionadded` and `versionchanged` notes for old versions of Wagtail should be removed from the docs. These notes are kept for two releases. If Wagtail 3.5 had just been released, `versionadded` and `versionchanged` notes from version `3.4` should be dropped. This will leave notes for only version 3.5 in the docs, with notes added for 3.6 being added for the next release.
