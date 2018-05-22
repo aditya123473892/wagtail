@@ -26,6 +26,7 @@ Create a fresh clone of the Wagtail repo, and check out the appropriate 'stable'
 
 From the root of the wagtail codebase, run:
 
+    nvm use
     npm install
     python ./setup.py sdist
     python ./setup.py bdist_wheel
