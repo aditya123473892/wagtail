@@ -14,3 +14,5 @@ The Wagtail core team are:
 - Will Barton ([consumerfinance.gov](https://www.consumerfinance.gov), USA, UTC -4)
 - LB Johnston ([lb.ee](https://lb.ee), Australia, UTC +10)
 - Coen van der Kamp ([Four Digits](https://www.fourdigits.nl/), The Netherlands, UTC +2)
+- Codie Roelf ([Praekelt](https://www.praekelt.org/), Cape Town, UTC +2)
+- Lisa Adams ([Praekelt](https://www.praekelt.org/), Cape Town, UTC +2)
