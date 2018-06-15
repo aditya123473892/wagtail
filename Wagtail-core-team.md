@@ -10,7 +10,7 @@ The Wagtail core team are:
 - Bertrand Bordage ([NoriPyt](https://noripyt.com), France, UTC +2)
 - Loïc Teixeira ([Springload](https://www.springload.co.nz), Australia, AEDT/UTC +11)
 - Andy Chosak ([consumerfinance.gov](https://www.consumerfinance.gov), USA, UTC -4)
-- Will Barton ([consumerfinance.gov](https://www.consumerfinance.gov), USA, UTC -4)
+- [Will Barton](https://github.com/willbarton) ([consumerfinance.gov](https://www.consumerfinance.gov), USA, UTC -4)
 - LB Johnston ([lb.ee](https://lb.ee), Australia, UTC +10)
 - Coen van der Kamp ([Four Digits](https://www.fourdigits.nl/), The Netherlands, UTC +2)
 - Codie Roelf ([Praekelt](https://www.praekelt.org/), Cape Town, UTC +2)
