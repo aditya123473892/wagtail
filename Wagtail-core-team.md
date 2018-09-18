@@ -15,3 +15,4 @@ The Wagtail core team are:
 - Coen van der Kamp ([Four Digits](https://www.fourdigits.nl/), The Netherlands, UTC +2)
 - Codie Roelf ([Praekelt](https://www.praekelt.org/), Cape Town, UTC +2)
 - Lisa Adams ([Praekelt](https://www.praekelt.org/), Cape Town, UTC +2)
+- Naomi Morduch Toubman ([nmorduch.me](http://nmorduch.me), USA, UTC -4)
