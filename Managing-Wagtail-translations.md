@@ -6,8 +6,6 @@ This document is for Wagtail core developers. If you are looking to contribute t
 
     pip install transifex-client
 
-(You may need to switch to a Python 2 virtualenv - Python 3 is not supported as of transifex-client version 0.10)
-
 Create a `.transifexrc` file in your home directory containing the following:
 
     [https://www.transifex.com]
