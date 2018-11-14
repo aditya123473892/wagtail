@@ -12,7 +12,7 @@ The Wagtail core team are:
 - Andy Chosak ([consumerfinance.gov](https://www.consumerfinance.gov), USA, UTC -4)
 - [Will Barton](https://github.com/willbarton) ([consumerfinance.gov](https://www.consumerfinance.gov), USA, UTC -4)
 - LB Johnston ([lb.ee](https://lb.ee), Australia, UTC +10)
--  ([Four Digits](https://www.fourdigits.nl/), The Netherlands, UTC +2)
+- [Coen van der Kamp](https://github.com/allcaps) ([Four Digits](https://www.fourdigits.nl/), The Netherlands, UTC +2)
 - Codie Roelf ([Praekelt](https://www.praekelt.org/), Cape Town, UTC +2)
 - Lisa Adams ([Praekelt](https://www.praekelt.org/), Cape Town, UTC +2)
 - [Naomi Morduch Toubman](https://github.com/nmorduch) ([nmorduch.me](http://nmorduch.me), USA, [EST/EDT UTC-4/5](https://www.timeanddate.com/time/zone/usa/new-york))
