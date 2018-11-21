@@ -63,6 +63,7 @@ The Wagtail core team are:
   ([nmorduch](https://github.com/nmorduch))
   - USA,
     [UTC-4/5](https://www.timeanddate.com/time/zone/usa/new-york)
+  - Areas of interest: frontend, design, accessibility
 - Thibaud Colas
   ([thibaudcolas](https://github.com/thibaudcolas))
   - Finland,
