@@ -1,18 +1,78 @@
 The Wagtail core team are:
 
-- Matthew Westcott ([Torchbox](https://www.torchbox.com), UK, UTC +1)
-- Karl Hobley ([Torchbox](https://www.torchbox.com), UK, UTC +1)
-- Mikalai Radchuk ([Torchbox](https://www.torchbox.com), UK, UTC +1)
-- Tom Dyson ([Torchbox](https://www.torchbox.com), UK, UTC +1)
-- [Thibaud Colas](https://github.com/thibaudcolas) (Finland, [EET/EEST UTC+2/3](https://www.timeanddate.com/time/zone/finland/helsinki))
-- Janneke Janssen ([Lukkien](https://www.lukkien.com), the Netherlands, UTC +2)
-- Mike Dingjan ([Lab Digital](http://www.labdigital.nl), the Netherlands, UTC +2)
-- Bertrand Bordage ([NoriPyt](https://noripyt.com), France, UTC +2)
-- Loïc Teixeira ([Springload](https://www.springload.co.nz), Australia, AEDT/UTC +11)
-- Andy Chosak ([consumerfinance.gov](https://www.consumerfinance.gov), USA, UTC -4)
-- [Will Barton](https://github.com/willbarton) ([consumerfinance.gov](https://www.consumerfinance.gov), USA, UTC -4)
-- LB Johnston ([lb.ee](https://lb.ee), Australia, UTC +10)
-- [Coen van der Kamp](https://github.com/allcaps) ([Four Digits](https://www.fourdigits.nl/), The Netherlands, UTC +2)
-- Codie Roelf ([Praekelt](https://www.praekelt.org/), Cape Town, UTC +2)
-- Lisa Adams ([Praekelt](https://www.praekelt.org/), Cape Town, UTC +2)
-- [Naomi Morduch Toubman](https://github.com/nmorduch) ([nmorduch.me](http://nmorduch.me), USA, [EST/EDT UTC-4/5](https://www.timeanddate.com/time/zone/usa/new-york))
+- Andy Chosak
+  ([chosak](https://github.com/chosak))
+  - [consumerfinance.gov](https://www.consumerfinance.gov),
+    USA,
+    [UTC-4/5](https://www.timeanddate.com/time/zone/usa/new-york)
+- Bertrand Bordage
+  ([BertrandBordage](https://github.com/BertrandBordage))
+  - [NoriPyt](https://noripyt.com),
+    France,
+    [UTC+1/2](https://www.timeanddate.com/worldclock/france/paris)
+- Codie Roelf
+  - [Praekelt](https://www.praekelt.org/),
+    South Africa,
+    [UTC+2](https://www.timeanddate.com/worldclock/south-africa/cape-town)
+- Coen van der Kamp
+  ([allcaps](https://github.com/allcaps))
+  - [Four Digits](https://www.fourdigits.nl/),
+    the Netherlands,
+    [UTC+1/2](https://www.timeanddate.com/worldclock/netherlands/amsterdam)
+- Janneke Janssen
+  ([jjanssen](https://github.com/jjanssen))
+  - [Lukkien](https://www.lukkien.com),
+    the Netherlands,
+    [UTC+1/2](https://www.timeanddate.com/worldclock/netherlands/amsterdam)
+- Karl Hobley
+  ([kaedroho](https://github.com/kaedroho))
+  - [Torchbox](https://www.torchbox.com),
+    UK,
+    [UTC+0/1](https://www.timeanddate.com/worldclock/uk/oxford)
+- LB Johnston
+  ([lb-](https://github.com/lb-))
+  - [lb.ee](https://lb.ee),
+    Australia,
+    [UTC+10](https://www.timeanddate.com/worldclock/australia/brisbane)
+- Lisa Adams
+  - [Praekelt](https://www.praekelt.org/),
+    South Africa,
+    [UTC+2](https://www.timeanddate.com/worldclock/south-africa/cape-town)
+- Loïc Teixeira
+  ([loicteixeira](https://github.com/loicteixeira))
+  - [Springload](https://www.springload.co.nz),
+    Australia,
+    [UTC+10/11](https://www.timeanddate.com/worldclock/australia/sydney)
+- Matthew Westcott
+  ([gasman](https://github.com/gasman))
+  - [Torchbox](https://www.torchbox.com),
+    UK,
+    [UTC+0/1](https://www.timeanddate.com/worldclock/uk/oxford)
+- Mikalai Radchuk
+  ([m1kola](https://github.com/m1kola))
+  - [Torchbox](https://www.torchbox.com),
+    UK,
+    [UTC+0/1](https://www.timeanddate.com/worldclock/uk/oxford)
+- Mike Dingjan
+  ([mikedingjan](https://github.com/mikedingjan))
+  - [Lab Digital](http://www.labdigital.nl),
+    the Netherlands,
+    [UTC+1/2](https://www.timeanddate.com/worldclock/netherlands/amsterdam)
+- Naomi Morduch Toubman
+  ([nmorduch](https://github.com/nmorduch))
+  - USA,
+    [UTC-4/5](https://www.timeanddate.com/time/zone/usa/new-york)
+- Thibaud Colas
+  ([thibaudcolas](https://github.com/thibaudcolas))
+  - Finland,
+    [UTC+2/3](https://www.timeanddate.com/time/zone/finland/helsinki)
+- Tom Dyson
+  ([tomdyson](https://github.com/tomdyson))
+  - [Torchbox](https://www.torchbox.com),
+    UK,
+    [UTC+0/1](https://www.timeanddate.com/worldclock/uk/oxford)
+- Will Barton
+  ([willbarton](https://github.com/willbarton))
+  - [consumerfinance.gov](https://www.consumerfinance.gov),
+    USA,
+    [UTC-4/5](https://www.timeanddate.com/time/zone/usa/new-york)
