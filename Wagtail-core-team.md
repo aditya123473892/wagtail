@@ -48,6 +48,7 @@ The Wagtail core team are:
   - [Torchbox](https://www.torchbox.com),
     UK,
     [UTC+0/1](https://www.timeanddate.com/worldclock/uk/oxford)
+  - Areas of interest: overall architecture, backend, StreamField, modelcluster, rich text
 - Mikalai Radchuk
   ([m1kola](https://github.com/m1kola))
   - [Torchbox](https://www.torchbox.com),
