@@ -60,6 +60,7 @@ The Wagtail core team are:
     [UTC+1/2](https://www.timeanddate.com/worldclock/netherlands/amsterdam)
 - Naomi Morduch Toubman
   ([nmorduch](https://github.com/nmorduch))
+  - Frontend, design
   - USA,
     [UTC-4/5](https://www.timeanddate.com/time/zone/usa/new-york)
 - Thibaud Colas
