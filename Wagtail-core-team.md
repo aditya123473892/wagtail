@@ -40,9 +40,8 @@ The Wagtail core team are:
     [UTC+2](https://www.timeanddate.com/worldclock/south-africa/cape-town)
 - Loïc Teixeira
   ([loicteixeira](https://github.com/loicteixeira))
-  - [Springload](https://www.springload.co.nz),
-    Australia,
-    [UTC+10/11](https://www.timeanddate.com/worldclock/australia/sydney)
+  - France,
+    [UTC+1/2](https://www.timeanddate.com/worldclock/france/paris)
 - Matthew Westcott
   ([gasman](https://github.com/gasman))
   - [Torchbox](https://www.torchbox.com),
