@@ -72,6 +72,7 @@ The Wagtail core team are:
   - [Torchbox](https://www.torchbox.com),
     UK,
     [UTC+0/1](https://www.timeanddate.com/worldclock/uk/oxford)
+  - Areas of interest: community, documentation, performance, deployment
 - Will Barton
   ([willbarton](https://github.com/willbarton))
   - [consumerfinance.gov](https://www.consumerfinance.gov),
