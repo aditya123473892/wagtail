@@ -25,6 +25,7 @@ The Wagtail core team are:
   - [Lukkien](https://www.lukkien.com),
     the Netherlands,
     [UTC+1/2](https://www.timeanddate.com/worldclock/netherlands/amsterdam)
+  - Areas of interest: frontend, UX
 - Karl Hobley
   ([kaedroho](https://github.com/kaedroho))
   - [Torchbox](https://www.torchbox.com),
