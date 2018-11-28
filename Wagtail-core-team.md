@@ -10,6 +10,7 @@ The Wagtail core team are:
   - [NoriPyt](https://noripyt.com),
     France,
     [UTC+1/2](https://www.timeanddate.com/worldclock/france/paris)
+  - Areas of interest: backend, databases, search engines, StreamField
 - Codie Roelf
   - [Praekelt](https://www.praekelt.org/),
     South Africa,
