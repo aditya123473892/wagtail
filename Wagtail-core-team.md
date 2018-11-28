@@ -61,6 +61,7 @@ The Wagtail core team are:
   - [Lab Digital](http://www.labdigital.nl),
     the Netherlands,
     [UTC+1/2](https://www.timeanddate.com/worldclock/netherlands/amsterdam)
+  - Areas of interest: backend, performance, security, multi-language
 - Naomi Morduch Toubman
   ([nmorduch](https://github.com/nmorduch))
   - USA,
