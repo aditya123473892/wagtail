@@ -20,6 +20,7 @@ The Wagtail core team are:
   - [Four Digits](https://www.fourdigits.nl/),
     the Netherlands,
     [UTC+1/2](https://www.timeanddate.com/worldclock/netherlands/amsterdam)
+  - Areas of interest: community, organising sprints/events, design
 - Janneke Janssen
   ([jjanssen](https://github.com/jjanssen))
   - [Lukkien](https://www.lukkien.com),
