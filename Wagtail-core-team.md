@@ -37,6 +37,7 @@ The Wagtail core team are:
   - [lb.ee](https://lb.ee),
     Australia,
     [UTC+10](https://www.timeanddate.com/worldclock/australia/brisbane)
+  - Areas of interest: backend, modeladmin, React, JavaScript
 - Lisa Adams
   - [Praekelt](https://www.praekelt.org/),
     South Africa,
