@@ -45,7 +45,7 @@ The Wagtail core team are:
   ([loicteixeira](https://github.com/loicteixeira))
   - France,
     [UTC+1/2](https://www.timeanddate.com/worldclock/france/paris)
-  - Areas of interest: backend, static builds, StreamField, rich text
+  - Areas of interest: backend, static builds, StreamField, rich text and support
 - Matthew Westcott
   ([gasman](https://github.com/gasman))
   - [Torchbox](https://www.torchbox.com),
