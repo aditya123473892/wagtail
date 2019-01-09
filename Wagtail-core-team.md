@@ -76,6 +76,7 @@ The Wagtail core team are:
   ([thibaudcolas](https://github.com/thibaudcolas))
   - Finland,
     [UTC+2/3](https://www.timeanddate.com/time/zone/finland/helsinki)
+  - Areas of interest: Richtext, Draftail, frontend, accessibility
 - Tom Dyson
   ([tomdyson](https://github.com/tomdyson))
   - [Torchbox](https://www.torchbox.com),
