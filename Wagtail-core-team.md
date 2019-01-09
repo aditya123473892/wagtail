@@ -87,4 +87,4 @@ The Wagtail core team are:
   - [consumerfinance.gov](https://www.consumerfinance.gov),
     USA,
     [UTC-4/5](https://www.timeanddate.com/time/zone/usa/new-york)
-  - Areas of interest: backend, modeladmin
+  - Areas of interest: backend, community, modeladmin
