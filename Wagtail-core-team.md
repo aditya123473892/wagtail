@@ -28,6 +28,12 @@ The Wagtail core team are:
     the Netherlands,
     [UTC+1/2](https://www.timeanddate.com/worldclock/netherlands/amsterdam)
   - Areas of interest: frontend, UX
+- Jonny Scholes
+  ([jonnyscholes](https://github.com/jonnyscholes))
+  - [Takeflight](http://takeflight.com.au),
+    Tasmania, Australia,
+    [UTC+11](https://www.timeanddate.com/worldclock/australia/hobart)
+  - Areas of interest: frontend, UX, React, JavaScript
 - Karl Hobley
   ([kaedroho](https://github.com/kaedroho))
   - [Torchbox](https://www.torchbox.com),
