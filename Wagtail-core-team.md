@@ -16,6 +16,7 @@ The Wagtail core team are:
   - [Praekelt](https://www.praekelt.org/),
     South Africa,
     [UTC+2](https://www.timeanddate.com/worldclock/south-africa/cape-town)
+  - Areas of interest: headless CMS, organising sprints
 - Coen van der Kamp
   ([allcaps](https://github.com/allcaps))
   - [Four Digits](https://www.fourdigits.nl/),
@@ -50,6 +51,7 @@ The Wagtail core team are:
   - [Praekelt](https://www.praekelt.org/),
     South Africa,
     [UTC+2](https://www.timeanddate.com/worldclock/south-africa/cape-town)
+  - Areas of interest: user experience, organising sprints
 - Loïc Teixeira
   ([loicteixeira](https://github.com/loicteixeira))
   - France,
