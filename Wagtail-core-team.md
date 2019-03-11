@@ -51,7 +51,7 @@ The Wagtail core team are:
   - [Praekelt](https://www.praekelt.org/),
     South Africa,
     [UTC+2](https://www.timeanddate.com/worldclock/south-africa/cape-town)
-  - Areas of interest: user experience, organising sprints
+  - Areas of interest: user experience, organising sprints, content management user representation
 - Loïc Teixeira
   ([loicteixeira](https://github.com/loicteixeira))
   - France,
