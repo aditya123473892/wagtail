@@ -76,7 +76,7 @@ The Wagtail core team are:
   ([m1kola](https://github.com/m1kola))
   - [Torchbox](https://www.torchbox.com),
     UK,
-    [UTC+0/1](https://www.timeanddate.com/worldclock/uk/oxford)
+    [UTC+0/1](https://www.timeanddate.com/worldclock/uk/bristol)
   - Areas of interest: backend, API, community
 - Mike Dingjan
   ([mikedingjan](https://github.com/mikedingjan))
@@ -91,8 +91,9 @@ The Wagtail core team are:
   - Areas of interest: frontend, design, accessibility
 - Thibaud Colas
   ([thibaudcolas](https://github.com/thibaudcolas))
-  - Finland,
-    [UTC+2/3](https://www.timeanddate.com/time/zone/finland/helsinki)
+  - [Torchbox](https://www.torchbox.com),
+    UK,
+    [UTC+0/1](https://www.timeanddate.com/worldclock/uk/bristol)
   - Areas of interest: Richtext, Draftail, frontend, accessibility
 - Tom Dyson
   ([tomdyson](https://github.com/tomdyson))
