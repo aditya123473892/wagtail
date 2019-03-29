@@ -41,6 +41,9 @@ The Wagtail core team are:
     Tasmania, Australia,
     [UTC+11](https://www.timeanddate.com/worldclock/australia/hobart)
   - Areas of interest: frontend, UX, React, JavaScript
+- Kalob Taulien ([KalobTaulien](https://github.com/kalobtaulien))
+  - Canada, [UTC-6/7](https://www.timeanddate.com/worldclock/canada/edmonton)
+  - Areas of interest: backend, community, documentation
 - Karl Hobley
   ([kaedroho](https://github.com/kaedroho))
   - [Torchbox](https://www.torchbox.com),
