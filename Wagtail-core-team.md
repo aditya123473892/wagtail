@@ -1,5 +1,11 @@
 The Wagtail core team are:
 
+- Andy Babic
+  ([ababic](https://github.com/ababic))
+  - [Torchbox](https://www.torchbox.com),
+    UK,
+    [UTC+0/1](https://www.timeanddate.com/worldclock/uk/leicester)
+  - Areas of interest: overall architecture, modeladmin, backend, documentation
 - Andy Chosak
   ([chosak](https://github.com/chosak))
   - [consumerfinance.gov](https://www.consumerfinance.gov),
