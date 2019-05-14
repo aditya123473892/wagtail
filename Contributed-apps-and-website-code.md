@@ -61,7 +61,6 @@ Also on Github:
 #### E-commerce
 
 - https://github.com/SableWalnut/wagtailinvoices
-- https://github.com/mirumee/wagtail-saleor
 
 #### Security
 
