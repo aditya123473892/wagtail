@@ -7,7 +7,7 @@ To add new icons to the Wagtail icon font:
 * click 'Load', Add icons from library, Font Awesome -> Add
 * Select the icon(s) you want, then from the hamburger menu next to Wagtail, 'Copy selection to set'. Using the 'move' tool, move it to the end of the list
 * From the hamburger menu next to Wagtail, 'select all', then 'Generate font'. Make a note of the hex code for the icon(s) you've added, and then click 'Download'.
-* Unpack the zip file, and copy the contents of the 'fonts' folder to wagtail/admin/static_src/wagtailadmin/fonts/
+* Unpack the zip file, and copy the `.woff` file in the 'fonts' folder to wagtail/admin/static_src/wagtailadmin/fonts/
 * Click 'Selection', then:
 * From the hamburger menu next to Font Awesome, 'Remove Set'
 * from the hamburger menu next to Wagtail, 'Deselect' then 'Download JSON'; save it to wagtail/admin/static_src/wagtailadmin/fonts/wagtail-icomoon.json
