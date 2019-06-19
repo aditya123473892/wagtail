@@ -1,7 +1,7 @@
 We release Wagtail every three months:
 
  - August 1st 2019 (2.6)
- - November 1st 2019 (2.7)
+ - November 1st 2019 (2.7 - a Long Term Support release)
  - February 1st 2020 (2.8)
  - May 1st 2020 (2.9)
  - etc
