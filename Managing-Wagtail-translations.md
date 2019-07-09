@@ -14,16 +14,18 @@ Create a `.transifexrc` file in your home directory containing the following:
     password = mypassword
     hostname = https://www.transifex.com
 
+Create a `logs` directory alongside the root of your Wagtail codebase. (This will help manage the output of fetch-translations.sh, which is liable to produce more output than your console history can handle...)
+
 # Fetching new translations from Transifex
 
 To be done periodically, ideally just before a new Wagtail release. From the root of the wagtail codebase:
 
     cd scripts
-    ./fetch-translations.sh
+    ./fetch-translations.sh > ../../logs/translation.out 2>../../logs/translation.err
 
 and 'git add' any new folders that are created. However, don't add folders for territory-specific translations (e.g. `es_ES`) that are less complete than the corresponding generic translations (e.g. `es`), as these cause the generic ones to be blocked due to a Django bug: https://github.com/wagtail/wagtail/issues/3600
 
-**Important** - check the output of `fetch-translations.sh` for errors, and sanity-check the changes with `git status` / `git diff` before committing. Failures during the script's run can result in files erroneously being deleted.
+**Important** - check the log files in `logs/` for errors, and sanity-check the changes with `git status` / `git diff` before committing. Failures during the script's run can result in files erroneously being deleted.
 
 Once this is done, run
 
@@ -31,7 +33,7 @@ Once this is done, run
 
 and update CONTRIBUTORS.txt with any translators / languages not already mentioned. Also add a release note in CHANGELOG.txt and docs/releases for any new languages.
 
-All languages with >= 90% coverage should be in the `WAGTAILADMIN_PROVIDED_LANGUAGES` list in [wagtail/admin/utils.py](https://github.com/wagtail/wagtail/blob/master/wagtail/admin/utils.py), whch defines the default list of languages under 'language preferences' in the admin. Compare this list against the progress list at https://www.transifex.com/torchbox/wagtail/languages/ and add any languages with >= 90% coverage not already listed.
+All languages with >= 90% coverage should be in the `WAGTAILADMIN_PROVIDED_LANGUAGES` list in [wagtail/admin/utils.py](https://github.com/wagtail/wagtail/blob/master/wagtail/admin/utils.py), which defines the default list of languages under 'language preferences' in the admin. Compare this list against the progress list at https://www.transifex.com/torchbox/wagtail/languages/ and add any languages with >= 90% coverage not already listed.
 
 # Generating new source files for translation
 
