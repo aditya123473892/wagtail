@@ -29,9 +29,10 @@ and 'git add' any new folders that are created. However, don't add folders for t
 
 Once this is done, run
 
-    python ./get-translator-credits.py
+    python ./get-translator-credits.py > ../../logs/translators-YYYYMMDD.txt
+    diff -U10 ../../logs/translators-LAST_YYYYMMDD.txt ../../logs/translators-YYYYMMDD.txt
 
-and update CONTRIBUTORS.txt with any translators / languages not already mentioned. Also add a release note in CHANGELOG.txt and docs/releases for any new languages.
+and update CONTRIBUTORS.txt with any new translators / languages that show up in the diffs.
 
 All languages with >= 90% coverage should be in the `WAGTAILADMIN_PROVIDED_LANGUAGES` list in [wagtail/admin/utils.py](https://github.com/wagtail/wagtail/blob/master/wagtail/admin/utils.py), which defines the default list of languages under 'language preferences' in the admin. Compare this list against the progress list at https://www.transifex.com/torchbox/wagtail/languages/ and add any languages with >= 90% coverage not already listed.
 
