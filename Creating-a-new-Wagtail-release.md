@@ -60,7 +60,7 @@ The new version should now be up on https://pypi.python.org/pypi/wagtail .
 ## Testing the release
 
   - install it in a clean virtualenv and check that "wagtail start myproject" creates a codebase that starts successfully under vagrant
-  - bring up a fresh instance of wagtaildemo with the new version
+  - bring up a fresh instance of [bakerydemo](https://github.com/wagtail/bakerydemo) with the new version set in `requirements/base.txt`; if successful, commit the version bump to bakerydemo master
 
 ## Docs
 
