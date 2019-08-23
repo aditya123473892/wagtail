@@ -1,9 +1,26 @@
-We release Wagtail every three months:
-
- - August 1st 2019 (2.6)
- - November 1st 2019 (2.7 - a Long Term Support release)
- - February 1st 2020 (2.8)
- - May 1st 2020 (2.9)
- - etc
+New feature releases of Wagtail are released every three months. These releases provide new features, improvements and bugfixes, and are marked by incrementing the second part of the version number (for example, 2.6 to 2.7).
 
 The actual release date will be on the closest working day (in the UK), and depend on the successful testing of release candidates, which are made available at least two weeks ahead of the planned final release date.
+
+Additionally, patch releases will be issued as needed, to fix bugs and security issues. These are marked by incrementing the third part of the version number (for example, 2.6 to 2.6.1). Wherever possible, these releases will remain fully backwards compatible with the corresponding feature and not introduce any breaking changes.
+
+A feature release will usually stop receiving patch release updates when the next feature release comes out. However, selected feature releases are designated as Long Term Support (LTS) releases, and will continue to receive maintenance updates to address any security and data-loss related issues that arise. Typically, a Long Term Support release will happen once every four feature releases and receive updates for five feature releases, giving a support period of fifteen months with a three month overlap.
+
+Also, Long Term Support releases will ensure compatibility with at least one [Django Long Term Support release](https://www.djangoproject.com/download/#supported-versions).
+
+Exceptionally, with 2.0 introducing breaking changes, 1.13 was designated as LTS in addition to 1.12.
+
+| Version        | Release date           | Supported until     |
+| -------------- |:----------------------:| -------------------:|
+| 0.8 LTS        | November 2014          | March 2016          |
+| 1.4 LTS        | March 2016             | December 2016       |
+| 1.8 LTS        | December 2016          | August 2017         |
+| 1.12 LTS       | August 2017            | November 2018       |
+| 1.13 LTS       | October 2017           | April 2019          |
+| **2.3 LTS**    | **October 2018**       | **1 February 2020** |
+| 2.4            | 19 December 2018       | April 2019          |
+| 2.5            | 24 April 2019          | 1 August 2019       |
+| 2.6            | 1 August 2019          | 1 November 2019     |
+| **2.7 LTS**    | **1 November 2019**    | **1 February 2021** |
+| 2.8            | 1 February 2020        | 1 May 2020          |
+| 2.9            | 1 May 2020             | 1 August 2020       |
