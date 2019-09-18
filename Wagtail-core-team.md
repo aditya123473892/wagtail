@@ -86,7 +86,8 @@ The Wagtail core team are:
   - Areas of interest: backend, performance, security, multi-language, frontend
 - Naomi Morduch Toubman
   ([nmorduch](https://github.com/nmorduch))
-  - USA,
+  - [New America](https://www.newamerica.org/),
+    USA,
     [UTC-4/5](https://www.timeanddate.com/time/zone/usa/new-york)
   - Areas of interest: frontend, design, accessibility
 - Thibaud Colas
