@@ -29,6 +29,12 @@ The Wagtail core team are:
     the Netherlands,
     [UTC+1/2](https://www.timeanddate.com/worldclock/netherlands/amsterdam)
   - Areas of interest: community, organising sprints/events, design
+- Dan Braghis
+  ([zerolab](https://github.com/zerolab))
+  - [Torchbox](https://www.torchbox.com),
+    UK,
+    [UTC+0/1](https://www.timeanddate.com/worldclock/uk/leicester)
+  - Areas of interest: documentation, and many more
 - Janneke Janssen
   ([jjanssen](https://github.com/jjanssen))
   - [Lukkien](https://www.lukkien.com),
