@@ -35,7 +35,7 @@ The Wagtail core team are:
     UK,
     [UTC+0/1](https://www.timeanddate.com/worldclock/uk/leicester)
   - Areas of interest: documentation, and many more
-- Dawn Wages
+- Dawn Wages ([dawnwages](https://github.com/dawnwages))
   - https://glittertech.dev/
   - Philadelphia, USA - [UTC-4/5](https://www.timeanddate.com/time/zone/usa/new-york)
 - Janneke Janssen
