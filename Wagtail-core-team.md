@@ -37,7 +37,7 @@ The Wagtail core team are:
   - Areas of interest: documentation, and many more
 - Dawn Wages
   - https://glittertech.dev/
-  - [UTC-4/5](https://www.timeanddate.com/time/zone/usa/new-york)
+  - Philadelphia, USA - [UTC-4/5](https://www.timeanddate.com/time/zone/usa/new-york)
 - Janneke Janssen
   ([jjanssen](https://github.com/jjanssen))
   - [Lukkien](https://www.lukkien.com),
