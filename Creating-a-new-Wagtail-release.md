@@ -1,13 +1,19 @@
 ## Before making a new release
 
-* A 'stable' branch should exist in git, e.g. "stable/0.4.x"
-* `wagtail/__init__.py` should be updated with the new version number
-* `wagtail/project_template/requirements.txt` should specify the new version number, as a range (e.g. `wagtail>=1.5,<1.6`)
-* There should be a release notes page about the release in docs/releases/ - ensure that any IN DEVELOPMENT text is removed
-* Ensure that any deprecated features are mentioned in the "Upgrade considerations" section of the release notes
-* CHANGELOG.txt should contain a section about the new release - ensure that the date is filled in, not left as xx.xx.20xx
+* A 'stable' branch should exist in git, e.g. "stable/2.8.x"
+* There should be a release notes page about the release in docs/releases/ - ensure that any deprecated features are mentioned in the "Upgrade considerations" section
+* CHANGELOG.txt should contain a section about the new release
 * The release should be listed in the 'compatible Django / Python versions' table in docs/releases/upgrading.rst
 * Update translations - see https://github.com/torchbox/wagtail/wiki/Managing-Wagtail-translations#fetching-new-translations-from-transifex
+* **For a release candidate:** Generate new translation strings (https://github.com/wagtail/wagtail/wiki/Managing-Wagtail-translations#generating-new-source-files-for-translation) and announce through https://www.transifex.com/torchbox/wagtail/announcements/ that a new version is coming soon and needs translations
+* Update `wagtail/__init__.py` with the new version number
+  * For a release candidate: `VERSION = (2, 8, 0, 'rc', 1)`
+  * For a major release: `VERSION = (2, 8, 0, 'final', 1)`
+  * For a patch release: `VERSION = (2, 8, 1, 'final', 1)`
+* Update `wagtail/project_template/requirements.txt` with the new version number
+  * For a release candidate, use the exact version: `wagtail==2.8rc1`
+  * For a major or patch release, use a range covering the major release (e.g. `wagtail>=2.8,<2.9`)
+* **For a major or patch release:** fill in the release date in CHANGELOG.txt and remove any IN DEVELOPMENT text from the changelog and the release notes page
 * Confirm that the latest revision is passing on Travis (including Elasticsearch tests, which are marked as 'allow failures' to avoid false alarms during routine dev work, but we really do want to see them pass here)
 
 ## Prerequisites
@@ -68,7 +74,7 @@ The new version should now be up on https://pypi.python.org/pypi/wagtail .
   * Go to https://readthedocs.org/dashboard/wagtail/advanced/ and set 'Default version' to the new release
   * Go to https://readthedocs.org/projects/wagtail/builds/ and republish all versions from 1.8 onward - this will update the 'canonical' URL in the HTML to point to the new version, hopefully preventing old versions from being indexed by Google. (Older versions can no longer be built due to broken dependencies in docs/requirements.txt)
   * If any documentation has been moved around since the previous release, now is a good time to add redirects via https://readthedocs.org/dashboard/wagtail/redirects/ . (Protip: [remember to add leading slashes on URLs](https://github.com/rtfd/readthedocs.org/issues/1826#issuecomment-247995569).)
-  * If this is a minor point release, disable the docs for the previous minor release via https://readthedocs.org/projects/wagtail/versions/
+  * <s>If this is a minor point release, disable the docs for the previous minor release via https://readthedocs.org/projects/wagtail/versions/</s> (this now removes the version's docs entirely, rather than just hiding them from the menu)
 * Update docs in [Dash-User-Contributions](https://github.com/Kapeli/Dash-User-Contributions/tree/master/docsets/Wagtail) for offline docs apps [Dash](https://kapeli.com/dash) and [Zeal](https://zealdocs.org/).
   * Follow the instructions on the README.md and submit a pull request with updated docs.
 
