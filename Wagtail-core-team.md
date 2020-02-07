@@ -93,6 +93,11 @@ The Wagtail core team are:
     USA,
     [UTC-4/5](https://www.timeanddate.com/time/zone/usa/new-york)
   - Areas of interest: frontend, design, accessibility
+- Scott Cranfill
+  ([scotchester](https://github.com/scotchester))
+  - [consumerfinance.gov](https://www.consumerfinance.gov),
+    USA,
+    [UTC-4/5](https://www.timeanddate.com/time/zone/usa/new-york)
 - Thibaud Colas
   ([thibaudcolas](https://github.com/thibaudcolas))
   - [Torchbox](https://www.torchbox.com),
@@ -105,8 +110,3 @@ The Wagtail core team are:
     UK,
     [UTC+0/1](https://www.timeanddate.com/worldclock/uk/oxford)
   - Areas of interest: community, documentation, performance, deployment
-- Scott Cranfill
-  ([scotchester](https://github.com/scotchester))
-  - [consumerfinance.gov](https://www.consumerfinance.gov),
-    USA,
-    [UTC-4/5](https://www.timeanddate.com/time/zone/usa/new-york)
