@@ -105,9 +105,8 @@ The Wagtail core team are:
     UK,
     [UTC+0/1](https://www.timeanddate.com/worldclock/uk/oxford)
   - Areas of interest: community, documentation, performance, deployment
-- Will Barton
-  ([willbarton](https://github.com/willbarton))
+- Scott Cranfill
+  ([scotchester](https://github.com/scotchester))
   - [consumerfinance.gov](https://www.consumerfinance.gov),
     USA,
     [UTC-4/5](https://www.timeanddate.com/time/zone/usa/new-york)
-  - Areas of interest: backend, community, modeladmin
