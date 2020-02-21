@@ -100,6 +100,8 @@ _The SSL certificate for releases.wagtail.io needs to be manually renewed once a
 * Close the milestone on https://github.com/torchbox/wagtail/milestones
 * Email wagtail@googlegroups.com with the release announcement
 * Blog and tweet about it
+  * Share with https://django-news.com/
+  * Share with https://www.reddit.com/r/django/
 
 ### Clean-up
 
