@@ -38,6 +38,11 @@ The Wagtail core team are:
 - Dawn Wages ([dawnwages](https://github.com/dawnwages))
   - https://glittertech.dev/
   - Philadelphia, USA - [UTC-4/5](https://www.timeanddate.com/time/zone/usa/new-york)
+- Jacob Topp-Mugglestone
+  ([jacobtoppm](https://github.com/jacobtoppm))
+  - [Torchbox](https://www.torchbox.com),
+    UK,
+    [UTC+0/1](https://www.timeanddate.com/worldclock/uk/oxford)
 - Janneke Janssen
   ([jjanssen](https://github.com/jjanssen))
   - [Lukkien](https://www.lukkien.com),
