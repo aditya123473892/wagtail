@@ -4,6 +4,8 @@ The Wagtail Slack workspace is open to all users and developers of Wagtail. To j
 
 When posting to the group, please be respectful of people's time and attention - remember that this is a community resource, not a tech support hotline. In particular, please avoid using **@here** notifications, unless your message _absolutely_ needs the attention of several hundred people!
 
+As an alternative to Slack, there are also [Matrix rooms](https://riot.im/app/#/room/#wagtail:matrix.org) for Wagtail users and developers.
+
 ## #support
 
 Support queries about working with Wagtail should be directed to the #support channel. Support is provided by members of the Wagtail community on a voluntary basis, and we cannot guarantee that questions will be answered quickly (or at all). If you want to see this resource succeed, please consider sticking around to help out!
