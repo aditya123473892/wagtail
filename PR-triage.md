@@ -35,7 +35,7 @@ If you are interested to invest more time into unblocking others’ contribution
 - Needs docs: [`label:"status:Needs Docs" -label:"status:Needs Work"`](https://github.com/wagtail/wagtail/pulls?q=is%3Apr+is%3Aopen+sort%3Aupdated-desc+label%3A%22status%3ANeeds+Docs%22+-label%3A%22status%3ANeeds+Work%22+)
 - Needs tests: [`label:"status:Needs Tests" -label:"status:Needs Work"`](https://github.com/wagtail/wagtail/pulls?q=is%3Apr+is%3Aopen+sort%3Aupdated-desc+label%3A%22status%3ANeeds+Tests%22+-label%3A%22status%3ANeeds+Work%22+)
 
-### Needs work, but is marked as being something we want to "real soon now"
+### Needs work, but is marked as being something we want "real soon now"
 
 [`milestone:real-soon-now label:"status:Needs Work" `](https://github.com/wagtail/wagtail/pulls?q=is%3Apr+is%3Aopen+sort%3Aupdated-desc+milestone%3Areal-soon-now+label%3A%22status%3ANeeds+Work)
 
