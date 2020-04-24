@@ -1,4 +1,4 @@
-Here are links to the various bottlenecks of the contribution funnel, which core team members can use to unblock contributions. All of the filters below are built with `is:pr is:open sort:updated-desc` as a baseline. Those categories assume PRs are triaged properly – if anything is amiss feel free to relabel / change the milestone.
+Here are links to the various bottlenecks of the contribution funnel, which core team members can use to unblock contributions. All of the filters below are built with `is:pr is:open sort:updated-desc` as a baseline. This usage of filters assumes PRs are triaged properly – if anything is amiss feel free to relabel / change the milestone.
 
 ## Needs triage
 
