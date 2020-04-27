@@ -4,7 +4,7 @@ Here are links to the various bottlenecks of the contribution funnel, which core
 
 This queue should be easy to empty (😉). Take the time to label PRs according to the component they touch, their type, status. This is also a good time to make a first comment on the PR to thank the contributor, and flag anything obviously amiss with the PR – absence of description of the changes (or screenshots?), missing documentation updates or tests, broken tests in CI.
 
-[`no:label`](https://github.com/wagtail/wagtail/pulls?q=is%3Apr+is%3Aopen+sort%3Aupdated-desc+no%3Alabel)
+[`no:label`](https://github.com/wagtail/wagtail/pulls?q=is%3Apr+is%3Aopen+sort%3Aupdated-desc+no%3Alabel+draft%3Afalse)
 
 ## Ready to merge?
 
