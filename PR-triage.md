@@ -1,4 +1,4 @@
-Here are links to the various bottlenecks of the contribution funnel, which core team members can use to unblock contributions. All of the filters below are built with `is:pr is:open sort:updated-desc` as a baseline. This usage of filters assumes PRs are triaged properly – if anything is amiss feel free to relabel / change the milestone.
+Here are links to the various bottlenecks of the contribution funnel, which core team members can use to unblock contributions. All of the filters below are built with `is:pr is:open sort:updated-desc draft:false` as a baseline. This usage of filters assumes PRs are triaged properly – if anything is amiss feel free to relabel / change the milestone.
 
 ## Needs triage
 
@@ -10,19 +10,19 @@ This queue should be easy to empty (😉). Take the time to label PRs according 
 
 This either can be merged, or needs to be relabeled.
 
-[`review:approved -label:"status:Needs Review" -label:"status:Needs Work"`](https://github.com/wagtail/wagtail/pulls?q=is%3Apr+is%3Aopen+sort%3Aupdated-desc+review%3Aapproved+-label%3A%22status%3ANeeds+Review%22+-label%3A%22status%3ANeeds+Work)
+[`review:approved -label:"status:Needs Review" -label:"status:Needs Work"`](https://github.com/wagtail/wagtail/pulls?q=is%3Apr+is%3Aopen+draft%3Afalse+sort%3Aupdated-desc+review%3Aapproved+-label%3A%22status%3ANeeds+Review%22+-label%3A%22status%3ANeeds+Work+)
 
 ## Design decision needed
 
 We should aim to have this empty, as those PRs either need confirmation to go ahead, or should be closed to get a complete re-implementation. However it requires at least two core team members to meaningfully decide on these.
 
-[`label:"status:Needs Design Decision"`](https://github.com/wagtail/wagtail/pulls?q=is%3Apr+is%3Aopen+sort%3Aupdated-desc+label%3A%22status%3ANeeds+Design+Decision%22)
+[`label:"status:Needs Design Decision"`](https://github.com/wagtail/wagtail/pulls?q=is%3Apr+is%3Aopen+draft%3Afalse+sort%3Aupdated-desc+label%3A%22status%3ANeeds+Design+Decision%22+)
 
 ## Needs review
 
 The PR needs a review. Depending on the state of the PR it might be helpful for it to get a first high-level "diff looks good to me" review, or more in-depth "checkout locally and poke at it" review.
 
-[`label:"status:Needs Review"`](https://github.com/wagtail/wagtail/pulls?q=is%3Apr+is%3Aopen+sort%3Aupdated-desc+label%3A%22status%3ANeeds+Review%22)
+[`label:"status:Needs Review"`](https://github.com/wagtail/wagtail/pulls?q=is%3Apr+is%3Aopen+draft%3Afalse+sort%3Aupdated-desc+label%3A%22status%3ANeeds+Review%22+)
 
 ---
 
@@ -32,13 +32,14 @@ If you are interested to invest more time into unblocking others’ contribution
 
 ### Needs docs or tests (but not work)
 
-- Needs docs: [`label:"status:Needs Docs" -label:"status:Needs Work"`](https://github.com/wagtail/wagtail/pulls?q=is%3Apr+is%3Aopen+sort%3Aupdated-desc+label%3A%22status%3ANeeds+Docs%22+-label%3A%22status%3ANeeds+Work%22+)
-- Needs tests: [`label:"status:Needs Tests" -label:"status:Needs Work"`](https://github.com/wagtail/wagtail/pulls?q=is%3Apr+is%3Aopen+sort%3Aupdated-desc+label%3A%22status%3ANeeds+Tests%22+-label%3A%22status%3ANeeds+Work%22+)
+- Needs docs: [`label:"status:Needs Docs" -label:"status:Needs Work"`](https://github.com/wagtail/wagtail/pulls?q=is%3Apr+is%3Aopen+draft%3Afalse+sort%3Aupdated-desc+label%3A%22status%3ANeeds+Docs%22+-label%3A%22status%3ANeeds+Work%22+)
+- Needs tests: [`label:"status:Needs Tests" -label:"status:Needs Work"`](https://github.com/wagtail/wagtail/pulls?q=is%3Apr+is%3Aopen+draft%3Afalse+sort%3Aupdated-desc+label%3A%22status%3ANeeds+Tests%22+-label%3A%22status%3ANeeds+Work%22+)
 
 ### Needs work, but is marked as being something we want "real soon now"
 
-[`milestone:real-soon-now label:"status:Needs Work" `](https://github.com/wagtail/wagtail/pulls?q=is%3Apr+is%3Aopen+sort%3Aupdated-desc+milestone%3Areal-soon-now+label%3A%22status%3ANeeds+Work)
+[`milestone:real-soon-now label:"status:Needs Work" `](https://github.com/wagtail/wagtail/pulls?q=is%3Apr+is%3Aopen+draft%3Afalse+sort%3Aupdated-desc+milestone%3Areal-soon-now+label%3A%22status%3ANeeds+Work+)
 
-## References
+## Links
 
 - [GitHub search syntax](https://help.github.com/en/github/searching-for-information-on-github/understanding-the-search-syntax)
+- [Wagtail docs - committing code](https://docs.wagtail.io/en/latest/contributing/committing.html)
