@@ -10,7 +10,7 @@ This queue should be easy to empty (😉). Take the time to label PRs according 
 
 This either can be merged, or needs to be relabeled.
 
-[`review:approved -label:"status:Needs Review" -label:"status:Needs Work"`](https://github.com/wagtail/wagtail/pulls?q=is%3Apr+is%3Aopen+draft%3Afalse+sort%3Aupdated-desc+review%3Aapproved+-label%3A%22status%3ANeeds+Review%22+-label%3A%22status%3ANeeds+Work+)
+[`review:approved -label:"status:Needs Review" -label:"status:Needs Work"`](https://github.com/wagtail/wagtail/pulls?q=is%3Apr+is%3Aopen+draft%3Afalse+sort%3Aupdated-desc+review%3Aapproved+-label%3A%22status%3ANeeds+Review%22+-label%3A%22status%3ANeeds+Work%22)
 
 ## Design decision needed
 
