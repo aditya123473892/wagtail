@@ -23,7 +23,7 @@ To be done periodically, ideally just before a new Wagtail release. From the roo
     cd scripts
     ./fetch-translations.sh > ../../logs/translation.out 2>../../logs/translation.err
 
-and 'git add' any new folders that are created. However, don't add folders for territory-specific translations (e.g. `es_ES`) that are less complete than the corresponding generic translations (e.g. `es`), as these cause the generic ones to be blocked due to a Django bug: https://github.com/wagtail/wagtail/issues/3600
+and 'git add' any new folders that are created.
 
 **Important** - check the log files in `logs/` for errors, and sanity-check the changes with `git status` / `git diff` before committing. Failures during the script's run can result in files erroneously being deleted.
 
