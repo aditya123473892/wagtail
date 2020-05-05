@@ -37,7 +37,7 @@ If you are interested to invest more time into unblocking others’ contribution
 
 ### Needs work, but is marked as being something we want "real soon now"
 
-[`milestone:real-soon-now label:"status:Needs Work" `](https://github.com/wagtail/wagtail/pulls?q=is%3Apr+is%3Aopen+draft%3Afalse+sort%3Aupdated-desc+milestone%3Areal-soon-now+label%3A%22status%3ANeeds+Work+)
+[`milestone:real-soon-now label:"status:Needs Work" `](https://github.com/wagtail/wagtail/pulls?q=is%3Apr+is%3Aopen+draft%3Afalse+sort%3Aupdated-desc+milestone%3Areal-soon-now+label%3A%22status%3ANeeds+Work%22+)
 
 ## Links
 
