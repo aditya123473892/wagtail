@@ -29,6 +29,12 @@ The Wagtail core team are:
     the Netherlands,
     [UTC+1/2](https://www.timeanddate.com/worldclock/netherlands/amsterdam)
   - Areas of interest: community, organising sprints/events, design
+- Cynthia Kiser
+  ([cnk](https://github.com/cnk))
+  - [Caltech](https://www.caltech.edu/),
+    Los Angeles California USA,
+    [UTC+7/8](https://www.timeanddate.com/worldclock/usa/los-angeles)
+  - Areas of interest: backend, modeladmin, multitenancy
 - Dan Braghis
   ([zerolab](https://github.com/zerolab))
   - [Torchbox](https://www.torchbox.com),
