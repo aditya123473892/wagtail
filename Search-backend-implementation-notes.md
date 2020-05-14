@@ -4,7 +4,7 @@ Search backend implementation notes
 The SearchBackend class
 -----------------------
 
-Each search backend module defines a `SearchBackend` class which serves as the entry point for all code interfacing with `wagtail.search`. A search backend is obtained through the `get_search_backend` function:
+Each search backend module defines a `SearchBackend` class inheriting from `wagtail.search.backends.base.BaseSearchBackend` which serves as the entry point for all code interfacing with `wagtail.search`. A search backend is obtained through the `get_search_backend` function:
 
 `wagtail.search.backends.get_search_backend(backend_name='default', **kwargs)`
 
@@ -54,3 +54,18 @@ Postgres search only allows text to be indexed under one of four boost levels la
 
 Support for field length normalisation (to give matches in shorter fields higher weighting than matches in longer ones) is also limited - we are only able to normalise against the length of the full indexed content, not an individual field. [PR #6013](https://github.com/wagtail/wagtail/pull/6013/) works around this by special-casing fields named 'title' and placing them in their own index field.
 
+
+Searching
+---------
+
+The standard entry point for performing search queries is the `.search(query)` and `.autocomplete(query)` methods on QuerySets that inherit `wagtail.search.queryset.SearchableQuerySetMixin`. Here `query` is one of:
+
+* a query string
+* a query expression object (supported as of [PR #5953](https://github.com/wagtail/wagtail/pull/5953/)) - these allow complex queries to be built up as a tree structure, much like `Q()` expressions in the ORM. These objects do not implement any search logic of their own - they just define a backend-agnostic data structure for individual backends to interpret.
+* `None` (which is treated as "return all results")
+
+These methods simply call `get_search_backend` and delegate to the `search` / `autocomplete` method on that backend, which (in `BaseSearchBackend`) delegate to a shared implementation in the `_search` method. This proceeds as follows:
+
+* Creates an instance of `backend.query_compiler_class` (a subclass of `BaseSearchQueryCompiler`, which is responsible for transforming the query and queryset into a backend-specific search query)
+* Calls `check()` on this compiler instance, to verify that the query complies with the `search_fields` configuration, e.g. we are not performing a full-text search on a field that is only registered as a `FilterField`. (This is aimed at enforcing consistent behaviour across backends, so that a site using the database backend in development but Elasticsearch in production doesn't end up defining invalid queries that are possible in SQL but unsupported on Elasticsearch.)
+* Constructs and returns an instance of `backend.results_class` (a subclass of `BaseSearchResults`, which provides the results in iterable format much like an ORM queryset) wrapping this query compiler instance 
