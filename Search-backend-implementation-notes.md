@@ -68,4 +68,12 @@ These methods simply call `get_search_backend` and delegate to the `search` / `a
 
 * Creates an instance of `backend.query_compiler_class` (a subclass of `BaseSearchQueryCompiler`, which is responsible for transforming the query and queryset into a backend-specific search query)
 * Calls `check()` on this compiler instance, to verify that the query complies with the `search_fields` configuration, e.g. we are not performing a full-text search on a field that is only registered as a `FilterField`. (This is aimed at enforcing consistent behaviour across backends, so that a site using the database backend in development but Elasticsearch in production doesn't end up defining invalid queries that are possible in SQL but unsupported on Elasticsearch.)
-* Constructs and returns an instance of `backend.results_class` (a subclass of `BaseSearchResults`, which provides the results in iterable format much like an ORM queryset) wrapping this query compiler instance 
+* Constructs and returns an instance of `backend.results_class` (a subclass of `BaseSearchResults`, which provides the results in iterable format much like an ORM queryset) wrapping this query compiler instance
+
+
+The SearchQueryCompiler class
+-----------------------------
+
+What this class does is ultimately backend-specific; it just needs to provide an internal API that allows the (similarly backend-specific) SearchResults class to serve up results. However, one thing it will need to do is deconstruct the passed queryset so that any filters applied on it can be re-applied to the mechanism that's performing the search query. `BaseSearchQueryCompiler` provides base functionality for this, which all backends are expected to call, even if they run the final search query through an ORM call (and could thus use the queryset as-is rather than deconstructing it) - as with `SearchQueryCompiler.check()`, this ensures that all backends support the same common subset of ORM operations. (TODO: define what this subset is. Just `filter` and `exclude`?)
+
+Subclasses of `BaseSearchQueryCompiler` need to implement the methods `_process_lookup(field, lookup, value)` (which returns a backend-specific value representing the operation of filtering on a single field) and `_connect_filters(filters, connector, negated)` (which returns a backend-specific value representing the logical AND/OR/NOT of the sub-operations passed in `filters`). The `_get_filters_from_queryset()` method will then return the backend-specific representation of the complete filter expression defined on the queryset.
