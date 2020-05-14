@@ -87,6 +87,12 @@ The Wagtail core team are:
   - France,
     [UTC+1/2](https://www.timeanddate.com/worldclock/france/paris)
   - Areas of interest: backend, static builds, StreamField, rich text and support
+- Martin Sandström
+  ([marteinn](https://github.com/marteinn))
+  - [Fröjd](https://www.frojd.se),
+    Sweden,
+    [UTC+1/2](https://www.timeanddate.com/worldclock/sweden/stockholm)
+  - Areas of interest: backend, third party packages, react/headless and ssr, multitenancy
 - Matthew Westcott
   ([gasman](https://github.com/gasman))
   - [Torchbox](https://www.torchbox.com),
