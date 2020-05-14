@@ -41,8 +41,8 @@ Indexing - Elasticsearch-specific notes
 
 The main logic of `index.add_model` / `index.add_items` is delegated to an internal ElasticsearchMapping class which wraps an individual model's `search_fields` configuration and serves as an adapter between that model and Elasticsearch:
 
-* `add_model(model)` calls the adapter's `get_mapping()` method, which returns an Elasticsearch-readable JSON configuration
-* `add_item(item)` calls the adapter's `get_document(item)` method, which returns a JSON representation of the indexable data.
+* `add_model(model)` calls the adapter's `get_mapping()` method, which returns an Elasticsearch-readable JSON-like configuration
+* `add_item(item)` calls the adapter's `get_document(item)` method, which returns a JSON-like representation of the indexable data.
 
 The ElasticsearchMapping object will also be used when constructing search queries.
 
@@ -77,3 +77,25 @@ The SearchQueryCompiler class
 What this class does is ultimately backend-specific; it just needs to provide an internal API that allows the (similarly backend-specific) SearchResults class to serve up results. However, one thing it will need to do is deconstruct the passed queryset so that any filters applied on it can be re-applied to the mechanism that's performing the search query. `BaseSearchQueryCompiler` provides base functionality for this, which all backends are expected to call, even if they run the final search query through an ORM call (and could thus use the queryset as-is rather than deconstructing it) - as with `SearchQueryCompiler.check()`, this ensures that all backends support the same common subset of ORM operations. (TODO: define what this subset is. Just `filter` and `exclude`?)
 
 Subclasses of `BaseSearchQueryCompiler` need to implement the methods `_process_lookup(field, lookup, value)` (which returns a backend-specific value representing the operation of filtering on a single field) and `_connect_filters(filters, connector, negated)` (which returns a backend-specific value representing the logical AND/OR/NOT of the sub-operations passed in `filters`). The `_get_filters_from_queryset()` method will then return the backend-specific representation of the complete filter expression defined on the queryset.
+
+
+The `SearchResults` class
+------------------------
+
+`SearchResults` objects are constructed from a `SearchQueryCompiler` instance and provide the search results in iterable form. `BaseSearchResults` provides a base implementation that replicates the "lazy evaluation" behaviour of ORM querysets: queries are not performed until the results are explicitly accessed, slicing a not-yet-evaluated result set works by applying an offset and count to the query, and results are cached so that iterating over them multiple times does not re-run the query. Subclasses only need to provide a `_do_search()` and `_do_count()` method and optionally `facet(field_name)` (in which case they should also define `supports_facet = True`).
+
+The result of `_do_search()` should be an iterable of model instances; search backends that do not natively return ORM objects will thus need to follow the search query with a standard ORM query to fetch those objects by ID, and ensure that the ordering on the search query is preserved.
+
+
+Searching - Elasticsearch-specific notes
+----------------------------------------
+
+The Elasticsearch implementation of `_get_filters_from_queryset` returns a JSON-like Elasticsearch query expression to be inserted into the final query. The code for building the final query is split into `get_inner_query()` (which converts the `query` string/expression into a JSON-like query expression) and `get_query()` (which combines this with the filters from the queryset).
+
+Elasticsearch places a limit on the number of items that can be returned in a standard query; result sets of > 100 items (or ones that do not set a limit when querying) thus need to use Elasticsearch's scroll API. `ElasticsearchSearchResults._do_search` implements both methods, and transparently selects one or the other as required.
+
+
+Searching - PostgreSQL-specific notes
+-------------------------------------
+
+The Postgres implementation of `_get_filters_from_queryset` returns a `Q()` ORM expression.
