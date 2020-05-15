@@ -98,7 +98,7 @@ The Wagtail core team are:
   - [Torchbox](https://www.torchbox.com),
     UK,
     [UTC+0/1](https://www.timeanddate.com/worldclock/uk/oxford)
-  - Areas of interest: overall architecture, backend, StreamField, modelcluster, rich text
+  - Areas of interest: overall architecture, security, backend, StreamField, modelcluster
 - Mike Dingjan
   ([mikedingjan](https://github.com/mikedingjan))
   - [Lab Digital](http://www.labdigital.nl),
@@ -121,7 +121,7 @@ The Wagtail core team are:
   - [Torchbox](https://www.torchbox.com),
     UK,
     [UTC+0/1](https://www.timeanddate.com/worldclock/uk/bristol)
-  - Areas of interest: Richtext, Draftail, frontend, accessibility
+  - Areas of interest: Richtext, Draftail, frontend, accessibility, security
 - Tom Dyson
   ([tomdyson](https://github.com/tomdyson))
   - [Torchbox](https://www.torchbox.com),
