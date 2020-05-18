@@ -12,4 +12,4 @@ Here are our currently active sub teams.
 
 ## Past teams
 
-In the past, we’ve had the following teams:
+We don’t have any past teams yet 🙂.
