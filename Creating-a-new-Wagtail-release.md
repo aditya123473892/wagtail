@@ -102,6 +102,7 @@ _The SSL certificate for releases.wagtail.io needs to be manually renewed once a
 * Blog and tweet about it
   * Share with https://django-news.com/
   * Share with https://www.reddit.com/r/django/
+* Test [add-on packages in the Wagtail org](https://paper.dropbox.com/doc/Wagtail-organisation-subprojects--A0vEPub7dKgN_SsWZVYB6CZDAg-15Cg4kQNtE0LaJ6pVTrrQ) for compatibility and update as necessary
 
 ### Clean-up
 
