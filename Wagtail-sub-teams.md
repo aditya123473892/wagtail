@@ -12,8 +12,9 @@ Links: [Meeting notes](https://docs.google.com/document/d/1YUxOs5jYZMd8rX291mDE1
 
 ## Documentation
 
-TBD
-
-## Past teams
-
-We don’t have any past teams yet 🙂
+Documentation is a crucial part of the Wagtail open source project. It helps people get started, and  explains how to use Wagtail. Improving the documentation is the mission of the documentation team.
+Some long term goals are:
+- Reorganise the documentation into clear sections.
+- Move the user guide into a seperate project.
+- Start supporting translations.
+Please join the Documentation team. [#documentation](https://app.slack.com/client/T0K33F93J/C0152QK6PC6) on [Slack](https://github.com/wagtail/wagtail/wiki/Slack).
