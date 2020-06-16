@@ -1,5 +1,7 @@
 Sub teams supplement the [Wagtail core team](https://github.com/wagtail/wagtail/wiki/Wagtail-core-team) with more diverse teams focused on specific areas, each led by a member of the core team.
 
+> 🎉 [Announcing Wagtail sub teams](https://wagtail.io/blog/announcing-wagtail-sub-teams/)
+
 Here are our currently active sub teams:
 
 ## Accessibility
