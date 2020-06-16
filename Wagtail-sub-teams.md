@@ -14,7 +14,7 @@ Links: [Meeting notes](https://docs.google.com/document/d/1YUxOs5jYZMd8rX291mDE1
 
 ## Documentation
 
-Documentation is a crucial part of the Wagtail open source project. It helps people get started, and  explains how to use Wagtail. Improving the documentation is the mission of the documentation team.
+Documentation is a crucial part of the Wagtail open source project. It helps people get started, and explains how to use Wagtail. Improving the documentation is the mission of the documentation team.
 
 Some long term goals are:
 
