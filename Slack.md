@@ -16,3 +16,4 @@ Here are unofficial communication channels where you can find Wagtail users and 
 
 - [#wagtail Matrix rooms](https://riot.im/app/#/room/#wagtail:matrix.org)
 - [/r/WagtailCMS](https://www.reddit.com/r/WagtailCMS/)
+- IRC - #wagtail on Freenode
