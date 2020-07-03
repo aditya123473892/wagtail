@@ -70,11 +70,9 @@ The new version should now be up on https://pypi.python.org/pypi/wagtail .
 
 ## Docs
 
-* Update readthedocs so that the new version is active by default:
-  * Go to https://readthedocs.org/dashboard/wagtail/advanced/ and set 'Default version' to the new release
-  * Go to https://readthedocs.org/projects/wagtail/builds/ and republish all versions from 1.8 onward - this will update the 'canonical' URL in the HTML to point to the new version, hopefully preventing old versions from being indexed by Google. (Older versions can no longer be built due to broken dependencies in docs/requirements.txt)
-  * If any documentation has been moved around since the previous release, now is a good time to add redirects via https://readthedocs.org/dashboard/wagtail/redirects/ . (Protip: [remember to add leading slashes on URLs](https://github.com/rtfd/readthedocs.org/issues/1826#issuecomment-247995569).)
-  * <s>If this is a minor point release, disable the docs for the previous minor release via https://readthedocs.org/projects/wagtail/versions/</s> (this now removes the version's docs entirely, rather than just hiding them from the menu)
+_Now that we have the default documentation version pointing to `stable` instead of a specific release, readthedocs versioning should update itself automatically once the release tag exists in git._
+
+* If any documentation has been moved around since the previous release, now is a good time to add redirects via https://readthedocs.org/dashboard/wagtail/redirects/ . (Protip: [remember to add leading slashes on URLs](https://github.com/rtfd/readthedocs.org/issues/1826#issuecomment-247995569).)
 * Update docs in [Dash-User-Contributions](https://github.com/Kapeli/Dash-User-Contributions/tree/master/docsets/Wagtail) for offline docs apps [Dash](https://kapeli.com/dash) and [Zeal](https://zealdocs.org/).
   * Follow the instructions on the README.md and submit a pull request with updated docs.
 
