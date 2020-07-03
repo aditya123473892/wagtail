@@ -78,9 +78,9 @@ _Now that we have the default documentation version pointing to `stable` instead
 
 ## releases.wagtail.io
 
-Once the new release is out, please update https://releases.wagtail.io/latest.txt accordingly.
+Once the new release is out, please update https://releases.wagtail.io/latest.txt accordingly. You'll need AWS credentials for the S3 bucket and Cloudfront cache, which are held by the Torchbox sysadmins.
 
-Set up the AWS client, if you haven't already - `pip install awscli`, then `aws configure` and enter the credentials from pwman (Others -> Amazon -> Amazon Web Services).
+Set up the AWS client, if you haven't already - `pip install awscli`, then `aws configure` and enter the credentials.
 
 With the AWS client configured, run:
 
@@ -89,7 +89,7 @@ With the AWS client configured, run:
 
 replacing the version number as appropriate.
 
-(It will take up to a day for changes to propagate to the Cloudfront cache. If you need it to update faster than that, you can purge it through the horrible AWS interface... log in with the "Sysadmin Amazon" details from pwman, and the relevant operation to perform is "Create invalidation".)
+(It will take up to a day for changes to propagate to the Cloudfront cache. If you need it to update faster than that, someone with access to the AWS web console can purge it - the relevant operation to perform is "Create invalidation".)
 
 _The SSL certificate for releases.wagtail.io needs to be manually renewed once a year: https://projects.torchbox.com/projects/sysadmin/notebook/releases.wagtail.io.md_
 
