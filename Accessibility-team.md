@@ -10,7 +10,7 @@ We meet every two weeks to discuss everyone’s recent progress and next steps. 
 
 ---
 
-<!-- Insert meeting notes here: -->
+<!-- Insert meeting notes here, most recent first: -->
 
 ## First meeting: 2020-07-17
 
