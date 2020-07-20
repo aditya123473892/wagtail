@@ -16,7 +16,7 @@ Current members, from 01/08/2020 to 01/11/2020:
 
 We meet every two weeks on Fridays to discuss our work – 30min chat, discuss each others’ progress, take actions.
 
-Links: [Team charter](https://github.com/wagtail/wagtail/wiki/Accessibility-team) | [Future meetings](https://docs.google.com/document/d/1YUxOs5jYZMd8rX291mDE123xIK7tbD63PzSR9ooFa4c/edit) | [Past meetings](https://github.com/wagtail/wagtail/wiki/Accessibility-team) | [Team actions](https://github.com/wagtail/wagtail/projects/9)
+Links: [#accessibility on Slack](https://app.slack.com/client/T0K33F93J/CB7L6L5S6) | [Team charter](https://github.com/wagtail/wagtail/wiki/Accessibility-team) | [Future meetings](https://docs.google.com/document/d/1YUxOs5jYZMd8rX291mDE123xIK7tbD63PzSR9ooFa4c/edit) | [Past meetings](https://github.com/wagtail/wagtail/wiki/Accessibility-team) | [Team actions](https://github.com/wagtail/wagtail/projects/9)
 
 ## Documentation
 
