@@ -8,6 +8,8 @@ The team’s membership is open to all, introduce yourself in [#accessibility on
 
 We meet every two weeks to discuss everyone’s recent progress and next steps. At the end of each meeting, all participants should each have volunteered for an action, which they must complete before the next meeting. We track [team actions](https://github.com/wagtail/wagtail/projects/9) on GitHub. Meeting notes are public for future and past meetings. Meetings happen on Zoom, which is what the Wagtail core team uses, and also seems to be [one of the most accessible video call software](https://www.smashingmagazine.com/2020/06/accessible-video-conferencing-tools/).
 
+---
+
 <!-- Insert meeting notes here: -->
 
 ## First meeting: 2020-07-17
