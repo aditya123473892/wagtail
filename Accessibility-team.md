@@ -12,22 +12,14 @@ Attendees: Scott, Andreas, Thibaud
 ### Actions
 
 - Thibaud Identify Wagtail Space US accessibility good first issues
-
   - Either have different labels, or Projects board for “Websites’ accessibility”
-
 - Thibaud Prepare Wagtail Space talk
-
 - Andreas Finish PR for Site settings dropdown icon confusion
-
 - Scott Review icon transition PRs
-
 - Everyone Get in touch with colleagues / potential people interested in helping with accessibility
-
 - Bonus
-
   - Scott Open a new icon transition PRs
   - Thibaud What’s the most accessible video call software?
-
 
 ### Agenda
 
