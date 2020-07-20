@@ -1,1 +1,0 @@
-See https://github.com/wagtail/wagtail/projects/1
