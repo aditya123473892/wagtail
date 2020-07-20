@@ -8,9 +8,15 @@ Here are our currently active sub teams:
 
 The accessibility team focuses on improvements to the [accessibility of Wagtail](https://docs.wagtail.io/en/stable/contributing/developing.html#accessibility-targets), and of [websites built with Wagtail](https://github.com/wagtail/wagtail/issues/6090). Everyone is welcome regardless of skill level or background. Find us on the [Wagtail Slack](https://github.com/wagtail/wagtail/wiki/Slack) in [#accessibility](https://app.slack.com/client/T0K33F93J/CB7L6L5S6).
 
-We meet every two weeks to discuss our work (time TBC depending on participants) – 30min chat, discuss each others’ progress, take actions.
+Current members, from 01/08/2020 to 01/11/2020:
 
-Links: [Meeting notes](https://docs.google.com/document/d/1YUxOs5jYZMd8rX291mDE123xIK7tbD63PzSR9ooFa4c/edit) | [label:Accessibility issues](https://github.com/wagtail/wagtail/issues?q=is%3Aopen+sort%3Aupdated-desc+label%3AAccessibility).
+- Andreas Bernacca ([@rinti](https://github.com/rinti)), UTC + 1 or 2
+- Scott Cranfill ([@Scotchester](https://github.com/Scotchester)), UTC - 4 or 5
+- Thibaud Colas ([@thibaudcolas](https://github.com/thibaudcolas)), UTC + 0 or 1
+
+We meet every two weeks on Fridays to discuss our work – 30min chat, discuss each others’ progress, take actions.
+
+Links: [Future meetings](https://docs.google.com/document/d/1YUxOs5jYZMd8rX291mDE123xIK7tbD63PzSR9ooFa4c/edit) | [Past meetings](https://github.com/wagtail/wagtail/wiki/Accessibility-team) | [Team actions](https://github.com/wagtail/wagtail/projects/9)
 
 ## Documentation
 
