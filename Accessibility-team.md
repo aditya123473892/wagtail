@@ -1,8 +1,14 @@
 # Wagtail #accessibility team
 
-Links:[#accessibility on Slack](https://app.slack.com/client/T0K33F93J/CB7L6L5S6) \| [WCAG 2.1 AA project](https://github.com/wagtail/wagtail/projects/5) \| [label:Accessibility](https://github.com/wagtail/wagtail/issues?q=is%3Aopen+sort%3Aupdated-desc+label%3AAccessibility)
+Links: [#accessibility on Slack](https://app.slack.com/client/T0K33F93J/CB7L6L5S6) | [Team charter](https://github.com/wagtail/wagtail/wiki/Accessibility-team) | [Future meetings](https://docs.google.com/document/d/1YUxOs5jYZMd8rX291mDE123xIK7tbD63PzSR9ooFa4c/edit) | [Past meetings](https://github.com/wagtail/wagtail/wiki/Accessibility-team) | [Team actions](https://github.com/wagtail/wagtail/projects/9)
 
-The accessibility team focuses on improvements to the [accessibility of Wagtail](https://docs.wagtail.io/en/stable/contributing/developing.html#accessibility-targets), and of [websites built with Wagtail](https://github.com/wagtail/wagtail/issues/6090). Everyone is welcome regardless of skill level or background. Find us on the [Wagtail Slack](https://github.com/wagtail/wagtail/wiki/Slack) in [#accessibility](https://app.slack.com/client/T0K33F93J/CB7L6L5S6).
+## Team charter
+
+The team’s membership is open to all, introduce yourself in [#accessibility on Slack](https://app.slack.com/client/T0K33F93J/CB7L6L5S6) if you’re interested in joining. We currently operate with a membership term of 3 months, so people can commit for a short term, and then decide to proceed or stop.
+
+We meet every two weeks to discuss everyone’s recent progress and next steps. At the end of each meeting, all participants should each have volunteered for an action, which they must complete before the next meeting. We track [team actions](https://github.com/wagtail/wagtail/projects/9) on GitHub. Meeting notes are public for future and past meetings. Meetings happen on Zoom, which is what the Wagtail core team uses, and also seems to be [one of the most accessible video call software](https://www.smashingmagazine.com/2020/06/accessible-video-conferencing-tools/).
+
+<!-- Insert meeting notes here: -->
 
 ## First meeting: 2020-07-17
 
