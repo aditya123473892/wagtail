@@ -29,7 +29,7 @@ The PR needs a review. Depending on the state of the PR it might be helpful for 
 PRs that are ready for review should be assigned to a reviewer. The following list of people who volunteer to be assigned for review of new PRs. Please check this list regularly as reviewers can add and remove themselves based on their current capacity:
 
  - Karl Hobley @kaedroho
- - Matt Westcott @gasmanic
+ - Matt Westcott @gasman
  - Jacob Topp-Mugglestone @jacobtoppm
 
 Note: If you don't know the best person for the review, feel free to assign a random person. The reviewer is responsible for either reviewing the PR or passing it on to someone else on the list.
