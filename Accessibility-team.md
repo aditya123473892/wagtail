@@ -32,7 +32,7 @@ Attendees: Andreas, Scott, Thibaud
 
 ### Agenda
 
-- [Actions review](https://github.com/wagtail/wagtail/projects/9)
+- Actions review
 - ✅ Get in touch with colleagues / potential people interested in helping with accessibility -- Everyone
     - Jane from Torchbox, not participating in this very group, but working on accessibility of Wagtail sites with Thibaud over 3 months
     - Scott one colleague, not for now :)
