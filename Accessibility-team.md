@@ -33,16 +33,16 @@ Attendees: Andreas, Scott, Thibaud
 ### Agenda
 
 - Actions review
-- ✅ Get in touch with colleagues / potential people interested in helping with accessibility -- Everyone
+  - ✅ Get in touch with colleagues / potential people interested in helping with accessibility -- Everyone
     - Jane from Torchbox, not participating in this very group, but working on accessibility of Wagtail sites with Thibaud over 3 months
     - Scott one colleague, not for now :)
     - Andreas no luck
-- ✅ Identify Wagtail Space US accessibility good first issues @thibaudcolas
-- ✅ Prepare Wagtail Space US accessibility talk @thibaudcolas
+  - ✅ Identify Wagtail Space US accessibility good first issues @thibaudcolas
+  - ✅ Prepare Wagtail Space US accessibility talk @thibaudcolas
     - WIP: #6090 Document accessibility considerations
-- ✅ [Accessibility issue for dropdowns in Wagtail Admin](https://github.com/wagtail/wagtail/issues/6072) -- Andreas
+  - ✅ [Accessibility issue for dropdowns in Wagtail Admin](https://github.com/wagtail/wagtail/issues/6072) -- Andreas
     - Merged!
-- ✅ SVG Icons -- Scott
+  - ✅ SVG Icons -- Scott
 - Discussions
     - <https://github.com/fregante/github-issue-link-status>
     - <https://github.com/wagtail/wagtail/issues/3804>
