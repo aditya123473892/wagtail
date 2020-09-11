@@ -14,7 +14,52 @@ In-between meetings, we collaborate via Slack, using the [#accessibility](https:
 
 <!-- Insert meeting notes here, most recent first: -->
 
-## First meeting: 2020-07-17
+## 2020-09-11
+
+Attendees: Andreas, Scott, Thibaud
+
+### Actions
+
+- Thibaud to caption Wagtail Space US accessibility & pattern library talks
+- Thibaud Share DjangoCon on Slack
+- Thibaud Review & merge localstorage icons implementation <https://github.com/wagtail/wagtail/pull/6243>
+- Scott Look into ModelAdmin SVG icon support <https://github.com/wagtail/wagtail/issues/6379>
+- Thibaud Take on a couple items from <https://github.com/wagtail/wagtail/issues/6107>
+- Andreas Take on "Breadcrumb (home icon)" + 1 extra item if time from <https://github.com/wagtail/wagtail/issues/6107>
+- Thibaud Propose UI architecture rework to core team -- RFC
+- Andreas Review accessibility considerations docs WIP PR <https://github.com/wagtail/wagtail/pull/6272>
+- Scott Review accessibility considerations docs WIP PR <https://github.com/wagtail/wagtail/pull/6272>
+
+### Agenda
+
+- [Actions review](https://github.com/wagtail/wagtail/projects/9)
+- ✅ Get in touch with colleagues / potential people interested in helping with accessibility -- Everyone
+    - Jane from Torchbox, not participating in this very group, but working on accessibility of Wagtail sites with Thibaud over 3 months
+    - Scott one colleague, not for now :)
+    - Andreas no luck
+- ✅ Identify Wagtail Space US accessibility good first issues @thibaudcolas
+- ✅ Prepare Wagtail Space US accessibility talk @thibaudcolas
+    - WIP: #6090 Document accessibility considerations
+- ✅ [Accessibility issue for dropdowns in Wagtail Admin](https://github.com/wagtail/wagtail/issues/6072) -- Andreas
+    - Merged!
+- ✅ SVG Icons -- Scott
+- Discussions
+    - <https://github.com/fregante/github-issue-link-status>
+    - <https://github.com/wagtail/wagtail/issues/3804>
+    - [django-pattern-library](https://github.com/torchbox/django-pattern-library) for Wagtail
+        - Feedback from Naomi would be great, as well as other people with Wagtail UI architecture experience, Jonny, Janneke
+        - Mix of React and non-React code needs clarifying
+        - Jinja macros vs template tags?
+        - Jinja makes it possible to put more logic in templates
+        - Advise for caution
+        - Consider switching to Jinja? But not go so far as to fall into the "logic in templates" trap
+        - Testing logic in templates is tough (compared to Python)
+        - Scott's Wagtail solution: move logic to page models' get_context
+        - Refactoring justified for testability
+        - Would make it easier for people to understand the codebase (and contribute)
+        - <https://github.com/wagtail/wagtail/pull/6272>
+
+## 2020-07-17
 
 Attendees: Scott, Andreas, Thibaud
 
