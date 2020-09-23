@@ -33,6 +33,7 @@ PRs that are ready for review should be assigned to a reviewer. The following li
  - Jacob Topp-Mugglestone @jacobtoppm
  - Coen van der Kamp @allcaps
  - Andy Babic @ababic
+ - Dan Braghis @zerolab
 
 Note: If you don't know the best person for the review, feel free to assign a random person. The reviewer is responsible for either reviewing the PR or passing it on to someone else on the list.
 
