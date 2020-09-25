@@ -14,6 +14,45 @@ In-between meetings, we collaborate via Slack, using the [#accessibility](https:
 
 <!-- Insert meeting notes here, most recent first: -->
 
+## 2020-09-25  -- Bi-weekly catch-up  
+
+Attendees: Thibaud, Scott
+
+### Actions
+
+- Thibaud Take on SearchArea from <https://github.com/wagtail/wagtail/issues/6107>
+- Thibaud Take on SettingsMenuItem from <https://github.com/wagtail/wagtail/issues/6107>
+- Scott  Help text from 6107
+- Scott  Pagination from 6107
+- Scott Review accessibility considerations docs WIP PR <https://github.com/wagtail/wagtail/pull/6272>
+- Thibaud Propose UI architecture rework to core team -- RFC
+- Thibaud Attempt to revive <https://github.com/thibaudcolas/bakerydemo/commits/bakerydemo-thibaudcolas> but with nightly releases
+- Thibaud Ask Coen to join next accessibility team meeting
+
+### Agenda
+
+- Actions review
+  - ✅ Thibaud to caption Wagtail Space US accessibility & pattern library talks
+  - Thibaud Share DjangoCon on Slack
+  - ✅ Thibaud Review & merge localstorage icons implementation <https://github.com/wagtail/wagtail/pull/6243>
+  - ✅ Scott Look into ModelAdmin SVG icon support <https://github.com/wagtail/wagtail/issues/6379>
+  - PR: <https://github.com/wagtail/wagtail/pull/6402>
+  - Thibaud Take on a couple items from <https://github.com/wagtail/wagtail/issues/6107>
+  - Andreas Take on "Breadcrumb (home icon)" + 1 extra item if time from <https://github.com/wagtail/wagtail/issues/6107>
+  - Thibaud Propose UI architecture rework to core team -- RFC
+  - Andreas Review accessibility considerations docs WIP PR <https://github.com/wagtail/wagtail/pull/6272>
+  - Scott Review accessibility considerations docs WIP PR <https://github.com/wagtail/wagtail/pull/6272>
+- Automated accessibility tests
+  - <https://github.com/thibaudcolas/wagtail-tooling>
+  - <https://github.com/thibaudcolas/django_admin_tests>
+  - Bakerydemo running on Wagtail nightly?
+    - Needs locking down of content if used for automated tests
+- Discussions
+  - Icons progress for 2.11
+    - Still achievable
+    - Contact Coen
+    - About 2-3 weeks before the RC
+
 ## 2020-09-11
 
 Attendees: Andreas, Scott, Thibaud
