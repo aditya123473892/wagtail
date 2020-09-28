@@ -70,7 +70,7 @@ The Wagtail core team are:
   - [Torchbox](https://www.torchbox.com),
     UK,
     [UTC+0/1](https://www.timeanddate.com/worldclock/uk/oxford)
-  - Areas of interest: search, REST API, documentation, community
+  - Areas of interest: Developer Experience, Search, I18N, API, Architecture
 - LB Johnston
   ([lb-](https://github.com/lb-))
   - [lb.ee](https://lb.ee),
