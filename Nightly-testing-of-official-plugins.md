@@ -4,7 +4,11 @@ To remedy this, we recommend configuring the CI server to test plugins against W
 
 This document explains how to set this up with Circle CI. These instructions might be adaptable to other CI providers but this hasn't been tested.
 
-1) Add `.circleci/report_nightly_build_failure.py` with the following contents:
+1) Go into the CircleCI project settings and add the Slack webhook URL into the `SLACK_WEBHOOK_URL` environment variable.
+
+You can get this webhook from another project on Circle CI that has this configuration (such as `wagtail-localize`). Or ask Karl (@kaedroho).
+
+2) Add `.circleci/report_nightly_build_failure.py` with the following contents:
 
 ```python
 """
@@ -28,7 +32,7 @@ else:
     print("Unable to report to #nightly-build-failures slack channel because SLACK_WEBHOOK_URL is not set")
 ```
 
-2) Add a CircleCI Job that runs the tests against Wagtail master and schedule it to run nightly
+3) Add a CircleCI Job that runs the tests against Wagtail master and schedule it to run nightly
 
 ```yaml
 jobs:
@@ -73,7 +77,3 @@ workflows:
                 only:
                   - master
 ```
-
-3) Go into the CircleCI project settings and add the Slack webhook URL into the `SLACK_WEBHOOK_URL` environment variable.
-
-You can get this webhook from another project on Circle CI that has this configuration (such as `wagtail-localize`). Or ask Karl (@kaedroho).
