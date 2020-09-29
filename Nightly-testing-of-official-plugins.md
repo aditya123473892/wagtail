@@ -76,4 +76,4 @@ This document explains how to set this up with Circle CI. These instructions mig
                   branches:
                     only:
                       - master
-```
+    ```
