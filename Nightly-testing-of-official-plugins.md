@@ -34,7 +34,7 @@ else:
 jobs:
   # ... after your other jobs
 
-
+  # Add this bit
   nightly-wagtail-test:
     docker:
       - image: circleci/python:3.8
@@ -61,6 +61,7 @@ workflows:
       jobs:
         # your other jobs
 
+    # Add this bit
     nightly:
       jobs:
         - nightly-wagtail-test
