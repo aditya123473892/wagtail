@@ -6,31 +6,31 @@ This document explains how to set this up with Circle CI. These instructions mig
 
 1) Go into the CircleCI project settings and add the Slack webhook URL into the `SLACK_WEBHOOK_URL` environment variable.
 
-You can get this webhook from another project on Circle CI that has this configuration (such as `wagtail-localize`). Or ask Karl (@kaedroho).
+    You can get this webhook from another project on Circle CI that has this configuration (such as `wagtail-localize`). Or ask Karl (@kaedroho).
 
 2) Add `.circleci/report_nightly_build_failure.py` with the following contents:
 
-```python
-"""
-Called by CircleCI when the nightly build fails.
+   ```python
+    """
+    Called by CircleCI when the nightly build fails.
 
-This reports an error to the #nightly-build-failures Slack channel.
-"""
-import os
-import requests
+    This reports an error to the #nightly-build-failures Slack channel.
+    """
+    import os
+    import requests
 
-if 'SLACK_WEBHOOK_URL' in os.environ:
-    print("Reporting to #nightly-build-failures slack channel")
-    response = requests.post(os.environ['SLACK_WEBHOOK_URL'], json={
-        "text": "A Nightly build failed. See " + os.environ['CIRCLE_BUILD_URL'],
-    })
+    if 'SLACK_WEBHOOK_URL' in os.environ:
+        print("Reporting to #nightly-build-failures slack channel")
+        response = requests.post(os.environ['SLACK_WEBHOOK_URL'], json={
+            "text": "A Nightly build failed. See " + os.environ['CIRCLE_BUILD_URL'],
+        })
 
-    print("Slack responded with:", response)
-    print(response.content)
+        print("Slack responded with:", response)
+        print(response.content)
 
-else:
-    print("Unable to report to #nightly-build-failures slack channel because SLACK_WEBHOOK_URL is not set")
-```
+    else:
+        print("Unable to report to #nightly-build-failures slack channel because SLACK_WEBHOOK_URL is not set")
+    ```
 
 3) Add a CircleCI Job that runs the tests against Wagtail master and schedule it to run nightly
 
