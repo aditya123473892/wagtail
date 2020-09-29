@@ -34,46 +34,46 @@ This document explains how to set this up with Circle CI. These instructions mig
 
 3) Add a CircleCI Job that runs the tests against Wagtail master and schedule it to run nightly
 
-```yaml
-jobs:
-  # ... after your other jobs
+    ```yaml
+    jobs:
+      # ... after your other jobs
 
-  # Add this bit
-  nightly-wagtail-test:
-    docker:
-      - image: circleci/python:3.8
-    steps:
-      - checkout
-      - run: git clone git@github.com:wagtail/wagtail.git
+      # Add this bit
+      nightly-wagtail-test:
+        docker:
+          - image: circleci/python:3.8
+        steps:
+          - checkout
+          - run: git clone git@github.com:wagtail/wagtail.git
 
-      # Install your plugin with its testing requirements. Update this line
-      - run: pip install -e .[testing]
-      # Replace Wagtail with the one checked out from git
-      - run: pip install ./wagtail
+          # Install your plugin with its testing requirements. Update this line
+          - run: pip install -e .[testing]
+          # Replace Wagtail with the one checked out from git
+          - run: pip install ./wagtail
 
-      # Run the tests. Update this line too
-      - run: python testmanage.py test
+          # Run the tests. Update this line too
+          - run: python testmanage.py test
 
-      - run:
-          when: on_fail
-          command: python ./.circleci/report_nightly_build_failure.py
+          - run:
+              when: on_fail
+              command: python ./.circleci/report_nightly_build_failure.py
 
 
-workflows:
-    version: 2
-    test:
-      jobs:
-        # your other jobs
+    workflows:
+        version: 2
+        test:
+          jobs:
+            # your other jobs
 
-    # Add this bit
-    nightly:
-      jobs:
-        - nightly-wagtail-test
-      triggers:
-        - schedule:
-            cron: "0 0 * * *"
-            filters:
-              branches:
-                only:
-                  - master
+        # Add this bit
+        nightly:
+          jobs:
+            - nightly-wagtail-test
+          triggers:
+            - schedule:
+                cron: "0 0 * * *"
+                filters:
+                  branches:
+                    only:
+                      - master
 ```
