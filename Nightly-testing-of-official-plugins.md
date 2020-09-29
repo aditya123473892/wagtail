@@ -42,11 +42,12 @@ jobs:
       - checkout
       - run: git clone git@github.com:wagtail/wagtail.git
 
-      # Install your plugin with its testing requirements. Adjust this line accordingly
+      # Install your plugin with its testing requirements. Update this line
       - run: pip install -e .[testing]
       # Replace Wagtail with the one checked out from git
       - run: pip install ./wagtail
 
+      # Run the tests. Update this line too
       - run: python testmanage.py test
 
       - run:
