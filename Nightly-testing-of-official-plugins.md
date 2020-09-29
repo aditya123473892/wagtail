@@ -1,4 +1,4 @@
-We maintain a number of official plugins for Wagtail. One disadvantage of them being separate from Wagtail is we usually won't know about any incompatibilities until a release of Wagtail is made. To workaround this, we recommend configuring CI on plugin repos to run the tests against Wagtail's master branch on a nightly basis and report any failures to the #nightly-build-failures
+We maintain a number of official plugins for Wagtail. One disadvantage of them being separate from Wagtail is we usually won't know about any incompatibilities until a release of Wagtail is made. To workaround this, we recommend configuring CI on plugin repos to run the tests against Wagtail's master branch on a nightly basis and report any failures to the #nightly-build-failures Slack channel.
 
 This document explains how to set this up with Circle CI. These instructions might be adaptable to other CI providers but this hasn't been tested.
 
