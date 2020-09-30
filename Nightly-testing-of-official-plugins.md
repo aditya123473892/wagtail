@@ -1,4 +1,4 @@
-We maintain a number of official plugins for Wagtail in separate repositories. One disadvantage of them being in separate repos is we usually won't know about any incompatibilities until a release of Wagtail is made.
+We maintain a number of official plugins for Wagtail in separate repositories. But a disadvantage of them being in separate repos, is we won't be alerted about any incompatibilities with Wagtail core until a release of Wagtail is made.
 
 To remedy this, we recommend configuring the CI server to test plugins against Wagtail's master branch on a nightly basis and report any failures to the #nightly-build-failures Slack channel.
 
