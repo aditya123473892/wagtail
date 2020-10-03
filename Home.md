@@ -1,1 +1,1 @@
-Built something with Wagtail? Let us know about your project, go submit it to [Made with Wagtail](https://madewithwagtail.org/) or [Awesome Wagtail](https://github.com/springload/awesome-wagtail).
+Built something with Wagtail? Let us know about your project, go submit it to [Made with Wagtail](https://madewithwagtail.org/), [Awesome Wagtail](https://github.com/springload/awesome-wagtail) or [Djangopackages.org](https://djangopackages.org/grids/#:~:text=Wagtail,Wagtail%20workflow).
