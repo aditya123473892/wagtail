@@ -14,6 +14,66 @@ In-between meetings, we collaborate via Slack, using the [#accessibility](https:
 
 <!-- Insert meeting notes here, most recent first: -->
 
+## 2020-10-23
+
+Attendees: Scott, Thibaud
+
+### Actions
+
+- Thibaud Finish SearchArea<https://github.com/wagtail/wagtail/pull/6493>
+- Scott Pagination from 6107
+- Thibaud Finish accessibility considerations doc<https://github.com/wagtail/wagtail/pull/6272>
+- Thibaud Ask Coen to join next accessibility team meeting
+- Thibaud Propose UI architecture rework to core team – RFC
+
+### Agenda
+
+- Actions review
+  - WIP Thibaud Take on SearchArea from<https://github.com/wagtail/wagtail/issues/6107>
+  - Thibaud Take on SettingsMenuItem from<https://github.com/wagtail/wagtail/issues/6107>
+  - ✅ Scott Help text from 6107
+  - WIP Scott Pagination from 6107
+  - ✅ Thibaud Attempt to revive<https://github.com/thibaudcolas/bakerydemo/commits/bakerydemo-thibaudcolas> but with nightly releases
+  - Thibaud Ask Coen to join next accessibility team meeting
+
+- Discussions
+  - Accessibility compliance dashboard
+  - SVG icons
+    - <https://github.com/wagtail/wagtail/issues/6107>
+    - <https://github.com/wagtail/wagtail/pull/6493>
+  - Accessibility considerations
+  - bakerydemo nightly
+    - Weekly Travis cron builds of<https://github.com/thibaudcolas/bakerydemo/tree/bakerydemo-thibaudcolas-cron>
+    - Pushes ready-to-deploy<https://github.com/thibaudcolas/bakerydemo/blob/bakerydemo-thibaudcolas-nightly/requirements/base.txt>
+    - Heroku pipeline with review apps & multiple staging apps<https://dashboard.heroku.com/pipelines/4e9fd4e0-0aac-440f-a6cb-2ab13e2e277f>
+  - UI architecture rework RFC
+    - Waiting for new release of django-pattern-library, ETA early November
+  - Team future
+    - 3-month commitment ends next week
+      - 4 meetings so far
+      - Revisit this beginning of the year?
+      - Talk to Coen? Find somebody else?
+      - 3 people is a good minimum
+    - What do the next 3 months hold?
+      - Get the icons rework finished
+    - Next project ideas
+      - Fixes for Wagtail accessibility footguns
+        - It’s most important of all for us to encourage the development of accessible websites with Wagtail
+        - Raw numbers
+      - Automated accessibility tests?
+        - Monitoring
+        - CI
+      - Accessibility audits
+        - Chooser modals
+        - StreamField
+        - More rich text
+        - Professional audit?
+          - With AT users
+- Detecting Wagtail sites
+  - Thibaud experiments
+  - We 4 authors cluster
+  - <https://digital.gov/resources/content-management-systems-used-by-government-agencies/> 
+
 ## 2020-09-25
 
 Attendees: Thibaud, Scott
