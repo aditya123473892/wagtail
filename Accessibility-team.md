@@ -14,7 +14,7 @@ In-between meetings, we collaborate via Slack, using the [#accessibility](https:
 
 <!-- Insert meeting notes here, most recent first: -->
 
-## 2020-09-25  -- Bi-weekly catch-up  
+## 2020-09-25
 
 Attendees: Thibaud, Scott
 
