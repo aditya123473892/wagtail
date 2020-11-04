@@ -1,6 +1,6 @@
 New feature releases of Wagtail are released every three months. These releases provide new features, improvements and bugfixes, and are marked by incrementing the second part of the version number (for example, 2.6 to 2.7).
 
-The actual release date will be on the closest working day (in the UK), and depend on the successful testing of release candidates, which are made available at least two weeks ahead of the planned final release date.
+The actual release date will be on the closest working day (in the UK), and depend on the successful testing of release candidates, which are made available at least three weeks ahead of the planned final release date.
 
 Additionally, patch releases will be issued as needed, to fix bugs and security issues. These are marked by incrementing the third part of the version number (for example, 2.6 to 2.6.1). Wherever possible, these releases will remain fully backwards compatible with the corresponding feature and not introduce any breaking changes.
 
