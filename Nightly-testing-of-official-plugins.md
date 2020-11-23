@@ -81,6 +81,8 @@ workflows:
 
 ## GitHub Actions
 
+(Credit to @zerolab who implemented this first on [wagtailmedia](https://github.com/torchbox/wagtailmedia/))
+
 1) Go into the Gitlab Actions project settings and add the Slack webhook URL into the `SLACK_WEBHOOK_URL` environment variable.
 
     You can get this webhook from another project on Circle CI that has this configuration (such as `wagtail-localize`). Or ask Karl (@kaedroho).
