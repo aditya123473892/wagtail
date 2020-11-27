@@ -6,7 +6,7 @@ Links: [#accessibility on Slack](https://app.slack.com/client/T0K33F93J/CB7L6L5S
 
 The team’s membership is open to all, introduce yourself in [#accessibility on Slack](https://app.slack.com/client/T0K33F93J/CB7L6L5S6) if you’re interested in joining. We currently operate with a membership term of 3 months, so people can commit for a short term, and then decide to proceed or stop.
 
-We meet every two weeks to discuss everyone’s recent progress and next steps. At the end of each meeting, all participants should each have volunteered for an action, which they must complete before the next meeting. We track [team actions](https://github.com/wagtail/wagtail/projects/9) on GitHub. Meeting notes are public for future and past meetings. Meetings happen on Zoom, which is what the Wagtail core team uses, and also seems to be [one of the most accessible video call software](https://www.smashingmagazine.com/2020/06/accessible-video-conferencing-tools/).
+We meet every two weeks to discuss everyone’s recent progress and next steps. At the end of each meeting, all participants should each have volunteered for an action, which they must strive to complete before the next meeting. Meeting notes and actions are public for future and past meetings. Meetings happen on Zoom, which is what the Wagtail core team uses, and also seems to be [one of the most accessible video call software](https://www.smashingmagazine.com/2020/06/accessible-video-conferencing-tools/).
 
 In-between meetings, we collaborate via Slack, using the [#accessibility](https://app.slack.com/client/T0K33F93J/CB7L6L5S6) channel as an open forum, and use GitHub to keep track of actions, and collaborate on specific issues & pull requests.
 
