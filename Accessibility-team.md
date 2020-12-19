@@ -14,6 +14,39 @@ In-between meetings, we collaborate via Slack, using the [#accessibility](https:
 
 <!-- Insert meeting notes here, most recent first: -->
 
+## 2020-12-18
+
+Attendees: Nick, Thibaud
+
+### Actions
+
+No actions this time
+
+### Actions review
+
+-   ✅ Thibaud SVG icons for [Settings menu item](https://github.com/wagtail/wagtail/blob/70bb9d934b086d8c2c34f1363c12e9acec970816/wagtail/contrib/settings/registry.py#L12-L19)  [@thibaudcolas](https://github.com/thibaudcolas) ([#6649](https://github.com/wagtail/wagtail/pull/6649))
+-   Scott SearchArea PR review [#6493](https://github.com/wagtail/wagtail/pull/6493) (in progress)
+-   Scott Comment on [#6535](https://github.com/wagtail/wagtail/issues/6535)
+-   ✅ Thibaud Explore idea of validating document outline within individual rich text fields ([#6535](https://github.com/wagtail/wagtail/issues/6535))
+-   ✅ Thibaud Review issues relating to publish success redirection
+-   Scott Icons PR .url_field .input
+-   Thibaud Icons PR edit panel title-wrapper
+-   ✅ Thibaud Fill sprint attendance survey
+
+### Discussions
+
+-   Docs sprint (remote)
+-   Validating document outlines ([#6535](https://github.com/wagtail/wagtail/issues/6535) follow-up)
+    -   Interested in broader accessibility tests first
+    -   Preferred approach: rely on page preview to get "end to end" tests
+    -   Similar to <https://github.com/Aleksi44/wagtailyoast/blob/fa9e64ed758921cdac701c68f0c6002c02522229/wagtailyoast/static/wagtailyoast/src/js/common/Panel.js#L49-L59> 
+    -   Integrate Axe, or Tota11y, or IBM Equal Access checker, or h123
+    -   For end users -- move preview inline in the admin so end users can see the issues with appropriate context
+-   Publish success redirection
+    -   <https://github.com/wagtail/wagtail/blob/master/wagtail/admin/views/pages/edit.py>
+    -   <https://github.com/thibaudcolas/wagtail/blob/master/wagtail/admin/views/pages/create.py>  
+    <https://github.com/wagtail/wagtail/issues/694>
+
 ## 2020-12-04 
 
 Attendees: Scott, Thibaud
