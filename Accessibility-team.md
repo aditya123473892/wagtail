@@ -14,7 +14,7 @@ In-between meetings, we collaborate via Slack, using the [#accessibility](https:
 
 <!-- Insert meeting notes here, most recent first: -->
 
-## 2021-01-08 -- Bi-weekly catch-up
+## 2021-01-08
 
 Attendees: Nick, Thibaud
 
