@@ -22,7 +22,7 @@ We should aim to have this empty, as those PRs either need confirmation to go ah
 
 The PR needs a review. Depending on the state of the PR it might be helpful for it to get a first high-level "diff looks good to me" review, or more in-depth "checkout locally and poke at it" review.
 
-[`label:"status:Needs Review"`](https://github.com/wagtail/wagtail/pulls?q=is%3Apr+is%3Aopen+draft%3Afalse+sort%3Aupdated-desc+label%3A%22status%3ANeeds+Review%22+)
+[`label:"status:Needs Review" -label:"status:Needs Design Decision"`](https://github.com/wagtail/wagtail/pulls?q=is%3Apr+is%3Aopen+draft%3Afalse+sort%3Aupdated-desc+label%3A%22status%3ANeeds+Review%22+-label%3A%22status%3ANeeds+Design+Decision%22+)
 
 ### Reviewers
 
