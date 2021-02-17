@@ -16,8 +16,6 @@ In-between meetings, we collaborate via Slack, using the [#accessibility](https:
 
 ## 2021-02-17 -- Team 6-monthly report
 
-Highlights:
-
 - 5 people active during the last 6 months, but only 2 attending meetings on average
   - Initially Scott Cranfill (core team, CFPB), Thibaud Colas (core team, Torchbox), Andreas Bernacca (Fröjd)
   - Joined by Nick Smith (Torchbox) and Helen Chapman (Torchbox) over the last couple of months for specific tasks
@@ -28,7 +26,7 @@ Highlights:
   - Curating a backlog of accessibility improvements for sites <https://github.com/wagtail/wagtail/projects/10>
 - We were also keen to do more automated tests and manual auditing but didn't get around to it.
 
-Agenda / changes for next 6 months:
+### Agenda / changes for next 6 months
 
 - Create plan to recruit 5 members
   - Open office hours?
