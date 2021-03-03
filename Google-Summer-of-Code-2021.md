@@ -14,7 +14,7 @@ Wagtail has moved fast in the last few years, with particular focus on the edito
 
 ## Students
 
-Applicants should have a basic familiarity with Python, Django and Git. They should have completed the initial Wagtail Tutorial and have created a developer environment for working on Wagtail itself. They should join the Wagtail Slack and introduce themselves on the #gsoc channel. They are welcome to seek advice from mentors on suitable projects and topics, which should then be submitted to the project issue list with `[GSOC]` in the title.
+Applicants should have a basic familiarity with Python, Django and Git. They should have completed the initial Wagtail Tutorial and have created a developer environment for working on Wagtail itself. They should join the [Wagtail Slack](https://github.com/wagtail/wagtail/wiki/Slack) and introduce themselves on the #gsoc channel. They are welcome to seek advice from mentors on suitable projects and topics, which should then be submitted to the project issue list with our [Google Summer of Code issue template](https://github.com/wagtail/wagtail/issues/new?template=GSOC.md).
 
 Write a motivation and submit your CV. Tell us about your experience with Python/Django/Wagtail
 
