@@ -53,7 +53,7 @@ and confirm that the site starts up successfully at http://localhost:8000/ . Rep
 
 From https://github.com/wagtail/wagtail/releases, click 'Draft a new release':
 
-* Tag version should be of the form "v0.4" - the target should be the stable/0.4.x branch (in practice, for a new 0.x version this will probably be identical to master)
+* Tag version should be of the form "v0.4" - the target should be the stable/0.4.x branch (in practice, for a new 0.x version this will probably be identical to `main`)
 * Release title should be "0.4" (without the 'v')
 * For the "Describe the release", we usually just paste in the CHANGELOG.txt entry
 * Click "Publish release" - this will create a new git tag for the release, and a new entry on https://github.com/torchbox/wagtail/releases
