@@ -1,4 +1,4 @@
-**Warning**: This is a design document created during the design and development of the StreamField API for Wagtail 1.0, and may not be fully consistent with the final implementation as released. You are advised to cross-reference with the code: https://github.com/wagtail/wagtail/blob/master/wagtail/core/blocks/base.py
+**Warning**: This is a design document created during the design and development of the StreamField API for Wagtail 1.0, and may not be fully consistent with the final implementation as released. You are advised to cross-reference with the code: https://github.com/wagtail/wagtail/blob/main/wagtail/core/blocks/base.py
 
 # Shopping list: a worked example of the blocks API
 
