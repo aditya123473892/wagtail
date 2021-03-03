@@ -116,6 +116,11 @@ The Wagtail core team are:
   - [consumerfinance.gov](https://www.consumerfinance.gov),
     USA,
     [UTC-4/5](https://www.timeanddate.com/time/zone/usa/new-york)
+- Storm Heg
+  ([Stormheg](https://github.com/Stormheg))
+  - the Netherlands,
+    [UTC+1/2](https://www.timeanddate.com/worldclock/netherlands/amsterdam)
+  - Areas of interest: documentation, accessibility, first-party packages
 - Thibaud Colas
   ([thibaudcolas](https://github.com/thibaudcolas))
   - [Torchbox](https://www.torchbox.com),
