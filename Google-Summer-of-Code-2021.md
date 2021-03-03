@@ -61,6 +61,7 @@ Enable bulk actions in a variety of Wagtail administrative interfaces
 - Django, Python and front-end
 
 **Mentors**
+Karl Hobley
 
 **Aims**
 
