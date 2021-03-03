@@ -1,6 +1,6 @@
 We maintain a number of official plugins for Wagtail in separate repositories. But a disadvantage of them being in separate repos is we won't be alerted about any incompatibilities with Wagtail core until a release of Wagtail is made.
 
-To remedy this, we recommend configuring the CI server to test plugins against Wagtail's master branch on a nightly basis and report any failures to the #nightly-build-failures Slack channel.
+To remedy this, we recommend configuring the CI server to test plugins against Wagtail's main branch on a nightly basis and report any failures to the #nightly-build-failures Slack channel.
 
 This document explains how to set this up with Circle CI and Github Actions. These instructions might be adaptable to other CI providers but this hasn't been tested.
 
@@ -33,7 +33,7 @@ else:
     print("Unable to report to #nightly-build-failures slack channel because SLACK_WEBHOOK_URL is not set")
 ```
 
-3) Add a CircleCI Job that runs the tests against Wagtail master and schedule it to run nightly
+3) Add a CircleCI Job that runs the tests against Wagtail `main` and schedule it to run nightly
 
 ```yaml
 jobs:
@@ -76,7 +76,7 @@ workflows:
           filters:
             branches:
               only:
-                - master
+                - main
 ```
 
 ## GitHub Actions
@@ -154,7 +154,7 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install "psycopg2>=2.6"
-          pip install "git+https://github.com/wagtail/wagtail.git@master#egg=wagtail"
+          pip install "git+https://github.com/wagtail/wagtail.git@main#egg=wagtail"
           pip install -e .[testing]
       - name: Test
         id: test
