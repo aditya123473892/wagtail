@@ -69,6 +69,36 @@ To enhance the Wagtail administrative interface
 
 -------------------------------------
 
+### New database search backend
+
+#### Summary 
+
+A new search backend that makes use of the search features of the current database. With support for SQLite and PostgreSQL search features.
+
+This will replace the existing database and PostgreSQL search backends in Wagtail.
+
+**Implementation**
+
+ - Create a search backend that creates a separate database table for each search index (pages, images, and documents). These tables should make use of whatever search specific types and indexes are available in the currently used database engine
+ - Implement the search query interface to allow retrieving data from these search backends
+ - (optional) Create a test suite that tests the quality of the results that each search backend returns
+
+**Skills**
+
+ - Databases
+ - Search / PostgreSQL FTS / SQLite FTS / MySQL FTS
+
+**Mentors**
+
+Karl Hobley
+
+**Aims**
+
+- Improve the quality of results for the existing PostgreSQL search backend
+- Add support for SQLite and MySQL search into Wagtail core
+
+-------------------------------------
+
 
 ### Enhanced file manager
 #### Summary 
