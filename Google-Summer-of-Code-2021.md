@@ -120,4 +120,26 @@ TBD
 
 TBD
 
+## Automated page accessibility tests
+
+### Summary
+
+We want Wagtail to have automated checks for common accessibility issues as part of the page publishing process.
+
+### Implementation
+
+This would involve deciding on an accessibility checker to integrate with Wagtail, creating a prototype integration, testing it with users of Wagtail, and refining the user experience of the automated tests so it can start to be used on real-world websites.
+
+### Skills
+
+Django, JavaScript, HTML. Bonus: user experience, visual design
+
+### Mentors
+
+Thibaud Colas
+
+### Aims
+
+Create an integrated accessibility testing experience that fits well within a CMS workflow, works well for end users, and can be used as an example for other platforms.
+
 -------------------------------------
