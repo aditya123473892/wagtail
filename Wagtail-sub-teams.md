@@ -17,7 +17,7 @@ We meet every two weeks on Fridays to discuss our work – 45min chat, discuss e
 
 Links: [#accessibility on Slack](https://app.slack.com/client/T0K33F93J/CB7L6L5S6) | [Team charter](https://github.com/wagtail/wagtail/wiki/Accessibility-team) | [Future meetings](https://docs.google.com/document/d/1YUxOs5jYZMd8rX291mDE123xIK7tbD63PzSR9ooFa4c/edit) | [Past meetings](https://github.com/wagtail/wagtail/wiki/Accessibility-team)
 
-Past members: Andreas Bernacca ([@rinti](https://github.com/rinti)), Scott Cranfill ([@Scotchester](https://github.com/Scotchester)), Thibaud Colas ([@thibaudcolas](https://github.com/thibaudcolas))
+Past members: Andreas Bernacca, Scott Cranfill, Thibaud Colas
 
 ## Documentation
 
