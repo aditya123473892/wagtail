@@ -10,15 +10,18 @@ The accessibility team focuses on improvements to the [accessibility of Wagtail]
 
 Current members:
 
+- Scott Cranfill ([@Scotchester](https://github.com/Scotchester)), UTC - 4 or 5
+- Thibaud Colas ([@thibaudcolas](https://github.com/thibaudcolas)), UTC + 0 or 1
+
 We meet every two weeks on Fridays to discuss our work – 30min chat, discuss each others’ progress, take actions.
 
 Links: [#accessibility on Slack](https://app.slack.com/client/T0K33F93J/CB7L6L5S6) | [Team charter](https://github.com/wagtail/wagtail/wiki/Accessibility-team) | [Future meetings](https://docs.google.com/document/d/1YUxOs5jYZMd8rX291mDE123xIK7tbD63PzSR9ooFa4c/edit) | [Past meetings](https://github.com/wagtail/wagtail/wiki/Accessibility-team) | [Team actions](https://github.com/wagtail/wagtail/projects/9)
 
 Past members:
 
-- Andreas Bernacca ([@rinti](https://github.com/rinti)), UTC + 1 or 2
-- Scott Cranfill ([@Scotchester](https://github.com/Scotchester)), UTC - 4 or 5
-- Thibaud Colas ([@thibaudcolas](https://github.com/thibaudcolas)), UTC + 0 or 1
+- Andreas Bernacca ([@rinti](https://github.com/rinti))
+- Scott Cranfill ([@Scotchester](https://github.com/Scotchester))
+- Thibaud Colas ([@thibaudcolas](https://github.com/thibaudcolas))
 
 ## Documentation
 
