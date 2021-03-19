@@ -12,6 +12,9 @@ Current members:
 
 - Scott Cranfill ([@Scotchester](https://github.com/Scotchester)), UTC - 4 or 5
 - Thibaud Colas ([@thibaudcolas](https://github.com/thibaudcolas)), UTC + 0 or 1
+- Jesse Menn ([@jessemenn](https://github.com/jessemenn)), UTC - 4 or 5
+- Kyle Bayliss, UTC + 0 or 1
+- Storm Heg ([@Stormheg](https://github.com/Stormheg), UTC + 1 or 2
 
 We meet every two weeks on Fridays to discuss our work – 45min chat, discuss each others’ progress, take actions.
 
