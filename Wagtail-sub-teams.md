@@ -8,6 +8,8 @@ Here are our currently active sub teams:
 
 The accessibility team focuses on improvements to the [accessibility of Wagtail](https://docs.wagtail.io/en/stable/contributing/developing.html#accessibility-targets), and of [websites built with Wagtail](https://docs.wagtail.io/en/latest/advanced_topics/accessibility_considerations.html). Everyone is welcome regardless of skill level or background. Find us on the [Wagtail Slack](https://github.com/wagtail/wagtail/wiki/Slack) in [#accessibility](https://app.slack.com/client/T0K33F93J/CB7L6L5S6).
 
+Links: [#accessibility on Slack](https://app.slack.com/client/T0K33F93J/CB7L6L5S6) | [Team charter & past meetings](https://github.com/wagtail/wagtail/wiki/Accessibility-team)
+
 Current members:
 
 - Scott Cranfill ([@Scotchester](https://github.com/Scotchester)), UTC - 4 or 5
@@ -15,10 +17,6 @@ Current members:
 - Jesse Menn ([@jessemenn](https://github.com/jessemenn)), UTC - 4 or 5
 - Kyle Bayliss, UTC + 0 or 1
 - Storm Heg ([@Stormheg](https://github.com/Stormheg), UTC + 1 or 2
-
-We meet every two weeks on Fridays to discuss our work – 45min chat, discuss each others’ progress, take actions.
-
-Links: [#accessibility on Slack](https://app.slack.com/client/T0K33F93J/CB7L6L5S6) | [Team charter](https://github.com/wagtail/wagtail/wiki/Accessibility-team) | [Future meetings](https://docs.google.com/document/d/1YUxOs5jYZMd8rX291mDE123xIK7tbD63PzSR9ooFa4c/edit) | [Past meetings](https://github.com/wagtail/wagtail/wiki/Accessibility-team)
 
 Past members: Andreas Bernacca, Scott Cranfill, Thibaud Colas
 
