@@ -1,6 +1,6 @@
-# Wagtail #accessibility team
+# Wagtail accessibility team
 
-Links: [#accessibility on Slack](https://app.slack.com/client/T0K33F93J/CB7L6L5S6) | [Future meetings](https://docs.google.com/document/d/1YUxOs5jYZMd8rX291mDE123xIK7tbD63PzSR9ooFa4c/edit)
+[#accessibility on Slack](https://app.slack.com/client/T0K33F93J/CB7L6L5S6)
 
 ## Team charter
 
@@ -9,6 +9,18 @@ The team’s membership is open to all, introduce yourself in [#accessibility on
 We meet every two weeks to discuss everyone’s recent progress and next steps. At the end of each meeting, all participants should each have volunteered for an action, which they must strive to complete before the next meeting. Meeting notes and actions are public for future and past meetings. Meetings happen on Google Meet.
 
 In-between meetings, we collaborate via Slack, using the [#accessibility](https://app.slack.com/client/T0K33F93J/CB7L6L5S6) channel as an open forum, and use GitHub to keep track of actions, and collaborate on specific issues & pull requests.
+
+## Team members
+
+Current members:
+
+- Scott Cranfill ([@Scotchester](https://github.com/Scotchester)), UTC - 4 or 5
+- Thibaud Colas ([@thibaudcolas](https://github.com/thibaudcolas)), UTC + 0 or 1
+- Jesse Menn ([@jessemenn](https://github.com/jessemenn)), UTC - 4 or 5
+- Kyle Bayliss ([@kbayliss](https://github.com/kbayliss)), UTC + 0 or 1
+- Storm Heg ([@Stormheg](https://github.com/Stormheg), UTC + 1 or 2
+
+Past members: Andreas Bernacca, Scott Cranfill, Thibaud Colas
 
 ---
 
