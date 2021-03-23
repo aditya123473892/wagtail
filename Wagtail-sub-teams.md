@@ -10,16 +10,6 @@ The accessibility team focuses on improvements to the [accessibility of Wagtail]
 
 Links: [#accessibility on Slack](https://app.slack.com/client/T0K33F93J/CB7L6L5S6) | [Team charter & past meetings](https://github.com/wagtail/wagtail/wiki/Accessibility-team)
 
-Current members:
-
-- Scott Cranfill ([@Scotchester](https://github.com/Scotchester)), UTC - 4 or 5
-- Thibaud Colas ([@thibaudcolas](https://github.com/thibaudcolas)), UTC + 0 or 1
-- Jesse Menn ([@jessemenn](https://github.com/jessemenn)), UTC - 4 or 5
-- Kyle Bayliss ([@kbayliss](https://github.com/kbayliss)), UTC + 0 or 1
-- Storm Heg ([@Stormheg](https://github.com/Stormheg), UTC + 1 or 2
-
-Past members: Andreas Bernacca, Scott Cranfill, Thibaud Colas
-
 ## Documentation
 
 Documentation is a crucial part of the Wagtail open source project. It helps people get started, and explains how to use Wagtail. Improving the documentation is the mission of the documentation team.
