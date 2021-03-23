@@ -6,9 +6,9 @@ Here are our currently active sub teams:
 
 ## Accessibility
 
-The accessibility team focuses on improvements to the [accessibility of Wagtail](https://docs.wagtail.io/en/stable/contributing/developing.html#accessibility-targets), and of [websites built with Wagtail](https://docs.wagtail.io/en/latest/advanced_topics/accessibility_considerations.html). Everyone is welcome regardless of skill level or background. Find us on the [Wagtail Slack](https://github.com/wagtail/wagtail/wiki/Slack) in [#accessibility](https://app.slack.com/client/T0K33F93J/CB7L6L5S6).
+[Team charter & meeting notes](https://github.com/wagtail/wagtail/wiki/Accessibility-team)
 
-Links: [#accessibility on Slack](https://app.slack.com/client/T0K33F93J/CB7L6L5S6) | [Team charter & past meetings](https://github.com/wagtail/wagtail/wiki/Accessibility-team)
+The accessibility team focuses on improvements to the [accessibility of Wagtail](https://docs.wagtail.io/en/stable/contributing/developing.html#accessibility-targets), and of [websites built with Wagtail](https://docs.wagtail.io/en/latest/advanced_topics/accessibility_considerations.html). Everyone is welcome regardless of skill level or background. Find us on the [Wagtail Slack](https://github.com/wagtail/wagtail/wiki/Slack) in [#accessibility](https://app.slack.com/client/T0K33F93J/CB7L6L5S6).
 
 ## Documentation
 
