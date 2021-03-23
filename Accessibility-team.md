@@ -24,6 +24,10 @@ Past members: Andreas Bernacca, Scott Cranfill, Thibaud Colas
 
 ---
 
+Next meetings: [see agenda](https://docs.google.com/document/d/1YUxOs5jYZMd8rX291mDE123xIK7tbD63PzSR9ooFa4c/edit)
+
+Past meetings:
+
 <!-- Insert meeting notes here, most recent first: -->
 
 ## 2021-03-19 -- new team chat
