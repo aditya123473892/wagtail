@@ -143,3 +143,29 @@ Thibaud Colas
 Create an integrated accessibility testing experience that fits well within a CMS workflow, works well for end users, and can be used as an example for other platforms.
 
 -------------------------------------
+
+## RTL support for Wagtail
+
+### Summary 
+
+Wagtail’s administration interface currently has poor support for right-to-left languages, such as Arabic and Hebrew. We have been wanting to fix this for a while ([#1240](https://github.com/wagtail/wagtail/issues/1240), and now have a great opportunity to do so with [CSS logical properties](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Logical_Properties).
+
+**Implementation**
+
+We want to refactor Wagtail’s stylesheets to use CSS logical properties, Flexbox, and Grid layout, so the styles can be written agnostic to the writing direction of the language – browsers would then automatically display the correct end-user layout based on the target language.
+
+**Skills**
+
+HTML and CSS. Bonus: user experience, visual design, Django.
+
+**Mentors**
+
+Thibaud Colas
+
+**Aims**
+
+- Establish a process for converting the Wagtail admin styles to support RTL languages, including quality assurance, and ongoing support
+- Convert most / all of the admin styles following this new process
+- Showcase how this can be done for other projects.
+
+---
