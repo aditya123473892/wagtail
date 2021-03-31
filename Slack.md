@@ -4,6 +4,10 @@ The Wagtail Slack workspace is open to all users and developers of Wagtail. To j
 
 When posting to the group, please be respectful of people's time and attention - remember that this is a community resource, not a tech support hotline. In particular, please avoid using **@here** notifications, unless your message _absolutely_ needs the attention of several hundred people!
 
+## Code of Conduct
+
+Please read the Wagtail [Code of Conduct](https://github.com/wagtail/wagtail/blob/main/CODE_OF_CONDUCT.md). We ask that the community members respect and abide by the Code of Conduct.
+
 ## #support
 
 Support queries about working with Wagtail should be directed to the #support channel. Support is provided by members of the Wagtail community on a voluntary basis, and we cannot guarantee that questions will be answered quickly (or at all). If you want to see this resource succeed, please consider sticking around to help out!
