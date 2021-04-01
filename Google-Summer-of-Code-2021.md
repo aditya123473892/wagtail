@@ -162,10 +162,27 @@ HTML and CSS. Bonus: user experience, visual design, Django.
 
 Thibaud Colas
 
+## More advanced image size optimisations in Wagtail
+
+### Summary 
+
+Wagtail has quite good support for basic image optimisations, such as resizing images automatically or compressing file size. We want to push this further though, better leveraging modern formats such as WebP and AVIF, and having better support for `<picture>` and `srcset` HTML features to display a different image based on the viewport width.
+
+**Implementation**
+
+TBD
+
+**Skills**
+
+HTML, Django, Python.
+
+**Mentors**
+
+Thibaud Colas
+
 **Aims**
 
-- Establish a process for converting the Wagtail admin styles to support RTL languages, including quality assurance, and ongoing support
-- Convert most / all of the admin styles following this new process
-- Showcase how this can be done for other projects.
+- Explore support for AVIF image encoding in Python
+- Implement Wagtail’s support for `picture` and `srcset` (https://github.com/wagtail/wagtail/issues/285)
 
 ---
