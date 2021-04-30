@@ -18,7 +18,7 @@ Current members:
 - Thibaud Colas ([@thibaudcolas](https://github.com/thibaudcolas)), UTC + 0 or 1
 - Jesse Menn ([@jessemenn](https://github.com/jessemenn)), UTC - 4 or 5
 - Kyle Bayliss ([@kbayliss](https://github.com/kbayliss)), UTC + 0 or 1
-- Storm Heg ([@Stormheg](https://github.com/Stormheg), UTC + 1 or 2
+- Storm Heg ([@Stormheg](https://github.com/Stormheg)), UTC + 1 or 2
 
 Past members: Andreas Bernacca, Scott Cranfill, Thibaud Colas
 
