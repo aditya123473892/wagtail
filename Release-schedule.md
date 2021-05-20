@@ -21,12 +21,12 @@ Exceptionally, with 2.0 introducing breaking changes, 1.13 was designated as LTS
 | 2.4            | 19 December 2018       | April 2019          |
 | 2.5            | 24 April 2019          | 1 August 2019       |
 | 2.6            | 1 August 2019          | 1 November 2019     |
-| **2.7 LTS**    | **1 November 2019**    | **1 February 2021** |
-| 2.8            | 1 February 2020        | 1 May 2020          |
-| 2.9            | 1 May 2020             | 1 August 2020       |
-| 2.10           | 1 August 2020          | 1 November 2020     |
-| **2.11 LTS**   | **1 November 2020**    | **1 February 2022** |
-| 2.12           | 1 February 2021        | 1 May 2021          |
-| 2.13           | 1 May 2021             | 1 August 2021       |
+| **2.7 LTS**    | **6 November 2019**    | **3 February 2021** |
+| 2.8            | 3 February 2020        | 4 May 2020          |
+| 2.9            | 4 May 2020             | 11 August 2020       |
+| 2.10           | 11 August 2020          | 1 November 2020     |
+| **2.11 LTS**   | **2 November 2020**    | **1 February 2022** |
+| 2.12           | 2 February 2021        | 12 May 2021          |
+| 2.13           | 12 May 2021             | 1 August 2021       |
 | 2.14           | 1 August 2021          | 1 November 2021     |
 | **2.15 LTS**   | **1 November 2021**    | **1 February 2023** |
