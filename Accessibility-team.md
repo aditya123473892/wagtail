@@ -30,6 +30,8 @@ Past meetings:
 
 <!-- Insert meeting notes here, most recent first: -->
 
+## 2021-05-28: skipped (Slack updates)
+
 ## 2021-05-14
 
 Attendees: Thibaud, Scott, Jesse, Kyle, Storm
