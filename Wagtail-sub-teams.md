@@ -17,6 +17,12 @@ Documentation is a crucial part of the Wagtail open source project. It helps peo
 Some long term goals are:
 
 - Reorganise the documentation into clear sections.
-- Move the user guide into a seperate project.
+- Move the user guide into a separate project.
 - Start supporting translations.
 Please join the Documentation team. [#documentation](https://app.slack.com/client/T0K33F93J/C0152QK6PC6) on [Slack](https://github.com/wagtail/wagtail/wiki/Slack).
+
+## Performance
+
+This team will focus on measurement and optimisation of both backend (admin, API and template responses) and front-end, with the goal of demonstrably improved performance on each release.
+
+Please join the #performance team on [Slack](https://github.com/wagtail/wagtail/wiki/Slack).
