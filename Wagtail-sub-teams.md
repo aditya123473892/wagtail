@@ -25,4 +25,4 @@ Please join the Documentation team. [#documentation](https://app.slack.com/clien
 
 This team will focus on measurement and optimisation of both backend (admin, API and template responses) and front-end, with the goal of demonstrably improved performance on each release.
 
-Please join the #performance team on [Slack](https://github.com/wagtail/wagtail/wiki/Slack).
+Please join the #performance-working-group team on [Slack](https://github.com/wagtail/wagtail/wiki/Slack).
