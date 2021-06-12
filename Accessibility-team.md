@@ -30,6 +30,63 @@ Past meetings:
 
 <!-- Insert meeting notes here, most recent first: -->
 
+## 2021-06-11
+
+Attendees: Kyle, Jesse, Thibaud, Storm, Scott
+
+### Actions
+
+- Thibaud & Storm Follow up on userbar PR progress
+- Thibaud Update Figma file with Space key from menu ARIA practices
+- Thibaud Talk to users of Transifex (Andy for wagtailmenus) about using it for docs translations
+- Thibaud Review high-contrast mode audit from Kyle
+  - <https://trello.com/c/YOEpYngg/29-comment-buttons-should-use-button-text-colour>
+
+### Actions review
+
+- ✅ Storm PR for userbar recommendations
+  - ✅ 👉[Move userbar before navigation in example](https://github.com/wagtail/wagtail/blob/6428820df23b70411a02f1a573f414f480830a16/docs/topics/writing_templates.rst#wagtail-user-bar)
+  - 🚧Still need to apply suggestions from code review
+- ✅ Thibaud Image upload audit review
+  - Jesse & Thibaud also moved findings to [main spreadsheet](https://docs.google.com/spreadsheets/d/1l7tnpEyJiC5BWE_JX0XCkknyrjxYA5T2aee5JgPnmi4/edit)
+- ✅ Thibaud Reach out on Twitter for Wagtail high-contrast users
+- ✅ Thibaud Ask Torchboxers for high-contrast mode experience
+- ✅ Storm & Thibaud Put draft annotations for keyboard support for Simon's work
+- ✅ Thibaud Proposal for RTL support for sidebar rewrite
+  - <https://github.com/wagtail/wagtail/issues/1240>
+  - CSS logical properties
+- ✅ Scott Accessibility audit for new docs theme
+- ✅ Thibaud Open issue about docs translations in theme repository (or Wagtail?)
+- ✅ Kyle High-contrast mode resources / look into what applies to Wagtail
+  - Best practices
+  - Compare default install
+
+### Discussions
+
+- Menu pattern for Wagtail sidebar
+  - Missing Space key
+  - <https://dribbble.com/shots/6269661-Accessibility-Bluelines>
+- Scott Accessibility audit for new docs theme
+  - Started it with WAVE
+  - Reported a couple of errors
+  - Axe DevTools
+- High-contrast mode audit
+  - <https://trello.com/c/YOEpYngg/29-comment-buttons-should-use-button-text-colour>
+  - Highlights some semantic issues in our markup as well as the contrast issues
+- Userbar pull request (@stormheg)
+  - Needs a bit of refactoring in a few places
+  - How to deal with focus outline
+  - [Discussion on Github](https://github.com/wagtail/wagtail/pull/6994#discussion_r646115480)
+  - Ensure it is visible against any background
+  - Outline provided by browsers not necessarily accessible (e.g. Firefox on Windows)
+  - Suggestion -- use the GOV.UK thick yellow? Already used in the Wagtail admin
+    - Let's go with thick yellow
+  - Research option to use "invert color" feature that might have some browser support?
+- ARIA landmarks in the admin (@stormheg)
+  - [Rework the admin UI's landmark based on established best practices - Issue #5411 - wagtail/wagtail](https://github.com/wagtail/wagtail/issues/5411)
+- We4Authors Cluster project
+  - <https://accessibilitycluster.com/main-results/selection-of-features>
+
 ## 2021-05-28: skipped (Slack updates)
 
 ## 2021-05-14
