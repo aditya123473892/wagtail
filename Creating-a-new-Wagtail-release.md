@@ -35,8 +35,7 @@ From the root of the wagtail codebase, run:
 
     nvm use
     npm install
-    python ./setup.py sdist
-    python ./setup.py bdist_wheel
+    python ./setup.py sdist bdist_wheel
 
 This will create a .tar.gz package and a .whl package in the 'dist' directory. We now need to test that these installs successfully - from a location other than wagtail root (because the presence of the 'wagtail' directory confuses the installer), run:
 
@@ -71,8 +70,10 @@ The new version should now be up on https://pypi.python.org/pypi/wagtail .
 
 ## Docs
 
-_Now that we have the default documentation version pointing to `stable` instead of a specific release, readthedocs versioning should update itself automatically once the release tag exists in git._
+Readthedocs will spot the addition of a release tag with a newer version number, and automatically publish that as the new 'stable' version.
 
+* For a patch release on an older branch, readthedocs may leave it initially inactive - if so, activate it from https://readthedocs.org/projects/wagtail/versions/
+* For a patch release, hide the _previous_ version by going to Edit from https://readthedocs.org/projects/wagtail/versions/ and checking the Hidden checkbox. This way, the list of versions in the readthedocs flyout menu will only include the latest release of each branch.
 * If any documentation has been moved around since the previous release, now is a good time to add redirects via https://readthedocs.org/dashboard/wagtail/redirects/ . (Protip: [remember to add leading slashes on URLs](https://github.com/rtfd/readthedocs.org/issues/1826#issuecomment-247995569).)
 * Update docs in [Dash-User-Contributions](https://github.com/Kapeli/Dash-User-Contributions/tree/master/docsets/Wagtail) for offline docs apps [Dash](https://kapeli.com/dash) and [Zeal](https://zealdocs.org/).
   * Follow the instructions on the README.md and submit a pull request with updated docs.
