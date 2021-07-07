@@ -12,6 +12,7 @@ Teams
   - [[Core team participation]]
 - [[Wagtail sub teams]]
   - [[Accessibility team]]
+  - [[Performance team]]
 
 How To
 
