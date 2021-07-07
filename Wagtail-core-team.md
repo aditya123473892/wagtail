@@ -113,9 +113,10 @@ The Wagtail core team are:
   - Areas of interest: frontend, design, accessibility
 - Scott Cranfill
   ([scotchester](https://github.com/scotchester))
-  - [consumerfinance.gov](https://www.consumerfinance.gov),
+  - [JPL](https://www.jpl.nasa.gov) (formerly [CFPB](https://www.consumerfinance.gov)),
     USA,
     [UTC-4/5](https://www.timeanddate.com/time/zone/usa/new-york)
+  - Areas of interest: accessibility, community, documentation, frontend
 - Storm Heg
   ([Stormheg](https://github.com/Stormheg))
   - the Netherlands,
