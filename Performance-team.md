@@ -6,6 +6,14 @@ Find us in [#performance-working-group on Slack](https://app.slack.com/client/T0
 
 ## Team members
 
+Current members:
+
+- Karl Hobley (@kaedroho), UK
+- Matthew Westcott (@gasman), UK
+- Jake Howard (@RealOrangeOne), UK
+- Tom Usher (@tomusher), UK
+- Jacob Topp-Mugglestone (@jacobtoppm), UK
+
 ## 2021-07-15
 
 Attendees: Karl, Jacob, Tom, Matthew, Jake
