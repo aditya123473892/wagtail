@@ -84,12 +84,10 @@ Once the new release is out, please update https://releases.wagtail.io/latest.tx
 
 Set up the AWS client, if you haven't already - `pip install awscli`, then `aws configure` and enter the credentials.
 
-With the AWS client configured, run:
+Edit scripts/latest.txt with the new version details: `version` is the newest version, `url` is its release notes page, and `majorUrl` is the release notes page for the corresponding major version (shown to users who are running an earlier major version). If this is a new release (major or minor) within an LTS branch, update the `lts` section too. Then, with the AWS client configured, run:
 
     cd wagtail/scripts
-    ./make-latest.sh --version=1.1 --url=http://docs.wagtail.io/en/v1.1/releases/1.1.html
-
-replacing the version number as appropriate.
+    ./latest.sh put latest.txt
 
 (It will take up to a day for changes to propagate to the Cloudfront cache. If you need it to update faster than that, someone with access to the AWS web console can purge it - the relevant operation to perform is "Create invalidation".)
 
