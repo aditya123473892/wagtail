@@ -2,7 +2,7 @@ To add new icons to the Wagtail icon font:
 
 * go to https://icomoon.io/app/
 * hamburger menu -> Manage project -> Import project
-* open wagtail/admin/static_src/wagtailadmin/fonts/wagtail-icomoon.json
+* open [wagtail/admin/static_src/wagtailadmin/fonts/wagtail-icomoon.json](https://github.com/wagtail/wagtail/blob/main/wagtail/admin/static_src/wagtailadmin/fonts/wagtail-icomoon.json)
 * Rename 'Untitled Project 1' to 'Wagtail'
 * click 'Load', Add icons from library, Font Awesome -> Add
 * Select the icon(s) you want, then from the hamburger menu next to Wagtail, 'Copy selection to set'. Using the 'move' tool, move it to the end of the list
