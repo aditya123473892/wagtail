@@ -14,13 +14,13 @@ In-between meetings, we collaborate via Slack, using the [#accessibility](https:
 
 Current members:
 
-- Scott Cranfill ([@Scotchester](https://github.com/Scotchester)), UTC - 4 or 5
-- Thibaud Colas ([@thibaudcolas](https://github.com/thibaudcolas)), UTC + 0 or 1
-- Jesse Menn ([@jessemenn](https://github.com/jessemenn)), UTC - 4 or 5
-- Kyle Bayliss ([@kbayliss](https://github.com/kbayliss)), UTC + 0 or 1
-- Storm Heg ([@Stormheg](https://github.com/Stormheg)), UTC + 1 or 2
+- Scott Cranfill ([@Scotchester](https://github.com/Scotchester)), UTC - 4 or 5, since June 2020
+- Thibaud Colas ([@thibaudcolas](https://github.com/thibaudcolas)), UTC + 0 or 1, since June 2020
+- Jesse Menn ([@jessemenn](https://github.com/jessemenn)), UTC - 4 or 5, since February 2021
+- Kyle Bayliss ([@kbayliss](https://github.com/kbayliss)), UTC + 0 or 1, since February 2021
+- Storm Heg ([@Stormheg](https://github.com/Stormheg)), UTC + 1 or 2, since February 2021
 
-Past members: Andreas Bernacca, Scott Cranfill, Thibaud Colas
+Past members: Andreas Bernacca (June 2020 – January 2021)
 
 ---
 
