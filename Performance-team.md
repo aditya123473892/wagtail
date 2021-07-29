@@ -23,7 +23,7 @@ Current members:
 
 ## 2021-07-29
 
-Attendees: Karl, Jacob, Tom, Matthew, Jake
+Attendees: Karl, Jacob, Tom, Matthew, Jake, Dan
 
 ### Actions
 
