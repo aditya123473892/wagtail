@@ -19,6 +19,60 @@ Current members:
 - Jake Howard (@RealOrangeOne), UK
 - Tom Usher (@tomusher), UK
 - Jacob Topp-Mugglestone (@jacobtoppm), UK
+- Dan Braghis (@zerolab), UK
+
+## 2021-07-29
+
+Attendees: Karl, Jacob, Tom, Matthew, Jake
+
+### Actions
+
+- Dan will look into Drupal approach for background tasks
+- Karl speak to Tom D about getting a box to benchmarks
+- Jacob will look at writing some initial benchmarks for next meeting
+- Karl to put together a list of areas on Wagtail we could optimise with this
+
+### Notes
+
+#### Search benchmarking
+
+- Aldan Creo interested in working on benchmarking search and teaming up with someone else. Tom U happy to tag up
+
+#### Bulk actions
+
+- can be potentially expensive, e.g. saving a page → reindexing in the same request. Jake suggested we’d move that away. Jake has been thinking and researching potential avenues (and dependencies to core)
+- Plenty of libraries out there. The issue is around batching up tasks (e.g. 5 people save pages at the same time.) While ES could handle that, no libraries support that (or that Jake could find). Either we give on that approach or write something ourselves, but is should be non-Wagtail specific. The implementation detail — ♾️ number of queues. Questions around workers. Lots of it relates to infrastructure. We need to make it work without queues, so it is not a huge breaking change
+- Q: how deep a rabbit hole should this be?
+- Q: when talking about batching what are the issues? we should consider a batch everything that happens in the request (e.g. moving a page with 100 children). Note on treebeard operations not doing in bulk vs logging.
+- We need separation of what a task is.
+- Noticing when we can bundle tasks is independent of sync/async
+- Note: anything that provides immediate user feedback should happen sync, ancillary bits can happen async
+- Have we looked at non-django projects doing this? Drupal has a built-in queueing system
+- How about offloading ancillary things to a background thread?
+  - It’s a dirty hack
+  - can have hosting ramifications, no easy way to monitor
+- Next steps
+  - Bundling separate queue tasks may not be a big problem
+  - Look at other systems and draw some learnings
+  - Put together a list of areas on Wagtail we could optimise with this
+
+#### Regression testing
+
+- 1st thought - env site to run various perf tools, but you can’t rely on consistency
+- other CMSes don’t seem to do so. Shout if you know otherwise
+- djangobench → airspeed velocity (asv) — may be useful for us to use on a separate server, rather than CI
+- Links
+  - https://github.com/django/djangobench
+   - Notable discussion https://github.com/django/djangobench/issues/38
+   - https://github.com/airspeed-velocity/asv 
+   - https://pythonspeed.com/articles/consistent-benchmarking-in-ci/ 
+- How would a benchmark suite for Wagtail Look like?
+  - Been testing using Django test environment and calling URLs. Seems workable
+  - We would need to come up with a reasonably large dataset
+  - And we need to do a Javascript test somehow
+- Next steps
+  - Unsure about where to host the benchmark system yet
+     - Needs to run a 30 minute task once a week, probably not expensive
 
 ## 2021-07-15
 
