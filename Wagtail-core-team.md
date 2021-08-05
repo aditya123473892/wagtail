@@ -12,12 +12,6 @@ The Wagtail core team are:
     USA,
     [UTC-4/5](https://www.timeanddate.com/time/zone/usa/new-york)
   - Areas of interest: backend, community, StreamField
-- Bertrand Bordage
-  ([BertrandBordage](https://github.com/BertrandBordage))
-  - [NoriPyt](https://noripyt.com),
-    France,
-    [UTC+1/2](https://www.timeanddate.com/worldclock/france/paris)
-  - Areas of interest: backend, databases, search engines, StreamField
 - Codie Roelf
   - [Praekelt](https://www.praekelt.org/),
     South Africa,
