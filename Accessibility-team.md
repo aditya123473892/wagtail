@@ -30,6 +30,47 @@ Past meetings:
 
 <!-- Insert meeting notes here, most recent first: -->
 
+## 2021-08-06
+
+Attendees: Thibaud, Saptak, Scott
+
+### Actions
+
+- Thibaud Review high-contrast mode audit from Kyle
+- <https://trello.com/c/YOEpYngg/29-comment-buttons-should-use-button-text-colour> 
+- Thibaud Update CONTRIBUTING.md with accessibility opportunities
+- Saptak Review accessibility statements from other projects & outline of page contents for Wagtail
+- Thibaud Review & merge <https://github.com/wagtail/wagtail/pull/7408> 
+- Thibaud Update footer actions issue with recommendation for ARIA markup based on review (<https://w3c.github.io/aria-practices/examples/menubar/menubar-navigation.html_>) <https://github.com/wagtail/wagtail/issues/7366> 
+- Storm Work on last change for userbar ARIA menu practice
+- Thibaud Add Saptak to accessibility team roster & invite to GitHub team
+
+### Discussions
+
+- Actions review
+    - Thibaud Review high-contrast mode audit from Kyle
+        - <https://trello.com/c/YOEpYngg/29-comment-buttons-should-use-button-text-colour> 
+    - ✅ Saptak Review proposal for contributor call to action <https://github.com/wagtail/wagtail/pull/7330#pullrequestreview-703416391>
+    - ✅ Storm review Jesse's <https://github.com/wagtail/wagtail/pull/7346>
+    - ✅ Thibaud review issue <https://github.com/wagtail/wagtail/issues/7333> 
+    - Storm Work on last change for userbar ARIA menu practice
+    - ✅ Thibaud Review recommendations for action menus with mixed links and buttons
+    - ✅ Thibaud Check whether we have an open issue for actions menu keyboard & SR support
+        - <https://github.com/wagtail/wagtail/issues/7366> 
+- Accessibility statement & contributing
+    - CONTRIBUTING.md update
+    - Accessibility statement
+        - On the website
+        - We care
+        - Review other CMSes' statements?
+- Icons transition!
+    - Change icon source files to use <svg> elements rather than <symbol>
+    - Makes the files usable as-is in CSS content attributes (as URLs)
+    - Convert to <symbol> elements for sprites in Wagtail core
+    - Same for icons added by Wagtail implementers
+    - Scott interested in working on this but on holidays soon (7--15 Aug.)
+    - 3-4 days on Wagtail for Thibaud in early September (or late September)
+
 ## 2021-07-23
 
 Attendees: Saptak, Storm, Scott, Jesse, Thibaud, Kyle
