@@ -8,7 +8,7 @@ The team’s membership is open to all, introduce yourself in [#performance-work
 
 We meet every two weeks to discuss everyone’s recent progress and next steps. Meeting notes and actions are public for future and past meetings. Meetings happen on Zoom.
 
-In-between meetings, we collaborate via Slack, using the elf in [#performance-working-group](https://app.slack.com/client/T0K33F93J/C023WG6FB7C channel as an open forum, and use GitHub to keep track of actions, and collaborate on specific issues & pull requests.
+In-between meetings, we collaborate via Slack, using the elf in [#performance-working-group](https://app.slack.com/client/T0K33F93J/C023WG6FB7C) channel as an open forum, and use GitHub to keep track of actions, and collaborate on specific issues & pull requests.
 
 ## Team members
 
