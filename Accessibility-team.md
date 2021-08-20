@@ -31,6 +31,15 @@ Past meetings:
 
 <!-- Insert meeting notes here, most recent first: -->
 
+## 2021-08-20
+
+Attendees: Thibaud, Saptak
+
+### Discussions
+
+- CONTRIBUTING.md update [#7462](https://github.com/wagtail/wagtail/pull/7462)
+- Accessibility statement
+
 ## 2021-08-06
 
 Attendees: Thibaud, Saptak, Scott
