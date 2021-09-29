@@ -16,6 +16,8 @@ Please keep in mind that many of Wagtail's core and expert developers prefer to 
 
 ## Alternatives
 
+We have [discussion boards here on Github](https://github.com/wagtail/wagtail/discussions) for sharing ideas and plans for the Wagtail project.
+
 Here are unofficial communication channels where you can find Wagtail users and developers:
 
 - [#wagtail Matrix rooms](https://riot.im/app/#/room/#wagtail:matrix.org)
