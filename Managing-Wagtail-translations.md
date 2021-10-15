@@ -27,6 +27,12 @@ and 'git add' any new folders that are created.
 
 **Important** - check the log files in `logs/` for errors, and sanity-check the changes with `git status` / `git diff` before committing. Failures during the script's run can result in files erroneously being deleted.
 
+Run:
+
+    python ./check-translation-strings.py
+
+to check for any inconsistencies in format strings - if any issues are reported, fix them in Transifex and re-run fetch-translations.
+
 Once this is done, run
 
     python ./get-translator-credits.py > ../../logs/translators-YYYYMMDD.txt
