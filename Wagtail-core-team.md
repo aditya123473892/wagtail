@@ -122,6 +122,12 @@ The Wagtail core team are:
     UK,
     [UTC+0/1](https://www.timeanddate.com/worldclock/uk/bristol)
   - Areas of interest: Richtext, Draftail, frontend, accessibility, security
+- Tim Allen
+  ([FlipperPA](https://github.com/FlipperPA))
+  - [The Wharton School](https://www.wharton.upenn.edu),
+    USA,
+    [UTC-4/5](https://www.timeanddate.com/time/zone/usa/new-york)
+  - Areas of interest: community, backend, StreamField
 - Tom Dyson
   ([tomdyson](https://github.com/tomdyson))
   - [Torchbox](https://www.torchbox.com),
