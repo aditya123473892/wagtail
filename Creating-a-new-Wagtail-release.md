@@ -8,12 +8,13 @@
 * **For a release candidate:** Generate new translation strings (https://github.com/wagtail/wagtail/wiki/Managing-Wagtail-translations#generating-new-source-files-for-translation) and **announce through https://www.transifex.com/torchbox/wagtail/announcements/ that a new version is coming soon and needs translations**
 * Update `wagtail/__init__.py` with the new version number
   * For a release candidate: `VERSION = (2, 8, 0, 'rc', 1)`
-  * For a major release: `VERSION = (2, 8, 0, 'final', 1)`
+  * For a major release: `VERSION = (3, 0, 0, 'final', 1)`
+  * For a minor release: `VERSION = (2, 8, 0, 'final', 1)`
   * For a patch release: `VERSION = (2, 8, 1, 'final', 1)`
 * Update `wagtail/project_template/requirements.txt` with the new version number
   * For a release candidate, use the exact version: `wagtail==2.8rc1`
-  * For a major or patch release, use a range covering the major release (e.g. `wagtail>=2.8,<2.9`)
-* **For a major or patch release:** fill in the release date in CHANGELOG.txt and remove any IN DEVELOPMENT text from the changelog and the release notes page
+  * For a major, minor or patch release, use a range covering the minor release (e.g. `wagtail>=2.8,<2.9`)
+* **For a major, minor or patch release:** fill in the release date in CHANGELOG.txt and remove any IN DEVELOPMENT text from the changelog and the release notes page
 * Confirm that the latest revision is passing on [Github Actions CI](https://github.com/wagtail/wagtail/actions)
 * _For 2.11.x releases only_: Confirm that the [Elasticsearch 2 test on Travis](https://travis-ci.org/github/wagtail/wagtail) is passing
 
@@ -84,7 +85,7 @@ Once the new release is out, please update https://releases.wagtail.io/latest.tx
 
 Set up the AWS client, if you haven't already - `pip install awscli`, then `aws configure` and enter the credentials.
 
-Edit scripts/latest.txt with the new version details: `version` is the newest version, `url` is its release notes page, and `majorUrl` is the release notes page for the corresponding major version (shown to users who are running an earlier major version). If this is a new release (major or minor) within an LTS branch, update the `lts` section too. Then, with the AWS client configured, run:
+Edit scripts/latest.txt with the new version details: `version` is the newest version, `url` is its release notes page, and `minorUrl` is the release notes page for the corresponding minor version, e.g. 2.15 for 2.15.1. (This is shown to users who are running an earlier minor version, so that they see the changelog for the whole minor release rather than just the .1 patch). If this is a new release (major, minor or patch) within an LTS branch, update the `lts` section too. Then, with the AWS client configured, run:
 
     cd wagtail/scripts
     ./latest.sh put latest.txt
