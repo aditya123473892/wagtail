@@ -30,3 +30,7 @@ Exceptionally, with 2.0 introducing breaking changes, 1.13 was designated as LTS
 | 2.13           | 12 May 2021             | 1 August 2021       |
 | 2.14           | 1 August 2021          | 1 November 2021     |
 | **2.15 LTS**   | **1 November 2021**    | **1 February 2023** |
+| 2.16           | 2 February 2022        | 12 May 2022          |
+| 2.17           | 12 May 2022             | 1 August 2022       |
+| 2.18           | 1 August 2022          | 1 November 2022     |
+| **2.19 LTS**   | **1 November 2022**    | **1 February 2024** |
