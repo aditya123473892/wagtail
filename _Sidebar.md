@@ -13,6 +13,7 @@ Teams
 - [[Wagtail sub teams]]
   - [[Accessibility team]]
   - [[Performance team]]
+  - [[UI team]]
 
 How To
 
