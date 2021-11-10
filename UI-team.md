@@ -7,4 +7,7 @@ The team’s membership is open to all, introduce yourself in [#ui on Slack](htt
 
 ## Team members
 
-TBC
+- Naomi
+- Thibaud
+- Scott(?)
+- Coen
