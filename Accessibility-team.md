@@ -89,7 +89,7 @@ Attendees: Thibaud, Jesse, Saptak, Scott, Kyle
 
 ### Actions
 
-- Thibaud Review draft from Saptak
+- ✅ Thibaud Review draft from Saptak
 - Thibaud Blog post about high-contrast mode & Saptak joining our team
 - ✅ Thibaud Test bulk-actions work about to be merged, currently in <https://github.com/wagtail/wagtail/tree/feature/bulk-actions>
 - Add test plan for issue
