@@ -41,7 +41,7 @@ Past meetings:
     - Storm Heg ([@Stormheg](https://github.com/Stormheg)), UTC + 1 or 2, since February 2021
     - Saptak Sengupta ([@SaptakS](https://github.com/SaptakS)), since July 2021
 - 6 people active during the last 6 months, 4 attending meetings on average
-    - Compared to 5 members last term, with only 2 attending meetings on average
+    - Compared to 5 people involved last term, with only 2 attending meetings on average
     - 4 new members this term
     - With Saptak joining us mid-term
     - 3 people on core team
