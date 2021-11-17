@@ -66,7 +66,7 @@ Past meetings:
 ### Agenda / changes we wanted in the last term
 
 - ✅ Create plan to recruit 5 members
-  - ❌ Open office hours?
+- ❌ Open office hours?
 - ✅ Create and publish accessibility audits of Wagtail to have a clear record of our current state
 - ✅ Update Wagtail contribution guidance, and PR template, to make it clear individual pull requests should include accessibility testing. Review issue templates as well
 - ✅ 45min meetings in the future.
