@@ -10,11 +10,11 @@ Timeline of development priorities for the Wagtail core team. Please note that t
   [RFC 50](https://github.com/wagtail/rfcs/pull/50)
 * ### Page content analysis - Q1 2021
   Support within the page editor for spellchecking, tone guidance etc - [RFC 60](https://github.com/wagtail/rfcs/pull/60)
-* ### Accessibility - 2021 🚧
+* ### Accessibility - ~2021~ 2022 🚧
   Aiming for full WCAG2.1 AA compliance across the Wagtail admin. Tracked in [WCAG2.1 AA compliance](https://github.com/wagtail/wagtail/projects/5) and [#4199](https://github.com/wagtail/wagtail/issues/4199).
 * ### Multi-tenancy - Q2 2021
   Ability to configure the admin so that editors with permission for one site are fully isolated from others - [#4288](https://github.com/wagtail/wagtail/issues/4288)
-* ### Drop IE support - Q3 2021
+* ### Drop IE support - Q3 2021  ✅
   [Support to be dropped in Wagtail 2.14](https://docs.wagtail.io/en/stable/editor_manual/browser_issues.html#ie11).
 * ### Object usage reporting - Q3 2021
   "This image is used on the following pages..." [#4702](https://github.com/wagtail/wagtail/issues/4702) / [#4481](https://github.com/wagtail/wagtail/issues/4481)
