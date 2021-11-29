@@ -9,7 +9,7 @@ Timeline of development priorities for the Wagtail core team. Please note that t
 * ### Commenting in the page edit view - Q1 2021 ✅
   [RFC 50](https://github.com/wagtail/rfcs/pull/50)
 * ### Multi-tenancy - Q2 2021
-  Ability to configure the admin so that editors with permission for one site are fully isolated from others - [#4288](https://github.com/wagtail/wagtail/issues/4288)
+  Ability to configure the admin so that editors with permission for one site are fully isolated from others - [#7521](https://github.com/wagtail/wagtail/discussions/7521)
 * ### Drop IE support - Q3 2021  ✅
   [Support dropped in Wagtail 2.15](https://docs.wagtail.io/en/stable/editor_manual/browser_issues.html#ie11).
 * ### Object usage reporting - Q3 2021
