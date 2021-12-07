@@ -27,7 +27,7 @@ The Wagtail core team are:
   ([cnk](https://github.com/cnk))
   - [Caltech](https://www.caltech.edu/),
     Los Angeles California USA,
-    [UTC+7/8](https://www.timeanddate.com/worldclock/usa/los-angeles)
+    [UTC-7/8](https://www.timeanddate.com/worldclock/usa/los-angeles)
   - Areas of interest: backend, modeladmin, multitenancy
 - Dan Braghis
   ([zerolab](https://github.com/zerolab))
