@@ -54,7 +54,7 @@ The Wagtail core team are:
   ([jonnyscholes](https://github.com/jonnyscholes))
   - [Takeflight](http://takeflight.com.au),
     Tasmania, Australia,
-    [UTC+11](https://www.timeanddate.com/worldclock/australia/hobart)
+    [UTC+10/11](https://www.timeanddate.com/worldclock/australia/hobart)
   - Areas of interest: frontend, UX, React, JavaScript
 - Kalob Taulien ([KalobTaulien](https://github.com/kalobtaulien))
   - Canada, [UTC-6/7](https://www.timeanddate.com/worldclock/canada/edmonton)
