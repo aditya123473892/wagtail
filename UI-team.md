@@ -27,6 +27,80 @@ Past meetings:
 
 <!-- Insert meeting notes here, most recent first: -->
 
+## 2021-12-16
+
+Attendees: Thibaud, Fabien, Steven, LB, Coen
+
+Apologies: Naomi
+
+### Actions
+
+- Thibaud Share good resource on design tokens
+- Fabien Review Thibaud's RTL plans
+- Thibaud First draft of feasibility review with build per component
+- LB Follow up on Django-friendly frontend customisations in chat
+- General gist - we need to make sure we support lots of customisations through Django
+- A simple example, adding classes - this should work for lots of things and be able to be done in Django land
+
+### Discussions
+
+- Backlog review!
+  - Below -- everything  Thibaud is planning to do ahead of starting the page editor redesign's builds in February
+  - Areas you'd like to be involved with: 🥭 Naomi, 🍎Coen, 🍐 Fabien, 🍑 LB, 🍒 Scott, 🍓 Steve
+  - 🍋 immediate priority for Thibaud
+  - 💥: needs further validation / sounds silly / are you sure about this?
+- [Page editor 2022](https://github.com/wagtail/wagtail/discussions/7739) backlog -- planning
+  - Design feasibility review🍋 🍓
+  - Design accessibility review🍋
+  - Project scoping / backlog refinement🍋
+  - Spikes / PoC for specific features (quick nav / minimap)
+  - Breaking changes review🍋
+  - GitHub issues / existing PRs review 🍑
+- [Page editor 2022](https://github.com/wagtail/wagtail/discussions/7739) backlog -- code changes
+  - Design tokens setup🍓
+    - Design tokens as JS files
+    - Tailwind theme to reuse design tokens in stylesheets🍓
+    - npm package to share design tokens (& eventually UI components) to maintain consistency across other projects 🍎🍓
+  - Design system's UI components setup
+    - Sass + BEM + ITCSS for UI component styles🍓
+    - Tailwind for basic utility classes (spacing, grid) and dead CSS removal. 🍓
+    - Django templates + vanilla JS/TS OR React (TS only) for UI component markup & behavior 🍐 🍓
+    - django-pattern-library + Storybook to🍋 🍎🍐 🍓
+    - RTL 🍐
+  - Static analysis overhaul
+    - Prettier for automated formatting 🍐 🍑 🍋
+    - djhtml for automated formatting 🍐 🍋
+    - Stylelint config ++: disallow hard-coding any value that is a design token, consistent spacing, consistent usage of RTL-friendly styles 🍑 🍋
+    - ESLint config ++: update to recent version of current setup 🍑 🍋
+  - UI testing
+    - Using the `tests` project within Wagtail as a manual UI testing environment with dedicated fixtures 🍎
+    - <https://github.com/wagtail/wagtail/pull/7751> 🍋🍎
+  - Tech debt
+    - Gulp -> Webpack
+    - Windows compatibility
+    - IE11 hacks / cruft removal🍋
+- Design tokens --fundamental units of design systems reuse
+- jQuery future?
+  - Disallow with linting rule
+  - Not necessarily a goal on its own but we want to do this alongside other work
+  - Also makes it easier to write unit tests for this code
+- React -- where do we want to use it?
+  - Choosers?
+  - htmx -- is there a place for it?
+  - Potentially -- more lightweight than React, easier to work with for Django devs
+  - Alpine? Same question
+  - htmx --AJAX calls
+- POC? 🍐
+- Windows compatibility
+  - Frequent questions on Slack
+- Wagtail as a platform
+  - Collaborative editing & autosave
+- RTL support
+  - Fabien has clients needing this
+  - And some experience
+- Wagtail as a Django CMS
+  - For example needing to do forms in a Django formset/widget/field friendly way
+
 ## 2021-12-02 -- new team kickoff
 
 ### Actions
