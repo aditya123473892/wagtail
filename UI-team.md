@@ -21,7 +21,7 @@ Current members:
 
 ---
 
-Next meetings: [see agenda](https://docs.google.com/document/d/1YUxOs5jYZMd8rX291mDE123xIK7tbD63PzSR9ooFa4c/edit)
+Next meetings: [see agenda](https://docs.google.com/document/d/1SRXjlZ3_f48XGpJrtUaNO80sz_qp_ECAs2p0gFZAO0g/edit)
 
 Past meetings:
 
