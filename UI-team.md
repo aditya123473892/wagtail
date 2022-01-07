@@ -27,6 +27,99 @@ Past meetings:
 
 <!-- Insert meeting notes here, most recent first: -->
 
+## 2022-01-06 UTC evening
+
+Attendees: Steve, Scott, Naomi, Thibaud
+
+```
+🌵🌵🌵▫️▫️▫️▫️🌵▫️▫️
+
+▫️▫️🌵▫️🌵▫️🌵▫️🌵🌵
+
+🍂🌵🌵▫️🌵🌵🌵🌵🌵🌵
+
+🌵🌵🌵🌵▫️🌵🌵▫️🌵🍄
+
+🌵🌵🌵▫️🌵🌵🌵🌵🌵🌸
+
+🌵🍄🌵🌵🌵▫️🌵🌵🐛🌵
+
+▫️🌵▫️🌵🌵▫️▫️🌵▫️🌵
+
+🥕🌵🌵🌵▫️🌵🐦🌵▫️▫️
+
+▫️▫️▫️▫️🐦▫️▫️▫️🌵🌵
+
+▫️🐦🌵▫️▫️🌵🌵▫️🌵🌰
+```
+
+### Actions
+
+- Thibaud Ask an Alpine.js / htmx expert to pitch us
+- Thibaud Review and merge <https://github.com/wagtail/wagtail/pull/6790>
+- LB Review Prettier PR
+- Coen Review Prettier PR
+- Thibaud Prettier semi-automated PR conflict fixes step-by-step
+- Thibaud Try out [Storybook composition](https://storybook.js.org/docs/react/workflows/storybook-composition)
+- ✅ Fabien Review [RTL support plans](https://github.com/wagtail/wagtail/discussions/7793)
+- Thibaud Review CSS refactoring list <https://github.com/wagtail/wagtail/projects/4#card-17060767>
+- Coen Review [list of components](https://docs.google.com/spreadsheets/d/1l7tnpEyJiC5BWE_JX0XCkknyrjxYA5T2aee5JgPnmi4/edit#gid=702715712) from Django perspective
+- LB Stylelint declaration-strict-value PR review
+- Scott Stylelint declaration-strict-value PR review
+- Thibaud Research ways to help enforce usage of flexible-width components
+- Thibaud Implement auto-fixable ordering of declaration blocks in CSS
+
+### Discussions
+
+- Quick recap of last meeting
+  - Alpine.js!!! and htmx
+  - Boring tools = good
+  - How would this be for new contributors?
+  - Compared to React & vanilla JS
+  - Looking at Wagtail’s contributor base in particular
+- Actions review
+  - ✅ Thibaud Share good resource on design tokens (thank you Coen, <https://spectrum.adobe.com/page/design-tokens/>)
+  - ✅ Thibaud Look into ways to automate checking which PRs might have UI changes
+  - Thibaud Prettier semi-automated PR conflict fixes step-by-step
+  - Thibaud Try out [Storybook composition](https://storybook.js.org/docs/react/workflows/storybook-composition)
+  - Fabien Review [RTL support plans](https://github.com/wagtail/wagtail/discussions/7793)
+  - ✅ Thibaud First draft of feasibility review with build per component
+    - <https://docs.google.com/spreadsheets/d/1l7tnpEyJiC5BWE_JX0XCkknyrjxYA5T2aee5JgPnmi4/edit#gid=702715712>
+  - ✅ LB Follow up on Django-friendly frontend customisations in chat
+    - General gist - we need to make sure we support lots of customisations through Django
+    - A simple example, adding classes - this should work for lots of things and be able to be done in Django land
+- Prettier
+  - Spaces for HTML? 4
+  - Spaces for JS? 2
+  - Spaces for CSS? 2
+  - Single quotes
+  - We want to be different (but don’t care that much)
+  - <https://github.com/wagtail/wagtail/compare/main...thibaudcolas:chore/prettier-setup?expand=1>
+  - JSON, YAML: yes
+  - Markdown: no
+  - djhtml
+- Components review
+  - <https://docs.google.com/spreadsheets/d/1l7tnpEyJiC5BWE_JX0XCkknyrjxYA5T2aee5JgPnmi4/edit#gid=702715712>
+  - Django review
+  - Messages -- use vanilla Django
+  - Error lists
+  - StructBlock validation -- can only attach error messages to blocks within StructBlock, not at the StructBlock level
+    - Potentially the same for StreamBlock, ListBlock
+  - "It's very functional if you are sighted and have good motor skills"
+  - Styleguide
+    - (It's not very good)
+- Webpack + other tooling upgrades
+  - Stylelint
+  - Stylelint declaration-strict-value: <https://github.com/wagtail/stylelint-config-wagtail/pull/9>
+  - Stylelint RTL styles enforcement: <https://github.com/wagtail/stylelint-config-wagtail/pull/10>
+  - RTL
+  - Consideration of word width
+  - Order of properties: <https://github.com/hudochenkov/stylelint-order>
+    - Would be nice if automate-able, otherwise might not be worth it? Yes it's auto-fixable
+    - Mixins first
+    - Sample: <https://github.com/thibaudcolas/stylelint-config-cookbook/blob/main/src/config.js#L93>
+  - Modern CSS: <https://github.com/ismay/stylelint-no-unsupported-browser-features>
+
 ## 2021-12-16
 
 Attendees: Thibaud, Fabien, Steven, LB, Coen
