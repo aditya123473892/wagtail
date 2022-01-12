@@ -1,5 +1,5 @@
 
-Find us in [#security](https://app.slack.com/client/T0K33F93J/C015Y7T4MQR) on the [Wagtail Slack](https://github.com/wagtail/wagtail/wiki/Slack).
+Find us in [#security](https://app.slack.com/client/T0K33F93J/C015Y7T4MQR) on the [Wagtail Slack](https://github.com/wagtail/wagtail/wiki/Slack). See [SECURITY.md](https://github.com/wagtail/wagtail/blob/main/SECURITY.md) for details on reporting a security issue to the team.
 
 ## Team charter
 
