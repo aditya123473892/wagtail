@@ -1,3 +1,7 @@
+Deprecated in the light of [Phase out icon font and use SVG everywhere #6107](https://github.com/wagtail/wagtail/issues/6107)
+For notes on adding new SVG icons, see [#6028](https://github.com/wagtail/wagtail/pull/6028)
+---
+
 To add new icons to the Wagtail icon font:
 
 * go to https://icomoon.io/app/
