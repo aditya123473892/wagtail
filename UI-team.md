@@ -27,6 +27,76 @@ Past meetings:
 
 <!-- Insert meeting notes here, most recent first: -->
 
+## 2022-01-13 UTC afternoon
+
+Attendees: Naomi, Scott, Fabien, Thibaud, Steve
+
+### Actions
+
+- Steve Share and demo Alpine implementation of dropdown
+- Thibaud Review and merge <https://github.com/wagtail/wagtail/pull/6790>
+- LB Review Prettier PR
+- Coen Review Prettier PR
+- Thibaud Try out [Storybook composition](https://storybook.js.org/docs/react/workflows/storybook-composition)
+- Thibaud Review page editor related issues and PRs
+- Coen Review [list of components](https://docs.google.com/spreadsheets/d/1l7tnpEyJiC5BWE_JX0XCkknyrjxYA5T2aee5JgPnmi4/edit#gid=702715712) from Django perspective
+- LB Stylelint declaration-strict-value PR review
+- ⏳ Scott Stylelint declaration-strict-value PR review
+- Thibaud Research ways to help enforce usage of flexible-width components
+- Thibaud Implement auto-fixable ordering of declaration blocks in CSS
+- Naomi Research normalize.css & other resets
+- Scott Research system font stack for Wagtail ([#7724](https://github.com/wagtail/wagtail/issues/7724))
+
+### Discussions
+
+- Actions review
+  - ✅ Thibaud Ask an Alpine.js / htmx expert to pitch us
+    - ​​<https://codepen.io/thibaudcolas/pen/rNGrPjz>
+  - Thibaud Review and merge <https://github.com/wagtail/wagtail/pull/6790>
+  - LB Review Prettier PR
+  - Coen Review Prettier PR
+  - ✅ Thibaud Prettier semi-automated PR conflict fixes step-by-step
+    - git rebase  --strategy-option=theirs  --exec '(djhtml -i `git show --name-only --pretty="" HEAD "*.html"` || true) && git add `git show --name-only --pretty="" HEAD "*.html"` && git commit --amend --no-edit --no-verify'  origin/master
+  - Thibaud Try out [Storybook composition](https://storybook.js.org/docs/react/workflows/storybook-composition)
+  - ✅ Fabien Review [RTL support plans](https://github.com/wagtail/wagtail/discussions/7793)
+  - ✅ Thibaud Review CSS refactoring list <https://github.com/wagtail/wagtail/projects/4#card-17060767>
+  - Coen Review [list of components](https://docs.google.com/spreadsheets/d/1l7tnpEyJiC5BWE_JX0XCkknyrjxYA5T2aee5JgPnmi4/edit#gid=702715712) from Django perspective
+  - LB Stylelint declaration-strict-value PR review
+  - ⏳ Scott Stylelint declaration-strict-value PR review
+  - Thibaud Research ways to help enforce usage of flexible-width components
+  - Thibaud Implement auto-fixable ordering of declaration blocks in CSS
+- Wagtail 2.16
+  - Slim sidebar
+  - TypedTableBlock
+  - Modal choosers bug fix
+  - Breaking changes expected in Wagtail 2.17
+    - SVG icons
+    - Modernizr
+    - jQuery Datetimepicker
+    - Good idea
+- [Wagtail design system components list](https://docs.google.com/spreadsheets/d/1l7tnpEyJiC5BWE_JX0XCkknyrjxYA5T2aee5JgPnmi4/edit#gid=702715712)
+- Modern CSS reset
+  - Example: <https://www.joshwcomeau.com/css/custom-css-reset/>
+  - Pick one and move on :)
+  - Or... careful because of the potential breakage
+  - Box-sizing
+  - <https://necolas.github.io/normalize.css/> consider first
+  - UI regression test suite would be nice
+  - Percy + Browserstack sponsorship
+  - <https://github.com/thibaudcolas/wagtail-tooling>
+- System font stack ([Wagtail brand font #7724](https://github.com/wagtail/wagtail/issues/7724))
+  - Who has done research? / wants to
+  - Customisable system font
+  - Dyslexia font support / browser extensions or browser-level font  customization
+  - Good resources on this?
+  - web-a11y
+- Browser support & testing goals
+  - iOS Safari 12?
+  - Windows testing
+  - Windows: yes, Edge (scrollbar)
+  - Safari last 3 major versions
+  - Device management issues & Safari version tied to OS
+
 ## 2022-01-06 UTC evening
 
 Attendees: Steve, Scott, Naomi, Thibaud
