@@ -29,6 +29,99 @@ Past meetings:
 
 <!-- Insert meeting notes here, most recent first: -->
 
+## 2022-01-27 UTC evening
+
+Attendees: Naomi, Harris, LB, Scott, Steve, Thibaud, Dawn, Coen
+
+### Actions
+
+- Thibaud Review and merge <https://github.com/wagtail/wagtail/pull/6790>
+- LB Review Prettier PR
+- Coen Review Prettier PR
+- Thibaud Try out [Storybook composition](https://storybook.js.org/docs/react/workflows/storybook-composition)
+- Coen Review [list of components](https://docs.google.com/spreadsheets/d/1l7tnpEyJiC5BWE_JX0XCkknyrjxYA5T2aee5JgPnmi4/edit#gid=702715712) from Django perspective
+- Thibaud Next version of declaration-strict-value PR
+- LB Review afterwards
+- Thibaud Research ways to help enforce usage of flexible-width components
+- Thibaud Implement auto-fixable ordering of declaration blocks in CSS
+- Thibaud Try out Normalize.css upgrade with [visual regressions](https://github.com/thibaudcolas/wagtail-tooling)
+    - Please also review this PR as it explains the issue encountered when upgrading previously <https://github.com/wagtail/wagtail/pull/7626>
+- Thibaud Ask for system font stack feedback in #ui as part of implementation
+- Dawn, Naomi, Harris, Scott, Steve Read LB's investigation & provide feedback
+
+### Discussions
+
+- Internet submarine cables topology
+- New members! 🌈
+    - Welcome Harris!
+        - Principal dev @ Freedom of the Press foundation
+        - Want to help with this -- something that feels smaller than core team!
+    - Hey Dawn :)
+        - SWE at Wharton, Philadelphia, core team
+        - Keen to be involved with this. Maybe with two mentees too
+    - Rounds of intros! Thibaud, Steve, LB, Naomi, Scott
+- Actions review
+- CSS resets
+    - > The version we're using is very old and rather different from the current one, but the current one looks reasonable. I (Naomi) think we should update to the current version, but either we'll have to test well since some things are affirmatively different (like going from b and strong having font-weight: bold to having font-weight: bolder). I agree with Normalize's approach of not being opinionated. I think that if we want something opinionated, we should go with using an entire accessibility-focused design system such as [uswds](https://designsystem.digital.gov/), which I've never used before, but they're legally required to be serious about accessibility.
+    - Potential breakage? (this is good timing if there is any)
+    - Decision needed: introduce this side by side with supporting existing CSS / UI components? Or separate
+    - Thibaud to test how much is changing in practice
+- Building upon USWDS design system?
+    - More accessibility fundamentals to be built upon
+    - Need to be careful with our dependencies
+    - Need to achieve bespoke UIs, but also don't want to reinvent the wheel for utils
+    - Dropdown implementation
+    - Tabs implementation
+    - Modal
+    - Tooltips
+    - Date picker
+- System font stack
+    - Go for it
+    - Check which guidance is the most recent (follow that)
+    - Roboto
+    - Scott has all the devices :)
+    - Chinese or Japanese testing
+    - Ask in #watercooler
+    - Use Squash for this
+    - Ask in #translators channel / look at Transifex contributors
+    - <https://infinnie.github.io/blog/2017/systemui.html>
+    - Roboto issue
+    - system-ui
+- [LB's lightweight frameworks review](https://github.com/wagtail/wagtail/discussions/7689#discussioncomment-2037913)
+    - 💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯
+    - 🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈
+    - Ask for others to review, particularly people involved with Telepath
+    - RFC?
+    - ES6 modules RFC overlap?
+    - Look at thread from people with production experience
+- 45min meetings!
+- Recurring meetings for
+
+## 2022-01-20 UTC morning
+
+Attendees: Thibaud, LB
+
+### Actions
+
+- ✅ Steve Share and demo Alpine implementation of dropdown
+- Thibaud Review and merge <https://github.com/wagtail/wagtail/pull/6790>
+- LB Review Prettier PR
+- Coen Review Prettier PR
+- Thibaud Try out [Storybook composition](https://storybook.js.org/docs/react/workflows/storybook-composition)
+- Coen Review [list of components](https://docs.google.com/spreadsheets/d/1l7tnpEyJiC5BWE_JX0XCkknyrjxYA5T2aee5JgPnmi4/edit#gid=702715712) from Django perspective
+- ✅ Scott Stylelint declaration-strict-value PR review
+- Thibaud Research ways to help enforce usage of flexible-width components
+- Thibaud Implement auto-fixable ordering of declaration blocks in CSS
+- ✅ Naomi Research normalize.css & other resets
+- ✅ Scott Research system font stack for Wagtail ([#7724](https://github.com/wagtail/wagtail/issues/7724))
+- Naomi looked into this a bit and commented. It looks like yes we should do this and we should be careful about testing font weights
+
+### Discussions
+
+- Actions review
+- jQuery deprecations
+- JS framework for Wagtail
+
 ## 2022-01-13 UTC afternoon
 
 Attendees: Naomi, Scott, Fabien, Thibaud, Steve
