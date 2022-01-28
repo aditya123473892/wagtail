@@ -18,6 +18,8 @@ Current members:
 - Fabien Le Frapper ([@fabienheureux](https://github.com/fabienheureux)), UTC + 1 or 2, since December 2021
 - Coen van der Kamp ([@allcaps](https://github.com/allcaps)), UTC + 1 or 2, since December 2021
 - Steve Steinwand ([@stevedya](https://github.com/stevedya)), UTC - 7 or 8, since December 2021
+- Dawn Wages ([@dawnwages](https://github.com/dawnwages)), UTC - 4 or 5, since January 2022
+- Harris Lapiroff ([@harrislapiroff](https://github.com/harrislapiroff)), UTC - 4 or 5, since January 2022
 
 ---
 
