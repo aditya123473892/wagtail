@@ -29,6 +29,113 @@ Past meetings:
 
 <!-- Insert meeting notes here, most recent first: -->
 
+## 2022-02-10 UTC morning
+
+Attendees: Coen, LB, Fabien, Thibaud
+
+### Actions
+
+- Scott & Thibaud Finish <https://github.com/wagtail/wagtail/pull/6790>
+- Thibaud Set up Windows-only build of front-end tooling once #6790 is merged
+- Thibaud Try out [Storybook composition](https://storybook.js.org/docs/react/workflows/storybook-composition)
+- Coen Review list of components from Django perspective [Wagtail | Page editor 2022 UI overview](https://docs.google.com/spreadsheets/d/134icHJUzr-0q42cvWhYGXtFN77mnauOT5x32sAKpW_Q/edit#gid=702715712)
+- Steve Review designs for multilingual issues / talk to Ben
+- Coen Raise PO files methodology & blocktrans trimmed issue
+- Thibaud Implement auto-fixable ordering of declaration blocks in CSS
+- Thibaud Try out Normalize.css upgrade with [visual regressions](https://github.com/thibaudcolas/wagtail-tooling)
+  - Please also review this PR as it explains the issue encountered when upgrading previously <https://github.com/wagtail/wagtail/pull/7626>
+- Thibaud Read LB's investigation & provide feedback
+- Thibaud Ask Karl, Jacob, (?) for input on UI frameworks
+- Steve Follow up on design tokens definition
+- Thibaud Pass on feedback re opening contributions outside of current team
+
+### Discussions
+
+- Actions review
+- Multilingual issues
+  - PO files should be done earlier? Should be part of PRs
+  - Sync script happening before releases
+- Lightweight UI framework
+  - Transition could be gradual
+  - Also considering Turbo? (Coen tried)
+    - Works well in the Django paradigm
+    - Stimulus Reflex = Stimulus + Turbolinks
+    - Can be considered in the future -- nice to know there is a bigger ecosystem
+- Styleguide -- online or embedded in Wagtail?
+  - Online first
+  - Embedded in Wagtail -- what's the use case?
+  - Problem with current styleguide is it's out of date
+  - Where should it be hosted?
+    - Would be nice if it was versioned?
+    - Good questions
+  - Removing the current styleguide -- hopefully minimal
+  - Do we need versioning?
+    - Can just check out a different branch if needed
+    - Landing page with instructions on how to run it locally for a specific version
+    - Publish latest by default
+- Page editor 2022 impact on existing backlog
+  - <https://github.com/orgs/wagtail/projects/1/views/4>
+- Scope for other parts of Wagtail?
+  - Gradual is the way to go
+  - Make sure other people can pick up the work elsewhere
+  - (non-Torchbox)
+- Review of jQueryUI usage
+  - Main one: Hallo
+  - File uploads (way beyond support)
+  - Tagit
+  - Code complexity is also because browser support from 10 years ago
+- <https://github.com/wagtail/wagtail/projects/13#card-76521029>
+- ✅ [Removal of Hallo](https://github.com/wagtail/wagtail/issues/6228)
+  - Discussed in core team
+  - Next release (will be 3.0)
+- Deprecations / breaking changes
+  - Make the Stimulus decision as soon as possible
+  - Coen is keen based on concepts / working well for Wagtail in particular
+
+## 2022-02-03 UTC afternoon
+
+Attendees: Naomi, Scott, Thibaud, Steve, Harris
+
+### Actions
+
+- Scott & Thibaud Finish <https://github.com/wagtail/wagtail/pull/6790>
+- Thibaud Set up Windows-only build of front-end tooling once #6790 is merged
+- ✅ Thibaud Merge Prettier PR in 24hours & share steps to fix conflicts on Slack
+- Thibaud Try out [Storybook composition](https://storybook.js.org/docs/react/workflows/storybook-composition)
+- Coen Review list of components from Django perspective [Wagtail | Page editor 2022 UI overview](https://docs.google.com/spreadsheets/d/134icHJUzr-0q42cvWhYGXtFN77mnauOT5x32sAKpW_Q/edit#gid=702715712)
+- Steve Review designs for multilingual issues / talk to Ben
+- Thibaud Implement auto-fixable ordering of declaration blocks in CSS
+- Thibaud Try out Normalize.css upgrade with [visual regressions](https://github.com/thibaudcolas/wagtail-tooling)
+  - Please also review this PR as it explains the issue encountered when upgrading previously <https://github.com/wagtail/wagtail/pull/7626>
+- ✅ Thibaud Ask for system font stack feedback in #ui as part of implementation
+- Naomi, Thibaud Read LB's investigation & provide feedback
+- ✅ Thibaud Ask Karl, Jacob, (?) for input on UI frameworks
+- ✅ Steve Make spreadsheet with design tokens
+- ✅ Steve Schedule serious bikeshedding meeting
+  - With spreadsheet with design tokens
+  - Comments on spreadsheet
+
+### Discussions
+
+- Actions review
+- UI framework discussions
+  - HTMX & plain JS -- still on the table? (tweet)
+  - Pick one of the two options on the Web Components
+  - Further look into options set aside by LB
+  - Score against use cases LB drafted?
+  - Scott interested in seeing how HTMX works even outside of Wagtail admin
+- Prettier
+  - Worth the heads' up
+  - See actions
+- Design tokens naming
+  - Colors - numbers sound good
+  - Text
+  - Generic label1, label2, label3?
+  - Alias to what the style actually is used
+  - Document what they are for?
+- Page editor 2022 impact on existing backlog
+  - <https://github.com/orgs/wagtail/projects/1/views/4>
+
 ## 2022-01-27 UTC evening
 
 Attendees: Naomi, Harris, LB, Scott, Steve, Thibaud, Dawn, Coen
