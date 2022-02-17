@@ -24,3 +24,4 @@ How To
 - [[Managing Wagtail translations]]
 - [[Nightly testing of official plugins]]
 - [[PR triage]]
+- [[Updating PRs for linting changes]]
