@@ -120,7 +120,7 @@ Jacob Topp-Mugglestone
 
 ---
 
-### Apply page editor style to all views 
+### Apply new page editor style to all views 
 
 #### Summary
 Wagtail is currently redesigning the page editor. But has many other views that are out of scope. However, those out of scope views should get the same styling and use the same components and techniques.
