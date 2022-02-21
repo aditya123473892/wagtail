@@ -4,7 +4,7 @@
 - [[Release schedule]]
 - [[Roadmap]]
 - [[Contributed apps and website code]]
-- [[Google Summer of Code 2021]]
+- [[Google Summer of Code]]
 
 Teams
 
