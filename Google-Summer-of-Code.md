@@ -23,85 +23,6 @@ Write a motivation and submit your CV. Tell us about your experience with Python
 
 ## Project ideas
 
-> 🚧 Ideas from 2021, to be updated for 2022!
-
-### Wagtail Live
-#### Summary
-
-High speed content delivery. A live blog from chat applications to a Wagtail site.
-
-Content editors will enter their content into Slack (or any other messaging application) and this will live update the Wagtail live-blog page.
-
-- **Live example**: [https://www.theguardian.com/politics/live/2020/feb/05/pmqs-boris-johnson-corbyn-bbc-could-end-up-as-defunct-as-blockbuster-unless-it-adapts-to-digital-era-says-culture-secretary-nicky-morgan-live-news](https://www.theguardian.com/politics/live/2020/feb/05/pmqs-boris-johnson-corbyn-bbc-could-end-up-as-defunct-as-blockbuster-unless-it-adapts-to-digital-era-says-culture-secretary-nicky-morgan-live-news) 
-- **POC (Proof Of Concept)**: [https://github.com/allcaps/wagtail-live](https://github.com/allcaps/wagtail-live)
-- **Video**: [https://www.youtube.com/watch?v=JL-MlNl2Buc&feature=youtu.be](https://www.youtube.com/watch?v=JL-MlNl2Buc&feature=youtu.be)
-
-**Implementation**
-- Input a chat application / third party product
-- Output on a live blog page
-- Message server (Django Channels)
-
-**Skills**
-- Python, Django, Wagtail
-- Message server
-- Consume Chat API’s
-
-**Mentors**
-Tom Dyson and Coen van der Kamp
-
-**Aims**
-To produce a Wagtail package to deliver content fast
-
-----------------------------------
-
-### Bulk admin actions
-#### Summary
-Enable bulk actions in a variety of Wagtail administrative interfaces
-
-**Implementation**
-- Allow performing common tasks (such as delete, publish etc) in bulk for Wagtail Pages, Images and Documents
-- Provide an extension mechanism that will enable developers to provide custom actions
-
-**Skills**
-- Django, Python and front-end
-
-**Mentors**
-Karl Hobley
-
-**Aims**
-
-To enhance the Wagtail administrative interface
-
--------------------------------------
-
-### New database search backend
-
-#### Summary 
-
-A new search backend that makes use of the search features of the current database. With support for SQLite and PostgreSQL search features.
-
-This will replace the existing database and PostgreSQL search backends in Wagtail.
-
-**Implementation**
-
- - Create a search backend that creates a separate database table for each search index (pages, images, and documents). These tables should make use of whatever search specific types and indexes are available in the currently used database engine
- - Implement the search query interface to allow retrieving data from these search backends
- - (optional) Create a test suite that tests the quality of the results that each search backend returns
-
-**Skills**
-
- - Databases
- - Search / PostgreSQL FTS / SQLite FTS / MySQL FTS
-
-**Mentors**
-
-Karl Hobley
-
-**Aims**
-
-- Improve the quality of results for the existing PostgreSQL search backend
-- Add support for SQLite and MySQL search into Wagtail core
-
 -------------------------------------
 
 
@@ -191,3 +112,81 @@ Thibaud Colas
 - Implement Wagtail’s support for `picture` and `srcset` (https://github.com/wagtail/wagtail/issues/285)
 
 ---
+
+## 2021 project ideas
+
+
+### Wagtail Live
+#### Summary
+
+High speed content delivery. A live blog from chat applications to a Wagtail site.
+
+Content editors will enter their content into Slack (or any other messaging application) and this will live update the Wagtail live-blog page.
+
+- **Live example**: [https://www.theguardian.com/politics/live/2020/feb/05/pmqs-boris-johnson-corbyn-bbc-could-end-up-as-defunct-as-blockbuster-unless-it-adapts-to-digital-era-says-culture-secretary-nicky-morgan-live-news](https://www.theguardian.com/politics/live/2020/feb/05/pmqs-boris-johnson-corbyn-bbc-could-end-up-as-defunct-as-blockbuster-unless-it-adapts-to-digital-era-says-culture-secretary-nicky-morgan-live-news) 
+- **POC (Proof Of Concept)**: [https://github.com/allcaps/wagtail-live](https://github.com/allcaps/wagtail-live)
+- **Video**: [https://www.youtube.com/watch?v=JL-MlNl2Buc&feature=youtu.be](https://www.youtube.com/watch?v=JL-MlNl2Buc&feature=youtu.be)
+
+**Implementation**
+- Input a chat application / third party product
+- Output on a live blog page
+- Message server (Django Channels)
+
+**Skills**
+- Python, Django, Wagtail
+- Message server
+- Consume Chat API’s
+
+**Mentors**
+Tom Dyson and Coen van der Kamp
+
+**Aims**
+To produce a Wagtail package to deliver content fast
+
+### Bulk admin actions
+#### Summary
+Enable bulk actions in a variety of Wagtail administrative interfaces
+
+**Implementation**
+- Allow performing common tasks (such as delete, publish etc) in bulk for Wagtail Pages, Images and Documents
+- Provide an extension mechanism that will enable developers to provide custom actions
+
+**Skills**
+- Django, Python and front-end
+
+**Mentors**
+Karl Hobley
+
+**Aims**
+
+To enhance the Wagtail administrative interface
+
+-------------------------------------
+
+### New database search backend
+
+#### Summary 
+
+A new search backend that makes use of the search features of the current database. With support for SQLite and PostgreSQL search features.
+
+This will replace the existing database and PostgreSQL search backends in Wagtail.
+
+**Implementation**
+
+ - Create a search backend that creates a separate database table for each search index (pages, images, and documents). These tables should make use of whatever search specific types and indexes are available in the currently used database engine
+ - Implement the search query interface to allow retrieving data from these search backends
+ - (optional) Create a test suite that tests the quality of the results that each search backend returns
+
+**Skills**
+
+ - Databases
+ - Search / PostgreSQL FTS / SQLite FTS / MySQL FTS
+
+**Mentors**
+
+Karl Hobley
+
+**Aims**
+
+- Improve the quality of results for the existing PostgreSQL search backend
+- Add support for SQLite and MySQL search into Wagtail core
