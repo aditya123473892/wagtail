@@ -94,6 +94,30 @@ Thibaud Colas
 
 ---
 
+## Toolkit for StreamField data migrations in Wagtail
+
+### Summary 
+
+Wagtail provides a field type for semi-freeform data, StreamField, which uses a JSON representation to store "blocks" of data. While flexible for editors, a pain point for developers has been writing data migrations when changes are made to the block definitions, due to its nested format. This project aims to provide a set of reusable utilities to allow Wagtail implementors to easily generate data migrations for changes to StreamField block structure. It could be extended to cover another common pain point when updating stored data: dealing with live and draft revisions.
+
+**Implementation**
+
+TBD
+
+**Skills**
+
+Django, Python.
+
+**Mentors**
+
+Jacob Topp-Mugglestone
+
+**Aims**
+
+- Create a package which provides utilities for easily updating StreamFields within data migrations.
+
+---
+
 ### Enhanced file manager
 #### Summary 
 TBD
