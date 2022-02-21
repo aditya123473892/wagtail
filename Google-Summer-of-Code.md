@@ -23,6 +23,8 @@ Write a motivation and submit your CV. Tell us about your experience with Python
 
 ## Project ideas
 
+Most RFCs are suitable GSoC projects https://github.com/wagtail/rfcs/pulls?q=is%3Apr+label%3AActive+
+
 ---
 
 ## Automated page accessibility tests
