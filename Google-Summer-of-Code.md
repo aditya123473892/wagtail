@@ -15,7 +15,7 @@ Like Python and Django, the technologies which underpin it, Wagtail is known for
 
 Wagtail has moved fast in the last few years, with particular focus on the editor experience, the refinement of APIs for headless CMS architectures and accessibility. We have adopted a regular quarterly release cycle, which aims to minimise upgrade time while providing compelling new features and improvements with each point releases. We're seeking help to deliver some of our more ambitious plans, many of which are expressed as [RFCs]. We're also open to your ideas for making Wagtail the best open source CMS for the 2020s!
 
-## Students
+## Participants
 
 Applicants should have a basic familiarity with Python, Django and Git. They should have completed the initial Wagtail Tutorial and have created a developer environment for working on Wagtail itself. They should join the [Wagtail Slack](https://github.com/wagtail/wagtail/wiki/Slack) and introduce themselves on the #gsoc channel. They are welcome to seek advice from mentors on suitable projects and topics, which should then be submitted to the project issue list with our [Google Summer of Code issue template](https://github.com/wagtail/wagtail/issues/new?template=GSOC.md).
 
@@ -49,7 +49,7 @@ Thibaud Colas
 
 Create an integrated accessibility testing experience that fits well within a CMS workflow, works well for end users, and can be used as an example for other platforms.
 
--------------------------------------
+---
 
 ## RTL support for Wagtail
 
@@ -115,6 +115,40 @@ Jacob Topp-Mugglestone
 **Aims**
 
 - Create a package which provides utilities for easily updating StreamFields within data migrations.
+
+---
+
+### Apply page editor style to all views 
+
+#### Summary
+Wagtail is currently redesigning the page editor. But has many other views that are out of scope. However, those out of scope views should get the same styling and use the same components and techniques.
+
+---
+
+### Create and select related content
+
+#### Summary
+Django has a 'search loop', 'add plus', and 'modal' to search, select and create related objects. This without navigating away from the current form.
+
+Search loop:
+https://docs.djangoproject.com/en/4.0/ref/contrib/admin/#django.contrib.admin.ModelAdmin.raw_id_fields
+
+Add plus:
+https://docs.djangoproject.com/en/4.0/ref/contrib/admin/#django.contrib.admin.ModelAdmin.fieldsets
+
+---
+
+### Make Wagtail editor guide a stand-alone project
+
+#### Summary
+- Improve the guide 
+  - target specific audiences
+  - make translatable
+- Make the guide maintainable 
+  - automatic screenshots
+  - accept contributions from non-technical
+  - Add feedback option (measure happyness)
+- ...
 
 ---
 
