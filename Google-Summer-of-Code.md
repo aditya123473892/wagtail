@@ -1,4 +1,4 @@
-> 🚧 pending approval of our application.
+> 🚧 pending approval of our application for 2022
 
 Links: 
 * [#gsoc on Slack, open to ask us anything](https://github.com/wagtail/wagtail/wiki/Slack)
