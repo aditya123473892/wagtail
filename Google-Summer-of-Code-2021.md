@@ -1,8 +1,10 @@
+
+
 Links: 
 * [#gsoc on Slack, open to ask us anything](https://github.com/wagtail/wagtail/wiki/Slack)
-* [Documentation](http://docs.wagtail.io/?_ga=2.187979182.70138337.1613670607-1853036869.1613138867)
-* [Wagtail Developer Page](https://wagtail.io/developers/)
-* [Wagtail Blog](https://wagtail.io/blog/)
+* [Documentation](http://docs.wagtail.org/)
+* [Wagtail Developer Page](https://wagtail.org/developers/)
+* [Wagtail Blog](https://wagtail.org/blog/)
 
 ## About Wagtail
 
