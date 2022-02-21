@@ -1,4 +1,4 @@
-> 🚧 pending approval of our application for 2022
+> 🚧 We have applied to participate in 2022, this is pending approval.
 
 Links: 
 * [#gsoc on Slack, open to ask us anything](https://github.com/wagtail/wagtail/wiki/Slack)
