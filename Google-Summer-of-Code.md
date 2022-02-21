@@ -69,6 +69,8 @@ HTML and CSS. Bonus: user experience, visual design, Django.
 
 Thibaud Colas
 
+---
+
 ## More advanced image size optimisations in Wagtail
 
 ### Summary 
