@@ -94,14 +94,40 @@ https://docs.djangoproject.com/en/4.0/ref/contrib/admin/#django.contrib.admin.Mo
 ### Make Wagtail editor guide a stand-alone project
 
 #### Summary
-- Improve the guide 
+
+- The goal is to pull out the existing editor's guide from static documentation to a stand-alone project that can be translated, built upon and even used to generate custom guides for more complex usages of Wagtail.
+- The current guide is part of the existing Wagtail technical documentation - [Using Wagtail: an Editor's guide](https://docs.wagtail.org/en/stable/editor_manual/index.html).
+- The audience of the main technical documentation (those who are building with Wagtail) is very different to the audience of the editor's guide (those who are using the editor to edit content, manage permissions, non-technical users).
+
+**Implementation**
+
+- Pull out the existing RST/MD files into a stand-alone project, starting with the [Wagtail project cookiecutter](https://github.com/wagtail/cookiecutter-wagtail-package)
+- Break up the existing content and screenshots into Django views and URLs so that the content can be used in translation tools such as transifex, the output should be a static HTML/CSS/JS bundle. This could use some of the Wagtail primitives for page editing but it does not have to.
+- From here, improve the guide 
   - target specific audiences
   - make translatable
+  - make it version-able (so that older versions of the Wagtail editor's can be available)
+  - potentially rework content to be less nested or easier to read through, see [Firefox's How do I Wagtail](https://foundation.mozilla.org/en/docs/how-do-i-wagtail/) for inspiration
 - Make the guide maintainable 
   - automatic screenshots
-  - accept contributions from non-technical
-  - Add feedback option (measure happyness)
-- ...
+  - accept contributions from non-technical users
+  - set up a nightly CI that runs against Wagtail master
+  - add feedback option (measure happyness)
+- Make it customisable
+  - allow for the project to be imported into existing Wagtail projects and document how it can be built, customised and run (automatic screenshots) against those custom Wagtail installations
+  - allow for additional pages/header/footer/feedback to be integrated
+
+**Skills**
+
+* Django
+* Wagtail
+* Translations - speaking a second language would be helpful
+* Static site building (with Django or Node tooling)
+
+**Mentors**
+
+* TBD
+
 
 ---
 
