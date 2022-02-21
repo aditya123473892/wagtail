@@ -23,28 +23,27 @@ Write a motivation and submit your CV. Tell us about your experience with Python
 
 ## Project ideas
 
--------------------------------------
+---
 
-
-### Enhanced file manager
-#### Summary 
-TBD
+### Bulk admin actions
+#### Summary
+Enable bulk actions in a variety of Wagtail administrative interfaces
 
 **Implementation**
-
-TBD
+- Allow performing common tasks (such as delete, publish etc) in bulk for Wagtail Pages, Images and Documents
+- Provide an extension mechanism that will enable developers to provide custom actions
 
 **Skills**
-
-TBD
+- Django, Python and front-end
 
 **Mentors**
-
-TBD
+Karl Hobley
 
 **Aims**
 
-TBD
+To enhance the Wagtail administrative interface
+
+-------------------------------------
 
 ## Automated page accessibility tests
 
@@ -113,8 +112,27 @@ Thibaud Colas
 
 ---
 
-## 2021 project ideas
+### Enhanced file manager
+#### Summary 
+TBD
 
+**Implementation**
+
+TBD
+
+**Skills**
+
+TBD
+
+**Mentors**
+
+TBD
+
+**Aims**
+
+TBD
+
+## 2021 project ideas
 
 ### Wagtail Live
 #### Summary
@@ -142,24 +160,6 @@ Tom Dyson and Coen van der Kamp
 
 **Aims**
 To produce a Wagtail package to deliver content fast
-
-### Bulk admin actions
-#### Summary
-Enable bulk actions in a variety of Wagtail administrative interfaces
-
-**Implementation**
-- Allow performing common tasks (such as delete, publish etc) in bulk for Wagtail Pages, Images and Documents
-- Provide an extension mechanism that will enable developers to provide custom actions
-
-**Skills**
-- Django, Python and front-end
-
-**Mentors**
-Karl Hobley
-
-**Aims**
-
-To enhance the Wagtail administrative interface
 
 -------------------------------------
 
