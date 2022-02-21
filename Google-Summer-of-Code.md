@@ -171,6 +171,8 @@ Karl Hobley
 - Improve the quality of results for the existing PostgreSQL search backend
 - Add support for SQLite and MySQL search into Wagtail core
 
+-------------------------------------
+
 ### Bulk admin actions
 #### Summary
 Enable bulk actions in a variety of Wagtail administrative interfaces
