@@ -25,26 +25,6 @@ Write a motivation and submit your CV. Tell us about your experience with Python
 
 ---
 
-### Bulk admin actions
-#### Summary
-Enable bulk actions in a variety of Wagtail administrative interfaces
-
-**Implementation**
-- Allow performing common tasks (such as delete, publish etc) in bulk for Wagtail Pages, Images and Documents
-- Provide an extension mechanism that will enable developers to provide custom actions
-
-**Skills**
-- Django, Python and front-end
-
-**Mentors**
-Karl Hobley
-
-**Aims**
-
-To enhance the Wagtail administrative interface
-
--------------------------------------
-
 ## Automated page accessibility tests
 
 ### Summary
@@ -132,7 +112,7 @@ TBD
 
 TBD
 
-## 2021 project ideas
+## 2021 projects (done)
 
 ### Wagtail Live
 #### Summary
@@ -190,3 +170,21 @@ Karl Hobley
 
 - Improve the quality of results for the existing PostgreSQL search backend
 - Add support for SQLite and MySQL search into Wagtail core
+
+### Bulk admin actions
+#### Summary
+Enable bulk actions in a variety of Wagtail administrative interfaces
+
+**Implementation**
+- Allow performing common tasks (such as delete, publish etc) in bulk for Wagtail Pages, Images and Documents
+- Provide an extension mechanism that will enable developers to provide custom actions
+
+**Skills**
+- Django, Python and front-end
+
+**Mentors**
+Karl Hobley
+
+**Aims**
+
+To enhance the Wagtail administrative interface
