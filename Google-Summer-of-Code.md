@@ -27,30 +27,6 @@ Most RFCs are suitable GSoC projects https://github.com/wagtail/rfcs/pulls?q=is%
 
 ---
 
-## Automated page accessibility tests
-
-### Summary
-
-We want Wagtail to have automated checks for common accessibility issues as part of the page publishing process.
-
-### Implementation
-
-This would involve deciding on an accessibility checker to integrate with Wagtail, creating a prototype integration, testing it with users of Wagtail, and refining the user experience of the automated tests so it can start to be used on real-world websites.
-
-### Skills
-
-Django, JavaScript, HTML. Bonus: user experience, visual design
-
-### Mentors
-
-Thibaud Colas
-
-### Aims
-
-Create an integrated accessibility testing experience that fits well within a CMS workflow, works well for end users, and can be used as an example for other platforms.
-
----
-
 ## RTL support for Wagtail
 
 ### Summary 
@@ -68,31 +44,6 @@ HTML and CSS. Bonus: user experience, visual design, Django.
 **Mentors**
 
 Thibaud Colas
-
----
-
-## More advanced image size optimisations in Wagtail
-
-### Summary 
-
-Wagtail has quite good support for basic image optimisations, such as resizing images automatically or compressing file size. We want to push this further though, better leveraging modern formats such as WebP and AVIF, and having better support for `<picture>` and `srcset` HTML features to display a different image based on the viewport width.
-
-**Implementation**
-
-TBD
-
-**Skills**
-
-HTML, Django, Python.
-
-**Mentors**
-
-Thibaud Colas
-
-**Aims**
-
-- Explore support for AVIF image encoding in Python
-- Implement Wagtail’s support for `picture` and `srcset` (https://github.com/wagtail/wagtail/issues/285)
 
 ---
 
@@ -153,26 +104,6 @@ https://docs.djangoproject.com/en/4.0/ref/contrib/admin/#django.contrib.admin.Mo
 - ...
 
 ---
-
-### Enhanced file manager
-#### Summary 
-TBD
-
-**Implementation**
-
-TBD
-
-**Skills**
-
-TBD
-
-**Mentors**
-
-TBD
-
-**Aims**
-
-TBD
 
 ## 2021 projects (done)
 
@@ -252,3 +183,26 @@ Karl Hobley
 **Aims**
 
 To enhance the Wagtail administrative interface
+
+## Project ideas template
+
+### Idea title
+
+#### Summary 
+TBD
+
+**Implementation**
+
+TBD
+
+**Skills**
+
+TBD
+
+**Mentors**
+
+TBD
+
+**Aims**
+
+TBD
