@@ -4,7 +4,8 @@ Links:
 * [#gsoc on Slack, open to ask us anything](https://github.com/wagtail/wagtail/wiki/Slack)
 * [Documentation](http://docs.wagtail.org/)
 * [Wagtail Developer Page](https://wagtail.org/developers/)
-* [Wagtail Blog](https://wagtail.prg/blog/)
+* [Wagtail Blog](https://wagtail.org/blog/)
+* Wiki: [Google Summer of Code 2021](https://github.com/wagtail/wagtail/wiki/Google-Summer-of-Code-2021)
 
 ## About Wagtail
 
