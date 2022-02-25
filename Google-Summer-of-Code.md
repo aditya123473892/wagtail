@@ -228,6 +228,24 @@ This is an often requested feature, but is technically hard to implement.
 
 A user interface and backend logic to allow switching page type.
 
+### Implementation
+
+Here is a very rough, high-level idea for what the user experience could look like:
+
+1. Select "change page type" action on a page
+2. Choose new page type from a list (borrowed from the New Page type selection screen)
+3. New "visual data migration" UI appears showing original page's fields on left (more condensed than standard edit view) and new page's fields on right
+   - _(this is where the major front-end complexity is)_
+4. Fields with same name and type automatically have data copied over to new page
+5. Fields that have no match are highlighted on the left to prompt user to manually copy that data over to a field on the right (or acknowledge that that data will be lost)
+6. Once satisfied with the data in the new page model on the right, click the done/save/go/whatever button at the bottom to execute the behind the scenes magic needed to change the type
+   - _(and this is where the major back-end complexity is)_
+   - Would be good to store a copy of the changed page in some archive location, so it can be restored in case of emergency
+
+There is obviously a lot of complexity not touched on here, especially on the back end, but this outlines what I think would be a good workflow for users.
+
+This should likely be initially developed as a standalone package before determining if it makes sense to bring it into core.
+
 ### Skills
 
 - Django
