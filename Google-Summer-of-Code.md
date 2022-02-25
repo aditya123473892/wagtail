@@ -100,7 +100,7 @@ We will supply a primary mentor and at least two secondary mentors to support th
 
 Medium
 
-### Create and select related content
+## Create and select related content
 
 ### Summary
 Django has a 'search loop', 'add plus', and 'modal' to search, select and create related objects. This without navigating away from the current form.
