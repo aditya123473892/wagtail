@@ -55,7 +55,12 @@ Wagtail provides a field type for semi-freeform data, StreamField, which uses a 
 
 **Implementation**
 
-TBD
+- Investigate the existing problems when making a change to StreamField structure
+- Set up a new Python package
+- Create utilities for recursing through different types of StreamField structure, recognising blocks, and making changes
+- Create a set of functions to make appropriate changes for the most common data migration use cases (eg adding a new block with required value, changing the type of a block, or moving a block to within a StructBlock)
+- Add documentation for the new library
+- Extension: add utilities for updating both the live and draft versions of pages
 
 **Skills**
 
@@ -68,6 +73,14 @@ Jacob Topp-Mugglestone
 **Aims**
 
 - Create a package which provides utilities for easily updating StreamFields within data migrations.
+
+**Size**
+
+- 175 hours (basic version), but could be extended to deal with more migration types, and to make dealing with live and draft revisions easier.
+
+**Difficulty**
+
+Medium
 
 ---
 
