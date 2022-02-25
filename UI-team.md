@@ -20,6 +20,7 @@ Current members:
 - Steve Steinwand ([@stevedya](https://github.com/stevedya)), UTC - 7 or 8, since December 2021
 - Dawn Wages ([@dawnwages](https://github.com/dawnwages)), UTC - 4 or 5, since January 2022
 - Harris Lapiroff ([@harrislapiroff](https://github.com/harrislapiroff)), UTC - 4 or 5, since January 2022
+- Ben Enright ([@benenright](https://github.com/benenright)), UTC + 0 or 1, since February 2022
 
 ---
 
