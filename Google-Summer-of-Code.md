@@ -242,22 +242,31 @@ To enhance the Wagtail administrative interface
 ### Idea title
 
 #### Summary 
-TBD
+
+More detailed description of the project (2-5+ sentences)
+
+**Expected outcomes**
+
+TBS
 
 **Implementation**
 
-TBD
+Optional section, technical hints.
 
 **Skills**
 
-TBD
+TBD required/preferred 
 
 **Mentors**
 
 TBD
 
-**Aims**
+**Size**
 
-TBD
+Expected size of project (175 or 350 hour)
+
+**Difficulty rating**
+
+Easy, Medium or Hard 
 
 </details>
