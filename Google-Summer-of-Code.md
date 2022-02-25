@@ -128,6 +128,13 @@ https://docs.djangoproject.com/en/4.0/ref/contrib/admin/#django.contrib.admin.Mo
 
 * TBD
 
+---
+
+### Change page type
+
+#### Summary
+
+Make it possible for a content editor to change the page type.
 
 ---
 
