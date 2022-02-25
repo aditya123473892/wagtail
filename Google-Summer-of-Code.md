@@ -22,6 +22,7 @@ Applicants should have a basic familiarity with Python, Django and Git. They sho
 Write a motivation and submit your CV. Tell us about your experience with Python/Django/Wagtail
 
 ---
+
 # Project ideas
 
 Most RFCs are suitable GSoC projects https://github.com/wagtail/rfcs/pulls?q=is%3Apr+label%3AActive+
@@ -257,9 +258,6 @@ Tom Dyson and Coen van der Kamp
 ## Aims
 To produce a Wagtail package to deliver content fast
 
-
--
-
 ## New database search backend
 
 ### Summary 
@@ -287,8 +285,6 @@ Karl Hobley
 
 - Improve the quality of results for the existing PostgreSQL search backend
 - Add support for SQLite and MySQL search into Wagtail core
-
--
 
 ## Bulk admin actions
 ### Summary
