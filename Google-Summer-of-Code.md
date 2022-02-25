@@ -1,6 +1,6 @@
 > 🚧 Our application for 2022 is pending approval.
 
-**Links:**
+**Links**
 
 * [#gsoc on Slack, open to ask us anything](https://github.com/wagtail/wagtail/wiki/Slack)
 * [Documentation](http://docs.wagtail.org/)
@@ -31,14 +31,13 @@ Wagtail has moved fast in the last few years, with particular focus on the edito
 
 Applicants should have a basic familiarity with Python, Django and Git. They should have completed the initial Wagtail Tutorial and have created a developer environment for working on Wagtail itself. They should join the [Wagtail Slack](https://github.com/wagtail/wagtail/wiki/Slack) and introduce themselves on the #gsoc channel. They are welcome to seek advice from mentors on suitable projects and topics, which should then be submitted to the project issue list with our [Google Summer of Code issue template](https://github.com/wagtail/wagtail/issues/new?template=GSOC.md).
 
-Write a motivation and submit your CV. Tell us about your experience with Python/Django/Wagtail
+Write a motivation and submit your CV. Tell us about your experience with Python/Django/Wagtail.
 
 ---
 
 # Project ideas
 
 Most RFCs are suitable GSoC projects https://github.com/wagtail/rfcs/pulls?q=is%3Apr+label%3AActive+
-
 
 
 ## RTL support for Wagtail
@@ -115,6 +114,7 @@ Medium
 ## Create and select related content
 
 ### Summary
+
 Django has a 'search loop', 'add plus', and 'modal' to search, select and create related objects. This without navigating away from the current form.
 
 Search loop:
@@ -151,33 +151,37 @@ Medium
 ### Summary
 
 - The goal is to [pull out the existing editor's guide](https://github.com/wagtail/wagtail/discussions/7824) from static documentation to a stand-alone project that can be translated, built upon and even used to generate custom guides for more complex usages of Wagtail.
-- The current guide is part of the existing Wagtail technical documentation - [Using Wagtail: an Editor's guide](https://docs.wagtail.org/en/stable/editor_manual/index.html).
+- The current guide is part of the Wagtail technical documentation - [Using Wagtail: an Editor's guide](https://docs.wagtail.org/en/stable/editor_manual/index.html).
 - The audience of the main technical documentation (those who are building with Wagtail) is very different to the audience of the editor's guide (those who are using the editor to edit content, manage permissions, non-technical users).
 
 ### Expected outcomes
 
-A dedicated User Guide website with content editors as targeted audience. 
+A dedicated User Guide website with content editors as targeted audience.
 
 ### Implementation
 
-- Pull out the existing RST/MD files into a stand-alone project, starting with the [Wagtail project cookiecutter](https://github.com/wagtail/cookiecutter-wagtail-package)
-- Break up the existing content and screenshots into Django views and URLs so that the content can be used in translation tools such as transifex, the output should be a static HTML/CSS/JS bundle. This could use some of the Wagtail primitives for page editing but it does not have to.
-- From here, improve the guide 
-- target specific audiences
-- make translatable
-- make it version-able (so that older versions of the Wagtail editor's can be available)
-- potentially rework content to be less nested or easier to read through, see [Firefox's How do I Wagtail](https://foundation.mozilla.org/en/docs/how-do-i-wagtail/) for inspiration
-- Make the guide maintainable 
-- automatic screenshots
-- accept contributions from non-technical users
-- set up a nightly CI that runs against Wagtail master
-- add feedback option (measure happiness)
-- Make it customisable
-- allow for the project to be imported into existing Wagtail projects and document how it can be built, customised and run (automatic screenshots) against those custom Wagtail installations
-- allow for additional pages/header/footer/feedback to be integrated
+- Prepare a package
+  - Using the [Wagtail cookiecutter package](https://github.com/wagtail/cookiecutter-wagtail-package)
+  - Pull out the existing RST/MD files into a stand-alone project, starting with the [Wagtail project cookiecutter](https://github.com/wagtail/cookiecutter-wagtail-package)
+  - Break up the existing content and screenshots into Django views and URLs so that the content can be used in translation tools such as transifex, the output should be a static HTML/CSS/JS bundle. This could use some of the Wagtail primitives for page editing but it does not have to.
+- Improve the guide
+  - Target specific audiences
+  - Make translatable, possibly using individual template parts to 'hold' the translatable content using Transifex (translation of content is not in scope)
+  - Make it version-able (so that older versions of the Wagtail editor's can be available)
+  - Potentially rework content to be less nested or easier to read through, see [Firefox's How do I Wagtail](https://foundation.mozilla.org/en/docs/how-do-i-wagtail/) for inspiration
+- Make the guide maintainable (extended goal)
+  - Automatic screenshots
+  - Accept contributions from non-technical users, this can either be a documented reference to where each content is located in Github or more advanced such as a hosted version of Wagtail that outputs changes to submit to Github
+  - Set up a nightly CI that runs against Wagtail master
+  - Add a feedback option (measure happiness), this itself could submit issues to Github or email
+- Make it extendable (extended goal)
+  - Allow for the project to be imported into existing Wagtail projects and document how it can be built, customised and run (automatic screenshots) against those custom Wagtail installations
+  - Allow for additional pages/header/footer/feedback to be integrated
+  - Potentially even leverage a way to make automatic screen recordings
 
 ### Skills
 
+* Python
 * Django
 * Wagtail
 * Translations - speaking a second language would be helpful
@@ -187,6 +191,7 @@ A dedicated User Guide website with content editors as targeted audience.
 
 - Coen van der Kamp https://github.com/allcaps
 - Dan Braghis https://github.com/zerolab
+- LB Johnston https://github.com/lb-/ (secondary mentor)
 
 We will supply a primary mentor and at least two secondary mentors to support the participant.
 
