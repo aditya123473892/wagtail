@@ -1,11 +1,23 @@
 > 🚧 Our application for 2022 is pending approval.
 
-Links: 
+**Links:**
+
 * [#gsoc on Slack, open to ask us anything](https://github.com/wagtail/wagtail/wiki/Slack)
 * [Documentation](http://docs.wagtail.org/)
 * [Wagtail Developer Page](https://wagtail.org/developers/)
 * [Wagtail Blog](https://wagtail.org/blog/)
 * Wiki: [Google Summer of Code 2021](https://github.com/wagtail/wagtail/wiki/Google-Summer-of-Code-2021)
+
+**Table of Contents**
+
+* [About Wagtail](#about-wagtail)
+* [Participants](#participants)
+* [Project ideas](#project-ideas)
+  * [RTL support for Wagtail](#rtl-support-for-wagtail)
+  * [Toolkit for StreamField data migrations in Wagtail](#toolkit-for-streamfield-data-migrations-in-wagtail)
+  * [Create and select related content](#create-and-select-related-content)
+  * [Make Wagtail editor guide a stand-alone project](#make-wagtail-editor-guide-a-stand-alone-project)
+  * [Apply new page editor style to all views](#apply-new-page-editor-style-to-all-views)
 
 # About Wagtail
 
