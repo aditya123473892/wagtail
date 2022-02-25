@@ -111,6 +111,28 @@ https://docs.djangoproject.com/en/4.0/ref/contrib/admin/#django.contrib.admin.Mo
 Add plus:
 https://docs.djangoproject.com/en/4.0/ref/contrib/admin/#django.contrib.admin.ModelAdmin.fieldsets
 
+### Expected outcomes
+
+Have the Django 'add plus', 'search loop', and 'modal/popup' pattern in Wagtail.
+
+### Skills
+
+- Django
+- Wagtail
+- HTML/CSS/JS
+
+### Mentors
+
+* Coen van der Kamp https://github.com/allcaps
+* Dan Braghis https://github.com/zerolab
+
+### Size
+
+Expected size of project 175 hours.
+
+### Difficulty rating
+
+Medium
 
 ## Make Wagtail editor guide a stand-alone project
 
@@ -119,6 +141,10 @@ https://docs.djangoproject.com/en/4.0/ref/contrib/admin/#django.contrib.admin.Mo
 - The goal is to [pull out the existing editor's guide](https://github.com/wagtail/wagtail/discussions/7824) from static documentation to a stand-alone project that can be translated, built upon and even used to generate custom guides for more complex usages of Wagtail.
 - The current guide is part of the existing Wagtail technical documentation - [Using Wagtail: an Editor's guide](https://docs.wagtail.org/en/stable/editor_manual/index.html).
 - The audience of the main technical documentation (those who are building with Wagtail) is very different to the audience of the editor's guide (those who are using the editor to edit content, manage permissions, non-technical users).
+
+### Expected outcomes
+
+A dedicated User Guide website with content editors as targeted audience. 
 
 ### Implementation
 
@@ -137,10 +163,6 @@ https://docs.djangoproject.com/en/4.0/ref/contrib/admin/#django.contrib.admin.Mo
 - Make it customisable
 - allow for the project to be imported into existing Wagtail projects and document how it can be built, customised and run (automatic screenshots) against those custom Wagtail installations
 - allow for additional pages/header/footer/feedback to be integrated
-
-### Expected outcomes
-
-A dedicated User Guide website with content editors as targeted audience.   
 
 ### Skills
 
