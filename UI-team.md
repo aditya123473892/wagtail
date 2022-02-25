@@ -30,6 +30,121 @@ Past meetings:
 
 <!-- Insert meeting notes here, most recent first: -->
 
+## 2022-02-24 UTC afternoon
+
+Attendees: Naomi, Harris, Scott, Thibaud, Steve, Dawn
+
+### Actions
+
+- Thibaud Review <https://github.com/wagtail/wagtail/discussions/8017>
+- ✅ Thibaud - Invite Ben to our future meetings.
+- Coen Raise PO files methodology & blocktrans trimmed issue
+- Thibaud Implement auto-fixable ordering of declaration blocks in CSS
+- Steve, Thibaud - To propose visual regression testing soon
+- ✅ Naomi Research structured docstrings
+  - From the [sphinx.ext.autodoc documentation](https://www.sphinx-doc.org/en/master/usage/extensions/autodoc.html), there are two other styles for docstrings, which are described well in the [sphinx.ext.napoleon documentation](https://www.sphinx-doc.org/en/master/usage/extensions/napoleon.html#module-sphinx.ext.napoleon) (which converts them to RST for autodoc. Of those three options (autodoc, NumPy, Google) I like the [Google style](https://github.com/google/styleguide/blob/gh-pages/pyguide.md#38-comments-and-docstrings), which is more similar to the Markdown style that Thibaud showed. I wonder if it would be possible to use [napoleon's docstring parsing](https://github.com/sphinx-doc/sphinx/blob/4.x/sphinx/ext/napoleon/docstring.py) both for linting and to output something other than RST, but my guess would be that it's more trouble than it's worth? It also does not include a way to give default values for arguments.
+  - YAML seems like it could be a good option since it's JSON based, so it would convert easily to what Storybook wants. Though at some point it feels like what's the difference between doing this and just shoving the whole story config into the template file.
+- Thibaud Compare different approaches to UI component declarations
+
+### Discussions
+
+- Actions review
+  - ✅ Steve - Follow up with ben about multilingual (test and see if the browser can translate too).
+  - Doesn't work so well in Figma
+  - ✅ LB, Steve - Research how to test multilingual issues in the wild and follow up with the slack channel. Done <https://github.com/wagtail/wagtail/discussions/8017> - lots of research results there, nothing that stands out as a solution but rather lots of smaller things we can adopt.
+  - Thibaud - Invite Ben to our future meetings.
+  - Coen Raise PO files methodology & blocktrans trimmed issue
+  - Thibaud Implement auto-fixable ordering of declaration blocks in CSS
+  - Steve, Thibaud - To propose visual regression testing soon
+  - ✅ Thibaud - [Create a poll](https://wagtailcms.slack.com/archives/C014L7KJH3N/p1645712137807319) about Node build tools to customise wagtail
+  - Aiming to make a tentative decision within the next month for a UI framework decision and component level [(Dropdown, Tabs, Modal, Tooltips, Datepicker)](https://github.com/wagtail/wagtail/issues/7980)
+- Internationalisation testing / guidelines
+  - <https://github.com/wagtail/wagtail/discussions/8017>
+  - <https://rtlstyling.com/posts/rtl-styling>
+- Pattern library setup demo ([#8025](https://github.com/wagtail/wagtail/pull/8025))
+- UI components file structure
+- UI components documentation
+- Storybook it? Documentation table is one of the main benefits
+- Example: changing what buttons look like vs. reusing a template -- do we expect people to be able / willing to Storybook this?
+- Brand new views with existing components vs. brand new components
+- Structured comment format -- YAML
+- Amazing bonus points:
+  - Check file for variables that are used, check comments, throw errors
+  - Custom comment tag with syntax highlighting & formatting
+  - Python documentation for functions
+- Standardised format for docstring / triple-quote comments
+  - Yeah docstring not inherently very structured <https://www.python.org/dev/peps/pep-0257/>
+  - Sphinx is a system that auto documents python functions and is fairly standard, so this is a place I would start looking <https://www.sphinx-doc.org/en/master/usage/extensions/autodoc.html>
+- UI components API
+  - {% icon name="potato" %}
+  - [django-components](https://github.com/EmilStenstrom/django-components/) -- Reusable UI components for Django, going further than template partials.
+  - [django-component](https://gitlab.com/Mojeer/django_components) -- Modern components for django templates Declarative and composable components inspired by javascript frameworks.
+  - [slippers](https://github.com/mixxorz/slippers) -- Reusable components for Django, without writing a single line of Python.
+  - Custom implementation
+  - Depends on contributors' backgrounds? One more thing to learn?
+  - How much do those libraries bring?
+  - Custom template tags generally -- can be annoying to have to figure out how the template tags work
+- Wagtail Space US
+  - Harris join organizers? ;)
+  - Dawn interested to help new contributors -- particularly around UI work
+    - Suggestions welcome!
+
+## 2022-02-17 UTC evening
+
+Attendees: Steve, Thibaud, LB, Naomi, Coen, Harris
+
+### Actions
+
+- Steve - Follow up with ben about multilingual (test and see if the browser can translate too).
+- ✅ LB, Steve - Research how to test multilingual issues in the wild and follow up with the slack channel. Done <https://github.com/wagtail/wagtail/discussions/8017> - lots of research results there, nothing that stands out as a solution but rather lots of smaller things we can adopt.
+- Thibaud - Invite Ben to our future meetings.
+- Coen Raise PO files methodology & blocktrans trimmed issue
+- Thibaud Implement auto-fixable ordering of declaration blocks in CSS
+- Steve, Thibaud - To propose visual regression testing soon
+- ✅ Thibaud - [Create a poll](https://wagtailcms.slack.com/archives/C014L7KJH3N/p1645712137807319) about Node build tools to customise wagtail
+- Aiming to make a tentative decision within the next month for a UI framework decision and component level (Dropdown, Tabs, Modal, Tooltips, Datepicker) <https://github.com/wagtail/wagtail/issues/7980>
+
+### Discussions
+
+- Actions review
+  - Scott & Thibaud Finish <https://github.com/wagtail/wagtail/pull/6790>
+    - Still in progress (with Thibaud :[ )
+  - Thibaud Set up Windows-only build of front-end tooling once #6790 is merged
+    - Blocked by the above
+  - ✅ Thibaud Try out [Storybook composition](https://storybook.js.org/docs/react/workflows/storybook-composition)
+    - Done, it works really well, was very simple. 10/10
+  - ✅ Coen Review list of components from Django perspective [Wagtail | Page editor 2022 UI overview](https://docs.google.com/spreadsheets/d/134icHJUzr-0q42cvWhYGXtFN77mnauOT5x32sAKpW_Q/edit#gid=702715712)
+    - Shared on Slack
+  - ✅ Steve Review designs for multilingual issues / talk to Ben
+  - Coen Raise PO files methodology & blocktrans trimmed issue
+  - Thibaud Implement auto-fixable ordering of declaration blocks in CSS
+    - Still TODO
+  - Thibaud Try out Normalize.css upgrade with [visual regressions](https://github.com/thibaudcolas/wagtail-tooling)
+    - Please also review this PR as it explains the issue encountered when upgrading previously <https://github.com/wagtail/wagtail/pull/7626>
+    - Still TODO (blocked by visual regression R&D)
+  - ✅ Thibaud Read LB's investigation & provide feedback
+    - Done, need to do another round.
+  - ✅ Thibaud Ask Karl, Jacob, (?) for input on UI frameworks
+    - I've spammed everyone I know and more. Will have a dedicated chat with specific people next
+    - One point of feedback: we're assuming Wagtail implementers don't want to use Node build tools to customise Wagtail. Would be nice to have a quick poll to confirm.
+  - ✅ Steve Follow up on design tokens definition
+  - ✅ Thibaud Pass on feedback re opening contributions outside of current team
+    - Done, we're keen
+- Multilingual Wagtail
+  - Multilingual support - chat with Ben -- which language(s) should we test the designs with?
+  - Brand font feedback from Vince: would be nice to try it out with more scripts / languages? (Arabic)
+    - Use Steve's wagtail-ui-testing site for this?
+  - <https://www.mediawiki.org/wiki/Internationalization/Styling_and_typography>
+- UI framework decision
+  - Thibaud asked around for people's top picks
+  - Good discussions on Slack. Lots of propositions to go with "vanilla JS" compared to other frameworks
+  - To review: <https://2021.stateofjs.com/>
+  - Aiming to make a tentative decision within the next month
+  - Two things
+    - 1\. Lightweight base framework
+    - 2\. Component (ish) tools -<https://github.com/wagtail/wagtail/issues/7980>
+- [Third-party libraries selection for major UI components #7980](https://github.com/wagtail/wagtail/issues/7980
+
 ## 2022-02-10 UTC morning
 
 Attendees: Coen, LB, Fabien, Thibaud
