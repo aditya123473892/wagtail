@@ -151,7 +151,7 @@ Make it possible for a content editor to change the page type of an existing pag
 
 ---
 
-## 2021 projects (done)
+## 2021 GSoC projects (done)
 <details>
   <summary>Click to expand</summary>
 
