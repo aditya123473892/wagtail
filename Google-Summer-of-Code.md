@@ -134,7 +134,7 @@ https://docs.djangoproject.com/en/4.0/ref/contrib/admin/#django.contrib.admin.Mo
 
 #### Summary
 
-Make it possible for a content editor to change the page type.
+Make it possible for a content editor to change the page type of an existing page.
 
 ---
 
