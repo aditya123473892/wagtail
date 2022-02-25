@@ -152,6 +152,8 @@ Make it possible for a content editor to change the page type of an existing pag
 ---
 
 ## 2021 projects (done)
+<details>
+  <summary>Click to expand</summary>
 
 ### Wagtail Live
 #### Summary
@@ -179,6 +181,7 @@ Tom Dyson and Coen van der Kamp
 
 **Aims**
 To produce a Wagtail package to deliver content fast
+
 
 -------------------------------------
 
@@ -228,9 +231,13 @@ Karl Hobley
 
 **Aims**
 
-To enhance the Wagtail administrative interface
+To enhance the Wagtail administrative interface  
+
+</details>
 
 ## Project ideas template
+<details>
+  <summary>Click to expand</summary>
 
 ### Idea title
 
@@ -252,3 +259,5 @@ TBD
 **Aims**
 
 TBD
+
+</details>
