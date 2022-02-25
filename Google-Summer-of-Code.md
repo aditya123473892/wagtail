@@ -21,11 +21,12 @@ Applicants should have a basic familiarity with Python, Django and Git. They sho
 
 Write a motivation and submit your CV. Tell us about your experience with Python/Django/Wagtail
 
+---
 # Project ideas
 
 Most RFCs are suitable GSoC projects https://github.com/wagtail/rfcs/pulls?q=is%3Apr+label%3AActive+
 
----
+
 
 ## RTL support for Wagtail
 
@@ -50,7 +51,7 @@ HTML and CSS. Bonus: user experience, visual design, Django.
 Thibaud Colas https://github.com/thibaudcolas
 Coen van der Kamp https://github.com/allcaps
 
-We will supply a primary mentor (team lead) and at least two secondary mentors to support the participant.
+We will supply a primary mentor and at least two secondary mentors to support the participant.
 
 ### Size
 
@@ -59,9 +60,6 @@ Expected size of project approximately 350 hours.
 ### Difficulty rating
 
 Medium
-
-
----
 
 ## Toolkit for StreamField data migrations in Wagtail
 
@@ -91,7 +89,7 @@ Django, Python.
 - Jacob Topp-Mugglestone https://github.com/jacobtoppm
 - Karl Hobley https://github.com/kaedroho
 
-We will supply a primary mentor (team lead) and at least two secondary mentors to support the participant.
+We will supply a primary mentor and at least two secondary mentors to support the participant.
 
 ### Size
 
@@ -100,16 +98,6 @@ We will supply a primary mentor (team lead) and at least two secondary mentors t
 ### Difficulty
 
 Medium
-
----
-
-## Apply new page editor style to all views 
-
-### Summary
-
-Wagtail is currently redesigning the page editor. But has many other views that are out of scope. However, those out of scope views should get the same styling and use the same components and techniques.
-
----
 
 ### Create and select related content
 
@@ -122,7 +110,6 @@ https://docs.djangoproject.com/en/4.0/ref/contrib/admin/#django.contrib.admin.Mo
 Add plus:
 https://docs.djangoproject.com/en/4.0/ref/contrib/admin/#django.contrib.admin.ModelAdmin.fieldsets
 
----
 
 ## Make Wagtail editor guide a stand-alone project
 
@@ -150,6 +137,10 @@ https://docs.djangoproject.com/en/4.0/ref/contrib/admin/#django.contrib.admin.Mo
 - allow for the project to be imported into existing Wagtail projects and document how it can be built, customised and run (automatic screenshots) against those custom Wagtail installations
 - allow for additional pages/header/footer/feedback to be integrated
 
+### Expected outcomes
+
+A dedicated User Guide website with content editors as targeted audience.   
+
 ### Skills
 
 * Django
@@ -162,24 +153,85 @@ https://docs.djangoproject.com/en/4.0/ref/contrib/admin/#django.contrib.admin.Mo
 * Coen van der Kamp https://github.com/allcaps
 * Dan Braghis https://github.com/zerolab
 
-We will supply a primary mentor (team lead) and at least two secondary mentors to support the participant.
+We will supply a primary mentor and at least two secondary mentors to support the participant.
 
----
+### Size
+
+Expected size of project 175 hours.
+
+### Difficulty rating
+
+Medium 
+
+## Apply new page editor style to all views 
+
+### Summary
+
+Wagtail is currently redesigning the page editor. But has many other views that are out of scope. However, those out of scope views should get the same styling and use the same components and techniques.
+
+### Expected outcomes
+
+Consistent UI throughout the whole of Wagtail.
+
+### Skills
+
+- Django
+- Wagtail
+- HTML/JS/CSS
+
+### Mentors
+
+TBD, We are committed to supply a primary mentor and at least two secondary mentors to support the participant.
+
+### Size
+
+Expected size of project approximately 350 hours.
+
+### Difficulty rating
+
+Medium 
 
 ## Change page type
 
 ### Summary
 
-Make it possible for a content editor to change the page type of an existing page.
+Make it possible for a content editor to change the content type of a page.
+
+This is an often requested feature, but is technically hard to implement. 
+
+### Expected outcomes
+
+A user interface and backend logic to allow switching page type.
+
+### Skills
+
+- Django
+- Wagtail
+- Django Treebeard
+- Some HTML/CSS/JS
+
+### Mentors
+
+- Scott Cranfill https://github.com/Scotchester
+- Coen van der Kamp https://github.com/allcaps
+
+### Size
+
+Expected size of project 175 hour
+
+### Difficulty rating
+
+Hard
 
 ---
 
-## 2021 GSoC projects (done)
+
+# 2021 GSoC projects (done)
 <details>
 <summary>Click to expand</summary>
 
-### Wagtail Live
-#### Summary
+## Wagtail Live
+### Summary
 
 High speed content delivery. A live blog from chat applications to a Wagtail site.
 
@@ -189,28 +241,28 @@ Content editors will enter their content into Slack (or any other messaging appl
 - **POC (Proof Of Concept)**: [https://github.com/allcaps/wagtail-live](https://github.com/allcaps/wagtail-live)
 - **Video**: [https://www.youtube.com/watch?v=JL-MlNl2Buc&feature=youtu.be](https://www.youtube.com/watch?v=JL-MlNl2Buc&feature=youtu.be)
 
-### Implementation
+## Implementation
 - Input a chat application / third party product
 - Output on a live blog page
 - Message server (Django Channels)
 
-### Skills
+## Skills
 - Python, Django, Wagtail
 - Message server
 - Consume Chat API’s
 
-### Mentors
+## Mentors
 Tom Dyson and Coen van der Kamp
 
-### Aims
+## Aims
 To produce a Wagtail package to deliver content fast
 
 
--------------------------------------
+-
 
-### New database search backend
+## New database search backend
 
-#### Summary 
+### Summary 
 
 A new search backend that makes use of the search features of the current database. With support for SQLite and PostgreSQL search features.
 
@@ -236,10 +288,10 @@ Karl Hobley
 - Improve the quality of results for the existing PostgreSQL search backend
 - Add support for SQLite and MySQL search into Wagtail core
 
--------------------------------------
+-
 
-### Bulk admin actions
-#### Summary
+## Bulk admin actions
+### Summary
 Enable bulk actions in a variety of Wagtail administrative interfaces
 
 ### Implementation
@@ -258,7 +310,7 @@ To enhance the Wagtail administrative interface
 
 </details>
 
-## Project ideas template
+# Project ideas template
 <details>
 <summary>Click to expand</summary>
 
