@@ -49,8 +49,8 @@ HTML and CSS. Bonus: user experience, visual design, Django.
 
 ### Mentors
 
-Thibaud Colas https://github.com/thibaudcolas
-Coen van der Kamp https://github.com/allcaps
+- Thibaud Colas https://github.com/thibaudcolas
+- Coen van der Kamp https://github.com/allcaps
 
 We will supply a primary mentor and at least two secondary mentors to support the participant.
 
@@ -123,8 +123,8 @@ Have the Django 'add plus', 'search loop', and 'modal/popup' pattern in Wagtail.
 
 ### Mentors
 
-* Coen van der Kamp https://github.com/allcaps
-* Dan Braghis https://github.com/zerolab
+- Coen van der Kamp https://github.com/allcaps
+- Dan Braghis https://github.com/zerolab
 
 ### Size
 
@@ -173,8 +173,8 @@ A dedicated User Guide website with content editors as targeted audience.
 
 ### Mentors
 
-* Coen van der Kamp https://github.com/allcaps
-* Dan Braghis https://github.com/zerolab
+- Coen van der Kamp https://github.com/allcaps
+- Dan Braghis https://github.com/zerolab
 
 We will supply a primary mentor and at least two secondary mentors to support the participant.
 
@@ -203,6 +203,8 @@ Consistent UI throughout the whole of Wagtail.
 - HTML/JS/CSS
 
 ### Mentors
+
+- Kalob Taulien https://github.com/KalobTaulien
 
 TBD, We are committed to supply a primary mentor and at least two secondary mentors to support the participant.
 
