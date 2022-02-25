@@ -252,6 +252,7 @@ This should likely be initially developed as a standalone package before determi
 - Wagtail
 - Django Treebeard
 - Some HTML/CSS/JS
+- Familiarity with basic UX design principles
 
 ### Mentors
 
@@ -260,7 +261,7 @@ This should likely be initially developed as a standalone package before determi
 
 ### Size
 
-Expected size of project 175 hour
+Expected size of project: 350 hours
 
 ### Difficulty rating
 
