@@ -1,4 +1,4 @@
-> 🚧 Our application for 2022 is pending approval.
+> 🚧 Our application for 2022 is being reviewed.
 
 **Links**
 
