@@ -18,6 +18,7 @@
   * [Create and select related content](#create-and-select-related-content)
   * [Make Wagtail editor guide a stand-alone project](#make-wagtail-editor-guide-a-stand-alone-project)
   * [Apply new page editor style to all views](#apply-new-page-editor-style-to-all-views)
+  * [Change page type](#change-page-type)
 
 # About Wagtail
 
