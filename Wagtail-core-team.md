@@ -128,3 +128,9 @@ The Wagtail core team are:
     UK,
     [UTC+0/1](https://www.timeanddate.com/worldclock/uk/oxford)
   - Areas of interest: community, documentation, performance, deployment
+- Vince Salvino
+  ([vsalvino](https://github.com/vsalvino))
+  - [CodeRed](https://www.coderedcorp.com/),
+    USA,
+    [UTC-4/5](https://www.timeanddate.com/worldclock/usa/new-york)
+  - Areas of interest: community, 3rd party packages, documentation/sphinx
