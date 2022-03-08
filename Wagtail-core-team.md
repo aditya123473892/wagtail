@@ -30,8 +30,9 @@ The Wagtail core team are:
     [UTC+0/1](https://www.timeanddate.com/worldclock/uk/leicester)
   - Areas of interest: documentation, and many more
 - Dawn Wages ([dawnwages](https://github.com/dawnwages))
-  - https://glittertech.dev/
-  - Philadelphia, USA - [UTC-4/5](https://www.timeanddate.com/time/zone/usa/new-york)
+  - [The Wharton School](https://www.wharton.upenn.edu),
+    USA,
+    [UTC-4/5](https://www.timeanddate.com/time/zone/usa/new-york)
 - Jacob Topp-Mugglestone
   ([jacobtoppm](https://github.com/jacobtoppm))
   - [Torchbox](https://www.torchbox.com),
