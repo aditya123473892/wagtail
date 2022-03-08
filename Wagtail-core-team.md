@@ -33,6 +33,7 @@ The Wagtail core team are:
   - [The Wharton School](https://www.wharton.upenn.edu),
     USA,
     [UTC-4/5](https://www.timeanddate.com/time/zone/usa/new-york)
+  - Areas of interest: community, UI, UX, headless
 - Jacob Topp-Mugglestone
   ([jacobtoppm](https://github.com/jacobtoppm))
   - [Torchbox](https://www.torchbox.com),
