@@ -30,7 +30,7 @@ pip install -e '.[testing]'
 git ls-files '*.html' | xargs djhtml --check
 # Rebase again, this time with the reformatting as the base,
 # always preserving your changes in case of conflicts, and automatically reformatting with djhtml.
-git rebase --strategy-option=theirs --exec '(git ls-files '*.html' | xargs djhtml -i || true) && git add . && git commit --amend --no-edit --no-verify' 01986cfa1702929352ac8b6d58ada6070da2c700
+git rebase --strategy-option=theirs --exec '(git ls-files "*.html" | xargs djhtml -i || true) && git add . && git commit --amend --no-edit --no-verify' 01986cfa1702929352ac8b6d58ada6070da2c700
 # Test-run djhtml – this should show no formatting errors.
 git ls-files '*.html' | xargs djhtml --check
 
@@ -41,7 +41,7 @@ git rebase d10f15e55806c6944827d801cd9c2d53f5da4186^1
 ## pre-commit via pip and initialize
 pip install pre-commit && pre-commit install
 ## black/flake8 directly via Wagtail's testing dependencies (either in a VM or a virtual environment)
-pip install -e .[testing]
+pip install -e '.[testing]'
 
 # Run black and flake8
 ## with pre-commit:
