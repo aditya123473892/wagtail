@@ -14,6 +14,10 @@ Support queries about working with Wagtail should be directed to the #support ch
 
 Please keep in mind that many of Wagtail's core and expert developers prefer to handle support queries through [Stack Overflow](https://stackoverflow.com/questions/tagged/wagtail), since the non-realtime format encourages more structured and fully-formed questions. Asking questions on Stack Overflow requires more up-front effort (see Stack Overflow's advice on [how to ask a good question](https://stackoverflow.com/help/how-to-ask)), but you may well find you get a better response as a result.
 
+## #announcements
+
+Announcements about Wagtail and related projects, from regular contributors. Core team members automatically get access, other access is decided case by case.
+
 ## Alternatives
 
 We have [discussion boards here on Github](https://github.com/wagtail/wagtail/discussions) for sharing ideas and plans for the Wagtail project.
