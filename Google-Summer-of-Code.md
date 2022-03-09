@@ -184,7 +184,6 @@ A dedicated User Guide website with content editors as targeted audience.
 
 * Python
 * Django
-* Wagtail
 * Translations - speaking a second language would be helpful
 * Static site building (with Django or Node tooling)
 
