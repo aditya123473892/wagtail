@@ -2,6 +2,7 @@ Our application for 2022 is accepted.
 
 **Links**
 
+* [summerofcode.withgoogle.com](https://summerofcode.withgoogle.com/programs/2022/organizations/wagtail)
 * [#gsoc on Slack, open to ask us anything](https://github.com/wagtail/wagtail/wiki/Slack)
 * [Documentation](http://docs.wagtail.org/)
 * [Wagtail Blog](https://wagtail.org/blog/)
