@@ -221,8 +221,6 @@ Consistent UI throughout the whole of Wagtail.
 
 ### Mentors
 
-- Kalob Taulien https://github.com/KalobTaulien
-
 TBD, We are committed to supply a primary mentor and at least two secondary mentors to support the participant.
 
 ### Size
