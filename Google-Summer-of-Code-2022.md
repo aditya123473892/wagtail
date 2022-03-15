@@ -29,7 +29,7 @@ Like Python and Django, the technologies which underpin it, Wagtail is known for
 
 Wagtail has moved fast in the last few years, with particular focus on the editor experience, the refinement of APIs for headless CMS architectures and accessibility. We have adopted a regular quarterly release cycle, which aims to minimise upgrade time while providing compelling new features and improvements with each point releases. We're seeking help to deliver some of our more ambitious plans, many of which are expressed as [RFCs]. We're also open to your ideas for making Wagtail the best open source CMS for the 2020s!
 
-## Contributor Guidelines
+# Contributor Guidelines
 
 - Applicants should have a basic familiarity with Python, Django and Git.
 - They should have completed the [initial Wagtail Tutorial](https://docs.wagtail.org/en/stable/getting_started/tutorial.html) and have created a developer environment for working on Wagtail itself.
