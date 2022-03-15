@@ -48,7 +48,9 @@ Note: Small packages may use their readme as documentation. These guidelines onl
 ## Contributing guide
 
 - Must have a contributing guide which is named `CONTRIBUTING.md`
-License
+
+## License
+
 - Must have a permissive licence (such as BSD or MIT, but not GPL)
 - Should be licensed under BSD 3-clause, if possible
 - Must have a license file at the top of the repo
