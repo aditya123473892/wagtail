@@ -25,3 +25,4 @@ How To
 - [[Nightly testing of official plugins]]
 - [[PR triage]]
 - [[Updating PRs for linting changes]]
+- [[Python Package Maintenance Guidelines]]
