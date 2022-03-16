@@ -65,8 +65,9 @@ HTML and CSS. Bonus: user experience, visual design, Django.
 
 ### Mentors
 
-- Thibaud Colas https://github.com/thibaudcolas
-- Coen van der Kamp https://github.com/allcaps
+- Lead: Thibaud Colas https://github.com/thibaudcolas
+- Support: Coen van der Kamp https://github.com/allcaps
+- Support 2: TBC
 
 We will supply a primary mentor and at least two secondary mentors to support the participant.
 
@@ -103,8 +104,9 @@ Django, Python.
 
 ### Mentors
 
-- Jacob Topp-Mugglestone https://github.com/jacobtoppm
-- Karl Hobley https://github.com/kaedroho
+- Lead: Jacob Topp-Mugglestone https://github.com/jacobtoppm
+- Support: Karl Hobley https://github.com/kaedroho
+- Support 2: TBC
 
 We will supply a primary mentor and at least two secondary mentors to support the participant.
 
@@ -140,8 +142,8 @@ Have the Django 'add plus', 'search loop', and 'modal/popup' pattern in Wagtail.
 
 ### Mentors
 
-- Coen van der Kamp https://github.com/allcaps
-- Dan Braghis https://github.com/zerolab
+- Lead: TBC – Coen van der Kamp https://github.com/allcaps
+- Support: TBC – Dan Braghis https://github.com/zerolab
 
 ### Size
 
@@ -193,9 +195,10 @@ A dedicated User Guide website with content editors as targeted audience.
 
 ### Mentors
 
-- Coen van der Kamp https://github.com/allcaps
-- Dan Braghis https://github.com/zerolab
-- LB Johnston https://github.com/lb-/ (secondary mentor)
+- Lead: TBC
+- Support: Coen van der Kamp https://github.com/allcaps
+- Support: TBC – Dan Braghis https://github.com/zerolab
+- Support: TBC – LB Johnston https://github.com/lb-/ (secondary mentor)
 
 We will supply a primary mentor and at least two secondary mentors to support the participant.
 
@@ -225,7 +228,9 @@ Consistent UI throughout the whole of Wagtail.
 
 ### Mentors
 
-TBD, We are committed to supply a primary mentor and at least two secondary mentors to support the participant.
+- Lead: TBC
+- Support: TBC
+- Support 2: TBC
 
 ### Size
 
@@ -275,8 +280,9 @@ This should likely be initially developed as a standalone package before determi
 
 ### Mentors
 
-- Scott Cranfill https://github.com/Scotchester
-- Coen van der Kamp https://github.com/allcaps
+- Lead: TBC
+- Support: TBC
+- Support 2: TBC
 
 ### Size
 
