@@ -275,8 +275,6 @@ Expected size of project: 350 hours
 
 Hard
 
-
-
 </details>
 
 ## RTL support for Wagtail
