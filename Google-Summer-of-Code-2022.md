@@ -215,9 +215,10 @@ Medium
 ## Change page type
 
 <details>
-<summery>Click to expand</summery>
+<summary>Click to expand</summary>
 
 ### Motivation for cancellation
+
 
 This project is canceled because:
 1. Too complex.
