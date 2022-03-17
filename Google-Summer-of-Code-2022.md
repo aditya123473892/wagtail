@@ -206,7 +206,22 @@ Expected size of project approximately 350 hours.
 
 Medium 
 
+---
+
+# Canceled
+
 ## Change page type
+<details>
+<summery>Click to expand</summery>
+### Motivation for cancellation
+
+This project is canceled because:
+1. Too complex.
+2. There are too many Wagtail internals involved.
+3. Many third-party packages will break.
+4. There are no mentors available
+
+The core-team suggests to develop a third-party package first.
 
 ### Summary
 
@@ -258,9 +273,9 @@ Expected size of project: 350 hours
 
 Hard
 
----
 
-# Canceled
+
+</details>
 
 ## RTL support for Wagtail
 <details>
