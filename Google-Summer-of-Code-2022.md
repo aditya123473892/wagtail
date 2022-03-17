@@ -265,6 +265,8 @@ Hard
 ## RTL support for Wagtail
 <details>
 <summary>Click to expand</summary>
+### Motivation for cancellation
+
 This project is canceled because:
 
 1. Wagtail is working on a new page editor. The work clashes with this project.
