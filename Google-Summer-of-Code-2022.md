@@ -263,14 +263,12 @@ Hard
 # Canceled
 
 ## RTL support for Wagtail
-
+<details>
+<summary>Click to expand</summary>
 This project is canceled because:
 
 1. Wagtail is working on a new page editor. The work clashes with this project.
 2. Wagtail core-team and mentors find other projects more important.
-
-<details>
-<summery>Click to expand</summary>
 
 ### Summary 
 
