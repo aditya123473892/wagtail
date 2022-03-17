@@ -14,12 +14,14 @@ Our application for 2022 is accepted.
 * [About Wagtail](#about-wagtail)
 * [Contributor Guidelines](#contributor-guidelines)
 * [Project ideas](#project-ideas)
-  * [RTL support for Wagtail](#rtl-support-for-wagtail)
   * [Toolkit for StreamField data migrations in Wagtail](#toolkit-for-streamfield-data-migrations-in-wagtail)
   * [Create and select related content](#create-and-select-related-content)
   * [Make Wagtail editor guide a stand-alone project](#make-wagtail-editor-guide-a-stand-alone-project)
   * [Apply new page editor style to all views](#apply-new-page-editor-style-to-all-views)
+
+Canceled projects (archived)
   * [Change page type](#change-page-type)
+  * [RTL support for Wagtail](#rtl-support-for-wagtail)
 
 # About Wagtail
 
