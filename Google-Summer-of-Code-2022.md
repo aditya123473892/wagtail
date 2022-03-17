@@ -213,8 +213,10 @@ Medium
 # Canceled
 
 ## Change page type
+
 <details>
 <summery>Click to expand</summery>
+
 ### Motivation for cancellation
 
 This project is canceled because:
@@ -278,8 +280,10 @@ Hard
 </details>
 
 ## RTL support for Wagtail
+
 <details>
 <summary>Click to expand</summary>
+
 ### Motivation for cancellation
 
 This project is canceled because:
