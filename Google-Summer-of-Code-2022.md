@@ -90,17 +90,46 @@ Medium
 
 ### Summary
 
-Django has a 'search loop', 'add plus', and 'modal' to search, select and create related objects. This without navigating away from the current form.
+**Django**
 
-Search loop:
-https://docs.djangoproject.com/en/4.0/ref/contrib/admin/#django.contrib.admin.ModelAdmin.raw_id_fields
+Django has a way to select related content AND create, update and delete related content _without leaving the current form_. It does this by opening new windows.
 
-Add plus:
-https://docs.djangoproject.com/en/4.0/ref/contrib/admin/#django.contrib.admin.ModelAdmin.fieldsets
+See this video illustrating the differences between Django and Wagtail related objects.
+
+
+https://user-images.githubusercontent.com/1969342/158978211-db1a7dda-12cb-4bc5-84e9-2efccf53fdfd.mp4
+
+
+A select field in Django has a create (plus), edit (pencil) and delete (red cross). It opens a new window that allows performing CRUD actions.
+
+Also, Django raw id field has a search loop. It opens a chooser in a new window. It re-uses the model admin list view. Advantages are:
+Enables custom list fields, search and filter.
+Pagination.
+With a lot of content, you don't have to render all select options in the current form. Boosting performance.
+
+**Wagtail**
+
+Creating related content in Wagtail involves tedious and annoying steps:
+1. You need to navigate away from the current form (losing your work). 
+2. Create the related object.
+3. Go back to the initial form and recreate all content.
+
+Forms with many fields have the chance of losing a lot of work. There is also a chance that the user is required to repeat steps 1-3 a couple of times. There might be multiple required related object fields.
+
+The current Wagtail snippet chooser opens a modal. The modal:
+- Does support content selection
+- Does not support CRUD actions
+- Does not re-use the list view (like Django does). Customisation of list fields, search, and filter is hard/impossible.
+- Wagtail has no `raw_id_fields`.
 
 ### Expected outcomes
 
-Have the Django 'add plus', 'search loop', and 'modal/popup' pattern in Wagtail.
+This GSOC project is about related object selection and CRUD in Wagtail:
+- Create a chooser window that re-uses the ModelAdmin list view.
+- Create related object CRUD views. They open in a new window.
+- Respect user permissions on the related objects.
+- Make nested related object CRUD (multiple windows) possible.
+- Introduce RAW id field.
 
 ### Skills
 
