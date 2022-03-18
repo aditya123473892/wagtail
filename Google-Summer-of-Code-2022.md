@@ -74,9 +74,7 @@ Django, Python.
 
 - Lead: Jacob Topp-Mugglestone https://github.com/jacobtoppm
 - Support: Karl Hobley https://github.com/kaedroho
-- Support 2: TBC
-
-We will supply a primary mentor and at least two secondary mentors to support the participant.
+- Support 2: Cynthia Kiser https://github.com/cnk
 
 ### Size
 
@@ -192,7 +190,7 @@ A dedicated User Guide website with content editors as targeted audience.
 
 ### Mentors
 
-- Lead: TBC
+- Lead: Phil Dexter https://github.com/phildexter
 - Support: Coen van der Kamp https://github.com/allcaps
 - Support: TBC – Dan Braghis https://github.com/zerolab
 - Support: TBC – LB Johnston https://github.com/lb-/ (secondary mentor)
@@ -225,7 +223,7 @@ Consistent UI throughout the whole of Wagtail.
 
 ### Mentors
 
-- Lead: TBC
+- Lead: Thibaud Colas
 - Support: TBC
 - Support 2: TBC
 
@@ -236,6 +234,14 @@ Expected size of project approximately 350 hours.
 ### Difficulty rating
 
 Medium 
+
+## Accessibility project TBC
+
+### Mentors
+
+- Lead: Jane Hughes https://github.com/janehughes
+- Support: TBC Scott Cranfill https://github.com/Scotchester
+- Support 2: TBC Thibaud Colas https://github.com/thibaudcolas
 
 ---
 
