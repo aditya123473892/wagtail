@@ -103,9 +103,9 @@ https://user-images.githubusercontent.com/1969342/158978211-db1a7dda-12cb-4bc5-8
 A select field in Django has a create (plus), edit (pencil) and delete (red cross). It opens a new window that allows performing CRUD actions.
 
 Also, Django raw id field has a search loop. It opens a chooser in a new window. It re-uses the model admin list view. Advantages are:
-Enables custom list fields, search and filter.
-Pagination.
-With a lot of content, you don't have to render all select options in the current form. Boosting performance.
+- Enables custom list fields, search and filter.
+- Pagination.
+- With a lot of content, you don't have to render all select options in the current form. Boosting performance.
 
 **Wagtail**
 
