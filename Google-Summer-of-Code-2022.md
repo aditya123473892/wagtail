@@ -40,6 +40,10 @@ Wagtail has moved fast in the last few years, with particular focus on the edito
 
 Write a motivation and submit your CV. Tell us about your experience with Python/Django/Wagtail.
 
+# Mentors
+
+If you're interested in mentoring -- supervising a contributor in work on Wagtail-related activities -- let us know by writing a DM on [Slack](https://github.com/wagtail/wagtail/wiki/Slack) to @Thibaud and @dawn.
+
 ---
 
 # Project ideas
