@@ -13,6 +13,7 @@ Our application for 2022 is accepted.
 
 * [About Wagtail](#about-wagtail)
 * [Contributor Guidelines](#contributor-guidelines)
+* [Mentors](#mentors)
 * [Project ideas](#project-ideas)
   * [Toolkit for StreamField data migrations in Wagtail](#toolkit-for-streamfield-data-migrations-in-wagtail)
   * [Create and select related content](#create-and-select-related-content)
