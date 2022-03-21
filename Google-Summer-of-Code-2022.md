@@ -286,8 +286,8 @@ Consistent UI throughout the whole of Wagtail.
 
 ### Mentors
 
-- Lead: Thibaud Colas
-- Support: TBC
+- Lead: Thibaud Colas https://github.com/thibaudcolas
+- Support: Helen Chapman https://github.com/helenb
 - Support 2: TBC
 
 ### Size
