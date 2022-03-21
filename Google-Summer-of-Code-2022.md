@@ -20,6 +20,7 @@ Our application for 2022 is accepted.
   * [Create and select related content](#create-and-select-related-content)
   * [Make Wagtail editor guide a stand-alone project](#make-wagtail-editor-guide-a-stand-alone-project)
   * [Apply new page editor style to all views](#apply-new-page-editor-style-to-all-views)
+  * [Windows High Contrast mode support](#windows-high-contrast-mode-support)
 
 Canceled projects (archived)
   * [Change page type](#change-page-type)
@@ -298,13 +299,15 @@ Expected size of project approximately 350 hours.
 
 Medium 
 
-## Accessibility project TBC
+## Windows High Contrast mode support
+
+Roll out Windows High Contrast mode support to all of Wagtail. 175hrs. This is a continuation of existing work from the accessibility team (https://wagtail.org/blog/state-of-wagtail-accessibility/). We’re wondering if we should consider general theme-ability as part of this – delivering not just High Contrast mode but also potentially a dark theme for Wagtail, potentially custom color theming capabilities.
 
 ### Mentors
 
 - Lead: Jane Hughes https://github.com/janehughes
 - Support: TBC Scott Cranfill https://github.com/Scotchester
-- Support 2: TBC Thibaud Colas https://github.com/thibaudcolas
+- Support 2: Thibaud Colas https://github.com/thibaudcolas
 
 ---
 
@@ -313,10 +316,10 @@ Medium
 ## Change page type
 
 <details>
+
 <summary>Click to expand</summary>
 
 ### Motivation for cancellation
-
 
 This project is canceled because:
 1. Too complex.
@@ -430,6 +433,7 @@ Medium
 <summary>Click to expand</summary>
 
 ## Wagtail Live
+
 ### Summary
 
 High speed content delivery. A live blog from chat applications to a Wagtail site.
