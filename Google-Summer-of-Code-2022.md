@@ -201,7 +201,7 @@ This GSOC project is about related object selection and CRUD in Wagtail:
 ### Mentors
 
 - Lead: TBC – Coen van der Kamp https://github.com/allcaps
-- Support: TBC – Dan Braghis https://github.com/zerolab
+- Support: TBC
 - Support 2: TBC
 
 ### Size
