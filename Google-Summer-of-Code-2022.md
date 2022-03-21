@@ -306,7 +306,7 @@ Roll out Windows High Contrast mode support to all of Wagtail. 175hrs. This is a
 ### Mentors
 
 - Lead: Jane Hughes https://github.com/janehughes
-- Support: TBC Scott Cranfill https://github.com/Scotchester
+- Support: Scott Cranfill https://github.com/Scotchester
 - Support 2: Thibaud Colas https://github.com/thibaudcolas
 
 ---
