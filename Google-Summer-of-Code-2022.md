@@ -19,7 +19,7 @@ Our application for 2022 is accepted.
   * [Toolkit for StreamField data migrations in Wagtail](#toolkit-for-streamfield-data-migrations-in-wagtail)
   * [Create and select related content](#create-and-select-related-content)
   * [Make Wagtail editor guide a stand-alone project](#make-wagtail-editor-guide-a-stand-alone-project)
-  * [Apply new page editor style to all views](#apply-new-page-editor-style-to-all-views)
+  * [Apply new page editor UX to all of Wagtail](#apply-new-page-editor-ux-to-all-of-wagtail)
   * [Windows High Contrast mode support](#windows-high-contrast-mode-support)
 
 Canceled projects (archived)
@@ -269,22 +269,23 @@ Expected size of project 175 hours.
 
 Medium 
 
-## Roll out page editor UX to all of Wagtail
+## Apply new page editor UX to all of Wagtail
 
 ### Summary
 
-We are currently redesigning Wagtail’s page editor UI. This part of Wagtail is what users see the most, and where the most complex features are. We now want to roll out similar changes to all other parts of Wagtail.
+This project idea is a follow-up to Wagtail’s [Page editor 2022](https://github.com/wagtail/wagtail/discussions/7739) project, as part of which we are modernizing Wagtail’s page editor. This redesign focuses on the page editor, incorporating long-awaited UX improvements, accessibility fixes, and new features. We now want to roll out similar improvements to other parts of Wagtail.
 
 ### Expected outcomes
 
-Consistent UX throughout the whole of Wagtail, using our modern visual language, powered by a design system.
+Consistent UX throughout the whole of Wagtail, using our modern visual language, powered by a design system. Long-standing accessibility issues are fixed, and Wagtail is well on its way to [WCAG 2.1 AA](https://github.com/wagtail/wagtail/projects/5) conformance.
 
 ### Implementation
 
 1. Review the page editor redesign.
-2. Plan for application of the new UX & particular UI components to other parts of Wagtail
-3. Update our UI build and testing tools to sustain this work
-4. Roll out UI improvements either component-by-component, or view-by-view
+2. Plan for application of the new UX & particular UI components to other parts of Wagtail.
+3. Liaise with our [UI](https://github.com/wagtail/wagtail/wiki/UI-team) and [accessibility](https://github.com/wagtail/wagtail/wiki/Accessibility-team) teams.
+4. Update our UI build and testing tools to sustain this work.
+5. Roll out UI improvements either component-by-component, or view-by-view.
 
 ### Skills
 
@@ -308,6 +309,7 @@ Consistent UX throughout the whole of Wagtail, using our modern visual language,
 ### Difficulty rating
 
 Medium.
+
 ## Windows High Contrast mode support
 
 ### Summary
@@ -404,185 +406,4 @@ This should likely be initially developed as a standalone package before determi
 
 - Django
 - Wagtail
-- Django Treebeard
-- Some HTML/CSS/JS
-- Familiarity with basic UX design principles
-
-### Mentors
-
-- Lead: TBC
-- Support: TBC
-- Support 2: TBC
-
-### Size
-
-Expected size of project: 350 hours
-
-### Difficulty rating
-
-Hard
-
-</details>
-
-## RTL support for Wagtail
-
-<details>
-<summary>Click to expand</summary>
-
-### Motivation for cancellation
-
-This project is canceled because:
-
-1. Wagtail is working on a new page editor. The work clashes with this project.
-2. Wagtail core-team and mentors find other projects more important.
-
-### Summary 
-
-Wagtail’s administration interface currently has poor support for right-to-left languages, such as Arabic and Hebrew. We have been wanting to fix this for a while ([#1240](https://github.com/wagtail/wagtail/issues/1240)), and now have a great opportunity to do so with [CSS logical properties](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Logical_Properties).
-
-### Expected outcomes
-
-The Wagtail UI supports Arabic, Hebrew, and other right-to-left languages.
-
-### Implementation
-
-We want to refactor Wagtail’s stylesheets to use CSS logical properties, Flexbox, and Grid layout, so the styles can be written agnostic to the writing direction of the language – browsers would then automatically display the correct end-user layout based on the target language.
-
-### Skills
-
-HTML and CSS. Bonus: user experience, visual design, Django.
-
-### Mentors
-
-- Lead: Thibaud Colas https://github.com/thibaudcolas
-- Support: Coen van der Kamp https://github.com/allcaps
-- Support 2: TBC
-
-We will supply a primary mentor and at least two secondary mentors to support the participant.
-
-### Size
-
-Expected size of project approximately 350 hours.
-
-### Difficulty rating
-
-Medium
-
-
-</details>
-
-# 2021 GSoC projects (done)
-<details>
-<summary>Click to expand</summary>
-
-## Wagtail Live
-
-### Summary
-
-High speed content delivery. A live blog from chat applications to a Wagtail site.
-
-Content editors will enter their content into Slack (or any other messaging application) and this will live update the Wagtail live-blog page.
-
-- **Live example**: [https://www.theguardian.com/politics/live/2020/feb/05/pmqs-boris-johnson-corbyn-bbc-could-end-up-as-defunct-as-blockbuster-unless-it-adapts-to-digital-era-says-culture-secretary-nicky-morgan-live-news](https://www.theguardian.com/politics/live/2020/feb/05/pmqs-boris-johnson-corbyn-bbc-could-end-up-as-defunct-as-blockbuster-unless-it-adapts-to-digital-era-says-culture-secretary-nicky-morgan-live-news) 
-- **POC (Proof Of Concept)**: [https://github.com/allcaps/wagtail-live](https://github.com/allcaps/wagtail-live)
-- **Video**: [https://www.youtube.com/watch?v=JL-MlNl2Buc&feature=youtu.be](https://www.youtube.com/watch?v=JL-MlNl2Buc&feature=youtu.be)
-
-## Implementation
-- Input a chat application / third party product
-- Output on a live blog page
-- Message server (Django Channels)
-
-## Skills
-- Python, Django, Wagtail
-- Message server
-- Consume Chat API’s
-
-## Mentors
-Tom Dyson and Coen van der Kamp
-
-## Aims
-To produce a Wagtail package to deliver content fast
-
-## New database search backend
-
-### Summary 
-
-A new search backend that makes use of the search features of the current database. With support for SQLite and PostgreSQL search features.
-
-This will replace the existing database and PostgreSQL search backends in Wagtail.
-
-### Implementation
-
-- Create a search backend that creates a separate database table for each search index (pages, images, and documents). These tables should make use of whatever search specific types and indexes are available in the currently used database engine
-- Implement the search query interface to allow retrieving data from these search backends
-- (optional) Create a test suite that tests the quality of the results that each search backend returns
-
-### Skills
-
-- Databases
-- Search / PostgreSQL FTS / SQLite FTS / MySQL FTS
-
-### Mentors
-
-Karl Hobley
-
-### Aims
-
-- Improve the quality of results for the existing PostgreSQL search backend
-- Add support for SQLite and MySQL search into Wagtail core
-
-## Bulk admin actions
-### Summary
-Enable bulk actions in a variety of Wagtail administrative interfaces
-
-### Implementation
-- Allow performing common tasks (such as delete, publish etc) in bulk for Wagtail Pages, Images and Documents
-- Provide an extension mechanism that will enable developers to provide custom actions
-
-### Skills
-- Django, Python and front-end
-
-### Mentors
-Karl Hobley
-
-### Aims
-
-To enhance the Wagtail administrative interface  
-
-</details>
-
-# Project ideas template
-<details>
-<summary>Click to expand</summary>
-
-## Idea title
-
-### Summary 
-
-More detailed description of the project (2-5+ sentences)
-
-### Expected outcomes
-
-TBS
-
-### Implementation
-
-Optional section, technical hints.
-
-### Skills
-
-TBD required/preferred 
-
-### Mentors
-
-TBD
-
-### Size
-
-Expected size of project (175 or 350 hour)
-
-### Difficulty rating
-
-Easy, Medium or Hard 
-
-</details>
+- Django Tree
