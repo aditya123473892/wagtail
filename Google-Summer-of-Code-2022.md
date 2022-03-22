@@ -301,13 +301,47 @@ Medium
 
 ## Windows High Contrast mode support
 
-Roll out Windows High Contrast mode support to all of Wagtail. 175hrs. This is a continuation of existing work from the accessibility team (https://wagtail.org/blog/state-of-wagtail-accessibility/). We’re wondering if we should consider general theme-ability as part of this – delivering not just High Contrast mode but also potentially a dark theme for Wagtail, potentially custom color theming capabilities.
+### Summary
+
+Roll out Windows High Contrast mode (also known as Contrast Themes) support to all of Wagtail. This is a continuation of [existing work](https://wagtail.org/blog/state-of-wagtail-accessibility/) from Wagtail’s accessibility team.
+
+### Expected outcomes
+
+The whole of the Wagtail administration interface will work as well as possible for users of Windows High Contrast mode. Wagtail’s UI development methodology now takes it into account for future features, in a sustainable way.
+
+### Implementation
+
+We’re wondering if we should consider general theme-ability as part of this – delivering not just High Contrast mode but also potentially a dark theme for Wagtail, potentially custom color theming capabilities. Aside from this decision, we can already:
+
+1. Review how the admin UI works currently in High Contrast mode.
+2. Research how leading projects are doing this.
+3. Update our contributor documentation with appropriate guidelines.
+4. Update our tooling to make it easier to support and test those types of changes.
+5. Roll out fixes & improvements to existing UI components.
+
+We are expecting the types of changes needed to be simple once identified, but there is an important planning element here to make sure we do the most sensible changes, at the appropriate level of abstraction.
+We also want to make sure any changes for WHCM support are made in a way that works for future development.
+
+### Skills
+
+- Accessibility
+- HTML, CSS, SVG
+- JavaScript
+- UI development tooling
 
 ### Mentors
 
 - Lead: Jane Hughes https://github.com/janehughes
 - Support: Scott Cranfill https://github.com/Scotchester
 - Support 2: Thibaud Colas https://github.com/thibaudcolas
+
+### Size
+
+175 hours
+
+### Difficulty rating
+
+Medium
 
 ---
 
