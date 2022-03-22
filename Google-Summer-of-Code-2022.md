@@ -269,21 +269,31 @@ Expected size of project 175 hours.
 
 Medium 
 
-## Apply new page editor style to all views 
+## Roll out page editor UX to all of Wagtail
 
 ### Summary
 
-Wagtail is currently redesigning the page editor. But has many other views that are out of scope. However, those out of scope views should get the same styling and use the same components and techniques.
+We are currently redesigning Wagtail’s page editor UI. This part of Wagtail is what users see the most, and where the most complex features are. We now want to roll out similar changes to all other parts of Wagtail.
 
 ### Expected outcomes
 
-Consistent UI throughout the whole of Wagtail.
+Consistent UX throughout the whole of Wagtail, using our modern visual language, powered by a design system.
+
+### Implementation
+
+1. Review the page editor redesign.
+2. Plan for application of the new UX & particular UI components to other parts of Wagtail
+3. Update our UI build and testing tools to sustain this work
+4. Roll out UI improvements either component-by-component, or view-by-view
 
 ### Skills
 
-- Django
-- Wagtail
-- HTML/JS/CSS
+- Accessibility
+- HTML, CSS, SVG
+- JavaScript, TypeScript
+- React
+- UI development tooling
+- UI testing
 
 ### Mentors
 
@@ -293,12 +303,11 @@ Consistent UI throughout the whole of Wagtail.
 
 ### Size
 
-Expected size of project approximately 350 hours.
+350 hours.
 
 ### Difficulty rating
 
-Medium 
-
+Medium.
 ## Windows High Contrast mode support
 
 ### Summary
