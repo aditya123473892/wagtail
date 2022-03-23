@@ -320,8 +320,7 @@ Medium.
 
 ## Windows High Contrast mode support
 
-For project questions or comments, use [GSoC 2022: Windows High Contrast mode support #8193
-](https://github.com/wagtail/wagtail/discussions/8193).
+For project questions or comments, use [GSoC 2022: Windows High Contrast mode support #8193](https://github.com/wagtail/wagtail/discussions/8193).
 
 ### Summary
 
