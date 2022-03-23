@@ -112,6 +112,8 @@ Most RFCs are suitable GSoC projects https://github.com/wagtail/rfcs/pulls?q=is%
 
 ## Toolkit for StreamField data migrations in Wagtail
 
+For project questions or comments, use [GSoC 2022: Toolkit for StreamField data migrations in Wagtail #8156](https://github.com/wagtail/wagtail/discussions/8156).
+
 ### Summary 
 
 Wagtail provides a field type for semi-freeform data, StreamField, which uses a JSON representation to store "blocks" of data. While flexible for editors, a pain point for developers has been writing data migrations when changes are made to the block definitions, due to its nested format. This project aims to provide a set of reusable utilities to allow Wagtail implementors to easily generate data migrations for changes to StreamField block structure. It could be extended to cover another common pain point when updating stored data: dealing with live and draft revisions.
@@ -148,6 +150,8 @@ Django, Python.
 Medium
 
 ## Create and select related content
+
+For project questions or comments, use [GSoC 2022: Create and select related content #8157](https://github.com/wagtail/wagtail/discussions/8157).
 
 ### Summary
 
@@ -214,6 +218,8 @@ Medium
 
 ## Make Wagtail editor guide a stand-alone project
 
+For project questions or comments, use [GSoC 2022: Editor's Guide - Separate Repo or Website #7824](https://github.com/wagtail/wagtail/discussions/7824).
+
 ### Summary
 
 - The goal is to [pull out the existing editor's guide](https://github.com/wagtail/wagtail/discussions/7824) from static documentation to a stand-alone project that can be translated, built upon and even used to generate custom guides for more complex usages of Wagtail.
@@ -271,6 +277,8 @@ Medium
 
 ## Apply new page editor UX to all of Wagtail
 
+For project questions or comments, use [GSoC 2022: Apply new page editor UX to all of Wagtail #8158](https://github.com/wagtail/wagtail/discussions/8158).
+
 ### Summary
 
 This project idea is a follow-up to Wagtail’s [Page editor 2022](https://github.com/wagtail/wagtail/discussions/7739) project, as part of which we are modernizing Wagtail’s page editor. This redesign focuses on the page editor, incorporating long-awaited UX improvements, accessibility fixes, and new features. We now want to roll out similar improvements to other parts of Wagtail.
@@ -311,6 +319,9 @@ Consistent UX throughout the whole of Wagtail, using our modern visual language,
 Medium.
 
 ## Windows High Contrast mode support
+
+For project questions or comments, use [GSoC 2022: Windows High Contrast mode support #8193
+](https://github.com/wagtail/wagtail/discussions/8193).
 
 ### Summary
 
