@@ -262,8 +262,8 @@ A dedicated User Guide website with content editors as targeted audience.
 
 - Lead: Phil Dexter https://github.com/phildexter
 - Support: Coen van der Kamp https://github.com/allcaps
-- Support: TBC – Dan Braghis https://github.com/zerolab
-- Support: TBC – LB Johnston https://github.com/lb-/ (secondary mentor)
+- Support: TBC
+- Support: TBC – LB Johnston https://github.com/lb-
 
 We will supply a primary mentor and at least two secondary mentors to support the participant.
 
@@ -308,7 +308,8 @@ Consistent UX throughout the whole of Wagtail, using our modern visual language,
 
 - Lead: Thibaud Colas https://github.com/thibaudcolas
 - Support: Helen Chapman https://github.com/helenb
-- Support 2: TBC
+- Support: TBC
+- Support: TBC – LB Johnston https://github.com/lb-
 
 ### Size
 
