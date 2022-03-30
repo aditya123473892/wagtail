@@ -311,7 +311,7 @@ Consistent UX throughout the whole of Wagtail, using our modern visual language,
 
 ### Size
 
-175 or 350 hours, at the discretion of the candidate.
+175 or 350 hours depending on candidate proposal
 
 ### Difficulty rating
 
