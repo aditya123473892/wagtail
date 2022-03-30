@@ -30,6 +30,184 @@ Past meetings:
 
 <!-- Insert meeting notes here, most recent first: -->
 
+## 2022-03-24 UTC morning
+
+Attendees: LB, Thibaud
+
+### Actions
+
+- ✅ Thibaud Ask Dawn to complete poll on meeting times
+
+### Actions review
+
+- Steve :) Dark mode research
+- Thibaud Prototype forms structure with Steve to review
+- Thibaud - Prototype comment extraction with Markdown syntax -- simplest option (w/ Markdown MIME type), and Google Style. prepare a PR for the first version of dosctrings within a Django template to be used by Storybook. (Scott can review)
+- Thibaud - Prepare a PR on wagtail-fork for the proposed percy checks (Scott can review, Naomi happy to try putting in a Pull Request to see how that can work for others).
+- Thibaud - Compare different approaches to UI component declarations
+
+### Discussions
+
+- Sidebar UI funkiness
+- Prototype comment extraction with Markdown syntax
+- Google Summer of Code -- UI team involvement with projects
+
+## 2022-03-17 UTC afternoon
+
+Attendees: Dawn, Naomi, Thibaud, Harris, Steve, Scott
+
+### Actions
+
+- Steve :) Dark mode research
+- Thibaud Prototype forms structure with Steve to review
+- Thibaud - Prototype comment extraction with Markdown syntax -- simplest option (w/ Markdown MIME type), and Google Style. prepare a PR for the first version of dosctrings within a Django template to be used by Storybook. (Scott can review)
+- Thibaud - Prepare a PR on wagtail-fork for the proposed percy checks (Scott can review, Naomi happy to try putting in a Pull Request to see how that can work for others).
+- Thibaud - Compare different approaches to UI component declarations
+
+### Actions review
+
+- Thibaud - Prototype comment extraction with Markdown syntax -- simplest option (w/ Markdown MIME type), and Google Style. prepare a PR for the first version of dosctrings within a Django template to be used by Storybook. (Scott can review)
+- Thibaud - Prepare a PR on wagtail-fork for the proposed percy checks (Scott can review, Naomi happy to try putting in a Pull Request to see how that can work for others).
+- ✅ Thibaud - Short summary update in the core team chat after this meeting with links to minutes.
+- ✅ All - review third party libraries and provide suggestions <https://github.com/wagtail/wagtail/issues/7980>
+- Thibaud - Compare different approaches to UI component declarations
+
+### Discussions
+
+- What's up?
+- Google Summer of Code -- UI team involvement with projects
+  - Create and select related content
+    - <https://github.com/wagtail/wagtail-autocomplete>
+    - <https://github.com/wagtail/wagtail/pull/6213>
+    - Harris looking after this on behalf of UI team
+  - Make Wagtail editor guide a stand-alone project
+    - Unclear whether this is within our remit or not?
+    - Check whether this involves design changes
+    - Be involved with documentation changes concerning the Wagtail UI
+    - Ben Enright
+    - Make sure Phil Dexter keeps in touch with us
+    - Stretch goal very relevant to us: integration within Wagtail admin
+  - Apply new page editor style to all views - To be refined, lead
+  - Windows High contrast mode (plus dark theme?) support for whole Wagtail admin
+    - Steve pro dark themes
+    - First goal: consider theme-ability options as part of front-end changes
+    - Switch or OS-level? Both :)
+    - See GitHub example
+    - Stretch goal: Slack-style "paste your stylesheet" / colors
+    - Adds burden to third-party widget developers?
+    - Front-end for CSS variables
+    - We'll see whether this comes through :)
+- Built-in accessibility tests for Wagtail pages on publish / editing
+  - A lot of accessibility considerations
+- HTML structure for page editor's form
+  - [Toolkit](https://play.tailwindcss.com/Hwt5Amqd6u)
+  - Pair programming / code review
+  - Mocking the grouping
+  - Steve reviewing. Steve pair programming too :)
+
+## 2022-03-10 UTC evening
+
+Attendees: Thibaud, Naomi, Scott, LB, Harris
+
+### Actions
+
+- Thibaud - Prototype comment extraction with Markdown syntax -- simplest option (w/ Markdown MIME type), and Google Style. prepare a PR for the first version of dosctrings within a Django template to be used by Storybook. (Scott can review)
+- Thibaud - Prepare a PR on wagtail-fork for the proposed percy checks (Scott can review, Naomi happy to review the Pull Request side of things to see how that can work for others).
+- ✅ Thibaud - Short summary update in the core team chat after this meeting with links to minutes.
+- ✅ All - review third party libraries and provide suggestions <https://github.com/wagtail/wagtail/issues/7980>
+- Thibaud - Compare different approaches to UI component declarations
+
+### Actions review
+
+- ✅ Thibaud Do another search on GitHub for Hallo packages
+- ✅ Thibaud Review structured docstrings research
+- ✅Steve, Thibaud - To propose visual regression testing soon
+  - Percy from Browserstack, Storybook test suite, E2E test suite
+
+### Discussions
+
+- Hallo packages
+  - Should not be a huge issue, not too many packages out there.
+- Structured docstrings research
+  - The most simple is probably the best way to go, the plan is to take a look in the next day or so.
+  - Need a volunteer to review a PR when ready (Scott will do)
+- Slack channel: #ui vs. #ui-team, or both
+  - Naomi - Would be good to split the channel out, but splitting out makes it harder for the wider community to feel that they can input.
+  - Sometimes the channel can be filled up with a bit of logistics but this is probably not a big deal and can be managed with a thread.
+  - Agreed - no change for now but just a reminder for everyone that we do want to be transparent with the community but also try to keep noise to a minimum (use threads).
+- [Third-party libraries selection for major UI components #7980](https://github.com/wagtail/wagtail/issues/7980)
+  - Looking for feedback / more suggestions before we proceed.
+  - Thibaud - the only one we need really soon is the tooltip, the others are futher down the line.
+    - The datepicker choice is actually really hard, there is not an option we could find that was actually accessible and supports our requirements for assistive text.
+  - Naomi - best to go with what is the most 'default' as possible (Pythonic way), especially when all the other options are not great, we can go with the default and then can always adopt something more in the future.
+  - Tippy.js - seems good for accessibility and is actually a layer on top of floating-ui (aka popper.js).
+  - Looking for suggestions for any others, including tabs.
+  - Would be good to see what other large organisations (governments) are using for these kinds of things.
+  - Possibly useful tab guidance: <https://inclusive-components.design/tabbed-interfaces/>
+- Documentation for components -- will do a trial next
+  - Looking for volunteers
+  - See actions, looking at the simplest approach to get started.
+- Visual regression testing setup: with [Percy](https://percy.io/) from Browserstack
+  - For every PR, via existing CircleCI builds
+  - Running both on Storybook stories, and integration tests with Puppeteer
+    - Running multiple "projects" is [documented](https://docs.percy.io/docs/multiple-projects-per-repo)
+  - GitHub [PR status](https://docs.percy.io/docs/github)
+    - Do not require Percy approvals
+  - Set to [auto-approve where relevant](https://docs.percy.io/docs/approval-workflows)
+  - Next steps: trial all of the above on [wagtail-fork](https://github.com/thibaudcolas/wagtail-fork) project, incl. PR workflow
+  - Looking for volunteers to review
+  - Scott has a little bit of experience with Percy and is happy to take a look
+  - Naomi is happy to review the Pull Request side of things to see how that can work for others.
+- SVG icons
+  - Rollout is nearly there: <https://github.com/wagtail/wagtail/issues/6107>, <https://github.com/wagtail/wagtail/issues/7511>
+  - There is a list on github (about 40 or so) of existing icons that still need to be addressed.
+  - Would be a great time to finish this off before the next release if possible.
+  - Table headers (sort by), these have been a bit tricky, most others should be reasonably straightforward.
+  - Scott is happy to take another look at these.
+- Core team updates
+  - Naomi raised (in core team) that it would be good for sub-teams to have a standing update slot in core team meetings (or once a month).
+  - Maybe the highlights (decisions, main items) as a short summary.
+  - Short updates in the core team chat are also useful.
+
+## 2022-03-03 UTC morning
+
+Attendees: LB, Thibaud
+
+### Actions
+
+- ✅ Thibaud Do another search on GitHub for Hallo packages
+- Thibaud Review structured docstrings research
+- Thibaud Prototype comment extraction with Markdown syntax -- simplest option (w/ Markdown MIME type)
+- Steve, Thibaud - To propose visual regression testing soon
+  - Percy from Browserstack, Storybook test suite, E2E test suite
+- Thibaud Compare different approaches to UI component declarations
+
+### Actions review
+
+- ✅ Thibaud Review <https://github.com/wagtail/wagtail/discussions/8017>
+- ✅ Thibaud - Invite Ben Enright to our future meetings.
+- ✅ Coen Raise PO files methodology & blocktrans trimmed issue
+- Steve, Thibaud - To propose visual regression testing soon
+  - Percy from Browserstack, Storybook test suite, E2E test suite
+- ✅ Naomi Research structured docstrings
+  - From the [sphinx.ext.autodoc documentation](https://www.sphinx-doc.org/en/master/usage/extensions/autodoc.html), there are two other styles for docstrings, which are described well in the [sphinx.ext.napoleon documentation](https://www.sphinx-doc.org/en/master/usage/extensions/napoleon.html#module-sphinx.ext.napoleon) (which converts them to RST for autodoc. Of those three options (autodoc, NumPy, Google) I like the [Google style](https://github.com/google/styleguide/blob/gh-pages/pyguide.md#38-comments-and-docstrings), which is more similar to the Markdown style that Thibaud showed. I wonder if it would be possible to use [napoleon's docstring parsing](https://github.com/sphinx-doc/sphinx/blob/4.x/sphinx/ext/napoleon/docstring.py) both for linting and to output something other than RST, but my guess would be that it's more trouble than it's worth? It also does not include a way to give default values for arguments.
+  - YAML seems like it could be a good option since it's JSON based, so it would convert easily to what Storybook wants. Though at some point it feels like what's the difference between doing this and just shoving the whole story config into the template file.
+- Thibaud Compare different approaches to UI component declarations
+
+### Discussions
+
+- Should we find all Hallo packages - add an issue flagging that next release Hallo will be an external package?
+  - Only one found so far with dual editor support
+  - Will check again
+- When will we formalise that the next release will be 3.0? (release notes file, communication, references in external packages)
+  - Soon™ (discussed in this week's team meeting)
+  - wagtail-hallo: will have to fix the core packages reorganisation, hopefully will be picked up by nightly CI
+  - v0.1.0 for 2.16, v0.2.0 for 3.0
+- Structured docstrings
+  - Keep it simple?
+  - Comments syntax lighting
+  - `{% comment "Optional note" %}` <https://docs.djangoproject.com/en/4.0/ref/templates/builtins/#comment>
+
 ## 2022-02-24 UTC afternoon
 
 Attendees: Naomi, Harris, Scott, Thibaud, Steve, Dawn
