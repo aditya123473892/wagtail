@@ -17,14 +17,14 @@ Our application for 2022 is accepted.
 * [Mentors](#mentors)
 * [Project ideas](#project-ideas)
   * [Toolkit for StreamField data migrations in Wagtail](#toolkit-for-streamfield-data-migrations-in-wagtail)
-  * [Create and select related content](#create-and-select-related-content)
   * [Make Wagtail editor guide a stand-alone project](#make-wagtail-editor-guide-a-stand-alone-project)
   * [Apply new page editor UX to all of Wagtail](#apply-new-page-editor-ux-to-all-of-wagtail)
   * [Windows High Contrast mode support](#windows-high-contrast-mode-support)
 
-Canceled projects (archived)
-  * [Change page type](#change-page-type)
-  * [RTL support for Wagtail](#rtl-support-for-wagtail)
+* [Canceled projects (archived)](#canceled-projects)
+  * Change page type](#change-page-type)
+  * RTL support for Wagtail](#rtl-support-for-wagtail)
+  * Create and select related content](#create-and-select-related-content)
 
 # About Wagtail
 
@@ -146,73 +146,6 @@ Django, Python.
 175 hours (basic version), but could be extended to deal with more migration types, and to make dealing with live and draft revisions easier.
 
 ### Difficulty
-
-Medium
-
-## Create and select related content
-
-For project questions or comments, use [GSoC 2022: Create and select related content #8157](https://github.com/wagtail/wagtail/discussions/8157).
-
-### Summary
-
-**Django**
-
-Django has a way to select related content AND create, update and delete related content _without leaving the current form_. It does this by opening new windows.
-
-See this video illustrating the differences between Django and Wagtail related objects.
-
-
-https://user-images.githubusercontent.com/1969342/158978211-db1a7dda-12cb-4bc5-84e9-2efccf53fdfd.mp4
-
-
-A select field in Django has a create (plus), edit (pencil) and delete (red cross). It opens a new window that allows performing CRUD actions.
-
-Also, Django raw id field has a search loop. It opens a chooser in a new window. It re-uses the model admin list view. Advantages are:
-- Enables custom list fields, search and filter.
-- Pagination.
-- With a lot of content, you don't have to render all select options in the current form. Boosting performance.
-
-**Wagtail**
-
-Creating related content in Wagtail involves tedious and annoying steps:
-1. You need to navigate away from the current form (losing your work). 
-2. Create the related object.
-3. Go back to the initial form and recreate all content.
-
-Forms with many fields have the chance of losing a lot of work. There is also a chance that the user is required to repeat steps 1-3 a couple of times. There might be multiple required related object fields.
-
-The current Wagtail snippet chooser opens a modal. The modal:
-- Does support content selection
-- Does not support CRUD actions
-- Does not re-use the list view (like Django does). Customisation of list fields, search, and filter is hard/impossible.
-- Wagtail has no `raw_id_fields`.
-
-### Expected outcomes
-
-This GSOC project is about related object selection and CRUD in Wagtail:
-- Create a chooser window that re-uses the ModelAdmin list view.
-- Create related object CRUD views. They open in a new window.
-- Respect user permissions on the related objects.
-- Make nested related object CRUD (multiple windows) possible.
-- Introduce RAW id field.
-
-### Skills
-
-- Django
-- Wagtail
-- HTML/CSS/JS
-
-### Mentors
-
-- Lead: TBC – Coen van der Kamp https://github.com/allcaps
-- Support: TBC
-- Support 2: TBC
-
-### Size
-
-Expected size of project 175 hours.
-
-### Difficulty rating
 
 Medium
 
@@ -367,11 +300,11 @@ Medium
 
 # Canceled
 
-## Change page type
-
 <details>
 
 <summary>Click to expand</summary>
+
+## Change page type
 
 ### Motivation for cancellation
 
@@ -416,3 +349,78 @@ This should likely be initially developed as a standalone package before determi
 - Django
 - Wagtail
 - Django Tree
+
+
+## Create and select related content
+
+### Motivation for cancellation
+
+This project is canceled because:
+
+- Too many of the pieces --it would depend on-- are in flux.
+
+
+For project questions or comments, use [GSoC 2022: Create and select related content #8157](https://github.com/wagtail/wagtail/discussions/8157).
+
+### Summary
+
+**Django**
+
+Django has a way to select related content AND create, update and delete related content _without leaving the current form_. It does this by opening new windows.
+
+See this video illustrating the differences between Django and Wagtail related objects.
+
+
+https://user-images.githubusercontent.com/1969342/158978211-db1a7dda-12cb-4bc5-84e9-2efccf53fdfd.mp4
+
+
+A select field in Django has a create (plus), edit (pencil) and delete (red cross). It opens a new window that allows performing CRUD actions.
+
+Also, Django raw id field has a search loop. It opens a chooser in a new window. It re-uses the model admin list view. Advantages are:
+- Enables custom list fields, search and filter.
+- Pagination.
+- With a lot of content, you don't have to render all select options in the current form. Boosting performance.
+
+**Wagtail**
+
+Creating related content in Wagtail involves tedious and annoying steps:
+1. You need to navigate away from the current form (losing your work). 
+2. Create the related object.
+3. Go back to the initial form and recreate all content.
+
+Forms with many fields have the chance of losing a lot of work. There is also a chance that the user is required to repeat steps 1-3 a couple of times. There might be multiple required related object fields.
+
+The current Wagtail snippet chooser opens a modal. The modal:
+- Does support content selection
+- Does not support CRUD actions
+- Does not re-use the list view (like Django does). Customisation of list fields, search, and filter is hard/impossible.
+- Wagtail has no `raw_id_fields`.
+
+### Expected outcomes
+
+This GSOC project is about related object selection and CRUD in Wagtail:
+- Create a chooser window that re-uses the ModelAdmin list view.
+- Create related object CRUD views. They open in a new window.
+- Respect user permissions on the related objects.
+- Make nested related object CRUD (multiple windows) possible.
+- Introduce RAW id field.
+
+### Skills
+
+- Django
+- Wagtail
+- HTML/CSS/JS
+
+### Mentors
+
+- Lead: TBC – Coen van der Kamp https://github.com/allcaps
+- Support: TBC
+- Support 2: TBC
+
+### Size
+
+Expected size of project 175 hours.
+
+### Difficulty rating
+
+Medium
