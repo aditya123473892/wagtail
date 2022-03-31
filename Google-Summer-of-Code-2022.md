@@ -22,9 +22,9 @@ Our application for 2022 is accepted.
   * [Windows High Contrast mode support](#windows-high-contrast-mode-support)
 
 * [Canceled projects (archived)](#canceled)
-  * [Change page type](#change-page-type)
-  * [RTL support for Wagtail](#rtl-support-for-wagtail)
-  * [Create and select related content](#create-and-select-related-content)
+  * Change page type
+  * RTL support for Wagtail
+  * Create and select related content
 
 # About Wagtail
 
