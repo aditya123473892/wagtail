@@ -30,6 +30,10 @@ Past meetings:
 
 <!-- Insert meeting notes here, most recent first: -->
 
+## 2022-03-31 UTC evening
+
+See [2022-03-31 on GitHub Discussions](https://github.com/wagtail/wagtail/discussions/8265#user-content-2022-03-31).
+
 ## 2022-03-24 UTC morning
 
 Attendees: LB, Thibaud
