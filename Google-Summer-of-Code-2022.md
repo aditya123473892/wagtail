@@ -350,6 +350,48 @@ This should likely be initially developed as a standalone package before determi
 - Wagtail
 - Django Tree
 
+## RTL support for Wagtail
+
+This project is canceled because:
+
+1. Wagtail is working on a new page editor. The work clashes with this project.
+2. Wagtail core-team and mentors find other projects more important.
+
+<details>
+<summery>Click to expand</summary>
+
+### Summary 
+
+Wagtail’s administration interface currently has poor support for right-to-left languages, such as Arabic and Hebrew. We have been wanting to fix this for a while ([#1240](https://github.com/wagtail/wagtail/issues/1240)), and now have a great opportunity to do so with [CSS logical properties](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Logical_Properties).
+
+### Expected outcomes
+
+The Wagtail UI supports Arabic, Hebrew, and other right-to-left languages.
+
+### Implementation
+
+We want to refactor Wagtail’s stylesheets to use CSS logical properties, Flexbox, and Grid layout, so the styles can be written agnostic to the writing direction of the language – browsers would then automatically display the correct end-user layout based on the target language.
+
+### Skills
+
+HTML and CSS. Bonus: user experience, visual design, Django.
+
+### Mentors
+
+- Lead: Thibaud Colas https://github.com/thibaudcolas
+- Support: Coen van der Kamp https://github.com/allcaps
+- Support 2: TBC
+
+We will supply a primary mentor and at least two secondary mentors to support the participant.
+
+### Size
+
+Expected size of project approximately 350 hours.
+
+### Difficulty rating
+
+Medium
+
 
 ## Create and select related content
 
