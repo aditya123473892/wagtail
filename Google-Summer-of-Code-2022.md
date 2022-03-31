@@ -21,7 +21,7 @@ Our application for 2022 is accepted.
   * [Apply new page editor UX to all of Wagtail](#apply-new-page-editor-ux-to-all-of-wagtail)
   * [Windows High Contrast mode support](#windows-high-contrast-mode-support)
 
-* [Canceled projects (archived)](#canceled-projects)
+* [Canceled projects (archived)](#canceled)
   * Change page type](#change-page-type)
   * RTL support for Wagtail](#rtl-support-for-wagtail)
   * Create and select related content](#create-and-select-related-content)
