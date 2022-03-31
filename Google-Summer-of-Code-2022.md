@@ -357,9 +357,6 @@ This project is canceled because:
 1. Wagtail is working on a new page editor. The work clashes with this project.
 2. Wagtail core-team and mentors find other projects more important.
 
-<details>
-<summery>Click to expand</summary>
-
 ### Summary 
 
 Wagtail’s administration interface currently has poor support for right-to-left languages, such as Arabic and Hebrew. We have been wanting to fix this for a while ([#1240](https://github.com/wagtail/wagtail/issues/1240)), and now have a great opportunity to do so with [CSS logical properties](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Logical_Properties).
@@ -400,7 +397,6 @@ Medium
 This project is canceled because:
 
 - Too many of the pieces --it would depend on-- are in flux.
-
 
 For project questions or comments, use [GSoC 2022: Create and select related content #8157](https://github.com/wagtail/wagtail/discussions/8157).
 
