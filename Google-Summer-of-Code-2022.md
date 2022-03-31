@@ -20,7 +20,6 @@ Our application for 2022 is accepted.
   * [Make Wagtail editor guide a stand-alone project](#make-wagtail-editor-guide-a-stand-alone-project)
   * [Apply new page editor UX to all of Wagtail](#apply-new-page-editor-ux-to-all-of-wagtail)
   * [Windows High Contrast mode support](#windows-high-contrast-mode-support)
-
 * [Canceled projects (archived)](#canceled)
   * Change page type
   * RTL support for Wagtail
