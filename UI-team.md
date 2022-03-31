@@ -668,7 +668,7 @@ Attendees: Steve, Scott, Naomi, Thibaud
     - Sample: <https://github.com/thibaudcolas/stylelint-config-cookbook/blob/main/src/config.js#L93>
   - Modern CSS: <https://github.com/ismay/stylelint-no-unsupported-browser-features>
 
-## 2021-12-16
+## 2021-12-16 UTC evening
 
 Attendees: Thibaud, Fabien, Steven, LB, Coen
 
@@ -742,7 +742,7 @@ Apologies: Naomi
 - Wagtail as a Django CMS
   - For example needing to do forms in a Django formset/widget/field friendly way
 
-## 2021-12-02 -- new team kickoff
+## 2021-12-02 New team kickoff
 
 ### Actions
 
