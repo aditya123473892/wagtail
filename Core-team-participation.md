@@ -19,6 +19,7 @@ Ask in our core team channel
 - [ ] GitHub org admin – remove the person from the [Core GitHub team](https://github.com/orgs/wagtail/teams/core/members)
 - [ ] GitHub org admin – remove the person from the any of the [thematic teams](https://github.com/orgs/wagtail/teams) they were on
 - [ ] GitHub org admin – check team memberships for any other team as appropriate
+- [ ] GitHub org admin – review potential projects to archiv under [github.com/wagtail](https://github.com/wagtail)
 - [ ] GitHub core team – remove the person from the [core team wiki page](https://github.com/wagtail/wagtail/wiki/Wagtail-core-team)
 - [ ] GitHub core team – move the person from the "core team" list to the "alumni" list in [CONTRIBUTORS.rst](https://github.com/wagtail/wagtail/blob/main/CONTRIBUTORS.rst)
 - [ ] Slack admin – remove from the Posting permissions on the `#announcements` Slack channel
