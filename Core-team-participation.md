@@ -12,7 +12,21 @@ Core team members may be volunteers, or may have varying priorities at work whic
 
 ## Core team onboarding
 
-Ask in our core team channel
+- Slack
+  - Invite to `#core-team` channel
+  - Add to list of people able to post to `#announcements`
+- Add to [GitHub team](https://github.com/orgs/wagtail/teams/core/members)
+- Add to [Core Team page on the GitHub wiki](https://github.com/wagtail/wagtail/wiki/Wagtail-core-team)
+- Add to core team list in [CONTRIBUTORS.rst](https://github.com/wagtail/wagtail/blob/main/CONTRIBUTORS.rst)
+  - Check whether they want to be listed with an affiliation
+- Invite to the calendar events for core team meetings
+- Optionally assign someone to pair with them to familiarize with being on the core team
+
+### New member responsibilities
+
+- Write an introductory blog post
+- Add information to [Core Team page on the GitHub wiki](https://github.com/wagtail/wagtail/wiki/Wagtail-core-team)
+- Note whether you want to be listed with an affiliation in [CONTRIBUTORS.rst](https://github.com/wagtail/wagtail/blob/main/CONTRIBUTORS.rst) (or just make the PR yourself)
 
 ## Core team offboarding
 
@@ -24,3 +38,5 @@ Ask in our core team channel
 - [ ] GitHub core team – remove from the [core team wiki page](https://github.com/wagtail/wagtail/wiki/Wagtail-core-team)
 - [ ] GitHub core team – move from the "core team" list to the "alumni" list in [CONTRIBUTORS.rst](https://github.com/wagtail/wagtail/blob/main/CONTRIBUTORS.rst)
 - [ ] Slack admin – remove from the Posting permissions on the `#announcements` Slack channel
+- [ ] Slack admin – remove from #core-team channel
+- [ ] Calendar - remove from core team meeting calendar events
