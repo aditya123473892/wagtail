@@ -9,3 +9,13 @@ Core team members may be volunteers, or may have varying priorities at work whic
    - triaging 5 issues
    - supporting a user on Slack
    - blogging about Wagtail
+
+## Core team onboarding
+
+Ask in our core team channel
+
+## Core team offboarding
+
+- [ ] Wagtail org admin – remove the person from the [Core GitHub team](https://github.com/orgs/wagtail/teams/core/members)
+- [ ] Wagtail org admin – remove the person from the any of the [thematic teams](https://github.com/orgs/wagtail/teams) they were on
+- [ ] Wagtail org admin – check team memberships for any other team as appropriate
