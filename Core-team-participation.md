@@ -31,7 +31,8 @@ Core team members may be volunteers, or may have varying priorities at work whic
 ## Core team offboarding
 
 - [ ] GitHub org admin – remove from the [Core GitHub team](https://github.com/orgs/wagtail/teams/core/members)
-- [ ] GitHub org admin – remove from the any of the [thematic teams](https://github.com/orgs/wagtail/teams) they were on
+- [ ] Core team – message the person saying we’re removing them from the core team listings, why
+- [ ] GitHub org admin – remove from any of the [thematic teams](https://github.com/orgs/wagtail/teams) they were on
 - [ ] GitHub org admin – check team memberships for any other team as appropriate
 - [ ] GitHub org admin – review potential projects to archive under [github.com/wagtail](https://github.com/wagtail)
 - [ ] GitHub org admin – remove from the GitHub organization if they aren’t involved with any active project
