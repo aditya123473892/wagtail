@@ -6,11 +6,6 @@ The Wagtail core team are:
     USA,
     [UTC-4/5](https://www.timeanddate.com/time/zone/usa/new-york)
   - Areas of interest: backend, community, StreamField
-- Codie Roelf
-  - [Praekelt](https://www.praekelt.org/),
-    South Africa,
-    [UTC+2](https://www.timeanddate.com/worldclock/south-africa/cape-town)
-  - Areas of interest: headless CMS, organising sprints
 - Coen van der Kamp
   ([allcaps](https://github.com/allcaps))
   - [Four Digits](https://www.fourdigits.nl/),
@@ -40,18 +35,6 @@ The Wagtail core team are:
     UK,
     [UTC+0/1](https://www.timeanddate.com/worldclock/uk/oxford)
   - Areas of interest: backend, documentation, workflow
-- Janneke Janssen
-  ([jjanssen](https://github.com/jjanssen))
-  - [Lukkien](https://www.lukkien.com),
-    the Netherlands,
-    [UTC+1/2](https://www.timeanddate.com/worldclock/netherlands/amsterdam)
-  - Areas of interest: frontend, UX
-- Jonny Scholes
-  ([jonnyscholes](https://github.com/jonnyscholes))
-  - [Takeflight](http://takeflight.com.au),
-    Tasmania, Australia,
-    [UTC+10/11](https://www.timeanddate.com/worldclock/australia/hobart)
-  - Areas of interest: frontend, UX, React, JavaScript
 - Kalob Taulien ([KalobTaulien](https://github.com/kalobtaulien))
   - Canada, [UTC-6/7](https://www.timeanddate.com/worldclock/canada/edmonton)
   - Areas of interest: backend, community, documentation
@@ -67,34 +50,17 @@ The Wagtail core team are:
     Australia,
     [UTC+10](https://www.timeanddate.com/worldclock/australia/brisbane)
   - Areas of interest: backend, modeladmin, React, JavaScript
-- Lisa Adams
-  - [Praekelt](https://www.praekelt.org/),
-    South Africa,
-    [UTC+2](https://www.timeanddate.com/worldclock/south-africa/cape-town)
-  - Areas of interest: user experience, organising sprints, content management user representation
 - Loïc Teixeira
   ([loicteixeira](https://github.com/loicteixeira))
   - France,
     [UTC+1/2](https://www.timeanddate.com/worldclock/france/paris)
   - Areas of interest: backend, static builds, StreamField, rich text and support
-- Martin Sandström
-  ([marteinn](https://github.com/marteinn))
-  - [Fröjd](https://www.frojd.se),
-    Sweden,
-    [UTC+1/2](https://www.timeanddate.com/worldclock/sweden/stockholm)
-  - Areas of interest: backend, third party packages, react/headless and ssr, multitenancy
 - Matthew Westcott
   ([gasman](https://github.com/gasman))
   - [Torchbox](https://www.torchbox.com),
     UK,
     [UTC+0/1](https://www.timeanddate.com/worldclock/uk/oxford)
   - Areas of interest: overall architecture, security, backend, StreamField, modelcluster
-- Mike Dingjan
-  ([mikedingjan](https://github.com/mikedingjan))
-  - [Lab Digital](http://www.labdigital.nl),
-    the Netherlands,
-    [UTC+1/2](https://www.timeanddate.com/worldclock/netherlands/amsterdam)
-  - Areas of interest: backend, performance, security, multi-language, frontend
 - Naomi Morduch Toubman
   ([nmorduch](https://github.com/nmorduch))
   - [New America](https://www.newamerica.org/),
