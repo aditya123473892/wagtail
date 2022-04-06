@@ -17,7 +17,7 @@ Our application for 2022 is accepted.
 * [Mentors](#mentors)
 * [Project ideas](#project-ideas)
   * [Toolkit for StreamField data migrations in Wagtail](#toolkit-for-streamfield-data-migrations-in-wagtail)
-  * [Make Wagtail editor guide a stand-alone project](#make-wagtail-editor-guide-a-stand-alone-project)
+  * [Make Wagtail editor guide a Wagtail website](#make-wagtail-editor-guide-a-wagtail-website)
   * [Apply new page editor UX to all of Wagtail](#apply-new-page-editor-ux-to-all-of-wagtail)
   * [Windows High Contrast mode support](#windows-high-contrast-mode-support)
 * [Canceled projects (archived)](#canceled)
@@ -72,7 +72,7 @@ Note:
 Project proposals should fall into one of three categories:
 
 - Work on Wagtail itself. The core product.
-- Work on tools to support Wagtail. Example: Editor guide as a stand-alone project.
+- Work on tools to support Wagtail. Example: Editor guide as a Wagtail website.
 - Wagtail third-party libraries. Example: [Wagtail Live](https://github.com/wagtail/wagtail-live) is a GSOC 2021 project.
 
 The project you propose should be:
@@ -148,13 +148,13 @@ Django, Python.
 
 Medium
 
-## Make Wagtail editor guide a stand-alone project
+## Make Wagtail editor guide a Wagtail Website
 
 For project questions or comments, use [GSoC 2022: Editor's Guide - Separate Repo or Website #7824](https://github.com/wagtail/wagtail/discussions/7824).
 
 ### Summary
 
-- The goal is to [pull out the existing editor's guide](https://github.com/wagtail/wagtail/discussions/7824) from static documentation to a stand-alone project that can be translated, built upon and even used to generate custom guides for more complex usages of Wagtail.
+- The goal is to [pull out the existing editor's guide](https://github.com/wagtail/wagtail/discussions/7824) from static documentation to a  Wagtail website that can be translated, built upon and even used to generate custom guides for more complex usages of Wagtail.
 - The current guide is part of the Wagtail technical documentation - [Using Wagtail: an Editor's guide](https://docs.wagtail.org/en/stable/editor_manual/index.html).
 - The audience of the main technical documentation (those who are building with Wagtail) is very different to the audience of the editor's guide (those who are using the editor to edit content, manage permissions, non-technical users).
 
@@ -164,9 +164,9 @@ A dedicated User Guide website with content editors as targeted audience.
 
 ### Implementation
 
-- Prepare a package
+- Prepare a Wagtail project
   - Using the [Wagtail cookiecutter package](https://github.com/wagtail/cookiecutter-wagtail-package)
-  - Pull out the existing RST/MD files into a stand-alone project, starting with the [Wagtail project cookiecutter](https://github.com/wagtail/cookiecutter-wagtail-package)
+  - Pull out the existing RST/MD files into a stand-alone Wagtail website, starting with the [Wagtail project cookiecutter](https://github.com/wagtail/cookiecutter-wagtail-package)
   - Break up the existing content and screenshots into Django views and URLs so that the content can be used in translation tools such as transifex, the output should be a static HTML/CSS/JS bundle. This could use some of the Wagtail primitives for page editing but it does not have to.
 - Improve the guide
   - Target specific audiences
@@ -179,9 +179,7 @@ A dedicated User Guide website with content editors as targeted audience.
   - Set up a nightly CI that runs against Wagtail master
   - Add a feedback option (measure happiness), this itself could submit issues to Github or email
 - Make it extendable (extended goal)
-  - Allow for the project to be imported into existing Wagtail projects and document how it can be built, customised and run (automatic screenshots) against those custom Wagtail installations
-  - Allow for additional pages/header/footer/feedback to be integrated
-  - Potentially even leverage a way to make automatic screen recordings
+  - The website will be open source. Add an option to download a snapshot of the content.
 
 ### Skills
 
