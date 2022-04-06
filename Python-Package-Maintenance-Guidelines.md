@@ -107,5 +107,5 @@ Note: Small packages may use their readme as documentation. These guidelines onl
 
 ## EOL (End of Life) packages
 
-- The repository must be archived
+- The repository must be archived and moved to the [wagtail-deprecated](https://github.com/wagtail-deprecated) organisation
 - A message must be added to the readme. This should be visible on both PyPI as well
