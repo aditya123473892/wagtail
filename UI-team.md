@@ -21,6 +21,7 @@ Current members:
 - Dawn Wages ([@dawnwages](https://github.com/dawnwages)), UTC - 4 or 5, since January 2022
 - Harris Lapiroff ([@harrislapiroff](https://github.com/harrislapiroff)), UTC - 4 or 5, since January 2022
 - Ben Enright ([@benenright](https://github.com/benenright)), UTC + 0 or 1, since February 2022
+- Karl Hobley ([@kaedroho](https://github.com/kaedroho)), UTC + 0 or 1, since April 2022
 
 ---
 
