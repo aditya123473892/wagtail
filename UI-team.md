@@ -28,7 +28,8 @@ Next meetings: [see agenda](https://docs.google.com/document/d/1SRXjlZ3_f48XGpJr
 
 Past meetings:
 
-- [2022-03-31 UTC evening](https://github.com/wagtail/wagtail/discussions/8265#user-content-2022-03-31)
+- [2022-04-07 UTC afternoon](https://github.com/wagtail/wagtail/discussions/8265#user-content-2022-04-07-utc-afternoon)
+- [2022-03-31 UTC evening](https://github.com/wagtail/wagtail/discussions/8265#user-content-2022-03-31-utc-evening)
 - Previous meetings on wiki page
 - [2022-03-24 UTC morning](https://github.com/wagtail/wagtail/wiki/UI-team#2022-03-24-utc-morning)
 - [2022-03-17 UTC afternoon](https://github.com/wagtail/wagtail/wiki/UI-team#2022-03-17-utc-afternoon)
