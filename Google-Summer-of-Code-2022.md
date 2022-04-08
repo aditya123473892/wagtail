@@ -81,7 +81,9 @@ The project you propose should be:
 - A single well-scoped project
 - Achievable within the time of GSoC
 - And something the core developers can help mentor you on.
-Contribution guidelines
+
+Contribution guidelines:
+
 - The [code of conduct](https://github.com/wagtail/wagtail/blob/main/CODE_OF_CONDUCT.md) applies to all contributors.
 - The [contribution guidelines](https://docs.wagtail.org/en/latest/contributing/index.html#) apply to all contributions.
 
