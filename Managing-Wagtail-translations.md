@@ -44,14 +44,11 @@ All languages with >= 90% coverage should be in the `WAGTAILADMIN_PROVIDED_LANGU
 
 # Generating new source files for translation
 
-To be done periodically, particularly after any piece of development that involves creating / editing / moving a significant number of translatable strings. Within each submodule with a 'locale' folder (run `find . -name locale` to find them):
+To be done periodically, particularly after any piece of development that involves creating / editing / moving a significant number of translatable strings. From `scripts`, run:
 
-    cd wagtail/wagtailfoo
-    django-admin makemessages --locale=en --extension=html,txt,py,js
+    ./rebuild-translation-sources.sh
 
-NOTE: `django-admin` is run from the app's root, NOT the 'locale' folder.
-
-(Specifying js in `--extension` ensures that translations in our JS templates, e.g. /wagtail/wagtailimages/templates/wagtailimages/chooser/chooser.js, are picked up. If in future we eliminate these JS templates, it should be fine to leave the `--extension` switch out here.)
+and commit the updated files to git.
 
 Then, from the root of the Wagtail codebase:
 
