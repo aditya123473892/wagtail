@@ -194,7 +194,7 @@ A dedicated User Guide website with content editors as targeted audience.
 
 - Lead: Phil Dexter https://github.com/phildexter
 - Support: Coen van der Kamp https://github.com/allcaps
-- Support: TBC
+- Support: Meagen Voss https://github.com/vossisboss
 
 We will supply a primary mentor and at least two secondary mentors to support the participant.
 
