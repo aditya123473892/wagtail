@@ -140,7 +140,7 @@ Django, Python.
 
 - Lead: Jacob Topp-Mugglestone https://github.com/jacobtoppm
 - Support: Karl Hobley https://github.com/kaedroho
-- Support 2: TBC
+- Support 2: Josh Munn https://github.com/jams2
 
 ### Size
 
