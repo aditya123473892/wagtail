@@ -109,3 +109,7 @@ Note: Small packages may use their readme as documentation. These guidelines onl
 
 - The repository must be archived and moved to the [wagtail-deprecated](https://github.com/wagtail-deprecated) organisation
 - A message must be added to the readme. This should be visible on both PyPI as well
+
+## Github tips
+
+* To remove the 'packages' section from a Github project's about sidebar, click the small cog next to the word 'about', then untick packages.
