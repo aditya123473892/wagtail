@@ -64,6 +64,11 @@ From the root of your checkout, run: `twine upload dist/*`
 
 The new version should now be up on https://pypi.python.org/pypi/wagtail .
 
+### Major version bump classifier
+
+- If this is a major version bump, ensure that the documentation is updated and there is a new classifier created in PyPI - https://pypi.org/help/#new-classifier
+- Examples from Wagtail 3.0 https://github.com/wagtail/wagtail/pull/8486 & https://github.com/pypa/trove-classifiers/pull/102
+
 ## Testing the release
 
   - install it in a clean virtualenv and check that "wagtail start myproject" creates a codebase that starts successfully under vagrant
