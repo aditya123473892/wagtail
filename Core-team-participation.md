@@ -40,4 +40,5 @@ Core team members may be volunteers, or may have varying priorities at work whic
 - [ ] GitHub core team – move from the "core team" list to the "alumni" list in [CONTRIBUTORS.rst](https://github.com/wagtail/wagtail/blob/main/CONTRIBUTORS.rst)
 - [ ] Slack admin – remove from the Posting permissions on the `#announcements` Slack channel
 - [ ] Slack admin – remove from #core-team channel
+- [ ] Wagtail admin – set account to inactive on wagtail.org
 - [ ] Calendar - remove from core team meeting calendar events
