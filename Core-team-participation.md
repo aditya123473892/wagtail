@@ -41,4 +41,6 @@ Core team members may be volunteers, or may have varying priorities at work whic
 - [ ] Slack admin – remove from the Posting permissions on the `#announcements` Slack channel
 - [ ] Slack admin – remove from #core-team channel
 - [ ] Wagtail admin – set account to inactive on wagtail.org
+- [ ] npm admin – remove from [wagtail](https://www.npmjs.com/org/wagtail) organisation on npm
+- [ ] PyPI packages admin – remove from all relevant Wagtail PyPI packages
 - [ ] Calendar - remove from core team meeting calendar events
