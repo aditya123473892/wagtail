@@ -27,25 +27,29 @@ Current members:
 
 ---
 
+## Meetings
+
 Next meetings: [see agenda](https://docs.google.com/document/d/1SRXjlZ3_f48XGpJrtUaNO80sz_qp_ECAs2p0gFZAO0g/edit)
+
+## Past meetings
 
 Past meetings: [see meeting updates log](https://github.com/wagtail/wagtail/discussions/8265)
 
-<!-- Insert meeting notes here, most recent first: -->
+Meetings before April 2022:
 
-## 2022-03-31 UTC evening
+### 2022-03-31 UTC evening
 
 See [2022-03-31 on GitHub Discussions](https://github.com/wagtail/wagtail/discussions/8265#user-content-2022-03-31).
 
-## 2022-03-24 UTC morning
+### 2022-03-24 UTC morning
 
 Attendees: LB, Thibaud
 
-### Actions
+#### Actions
 
 - ✅ Thibaud Ask Dawn to complete poll on meeting times
 
-### Actions review
+#### Actions review
 
 - Steve :) Dark mode research
 - Thibaud Prototype forms structure with Steve to review
@@ -53,17 +57,17 @@ Attendees: LB, Thibaud
 - Thibaud - Prepare a PR on wagtail-fork for the proposed percy checks (Scott can review, Naomi happy to try putting in a Pull Request to see how that can work for others).
 - Thibaud - Compare different approaches to UI component declarations
 
-### Discussions
+#### Discussions
 
 - Sidebar UI funkiness
 - Prototype comment extraction with Markdown syntax
 - Google Summer of Code -- UI team involvement with projects
 
-## 2022-03-17 UTC afternoon
+### 2022-03-17 UTC afternoon
 
 Attendees: Dawn, Naomi, Thibaud, Harris, Steve, Scott
 
-### Actions
+#### Actions
 
 - Steve :) Dark mode research
 - Thibaud Prototype forms structure with Steve to review
@@ -71,7 +75,7 @@ Attendees: Dawn, Naomi, Thibaud, Harris, Steve, Scott
 - Thibaud - Prepare a PR on wagtail-fork for the proposed percy checks (Scott can review, Naomi happy to try putting in a Pull Request to see how that can work for others).
 - Thibaud - Compare different approaches to UI component declarations
 
-### Actions review
+#### Actions review
 
 - Thibaud - Prototype comment extraction with Markdown syntax -- simplest option (w/ Markdown MIME type), and Google Style. prepare a PR for the first version of dosctrings within a Django template to be used by Storybook. (Scott can review)
 - Thibaud - Prepare a PR on wagtail-fork for the proposed percy checks (Scott can review, Naomi happy to try putting in a Pull Request to see how that can work for others).
@@ -79,7 +83,7 @@ Attendees: Dawn, Naomi, Thibaud, Harris, Steve, Scott
 - ✅ All - review third party libraries and provide suggestions <https://github.com/wagtail/wagtail/issues/7980>
 - Thibaud - Compare different approaches to UI component declarations
 
-### Discussions
+#### Discussions
 
 - What's up?
 - Google Summer of Code -- UI team involvement with projects
@@ -112,11 +116,11 @@ Attendees: Dawn, Naomi, Thibaud, Harris, Steve, Scott
   - Mocking the grouping
   - Steve reviewing. Steve pair programming too :)
 
-## 2022-03-10 UTC evening
+### 2022-03-10 UTC evening
 
 Attendees: Thibaud, Naomi, Scott, LB, Harris
 
-### Actions
+#### Actions
 
 - Thibaud - Prototype comment extraction with Markdown syntax -- simplest option (w/ Markdown MIME type), and Google Style. prepare a PR for the first version of dosctrings within a Django template to be used by Storybook. (Scott can review)
 - Thibaud - Prepare a PR on wagtail-fork for the proposed percy checks (Scott can review, Naomi happy to review the Pull Request side of things to see how that can work for others).
@@ -124,14 +128,14 @@ Attendees: Thibaud, Naomi, Scott, LB, Harris
 - ✅ All - review third party libraries and provide suggestions <https://github.com/wagtail/wagtail/issues/7980>
 - Thibaud - Compare different approaches to UI component declarations
 
-### Actions review
+#### Actions review
 
 - ✅ Thibaud Do another search on GitHub for Hallo packages
 - ✅ Thibaud Review structured docstrings research
 - ✅Steve, Thibaud - To propose visual regression testing soon
   - Percy from Browserstack, Storybook test suite, E2E test suite
 
-### Discussions
+#### Discussions
 
 - Hallo packages
   - Should not be a huge issue, not too many packages out there.
@@ -176,11 +180,11 @@ Attendees: Thibaud, Naomi, Scott, LB, Harris
   - Maybe the highlights (decisions, main items) as a short summary.
   - Short updates in the core team chat are also useful.
 
-## 2022-03-03 UTC morning
+### 2022-03-03 UTC morning
 
 Attendees: LB, Thibaud
 
-### Actions
+#### Actions
 
 - ✅ Thibaud Do another search on GitHub for Hallo packages
 - Thibaud Review structured docstrings research
@@ -189,7 +193,7 @@ Attendees: LB, Thibaud
   - Percy from Browserstack, Storybook test suite, E2E test suite
 - Thibaud Compare different approaches to UI component declarations
 
-### Actions review
+#### Actions review
 
 - ✅ Thibaud Review <https://github.com/wagtail/wagtail/discussions/8017>
 - ✅ Thibaud - Invite Ben Enright to our future meetings.
@@ -201,7 +205,7 @@ Attendees: LB, Thibaud
   - YAML seems like it could be a good option since it's JSON based, so it would convert easily to what Storybook wants. Though at some point it feels like what's the difference between doing this and just shoving the whole story config into the template file.
 - Thibaud Compare different approaches to UI component declarations
 
-### Discussions
+#### Discussions
 
 - Should we find all Hallo packages - add an issue flagging that next release Hallo will be an external package?
   - Only one found so far with dual editor support
@@ -215,11 +219,11 @@ Attendees: LB, Thibaud
   - Comments syntax lighting
   - `{% comment "Optional note" %}` <https://docs.djangoproject.com/en/4.0/ref/templates/builtins/#comment>
 
-## 2022-02-24 UTC afternoon
+### 2022-02-24 UTC afternoon
 
 Attendees: Naomi, Harris, Scott, Thibaud, Steve, Dawn
 
-### Actions
+#### Actions
 
 - Thibaud Review <https://github.com/wagtail/wagtail/discussions/8017>
 - ✅ Thibaud - Invite Ben to our future meetings.
@@ -231,7 +235,7 @@ Attendees: Naomi, Harris, Scott, Thibaud, Steve, Dawn
   - YAML seems like it could be a good option since it's JSON based, so it would convert easily to what Storybook wants. Though at some point it feels like what's the difference between doing this and just shoving the whole story config into the template file.
 - Thibaud Compare different approaches to UI component declarations
 
-### Discussions
+#### Discussions
 
 - Actions review
   - ✅ Steve - Follow up with ben about multilingual (test and see if the browser can translate too).
@@ -274,11 +278,11 @@ Attendees: Naomi, Harris, Scott, Thibaud, Steve, Dawn
   - Dawn interested to help new contributors -- particularly around UI work
     - Suggestions welcome!
 
-## 2022-02-17 UTC evening
+### 2022-02-17 UTC evening
 
 Attendees: Steve, Thibaud, LB, Naomi, Coen, Harris
 
-### Actions
+#### Actions
 
 - Steve - Follow up with ben about multilingual (test and see if the browser can translate too).
 - ✅ LB, Steve - Research how to test multilingual issues in the wild and follow up with the slack channel. Done <https://github.com/wagtail/wagtail/discussions/8017> - lots of research results there, nothing that stands out as a solution but rather lots of smaller things we can adopt.
@@ -289,7 +293,7 @@ Attendees: Steve, Thibaud, LB, Naomi, Coen, Harris
 - ✅ Thibaud - [Create a poll](https://wagtailcms.slack.com/archives/C014L7KJH3N/p1645712137807319) about Node build tools to customise wagtail
 - Aiming to make a tentative decision within the next month for a UI framework decision and component level (Dropdown, Tabs, Modal, Tooltips, Datepicker) <https://github.com/wagtail/wagtail/issues/7980>
 
-### Discussions
+#### Discussions
 
 - Actions review
   - Scott & Thibaud Finish <https://github.com/wagtail/wagtail/pull/6790>
@@ -330,11 +334,11 @@ Attendees: Steve, Thibaud, LB, Naomi, Coen, Harris
     - 2\. Component (ish) tools -<https://github.com/wagtail/wagtail/issues/7980>
 - [Third-party libraries selection for major UI components #7980](https://github.com/wagtail/wagtail/issues/7980
 
-## 2022-02-10 UTC morning
+### 2022-02-10 UTC morning
 
 Attendees: Coen, LB, Fabien, Thibaud
 
-### Actions
+#### Actions
 
 - Scott & Thibaud Finish <https://github.com/wagtail/wagtail/pull/6790>
 - Thibaud Set up Windows-only build of front-end tooling once #6790 is merged
@@ -350,7 +354,7 @@ Attendees: Coen, LB, Fabien, Thibaud
 - Steve Follow up on design tokens definition
 - Thibaud Pass on feedback re opening contributions outside of current team
 
-### Discussions
+#### Discussions
 
 - Actions review
 - Multilingual issues
@@ -393,11 +397,11 @@ Attendees: Coen, LB, Fabien, Thibaud
   - Make the Stimulus decision as soon as possible
   - Coen is keen based on concepts / working well for Wagtail in particular
 
-## 2022-02-03 UTC afternoon
+### 2022-02-03 UTC afternoon
 
 Attendees: Naomi, Scott, Thibaud, Steve, Harris
 
-### Actions
+#### Actions
 
 - Scott & Thibaud Finish <https://github.com/wagtail/wagtail/pull/6790>
 - Thibaud Set up Windows-only build of front-end tooling once #6790 is merged
@@ -416,7 +420,7 @@ Attendees: Naomi, Scott, Thibaud, Steve, Harris
   - With spreadsheet with design tokens
   - Comments on spreadsheet
 
-### Discussions
+#### Discussions
 
 - Actions review
 - UI framework discussions
@@ -437,11 +441,11 @@ Attendees: Naomi, Scott, Thibaud, Steve, Harris
 - Page editor 2022 impact on existing backlog
   - <https://github.com/orgs/wagtail/projects/1/views/4>
 
-## 2022-01-27 UTC evening
+### 2022-01-27 UTC evening
 
 Attendees: Naomi, Harris, LB, Scott, Steve, Thibaud, Dawn, Coen
 
-### Actions
+#### Actions
 
 - Thibaud Review and merge <https://github.com/wagtail/wagtail/pull/6790>
 - LB Review Prettier PR
@@ -457,7 +461,7 @@ Attendees: Naomi, Harris, LB, Scott, Steve, Thibaud, Dawn, Coen
 - Thibaud Ask for system font stack feedback in #ui as part of implementation
 - Dawn, Naomi, Harris, Scott, Steve Read LB's investigation & provide feedback
 
-### Discussions
+#### Discussions
 
 - Internet submarine cables topology
 - New members! 🌈
@@ -505,11 +509,11 @@ Attendees: Naomi, Harris, LB, Scott, Steve, Thibaud, Dawn, Coen
 - 45min meetings!
 - Recurring meetings for
 
-## 2022-01-20 UTC morning
+### 2022-01-20 UTC morning
 
 Attendees: Thibaud, LB
 
-### Actions
+#### Actions
 
 - ✅ Steve Share and demo Alpine implementation of dropdown
 - Thibaud Review and merge <https://github.com/wagtail/wagtail/pull/6790>
@@ -524,17 +528,17 @@ Attendees: Thibaud, LB
 - ✅ Scott Research system font stack for Wagtail ([#7724](https://github.com/wagtail/wagtail/issues/7724))
 - Naomi looked into this a bit and commented. It looks like yes we should do this and we should be careful about testing font weights
 
-### Discussions
+#### Discussions
 
 - Actions review
 - jQuery deprecations
 - JS framework for Wagtail
 
-## 2022-01-13 UTC afternoon
+### 2022-01-13 UTC afternoon
 
 Attendees: Naomi, Scott, Fabien, Thibaud, Steve
 
-### Actions
+#### Actions
 
 - Steve Share and demo Alpine implementation of dropdown
 - Thibaud Review and merge <https://github.com/wagtail/wagtail/pull/6790>
@@ -550,7 +554,7 @@ Attendees: Naomi, Scott, Fabien, Thibaud, Steve
 - Naomi Research normalize.css & other resets
 - Scott Research system font stack for Wagtail ([#7724](https://github.com/wagtail/wagtail/issues/7724))
 
-### Discussions
+#### Discussions
 
 - Actions review
   - ✅ Thibaud Ask an Alpine.js / htmx expert to pitch us
@@ -600,11 +604,11 @@ Attendees: Naomi, Scott, Fabien, Thibaud, Steve
   - Safari last 3 major versions
   - Device management issues & Safari version tied to OS
 
-## 2022-01-06 UTC evening
+### 2022-01-06 UTC evening
 
 Attendees: Steve, Scott, Naomi, Thibaud
 
-### Actions
+#### Actions
 
 - Thibaud Ask an Alpine.js / htmx expert to pitch us
 - Thibaud Review and merge <https://github.com/wagtail/wagtail/pull/6790>
@@ -620,7 +624,7 @@ Attendees: Steve, Scott, Naomi, Thibaud
 - Thibaud Research ways to help enforce usage of flexible-width components
 - Thibaud Implement auto-fixable ordering of declaration blocks in CSS
 
-### Discussions
+#### Discussions
 
 - Quick recap of last meeting
   - Alpine.js!!! and htmx
@@ -671,13 +675,13 @@ Attendees: Steve, Scott, Naomi, Thibaud
     - Sample: <https://github.com/thibaudcolas/stylelint-config-cookbook/blob/main/src/config.js#L93>
   - Modern CSS: <https://github.com/ismay/stylelint-no-unsupported-browser-features>
 
-## 2021-12-16 UTC evening
+### 2021-12-16 UTC evening
 
 Attendees: Thibaud, Fabien, Steven, LB, Coen
 
 Apologies: Naomi
 
-### Actions
+#### Actions
 
 - Thibaud Share good resource on design tokens
 - Fabien Review Thibaud's RTL plans
@@ -686,7 +690,7 @@ Apologies: Naomi
 - General gist - we need to make sure we support lots of customisations through Django
 - A simple example, adding classes - this should work for lots of things and be able to be done in Django land
 
-### Discussions
+#### Discussions
 
 - Backlog review!
   - Below -- everything  Thibaud is planning to do ahead of starting the page editor redesign's builds in February
@@ -745,13 +749,13 @@ Apologies: Naomi
 - Wagtail as a Django CMS
   - For example needing to do forms in a Django formset/widget/field friendly way
 
-## 2021-12-02 New team kickoff
+### 2021-12-02 New team kickoff
 
-### Actions
+#### Actions
 
 - Not this time
 
-### Discussions
+#### Discussions
 
 Attendees:
 
