@@ -33,9 +33,7 @@ Next meetings: [see agenda](https://docs.google.com/document/d/1SRXjlZ3_f48XGpJr
 
 ## Past meetings
 
-Past meetings: [see meeting updates log](https://github.com/wagtail/wagtail/discussions/8265)
-
-Meetings before April 2022:
+Past meetings: [see meeting updates log](https://github.com/wagtail/wagtail/discussions/8265). See below for meetings before April 2022.
 
 ### 2022-03-31 UTC evening
 
