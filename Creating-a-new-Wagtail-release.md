@@ -22,6 +22,8 @@
 
 You will need the `wheel` and `twine` packages (`pip install wheel`, `pip install twine` from a fresh empty virtualenv will work fine) and a working Node/NPM build on your host machine.
 
+You will also need to be [authenticated with PyPI](https://pypi.org/help/#apitoken) with a user account that's listed as a maintainer of the `wagtail` project - the sysadmin team at Torchbox have access to the shared `torchbox` account and can add you if necessary.
+
 ## Package build
 
 Create a fresh clone of the Wagtail repo, and check out the appropriate 'stable' branch.
