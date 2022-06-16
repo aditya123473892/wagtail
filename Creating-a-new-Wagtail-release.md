@@ -16,7 +16,6 @@
   * For a major, minor or patch release, use a range covering the minor release (e.g. `wagtail>=2.8,<2.9`)
 * **For a major, minor or patch release:** fill in the release date in CHANGELOG.txt and remove any IN DEVELOPMENT text from the changelog and the release notes page
 * Confirm that the latest revision is passing on [Github Actions CI](https://github.com/wagtail/wagtail/actions)
-* _For 2.11.x releases only_: Confirm that the [Elasticsearch 2 test on Travis](https://travis-ci.org/github/wagtail/wagtail) is passing
 
 ## Prerequisites
 
