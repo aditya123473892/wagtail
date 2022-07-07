@@ -24,6 +24,7 @@ Current members:
 - Karl Hobley ([@kaedroho](https://github.com/kaedroho)), UTC + 0 or 1, since April 2022
 - Paarth Agarwal ([@PaarthAgarwal](https://github.com/PaarthAgarwal), UTC + 5:30, since May 20202
 - Helen Chapman ([@helenb](https://github.com/helenb)), UTC + 0 or 1, since May 2022
+- Jacob Topp-Mugglestone ([@jacobtoppm](https://github.com/jacobtoppm)), UTC + 0 or 1, since June 2022
 
 ---
 
