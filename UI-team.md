@@ -29,8 +29,5 @@ Current members:
 
 ## Meetings
 
-Next meetings: [see agenda](https://docs.google.com/document/d/1SRXjlZ3_f48XGpJrtUaNO80sz_qp_ECAs2p0gFZAO0g/edit)
-
-## Past meetings
-
-Past meetings: [see meeting updates log](https://github.com/wagtail/wagtail/discussions/8265).
+- Next meetings: [see agenda](https://docs.google.com/document/d/1SRXjlZ3_f48XGpJrtUaNO80sz_qp_ECAs2p0gFZAO0g/edit)
+- Past meetings: [see meeting updates log](https://github.com/wagtail/wagtail/discussions/8265).
