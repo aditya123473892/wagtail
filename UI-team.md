@@ -26,8 +26,6 @@ Current members:
 - Helen Chapman ([@helenb](https://github.com/helenb)), UTC + 0 or 1, since May 2022
 - Jacob Topp-Mugglestone ([@jacobtoppm](https://github.com/jacobtoppm)), UTC + 0 or 1, since June 2022
 
----
-
 ## Meetings
 
 - Next meetings: [see agenda](https://docs.google.com/document/d/1SRXjlZ3_f48XGpJrtUaNO80sz_qp_ECAs2p0gFZAO0g/edit).
