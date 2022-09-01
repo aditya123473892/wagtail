@@ -14,6 +14,7 @@ Teams
   - [[Accessibility team]]
   - [[Performance team]]
   - [[UI team]]
+  - [[Security team]]
 
 How To
 
