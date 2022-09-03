@@ -32,3 +32,7 @@ Please join the #performance-working-group team on [Slack](https://github.com/wa
 [Team charter & meeting notes](https://github.com/wagtail/wagtail/wiki/UI-team)
 
 The UI team is cross-functional, with designers, UX, developers involved. We look after the CMS user interface and the maintainability of Wagtail’s UI architecture. Find us on the [Wagtail Slack](https://github.com/wagtail/wagtail/wiki/Slack) in [#ui](https://app.slack.com/client/T0K33F93J/C0P6APKH9).
+
+## Security
+
+[Team charter](https://github.com/wagtail/wagtail/wiki/Security-team)
