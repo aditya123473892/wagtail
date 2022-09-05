@@ -44,4 +44,5 @@ Core team members may be volunteers, or may have varying priorities at work whic
 - [ ] Wagtail admin – remove admin rights from madewithwagtail.org
 - [ ] npm admin – remove from [wagtail](https://www.npmjs.com/org/wagtail) organisation on npm
 - [ ] PyPI packages admin – remove from all relevant Wagtail PyPI packages
+- [ ] npm packages admin – remove from [wagtail organization](https://www.npmjs.com/org/wagtail) on npm, and relevant packages
 - [ ] Calendar - remove from core team meeting calendar events
