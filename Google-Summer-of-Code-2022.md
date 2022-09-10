@@ -154,6 +154,8 @@ Medium
 
 For project questions or comments, use [GSoC 2022: Editor's Guide - Separate Repo or Website #7824](https://github.com/wagtail/wagtail/discussions/7824).
 
+> Final report: [Google Summer of Code: Wagtail Editor Guide](https://wagtail.org/gsoc-2022-editor-guide/)
+
 ### Summary
 
 - The goal is to [pull out the existing editor's guide](https://github.com/wagtail/wagtail/discussions/7824) from static documentation to a  Wagtail website that can be translated, built upon and even used to generate custom guides for more complex usages of Wagtail.
@@ -195,6 +197,7 @@ A dedicated User Guide website with content editors as targeted audience.
 - Lead: Phil Dexter https://github.com/phildexter
 - Support: Coen van der Kamp https://github.com/allcaps
 - Support: Meagen Voss https://github.com/vossisboss
+- Support: Thibaud Colas https://github.com/thibaudcolas
 
 We will supply a primary mentor and at least two secondary mentors to support the participant.
 
