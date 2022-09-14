@@ -1,6 +1,6 @@
 ## Team Charter
 
-### Mission statement:
+### Mission Statement
 
 > To improve the experience of discovering, using, and creating Wagtail packages.
 
@@ -10,13 +10,13 @@ This team is not a package maintenance service. Instead we hope to create tools 
 
 ### Membership
 
-The team’s membership is open to all, introduce yourself in [#package-maintainers](https://app.slack.com/client/T0K33F93J/C032RLK62PQ) if you’re interested in joining.
+The team’s membership is open to all, introduce yourself in [#package-maintainers](https://app.slack.com/client/T0K33F93J/C032RLK62PQ) if you’re interested in joining. This channel is also used as an open forum for packaging-related topics.
 
 Membership terms are 6 months. The team lead will be assigned by the Wagtail Core Team with consultation from the Packaging Team.
 
 We meet every two weeks to discuss everyone’s recent progress and next steps. At the end of each meeting, all participants should each have volunteered for an action, which they must strive to complete before the next meeting. Meeting notes and actions are public for future and past meetings.
 
-In-between meetings, we collaborate via Slack using the as an open forum, GitHub to keep track of actions, and collaborate on specific issues & pull requests.
+In-between meetings, we collaborate via Slack using the channel as an open forum, GitHub to keep track of actions, and collaborate on specific issues & pull requests.
 
 ## Members
 
