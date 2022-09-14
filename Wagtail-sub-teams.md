@@ -36,3 +36,7 @@ The UI team is cross-functional, with designers, UX, developers involved. We loo
 ## Security
 
 [Team charter](https://github.com/wagtail/wagtail/wiki/Security-team)
+
+## Packaging
+
+DRAFT: [Packaging Team](https://github.com/wagtail/wagtail/wiki/Packaging-Team)
