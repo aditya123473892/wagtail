@@ -85,9 +85,9 @@ Readthedocs will spot the addition of a release tag with a newer version number,
 * Update docs in [Dash-User-Contributions](https://github.com/Kapeli/Dash-User-Contributions/tree/master/docsets/Wagtail) for offline docs apps [Dash](https://kapeli.com/dash) and [Zeal](https://zealdocs.org/).
   * Follow the instructions on the README.md and submit a pull request with updated docs.
 
-## releases.wagtail.io
+## releases.wagtail.org
 
-Once the new release is out, please update https://releases.wagtail.io/latest.txt accordingly. You'll need AWS credentials for the S3 bucket and Cloudfront cache, which are held by the Torchbox sysadmins.
+Once the new release is out, please update https://releases.wagtail.org/latest.txt accordingly. You'll need AWS credentials for the S3 bucket and Cloudfront cache, which are held by the Torchbox sysadmins.
 
 Set up the AWS client, if you haven't already - `pip install awscli`, then `aws configure` and enter the credentials.
 
@@ -98,11 +98,11 @@ Edit scripts/latest.txt with the new version details: `version` is the newest ve
 
 (It will take up to a day for changes to propagate to the Cloudfront cache. If you need it to update faster than that, someone with access to the AWS web console can purge it - the relevant operation to perform is "Create invalidation".)
 
-_The SSL certificate for releases.wagtail.io needs to be manually renewed once a year: https://projects.torchbox.com/projects/sysadmin/notebook/releases.wagtail.io.md_
+_The SSL certificates for releases.wagtail.org and releases.wagtail.io needs to be manually renewed once a year: https://projects.torchbox.com/projects/sysadmin/notebook/releases.wagtail.io.md_
 
 ## Post-release
 
-* Close the milestone on https://github.com/torchbox/wagtail/milestones
+* Close the milestone on https://github.com/wagtail/wagtail/milestones
 * Email wagtail@googlegroups.com with the release announcement
 * Blog and tweet about it
   * Share with https://django-news.com/
