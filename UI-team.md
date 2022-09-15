@@ -5,7 +5,7 @@ Find us in [#ui on Slack](https://app.slack.com/client/T0K33F93J/C0P6APKH9).
 
 The team’s membership is open to all, introduce yourself in [#ui on Slack](https://app.slack.com/client/T0K33F93J/C0P6APKH9) if you’re interested in joining. We currently operate with a membership term of 6 months, so people can commit for a short term, and then decide to proceed or stop.
 
-We meet every two weeks on Zoom, rotating between three time slots to offer meetings within work hours in the Americas, Europe, Australia. Between meetings, we keep track of our work on Slack and via a [UI team project board](https://github.com/wagtail/wagtail/projects/13).
+We meet every two weeks on Zoom, rotating between three time slots to offer meetings within work hours in all continents. Between meetings, we keep track of our work on Slack and via a [UI team project board](https://github.com/wagtail/wagtail/projects/13).
 
 ## Team members
 
