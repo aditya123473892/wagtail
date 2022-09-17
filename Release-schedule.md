@@ -31,6 +31,6 @@ Exceptionally, with 2.0 introducing breaking changes, 1.13 was designated as LTS
 | 2.14           | 1 August 2021          | 4 November 2021     | 7 February 2022     |
 | **2.15 LTS**   | **4 November 2021**    | **1 February 2023** | **1 February 2023** |
 | 2.16           | 7 February 2022        | 1 May 2022          | 1 August 2022       |
-| 3.0            | 16 May 2022            | 1 August 2022       | 1 November 2022     |
+| 3.0            | 16 May 2022            | 31 August 2022      | 1 November 2022     |
 | 4.0            | 31 August 2022         | 1 November 2022     | 1 February 2023     |
 | **TBD LTS**    | **1 November 2022**    | **1 February 2024** | **1 February 2024** |
