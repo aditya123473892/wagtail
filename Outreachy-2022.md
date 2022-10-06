@@ -15,9 +15,7 @@
 
 * [About Wagtail](#about-wagtail)
 * [Contributors](#contributors)
-* [Organisation admins](#organisation-admins)
-* [Mentors](#mentors)
-* [Project ideas](#project-ideas)
+* [Organisation coordinator](#organisation-coordinator)
 
 ## About Wagtail
 
