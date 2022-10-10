@@ -24,7 +24,7 @@ Wagtail has moved fast in the last few years, with particular focus on the edito
 
 ## Contributors
 
-### Contributor checklist
+### Contributor initial checklist
 
 Candidate Outreachy contributors should:
 
@@ -33,9 +33,9 @@ Candidate Outreachy contributors should:
 - [ ] Join the [Wagtail Slack](https://github.com/wagtail/wagtail/wiki/Slack) and introduce yourself on the #new-contributors channel.
 - [ ] Go through the [Wagtail tutorial](https://docs.wagtail.org/en/stable/getting_started/tutorial.html). Let us know if you encounter blockers.
 - [ ] For code contributions, create a [development environment](https://docs.wagtail.org/en/stable/contributing/developing.html) for working on Wagtail. There are good instructions in our [official documentation](https://docs.wagtail.org/en/stable/contributing/index.html).
-- [ ] Get to know the Wagtail community. Consider contributing to Wagtail already. Show that you understand how open-source projects work.
 - [ ] Invest time to discover what project fits you.
 - [ ] Ask questions about the projects they are interested in.
+- [ ] Get to know the Wagtail community. Consider contributing to Wagtail already. Show that you understand how open-source projects work.
 
 ### Improve your chances of being accepted
 
@@ -50,6 +50,14 @@ We're looking for candidates who can demonstrate that they can engage in the Wag
 - [ ] I have read [Ten tasty ingredients for a delicious pull request](https://wagtail.org/blog/ten-tasty-ingredients-for-a-delicious-pull-request/)
 - [ ] I have opened a pull request following those guidelines
 - [ ] 🙌 Nice one! Go celebrate in our #outreachy channel on Slack
+
+### Getting to know our community
+
+Here are tasks we expect contributors to get to later on in their onboarding:
+
+- [ ] Help one-another on the Slack channels
+- [ ] Attend one of our online meetups for new contributors (more details to come)
+- [ ] Attend one of our Outreachy Q&A sessions (more details to come)
 
 ## Organisation coordinator
 
