@@ -30,7 +30,7 @@ Candidate Outreachy contributors should:
 
 - [ ] Have a good understanding of how Outreachy works.
 - [ ] For code contributions, have a basic familiarity with Git and GitHub.
-- [ ] Join the [Wagtail Slack](https://github.com/wagtail/wagtail/wiki/Slack) and introduce yourself on the #new-contributors channel.
+- [ ] Join the [Wagtail Slack](https://github.com/wagtail/wagtail/wiki/Slack) and introduce yourself on the #new-contributors channel. Let us know a bit about you (what you’re comfortable with!), skills you have and skills you want to practice, which projects you’re interested in.
 - [ ] Go through the [Wagtail tutorial](https://docs.wagtail.org/en/stable/getting_started/tutorial.html). Let us know if you encounter blockers.
 - [ ] For code contributions, create a [development environment](https://docs.wagtail.org/en/stable/contributing/developing.html) for working on Wagtail. There are good instructions in our [official documentation](https://docs.wagtail.org/en/stable/contributing/index.html).
 - [ ] Invest time to discover what project fits you.
