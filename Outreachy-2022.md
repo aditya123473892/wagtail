@@ -1,8 +1,11 @@
+## Table of Contents
 
+* [Resources](#resources)
+* [About Wagtail](#about-wagtail)
+* [Contributors](#contributors)
+* [Organisation coordinator](#organisation-coordinator)
 
-🚧 this page is a **work in progress** while our our application for 2022 is still pending.
-
-**Links**
+## Resources
 
 * [outreachy.org](https://www.outreachy.org/)
 * [#outreachy on Slack, open to ask us anything](https://github.com/wagtail/wagtail/wiki/Slack)
@@ -10,12 +13,6 @@
 * [Wagtail blog](https://wagtail.org/blog/)
 * [Developer resources](https://wagtail.org/developers/)
 * View similar open source internship projects from [Google Summer of Code 2022](https://github.com/wagtail/wagtail/wiki/Google-Summer-of-Code-2022)
-
-**Table of Contents**
-
-* [About Wagtail](#about-wagtail)
-* [Contributors](#contributors)
-* [Organisation coordinator](#organisation-coordinator)
 
 ## About Wagtail
 
@@ -27,24 +24,34 @@ Wagtail has moved fast in the last few years, with particular focus on the edito
 
 ## Contributors
 
+### Contributor checklist
+
 Candidate Outreachy contributors should:
 
-- Have a good understanding of how Outreachy works.
-- For code contributions, have a basic familiarity with Git and GitHub.
-- Go through the [Wagtail tutorial](https://docs.wagtail.org/en/stable/getting_started/tutorial.html). Let us know if you encounter blockers.
-- For code contributions, create a [development environment](https://docs.wagtail.org/en/stable/contributing/developing.html) for working on Wagtail. There are good instructions in our [official documentation](https://docs.wagtail.org/en/stable/contributing/index.html).
-- Join the [Wagtail Slack](https://github.com/wagtail/wagtail/wiki/Slack) and introduce yourself on the #new-contributors channel.
-- Get to know the Wagtail community. Consider contributing to Wagtail already. Show that you understand how open-source projects work.
-- Invest time to discover what project fits you.
-- Ask questions about the projects they are interested in.
+- [ ] Have a good understanding of how Outreachy works.
+- [ ] For code contributions, have a basic familiarity with Git and GitHub.
+- [ ] Join the [Wagtail Slack](https://github.com/wagtail/wagtail/wiki/Slack) and introduce yourself on the #new-contributors channel.
+- [ ] Go through the [Wagtail tutorial](https://docs.wagtail.org/en/stable/getting_started/tutorial.html). Let us know if you encounter blockers.
+- [ ] For code contributions, create a [development environment](https://docs.wagtail.org/en/stable/contributing/developing.html) for working on Wagtail. There are good instructions in our [official documentation](https://docs.wagtail.org/en/stable/contributing/index.html).
+- [ ] Get to know the Wagtail community. Consider contributing to Wagtail already. Show that you understand how open-source projects work.
+- [ ] Invest time to discover what project fits you.
+- [ ] Ask questions about the projects they are interested in.
 
-## Improve your chances of being accepted
+### Improve your chances of being accepted
 
 The best thing you can do to improve your chances of being accepted as an Outreachy contributor with Wagtail is to start contributing now. Make yourself known to the community for your contributions. Try to contribute to an area related to your proposal. When the time comes to evaluate applications, you will be a known individual.
 
 We're looking for candidates who can demonstrate that they can engage in the Wagtail project. We're here to help, but we can't watch you every step of the way. We need to see motivation from you. Your activities before the submissions process are the best way to demonstrate this.
 
-# Organisation coordinator
+### Your first contribution
+
+- [ ] I have read and been through the [contributor checklist](#contributor-checklist)
+- [ ] I have identified a good first task, either on my own, or one of the [good first issues](https://github.com/wagtail/wagtail/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%22good+first+issue%22), or one tagged [Outreachy](https://github.com/wagtail/wagtail/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3AOutreachy), or looking at [5 simple ways anyone can contribute to Wagtail](https://wagtail.org/blog/5-simple-ways-anyone-can-contribute-to-wagtail/)
+- [ ] I have read [Ten tasty ingredients for a delicious pull request](https://wagtail.org/blog/ten-tasty-ingredients-for-a-delicious-pull-request/)
+- [ ] I have opened a pull request following those guidelines
+- [ ] 🙌 Nice one! Go celebrate in our #outreachy channel on Slack
+
+## Organisation coordinator
 
 Thibaud Colas is the coordinator for Wagtail, overseeing mentors, contributors, and the point of contact for Outreachy.
 
