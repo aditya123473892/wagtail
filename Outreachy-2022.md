@@ -13,6 +13,7 @@
 * [Wagtail blog](https://wagtail.org/blog/)
 * [Developer resources](https://wagtail.org/developers/)
 * View similar open source internship projects from [Google Summer of Code 2022](https://github.com/wagtail/wagtail/wiki/Google-Summer-of-Code-2022)
+* [Video: Contributing to Open Source for the first time](https://youtu.be/c6b6B9oN4Vg)
 
 ## About Wagtail
 
