@@ -29,6 +29,8 @@ Wagtail has moved fast in the last few years, with particular focus on the edito
 
 We expect participants to go through a few initial tasks as part of their application to project ideas. This is for you to get to know Wagtail as a project and community, and get a sense of how we can work together. It also helps mentors assess the skills of candidates, so we can decide which projects we can take on with you.
 
+Based on your preferred project idea(s), go through the relevant tasks lists below.
+
 ### Contributor initial checklist
 
 All candidate Outreachy contributors should:
@@ -47,9 +49,11 @@ For people interested in contributing to project 2 _"Improve user guide document
 - [ ] Use [Wagtail Gitpod](https://wagtail.org/blog/gitpod/) to go through the [Wagtail tutorial](https://docs.wagtail.org/en/latest/getting_started/tutorial.html). Let us know if you encounter blockers.
 - [ ] Use Gitpod again, this time to [set up our fully-fledged bakerydemo website](https://github.com/wagtail/bakerydemo#setup-with-gitpod). This will allow you to test more Wagtail features
 - [ ] Read through some of our [documentation for developers](https://docs.wagtail.org/en/stable/) and [documentation for users](https://docs.wagtail.org/en/stable/editor_manual/index.html), to get a sense of our voice and tone, and writing style.
-- [ ] If relevant – consider making small contributions to the existing documentation. This can be done entirely in GitHub, by [editing files in the `docs/` folder](https://github.com/wagtail/wagtail/tree/main/docs) of our project.
-- [ ] Write a **short blog post** describing your Outreachy involvement so far, and share it with us. Your post must be in English, include at least one image, be less than 500 words, and score a Grade 4 or better on <https://hemingwayapp.com/>. It can be a public post on your own blog or a blogging site, or a Google Docs document you share with us. You can talk about anything Outreachy – things you’re doing with Wagtail but also before, or any other Outreachy community you’re also trying to work with.
+- [ ] Read about [Diátaxis](https://diataxis.fr/), the documentation structure we use for Wagtail.
+- [ ] Write a **short blog post** describing your Outreachy involvement so far, and share it with us. The post must be in English, include at least one image, be less than 500 words, and score a Grade 4 or better on <https://hemingwayapp.com/>. It can be a public post on your own blog or a blogging site, or a Google Docs document you share with us. You can talk about anything Outreachy – things you’re doing with Wagtail but also before, or any other Outreachy community you’re also trying to work with.
 - [ ] Review our [new user guide website](https://wagtail.org/editor-guide-site) and its contents, and provide feedback proposing specific improvements in the [Outreachy: Improve user guide documentation for Wagtail](https://github.com/wagtail/guide/discussions/116) discussion thread. Those can be improvements to the existing content, or addition of new content you think is missing based on trying out Wagtail. You may also suggest features that would make the site nicer to use, or make the documentation more accessible to users.
+- [ ] Using [gitpod-wagtail-develop](https://github.com/wagtail/gitpod-wagtail-develop) or the GitHub editing interface, make contributions to the existing documentation in the [`docs/` folder](https://github.com/wagtail/wagtail/tree/main/docs) of our project. 
+- [ ] Consider making small contributions to the existing documentation. This can be done entirely in GitHub, by of our project. See a list of [issues tagged "Documentation"](https://github.com/wagtail/wagtail/issues?q=is%3Aopen+label%3ADocumentation+sort%3Aupdated-desc).
 
 ### Code contributors checklist
 
@@ -58,6 +62,17 @@ For people interested in contributing to projects 1 or 3 – _"Develop tools to 
 - [ ] Confirm you have a basic familiarity with Git and GitHub.
 - [ ] Go through the [Wagtail tutorial](https://docs.wagtail.org/en/latest/getting_started/tutorial.html) on your own computer (no Gitpod). Let us know if you encounter blockers.
 - [ ] Create a [development environment](https://docs.wagtail.org/en/latest/contributing/developing.html) for working on Wagtail. There are good instructions in our [official documentation](https://docs.wagtail.org/en/latest/contributing/index.html).
+- [ ] Make at least one bug fix or feature enhancement to Wagtail as a pull request, following our documentation for contributors.
+
+### Accessibility project checklist
+
+- [ ] Go through the [Sa11y documentation](https://sa11y.netlify.app/)
+- [ ] Read the [ATAG standard](https://www.w3.org/TR/ATAG20/), which we are trying to meet as part of this project
+
+### Stimulus project checklist
+
+- [ ] Go through the [Stimulus handbook](https://stimulus.hotwired.dev/handbook/introduction)
+- [ ] Read our [Stimulus RFC (Request For Comments)](https://github.com/wagtail/rfcs/blob/rfc/stimulus/text/078-adopt-stimulus-js.md)
 
 ### Improve your chances of being accepted
 
