@@ -47,8 +47,8 @@ For people interested in contributing to project 2 _"Improve user guide document
 For people interested in contributing to projects 1 or 3 – _"Develop tools to help Wagtail editors create accessible content"_, _"Introduce Stimulus for interactive widgets within Wagtail"_, we expect you to go through the following tasks:
 
 - [ ] Confirm you have a basic familiarity with Git and GitHub.
-- [ ] Go through the [Wagtail tutorial](https://docs.wagtail.org/en/stable/getting_started/tutorial.html). Let us know if you encounter blockers.
-- [ ] Create a [development environment](https://docs.wagtail.org/en/stable/contributing/developing.html) for working on Wagtail. There are good instructions in our [official documentation](https://docs.wagtail.org/en/stable/contributing/index.html).
+- [ ] Go through the [Wagtail tutorial](https://docs.wagtail.org/en/latest/getting_started/tutorial.html). Let us know if you encounter blockers.
+- [ ] Create a [development environment](https://docs.wagtail.org/en/latest/contributing/developing.html) for working on Wagtail. There are good instructions in our [official documentation](https://docs.wagtail.org/en/latest/contributing/index.html).
 
 ### Improve your chances of being accepted
 
@@ -82,4 +82,4 @@ To contact Thibaud, direct message them on [Slack](https://github.com/wagtail/wa
 ## Frequently asked questions
 
 - Antivirus
-- Windows 10
+- More than one Python installation
