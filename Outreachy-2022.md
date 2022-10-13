@@ -60,9 +60,10 @@ We're looking for candidates who can demonstrate that they can engage in the Wag
 
 - [ ] I have read and been through the [contributor checklist](#contributor-checklist)
 - [ ] I have identified a good first task, either on my own, or one of the [good first issues](https://github.com/wagtail/wagtail/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%22good+first+issue%22), or one tagged [Outreachy](https://github.com/wagtail/wagtail/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3AOutreachy), or looking at [5 simple ways anyone can contribute to Wagtail](https://wagtail.org/blog/5-simple-ways-anyone-can-contribute-to-wagtail/)
+- [ ] For GitHub issues – no one else is working on the issue I selected, so I’ve added a comment stating I’m working on it.
 - [ ] I have read [Ten tasty ingredients for a delicious pull request](https://wagtail.org/blog/ten-tasty-ingredients-for-a-delicious-pull-request/)
-- [ ] I have opened a pull request following those guidelines
-- [ ] 🙌 Nice one! Go celebrate in our #outreachy channel on Slack
+- [ ] I have opened a pull request following those guidelines, mentioning my involvement with Outreachy, the name I want to be credited with in the release notes, and describing my changes (following the template provided by Wagtail)
+- [ ] 🙌 Nice one! Share your pull request in our #outreachy channel on Slack so we can celebrate
 
 ### Getting to know our community
 
