@@ -27,6 +27,8 @@ Wagtail has moved fast in the last few years, with particular focus on the edito
 
 ## Contributors
 
+We expect participants to go through a few initial tasks as part of their application to project ideas. This is for you to get to know Wagtail as a project and community, and get a sense of how we can work together. It also helps mentors assess the skills of candidates, so we can decide which projects we can take on with you.
+
 ### Contributor initial checklist
 
 All candidate Outreachy contributors should:
@@ -38,21 +40,28 @@ All candidate Outreachy contributors should:
 5. [ ] Get to know the Wagtail community.
 6. [ ] Make small contributions to Wagtail already. Show that you understand how open-source projects work. This can be all sorts of different kinds of tasks – helping orient people on Slack, identifying problems with Wagtail, our documentation. Making changes to the code, documentation, translation, etc.
 
-### Documentation contributors
+### Documentation contributors checklist
 
 For people interested in contributing to project 2 _"Improve user guide documentation for Wagtail"_, we expect you to go through the following initial tasks as part of getting up to speed with Wagtail as a community:
 
-### Code contributors
+- [ ] Use [Wagtail Gitpod](https://wagtail.org/blog/gitpod/) to go through the [Wagtail tutorial](https://docs.wagtail.org/en/latest/getting_started/tutorial.html). Let us know if you encounter blockers.
+- [ ] Use Gitpod again, this time to [set up our fully-fledged bakerydemo website](https://github.com/wagtail/bakerydemo#setup-with-gitpod). This will allow you to test more Wagtail features
+- [ ] Read through some of our [documentation for developers](https://docs.wagtail.org/en/stable/) and [documentation for users](https://docs.wagtail.org/en/stable/editor_manual/index.html), to get a sense of our voice and tone, and writing style.
+- [ ] If relevant – consider making small contributions to the existing documentation. This can be done entirely in GitHub, by [editing files in the `docs/` folder](https://github.com/wagtail/wagtail/tree/main/docs) of our project.
+- [ ] Write a **short blog post** describing your Outreachy involvement so far, and share it with us. Your post must be in English, include at least one image, be less than 500 words, and score a Grade 4 or better on <https://hemingwayapp.com/>. It can be a public post on your own blog or a blogging site, or a Google Docs document you share with us. You can talk about anything Outreachy – things you’re doing with Wagtail but also before, or any other Outreachy community you’re also trying to work with.
+- [ ] Review our [new user guide website](https://wagtail.org/editor-guide-site) and its contents, and provide feedback proposing specific improvements in the [Outreachy: Improve user guide documentation for Wagtail](https://github.com/wagtail/guide/discussions/116) discussion thread. Those can be improvements to the existing content, or addition of new content you think is missing based on trying out Wagtail. You may also suggest features that would make the site nicer to use, or make the documentation more accessible to users.
+
+### Code contributors checklist
 
 For people interested in contributing to projects 1 or 3 – _"Develop tools to help Wagtail editors create accessible content"_, _"Introduce Stimulus for interactive widgets within Wagtail"_, we expect you to go through the following tasks:
 
 - [ ] Confirm you have a basic familiarity with Git and GitHub.
-- [ ] Go through the [Wagtail tutorial](https://docs.wagtail.org/en/latest/getting_started/tutorial.html). Let us know if you encounter blockers.
+- [ ] Go through the [Wagtail tutorial](https://docs.wagtail.org/en/latest/getting_started/tutorial.html) on your own computer (no Gitpod). Let us know if you encounter blockers.
 - [ ] Create a [development environment](https://docs.wagtail.org/en/latest/contributing/developing.html) for working on Wagtail. There are good instructions in our [official documentation](https://docs.wagtail.org/en/latest/contributing/index.html).
 
 ### Improve your chances of being accepted
 
-The best thing you can do to improve your chances of being accepted as an Outreachy contributor with Wagtail is to start contributing now. Make yourself known to the community for your contributions. Try to contribute to an area related to your proposal. When the time comes to evaluate applications, you will be a known individual.
+The best thing you can do to improve your chances of being accepted as an Outreachy contributor with Wagtail is to start contributing now. Make yourself known to the community for your contributions. Do general contributions, and try to contribute to an area related to your proposal. When the time comes to evaluate applications, you will be a known individual.
 
 We're looking for candidates who can demonstrate that they can engage in the Wagtail project. We're here to help, but we can't watch you every step of the way. We need to see motivation from you. Your activities before the submissions process are the best way to demonstrate this.
 
@@ -73,7 +82,11 @@ Here are tasks we expect contributors to get to later on in their onboarding:
 - [ ] Attend one of our online meetups for new contributors (more details to come)
 - [ ] Attend one of our Outreachy Q&A sessions (more details to come)
 
-## Organisation coordinator
+## Projects
+
+## Wagtail people
+
+### Organisation coordinator
 
 Thibaud Colas is the coordinator for Wagtail, overseeing mentors, contributors, and the point of contact for Outreachy.
 
