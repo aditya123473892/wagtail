@@ -129,3 +129,7 @@ No. We want contributors to be able to take their time when they pick a task, an
 #### If I’m unable to complete a task on time and someone else shows interest in it, will it be assigned to the person?
 
 No. You can keep working on an issue as long as you want and we’ll keep it assigned to you. Though if you’re unable to complete a task you might prefer to work on something else.
+
+#### I’m not as active as other participants. Do I have a chance?
+
+We’re looking for candidates who can demonstrate their ability to engage with our community and contribute to their project, but quality beats quantity. Ask thoughtful questions, make realistic project plans, and go through a few meaningful contributions. That’s all we need.
