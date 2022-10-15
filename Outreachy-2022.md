@@ -119,3 +119,13 @@ To contact Thibaud, direct message them on [Slack](https://github.com/wagtail/wa
 
 - Antivirus
 - More than one Python installation
+
+### Contributing
+
+#### Is it okay for me to work on a task someone else has already claimed?
+
+No. We want contributors to be able to take their time when they pick a task, and not feel stressed that someone else might decide to tackle the same issue.
+
+#### If I’m unable to complete a task on time and someone else shows interest in it, will it be assigned to the person?
+
+No. You can keep working on an issue as long as you want and we’ll keep it assigned to you. Though if you’re unable to complete a task you might prefer to work on something else.
