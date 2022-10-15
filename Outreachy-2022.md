@@ -71,7 +71,7 @@ For people interested in contributing to projects 1 or 3 – _"Develop tools to 
 
 ### Stimulus project checklist
 
-- [ ] Go through the [Stimulus handbook](https://stimulus.hotwired.dev/handbook/introduction)
+- [ ] Go through the [Stimulus handbook](https://stimulus.hotwired.dev/handbook/origin)
 - [ ] Read our [Stimulus RFC (Request For Comments)](https://github.com/wagtail/rfcs/blob/rfc/stimulus/text/078-adopt-stimulus-js.md)
 
 Have a read through LB’s Stimulus resources:
