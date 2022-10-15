@@ -37,10 +37,12 @@ All candidate Outreachy contributors should:
 
 1. [ ] Have a good understanding of how Outreachy works.
 2. [ ] Join the [Wagtail Slack](https://github.com/wagtail/wagtail/wiki/Slack) and introduce yourself on the #new-contributors channel. Let us know a bit about you (what you’re comfortable with!), skills you have and skills you want to practice, which projects you’re interested in.
-3. [ ] Invest time to discover what project(s) you like.
-4. [ ] Ask questions about the project(s) you are interested in.
-5. [ ] Get to know the Wagtail community.
-6. [ ] Make small contributions to Wagtail already. Show that you understand how open-source projects work. This can be all sorts of different kinds of tasks – helping orient people on Slack, identifying problems with Wagtail, our documentation. Making changes to the code, documentation, translation, etc.
+3. [ ] Update your profile image in Slack to be something other than the default image (can be a photo of you or any image you like).
+4. [ ] Invest time to discover what project(s) you like.
+5. [ ] Ask questions about the project(s) you are interested in.
+6. [ ] Get to know the Wagtail community.
+7. [ ] Join GitHub, if you have not already, ensure you have an image on your profile and your preferred public name set.
+8. [ ] Make small contributions to Wagtail already. Show that you understand how open-source projects work. This can be all sorts of different kinds of tasks – helping orient people on Slack, identifying problems with Wagtail, our documentation. Making changes to the code, documentation, translation, etc.
 
 ### Documentation contributors checklist
 
