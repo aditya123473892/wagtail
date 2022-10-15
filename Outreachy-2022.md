@@ -74,6 +74,12 @@ For people interested in contributing to projects 1 or 3 – _"Develop tools to 
 - [ ] Go through the [Stimulus handbook](https://stimulus.hotwired.dev/handbook/introduction)
 - [ ] Read our [Stimulus RFC (Request For Comments)](https://github.com/wagtail/rfcs/blob/rfc/stimulus/text/078-adopt-stimulus-js.md)
 
+Have a read through LB’s Stimulus resources:
+
+- https://github.com/hotwired/stimulus-starter
+- https://dev.to/lb/creating-an-interactive-event-budgeting-tool-within-wagtail-53b3
+- https://dev.to/lb/creating-a-schematic-editor-within-the-wagtail-cms-with-stimulusjs-n5j
+
 ### Improve your chances of being accepted
 
 The best thing you can do to improve your chances of being accepted as an Outreachy contributor with Wagtail is to start contributing now. Make yourself known to the community for your contributions. Do general contributions, and try to contribute to an area related to your proposal. When the time comes to evaluate applications, you will be a known individual.
