@@ -25,13 +25,13 @@ Wagtail has moved fast in the last few years, with particular focus on the edito
 
 ## Contributors
 
-We expect participants to go through a few initial tasks as part of their application to project ideas. This is for you to get to know Wagtail as a project and community, and get a sense of how we can work together. It also helps mentors assess the skills of candidates, so we can decide which projects we can take on with you.
+We expect participants to go through a few initial tasks as part of the Outreachy contribution period, ahead of their final application. This is for you to get to know Wagtail as a project and community, and get a sense of how we can work together. It also helps mentors assess the skills of candidates, so we can decide which projects we can take on with you.
 
 Based on your preferred project idea(s), go through the relevant tasks lists below.
 
 ### Contributor initial checklist
 
-All candidate Outreachy contributors should:
+For **all** projects – participants to Outreachy should:
 
 1. [ ] Have a good understanding of how Outreachy works.
 2. [ ] Join the [Wagtail Slack](https://github.com/wagtail/wagtail/wiki/Slack) and introduce yourself on the #new-contributors channel. Let us know a bit about you (what you’re comfortable with!), skills you have and skills you want to practice, which projects you’re interested in.
