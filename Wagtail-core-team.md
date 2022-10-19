@@ -67,6 +67,12 @@ The Wagtail core team are:
     USA,
     [UTC-4/5](https://www.timeanddate.com/time/zone/usa/new-york)
   - Areas of interest: frontend, design, accessibility
+- Sage Abdullah
+  ([laymonage](https://github.com/laymonage))
+  - [Torchbox](https://www.torchbox.com),
+    UK,
+    [UTC+0/1](https://www.timeanddate.com/worldclock/uk/bristol)
+  - Areas of interest: 
 - Scott Cranfill
   ([scotchester](https://github.com/scotchester))
   - [JPL](https://www.jpl.nasa.gov) (formerly [CFPB](https://www.consumerfinance.gov)),
