@@ -72,7 +72,7 @@ The Wagtail core team are:
   - [Torchbox](https://www.torchbox.com),
     UK,
     [UTC+0/1](https://www.timeanddate.com/worldclock/uk/bristol)
-  - Areas of interest: 
+  - Areas of interest: architecture, backend, frontend, snippets
 - Scott Cranfill
   ([scotchester](https://github.com/scotchester))
   - [JPL](https://www.jpl.nasa.gov) (formerly [CFPB](https://www.consumerfinance.gov)),
