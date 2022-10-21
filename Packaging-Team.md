@@ -22,6 +22,6 @@ In-between meetings, we collaborate via Slack using the channel as an open forum
 
 ## Members
 
-Lead: [Vince Salvino](https://github.com/vsalvino), CodeRed, Cleveland OH USA (UTC-4)
+Lead: [Vince Salvino](https://github.com/vsalvino), CodeRed, Cleveland OH USA
 
 TBD
