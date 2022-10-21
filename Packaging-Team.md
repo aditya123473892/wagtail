@@ -1,3 +1,5 @@
+NOTE: Packaging team is in DRAFT status.
+
 ## Team Charter
 
 ### Mission Statement
