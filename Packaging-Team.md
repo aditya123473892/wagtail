@@ -6,7 +6,7 @@ NOTE: Packaging team is in DRAFT status.
 
 > To improve the experience of discovering, using, and creating Wagtail packages.
 
-A Wagtail package is usually a 3rd-party (i.e. not part of Wagtail core) Python `pip` package which provides additional functionality to Wagtail. This team will take on the work, whether technical or marketing oriented, to improve the state of the packaging ecosystem. By growing the quantity and quality of Wagtail packages, we hope to grow the adoption of Wagtail as a whole.
+A Wagtail package is usually a 3rd-party (i.e. not part of Wagtail core) Python `pip` package which provides additional functionality to Wagtail. This team will take on the work, whether technical or marketing oriented, to improve the state of the packaging ecosystem. By growing the quantity and quality of 3rd-party Wagtail packages, we hope to grow the adoption of Wagtail as a whole.
 
 This team is not a package maintenance service. Instead we hope to create tools and resources for package maintainers.
 
