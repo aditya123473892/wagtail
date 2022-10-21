@@ -128,3 +128,8 @@ No. You can keep working on an issue as long as you want and we’ll keep it ass
 #### I’m not as active as other participants. Do I have a chance?
 
 We’re looking for candidates who can demonstrate their ability to engage with our community and contribute to their project, but quality beats quantity. Ask thoughtful questions, make realistic project plans, and go through a few meaningful contributions. That’s all we need.
+
+
+#### Can we write the blog post with an informal tone?
+
+Yes! This is your blog post, any tone you’re comfortable writing in is good.
