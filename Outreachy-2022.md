@@ -113,6 +113,40 @@ Thibaud Colas is the coordinator for Wagtail, overseeing mentors, contributors, 
 
 To contact Thibaud, direct message them on [Slack](https://github.com/wagtail/wagtail/wiki/Slack) @Thibaud.
 
+## Making a successful final application
+
+Follow [our application template](https://docs.google.com/document/d/1BgzSB4XJR4nzPAAdEEpVPhV0f7ojKRda0O_togLcfBY/edit#) to share your draft with mentors.
+
+- Always, always, always submit what you wrote on the Outreachy site, not just our Google Docs. The docs are just there for mentors’ reviews. The Outreachy site is the source of truth. Make sure what you add there is up-to-date and spotless.
+- If you send a document in Google Docs back to us to get reviews – make sure the doc’s sharing settings allows us to view the contents and comments!
+
+### Community questions
+
+#### In your own words, what problem is the project attempting to solve? 50 words max
+
+#### In your own words, what is the main goal of the project? 50 words max 
+
+#### In your own words, what are the benefits that this project will bring to Wagtail’s users and community? 50 words max
+
+#### Why are you interested in this specific project? 100 words max 
+
+### Project timeline
+
+Drafting a project timeline is a *hard* task! It requires a good understanding of the project, of the proposed tasks we shared, of the time all of this might take… even for regular contributors, it’s a tough ordeal.
+
+Here are the steps I’d recommend if you don’t know where to start:
+
+1. Start with a list of tasks in sequential order
+2. Populate this list with the high-level tasks we shared in each project’s description on the Outreachy site
+3. For each of those, try to break down the task into 3-5 sub-tasks
+4. Estimate how much time the tasks might take (1, 3, 5 days)
+5. For those new sub-tasks that you estimated for more than 1-2 days, try to break them down into more tasks if possible. Repeat as much as you want!
+6. Think of when you’ll need a review from others (our contributors, our core team, the mentors). Add getting those reviews, and addressing feedback from those reviews, as tasks
+7. Think of other forms of quality assurance / testing you could do. Add those as tasks.
+8. Add tasks for any preliminary research you might need to do in order to achieve some of the tasks
+
+Once you’ve done this – add / revise your estimates. Then based on your estimates, you can split the tasks week by week! Make sure to leave some room for blog posts, meetings, and just generally plan conservatively
+
 ## Frequently asked questions
 
 ### Contributing
