@@ -12,9 +12,9 @@ Exceptionally, with 2.0 introducing breaking changes, 1.13 was designated as LTS
 
 | Version        | Release date           | Active support      | Security support    |
 | -------------- |-----------------------:| -------------------:| -------------------:|
-| 4.4*           | 1 August 2023          | 1 November 2023     | 1 February 2024     |
-| 4.3*           | 2 May 2023             | 1 August 2023       | 1 November 2023     |
-| 4.2*           | 1 February 2023        | 2 May 2023          | 1 August 2023       |
+| 4.4*[^1]       | 1 August 2023          | 1 November 2023     | 1 February 2024     |
+| 4.3*[^1        | 2 May 2023             | 1 August 2023       | 1 November 2023     |
+| 4.2*[^1        | 1 February 2023        | 2 May 2023          | 1 August 2023       |
 | **4.1 LTS**    | **1 November 2022**    | **1 February 2024** | **1 February 2024** |
 | 4.0            | 31 August 2022         | 1 November 2022     | 1 February 2023     |
 | 3.0            | 16 May 2022            | 31 August 2022      | 1 November 2022     |
@@ -38,4 +38,4 @@ Exceptionally, with 2.0 introducing breaking changes, 1.13 was designated as LTS
 | 1.4 LTS        | March 2016             | December 2016       | December 2016       |
 | 0.8 LTS        | November 2014          | March 2016          | March 2016          |
 
-\* Future version numbers are provisional - these may receive a major version number increment, depending on the extent of backwards-incompatible changes and significant UI differences.
+[^1] \* Future version numbers are provisional - these may receive a major version number increment, depending on the extent of backwards-incompatible changes and significant UI differences.
