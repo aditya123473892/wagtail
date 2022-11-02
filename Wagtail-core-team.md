@@ -79,6 +79,12 @@ The Wagtail core team are:
     USA,
     [UTC-4/5](https://www.timeanddate.com/time/zone/usa/new-york)
   - Areas of interest: accessibility, community, documentation, frontend
+- Stefan Hammer
+  ([th3hamm0r](https://github.com/th3hamm0r))
+  - [wunderweiss](https://www.wunderweiss.com),
+    Austria,
+    [UTC+1/2](https://www.timeanddate.com/worldclock/austria/vienna)
+  - Areas of interest: backend, performance, security, UX, i18n
 - Storm Heg
   ([Stormheg](https://github.com/Stormheg))
   - the Netherlands,
