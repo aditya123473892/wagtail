@@ -9,7 +9,7 @@
   * [Stimulus project checklist](#stimulus-project-checklist)
 * [Improve your chances of being accepted](#improve-your-chances-of-being-accepted)
 * [Your first contribution](#your-first-contribution)
-* [Organisation coordinator](#organisation-coordinator)
+* [Coordinators and mentors](#coordinators-and-mentors)
 * [Frequently asked questions](#frequently-asked-questions)
 
 ## Resources
@@ -105,13 +105,20 @@ We're looking for candidates who can demonstrate that they can engage in the Wag
 
 ## Projects
 
-## Wagtail people
+## Coordinators and mentors
+
+Our Outreachy participation is made possible thanks to our contributors volunteering to coordinate and mentor the projects.
 
 ### Organisation coordinator
 
-Thibaud Colas is the coordinator for Wagtail, overseeing mentors, contributors, and the point of contact for Outreachy.
+We have two coordinators! They oversee our involvement with the program, coordinating mentors and contributors. They are the point of contact for Outreachy. Our coordinators are:
 
-To contact Thibaud, direct message them on [Slack](https://github.com/wagtail/wagtail/wiki/Slack) @Thibaud.
+- Thibaud Colas. To contact Thibaud, direct message them on [Slack](https://github.com/wagtail/wagtail/wiki/Slack) @Thibaud.
+- Meagen Voss. To contact Meagen, direct message them on [Slack](https://github.com/wagtail/wagtail/wiki/Slack) @Meagen Voss.
+
+### Mentors
+
+TBC
 
 ## Making a successful final application
 
