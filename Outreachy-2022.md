@@ -9,6 +9,7 @@
   * [Stimulus project checklist](#stimulus-project-checklist)
 * [Improve your chances of being accepted](#improve-your-chances-of-being-accepted)
 * [Your first contribution](#your-first-contribution)
+* [Projects](#projects)
 * [Coordinators and mentors](#coordinators-and-mentors)
   * [Organisation coordinators](#organisation-coordinators)
   * [Mentors](#mentors)
@@ -106,6 +107,8 @@ We're looking for candidates who can demonstrate that they can engage in the Wag
 - [ ] 🙌 Nice one! Share your pull request in our #outreachy channel on Slack so we can celebrate
 
 ## Projects
+
+See our announcement: [Outreachy: welcoming new contributors to open source](https://wagtail.org/blog/outreachy-welcoming-new-contributors-to-open-source/).
 
 ## Coordinators and mentors
 
