@@ -10,6 +10,8 @@
 * [Improve your chances of being accepted](#improve-your-chances-of-being-accepted)
 * [Your first contribution](#your-first-contribution)
 * [Coordinators and mentors](#coordinators-and-mentors)
+  * [Organisation coordinators](#organisation-coordinators)
+  * [Mentors](#mentors)
 * [Frequently asked questions](#frequently-asked-questions)
 
 ## Resources
