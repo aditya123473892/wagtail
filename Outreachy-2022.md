@@ -109,9 +109,9 @@ We're looking for candidates who can demonstrate that they can engage in the Wag
 
 Our Outreachy participation is made possible thanks to our contributors volunteering to coordinate and mentor the projects.
 
-### Organisation coordinator
+### Organisation coordinators
 
-We have two coordinators! They oversee our involvement with the program, coordinating mentors and contributors. They are the point of contact for Outreachy. Our coordinators are:
+Our coordinators oversee our involvement with the program, coordinating mentors and contributors. They are the point of contact for Outreachy. Our coordinators are:
 
 - Thibaud Colas. To contact Thibaud, direct message them on [Slack](https://github.com/wagtail/wagtail/wiki/Slack) @Thibaud.
 - Meagen Voss. To contact Meagen, direct message them on [Slack](https://github.com/wagtail/wagtail/wiki/Slack) @Meagen Voss.
