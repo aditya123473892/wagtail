@@ -104,6 +104,7 @@ _The SSL certificates for releases.wagtail.org and releases.wagtail.io needs to 
 
 * Close the milestone on https://github.com/wagtail/wagtail/milestones
 * Email wagtail@googlegroups.com with the release announcement
+* Announce on #announcements on Wagtail slack (and #wagtail on Torchbox slack, if you're there)
 * Blog and tweet about it
   * Share with https://django-news.com/
   * Share with https://www.reddit.com/r/django/
