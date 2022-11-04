@@ -107,7 +107,7 @@ Note: Small packages may use their readme as documentation. These guidelines onl
 
 ## New packages
 
-- For packages that come with a user interface, reach out to [Wagtail’s accessibility team](https://github.com/wagtail/wagtail/wiki/Accessibility-team) to validate the approach or test the package
+- For packages that come with a user interface, we expect those to adhere to the same accessibility standards as Wagtail. See [Wagtail’s accessibility statement](https://wagtail.org/accessibility/). Accessibility can be difficult to implement or test - reach out to [Wagtail’s accessibility team](https://github.com/wagtail/wagtail/wiki/Accessibility-team) to validate your approach or test the package.
 
 ## EOL (End of Life) packages
 
