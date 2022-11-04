@@ -12,8 +12,8 @@ Timeline of development priorities for the Wagtail core team. Please note that t
   Ability to configure the admin so that editors with permission for one site are fully isolated from others - [#7521](https://github.com/wagtail/wagtail/discussions/7521)
 * ### Drop IE support - Q3 2021  ✅
   [Support dropped in Wagtail 2.15](https://docs.wagtail.io/en/stable/editor_manual/browser_issues.html#ie11).
-* ### Object usage reporting - Q3 2021
-  "This image is used on the following pages..." [#4702](https://github.com/wagtail/wagtail/issues/4702) / [#4481](https://github.com/wagtail/wagtail/issues/4481)
+* ### Object usage reporting - Q4 2022   ✅
+  "This image is used on the following pages..." [#4702](https://github.com/wagtail/wagtail/issues/4702) / [#4481](https://github.com/wagtail/wagtail/issues/4481) / [#9279](https://github.com/wagtail/wagtail/pull/9279)
 * ### Page content analysis - ~Q1 2021~ 2022
   Support within the page editor for spellchecking, tone guidance etc - [RFC 60](https://github.com/wagtail/rfcs/pull/60)
 * ### Accessibility - ~2021~ 2022 🚧
