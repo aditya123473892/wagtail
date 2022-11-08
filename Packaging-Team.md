@@ -24,5 +24,6 @@ In-between meetings, we collaborate via Slack using the channel as an open forum
 
 * [Vince Salvino](https://github.com/vsalvino), CodeRed, Cleveland OH USA
 * [Dawn Wages](https://github.com/dawnwages), Microsoft, Philadelphia PA USA
+* [Tim Allen](https://github.com/flipperpa), The Wharton School, Philadelphia PA USA
 
 TBD
