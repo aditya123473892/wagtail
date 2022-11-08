@@ -22,7 +22,7 @@ In-between meetings, we collaborate via Slack using the channel as an open forum
 
 ## Members
 
-[Vince Salvino](https://github.com/vsalvino), CodeRed, Cleveland OH USA
-[Dawn Wages](https://github.com/dawnwages), Microsoft, Philadelphia PA USA
+* [Vince Salvino](https://github.com/vsalvino), CodeRed, Cleveland OH USA
+* [Dawn Wages](https://github.com/dawnwages), Microsoft, Philadelphia PA USA
 
 TBD
