@@ -115,11 +115,12 @@ See our initial announcement: [Outreachy: welcoming new contributors to open sou
 
 ### Develop tools to help Wagtail editors create accessible content
 
-- Contributor: Albina Starikova
+- Contributor: Albina Starikova [@albinazs](https://github.com/albinazs)
 - Mentors: Sage Abdullah, Joshua Munn, Thibaud Colas
 - [outreachy.org link](https://www.outreachy.org/outreachy-december-2022-internship-round/communities/wagtail/#create-an-accessibility-checker-for-wagtail)
 - Community discussion: [Built-in accessibility checker for Wagtail #9262](https://github.com/wagtail/wagtail/discussions/9262)
-- Project team: [`@wagtail/outreachy-accessibility`](https://github.com/orgs/wagtail/teams/outreachy-accessibility)
+- GitHub team: [`@wagtail/outreachy-accessibility`](https://github.com/orgs/wagtail/teams/outreachy-accessibility)
+- GitHub Projects board: [Outreachy: Accessibility checker](https://github.com/orgs/wagtail/projects/19/views/1)
 
 ### Improve user guide documentation for Wagtail
 
@@ -140,15 +141,15 @@ Our coordinators oversee our involvement with the program, coordinating mentors 
 
 Our mentors look after the contributors during the internship.
 
-- Sage Abdullah
-- Joshua Munn
-- Thibaud Colas
+- Sage Abdullah [@laymonage](https://github.com/laymonage)
+- Joshua Munn [@jams2](https://github.com/jams2)
+- Thibaud Colas [@thibaudcolas](https://github.com/thibaudcolas)
 - Stephanie Brown
 - Jonny Peacock
-- Storm Heg
-- Coen van der Kamp
-- LB
-- Paarth Agarwal
+- Storm Heg [@Stormheg](https://github.com/Stormheg)
+- Coen van der Kamp [@allcaps](https://github.com/allcaps)
+- LB [@lb-](https://github.com/lb-) 
+- Paarth Agarwal [@PaarthAgarwal](https://github.com/PaarthAgarwal)
 
 ## Making a successful final application
 
