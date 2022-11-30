@@ -110,6 +110,15 @@ We're looking for candidates who can demonstrate that they can engage in the Wag
 
 See our initial announcement: [Outreachy: welcoming new contributors to open source](https://wagtail.org/blog/outreachy-welcoming-new-contributors-to-open-source/), and our internships: [Our very first Outreachy Interns](https://wagtail.org/blog/our-very-first-outreachy-interns/).
 
+### Develop tools to help Wagtail editors create accessible content
+
+- Contributor: Albina Starikova
+- Mentors: Sage Abdullah, Joshua Munn, Thibaud Colas
+- [outreachy.org link](https://www.outreachy.org/outreachy-december-2022-internship-round/communities/wagtail/#create-an-accessibility-checker-for-wagtail)
+- Community discussion: [Built-in accessibility checker for Wagtail #9262](https://github.com/wagtail/wagtail/discussions/9262)
+- Project team: [`@wagtail/outreachy-accessibility`](https://github.com/orgs/wagtail/teams/outreachy-accessibility)
+- 
+
 ## Coordinators and mentors
 
 Our Outreachy participation is made possible thanks to our contributors volunteering to coordinate and mentor the projects.
@@ -184,7 +193,6 @@ No. You can keep working on an issue as long as you want and we’ll keep it ass
 #### I’m not as active as other participants. Do I have a chance?
 
 We’re looking for candidates who can demonstrate their ability to engage with our community and contribute to their project, but quality beats quantity. Ask thoughtful questions, make realistic project plans, and go through a few meaningful contributions. That’s all we need.
-
 
 #### Can we write the blog post with an informal tone?
 
