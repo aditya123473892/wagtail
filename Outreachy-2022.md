@@ -117,7 +117,10 @@ See our initial announcement: [Outreachy: welcoming new contributors to open sou
 - [outreachy.org link](https://www.outreachy.org/outreachy-december-2022-internship-round/communities/wagtail/#create-an-accessibility-checker-for-wagtail)
 - Community discussion: [Built-in accessibility checker for Wagtail #9262](https://github.com/wagtail/wagtail/discussions/9262)
 - Project team: [`@wagtail/outreachy-accessibility`](https://github.com/orgs/wagtail/teams/outreachy-accessibility)
-- 
+
+### Improve user guide documentation for Wagtail
+
+### Introduce Stimulus for interactive widgets within Wagtail
 
 ## Coordinators and mentors
 
