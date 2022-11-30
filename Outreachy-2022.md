@@ -10,6 +10,7 @@
 * [Improve your chances of being accepted](#improve-your-chances-of-being-accepted)
 * [Your first contribution](#your-first-contribution)
 * [Projects](#projects)
+  * [Introduce Stimulus for interactive widgets within Wagtail](#introduce-stimulus-for-interactive-widgets-within-wagtail)
 * [Coordinators and mentors](#coordinators-and-mentors)
   * [Organisation coordinators](#organisation-coordinators)
   * [Mentors](#mentors)
