@@ -10,6 +10,8 @@
 * [Improve your chances of being accepted](#improve-your-chances-of-being-accepted)
 * [Your first contribution](#your-first-contribution)
 * [Projects](#projects)
+  * [Develop tools to help Wagtail editors create accessible content](#develop-tools-to-help-wagtail-editors-create-accessible-content)
+  * [Improve user guide documentation for Wagtail](#improve-user-guide-documentation-for-wagtail)
   * [Introduce Stimulus for interactive widgets within Wagtail](#introduce-stimulus-for-interactive-widgets-within-wagtail)
 * [Coordinators and mentors](#coordinators-and-mentors)
   * [Organisation coordinators](#organisation-coordinators)
