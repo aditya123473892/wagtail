@@ -108,7 +108,7 @@ We're looking for candidates who can demonstrate that they can engage in the Wag
 
 ## Projects
 
-See our announcement: [Outreachy: welcoming new contributors to open source](https://wagtail.org/blog/outreachy-welcoming-new-contributors-to-open-source/).
+See our initial announcement: [Outreachy: welcoming new contributors to open source](https://wagtail.org/blog/outreachy-welcoming-new-contributors-to-open-source/), and our internships: [Our very first Outreachy Interns](https://wagtail.org/blog/our-very-first-outreachy-interns/).
 
 ## Coordinators and mentors
 
@@ -123,7 +123,17 @@ Our coordinators oversee our involvement with the program, coordinating mentors 
 
 ### Mentors
 
-TBC
+Our mentors look after the contributors during the internship.
+
+- Sage Abdullah
+- Joshua Munn
+- Thibaud Colas
+- Stephanie Brown
+- Jonny Peacock
+- Storm Heg
+- Coen van der Kamp
+- LB
+- Paarth Agarwal
 
 ## Making a successful final application
 
