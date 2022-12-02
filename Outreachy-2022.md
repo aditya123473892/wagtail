@@ -124,6 +124,13 @@ See our initial announcement: [Outreachy: welcoming new contributors to open sou
 
 ### Improve user guide documentation for Wagtail
 
+- Contributor: Damilola Oladele [@activus-d](https://github.com/activus-d), Twitter: [@activus_d](https://twitter.com/activus_d)
+- Mentors: Stephanie Brown, Jonny Peacock, Storm Heg, Thibaud Colas, Coen van der Kamp
+- [outreachy.org link](https://www.outreachy.org/outreachy-december-2022-internship-round/communities/wagtail/#improve-user-guide-documentation-for-wagtail)
+- Community discussion: [Outreachy: Improve user guide documentation for Wagtail #116](https://github.com/wagtail/guide/discussions/116)
+- GitHub team:
+- GitHub Projects board:
+
 ### Introduce Stimulus for interactive widgets within Wagtail
 
 ## Coordinators and mentors
@@ -141,15 +148,15 @@ Our coordinators oversee our involvement with the program, coordinating mentors 
 
 Our mentors look after the contributors during the internship.
 
-- Sage Abdullah [@laymonage](https://github.com/laymonage)
+- Sage Abdullah [@laymonage](https://github.com/laymonage), Twitter: [@laymonage](https://twitter.com/laymonage)
 - Joshua Munn [@jams2](https://github.com/jams2)
 - Thibaud Colas [@thibaudcolas](https://github.com/thibaudcolas), Twitter: [@thibaud_colas](https://twitter.com/thibaud_colas), Mastodon: N/A
 - Stephanie Brown
 - Jonny Peacock
-- Storm Heg [@Stormheg](https://github.com/Stormheg)
-- Coen van der Kamp [@allcaps](https://github.com/allcaps)
-- LB [@lb-](https://github.com/lb-) 
-- Paarth Agarwal [@PaarthAgarwal](https://github.com/PaarthAgarwal)
+- Storm Heg [@Stormheg](https://github.com/Stormheg), Twitter: [@Stormheg](https://twitter.com/stormheg)
+- Coen van der Kamp [@allcaps](https://github.com/allcaps), Twitter: [@allcaps](https://twitter.com/allcaps)
+- LB [@lb-](https://github.com/lb-), Twitter: [@_lb_](https://twitter.com/_lb_)
+- Paarth Agarwal [@PaarthAgarwal](https://github.com/PaarthAgarwal), Twitter: [@AgarwalPaarth](https://twitter.com/AgarwalPaarth)
 
 ## Making a successful final application
 
