@@ -155,7 +155,7 @@ Our mentors look after the contributors during the internship.
 - Jonny Peacock
 - Storm Heg [@Stormheg](https://github.com/Stormheg), Twitter: [@Stormheg](https://twitter.com/stormheg)
 - Coen van der Kamp [@allcaps](https://github.com/allcaps), Twitter: [@allcaps](https://twitter.com/allcaps)
-- LB [@lb-](https://github.com/lb-), Twitter: [@_lb_](https://twitter.com/_lb_)
+- LB [@lb-](https://github.com/lb-), Twitter: [@\_lb\_](https://twitter.com/_lb_)
 - Paarth Agarwal [@PaarthAgarwal](https://github.com/PaarthAgarwal), Twitter: [@AgarwalPaarth](https://twitter.com/AgarwalPaarth)
 
 ## Making a successful final application
