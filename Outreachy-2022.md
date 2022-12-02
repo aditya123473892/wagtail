@@ -143,7 +143,7 @@ Our mentors look after the contributors during the internship.
 
 - Sage Abdullah [@laymonage](https://github.com/laymonage)
 - Joshua Munn [@jams2](https://github.com/jams2)
-- Thibaud Colas [@thibaudcolas](https://github.com/thibaudcolas)
+- Thibaud Colas [@thibaudcolas](https://github.com/thibaudcolas), Twitter: [@thibaud_colas](https://twitter.com/thibaud_colas), Mastodon: N/A
 - Stephanie Brown
 - Jonny Peacock
 - Storm Heg [@Stormheg](https://github.com/Stormheg)
