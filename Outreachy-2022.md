@@ -118,7 +118,7 @@ See our initial announcement: [Outreachy: welcoming new contributors to open sou
 - Contributor: Albina Starikova [@albinazs](https://github.com/albinazs)
 - Mentors: Sage Abdullah, Joshua Munn, Thibaud Colas
 - [outreachy.org link](https://www.outreachy.org/outreachy-december-2022-internship-round/communities/wagtail/#create-an-accessibility-checker-for-wagtail)
-- Community discussion: [Built-in accessibility checker for Wagtail #9262](https://github.com/wagtail/wagtail/discussions/9262)
+- Project updates: [Built-in accessibility checker for Wagtail #9262](https://github.com/wagtail/wagtail/discussions/9262)
 - GitHub team: [`@wagtail/outreachy-accessibility`](https://github.com/orgs/wagtail/teams/outreachy-accessibility)
 - GitHub Projects board: [Outreachy: Accessibility checker](https://github.com/orgs/wagtail/projects/19/views/1)
 
@@ -127,7 +127,7 @@ See our initial announcement: [Outreachy: welcoming new contributors to open sou
 - Contributor: Damilola Oladele [@activus-d](https://github.com/activus-d), Twitter: [@activus_d](https://twitter.com/activus_d)
 - Mentors: Stephanie Brown, Jonny Peacock, Storm Heg, Thibaud Colas, Coen van der Kamp
 - [outreachy.org link](https://www.outreachy.org/outreachy-december-2022-internship-round/communities/wagtail/#improve-user-guide-documentation-for-wagtail)
-- Community discussion: [Outreachy: Improve user guide documentation for Wagtail #116](https://github.com/wagtail/guide/discussions/116)
+- Project updates: [Outreachy: Editor Guide internship updates](https://github.com/wagtail/guide/discussions/282)
 - GitHub team: [`@wagtail/outreachy-guide`](https://github.com/orgs/wagtail/teams/outreachy-guide)
 - GitHub Projects board: [Outreachy: Editor Guide](https://github.com/orgs/wagtail/projects/21/views/1)
 
