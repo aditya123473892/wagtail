@@ -152,7 +152,7 @@ Our mentors look after the contributors during the internship.
 - Joshua Munn [@jams2](https://github.com/jams2)
 - Thibaud Colas [@thibaudcolas](https://github.com/thibaudcolas), Twitter: [@thibaud_colas](https://twitter.com/thibaud_colas), Mastodon: N/A
 - Stephanie Brown
-- Jonny Peacock
+- Jonny Peacock [@ jonnypeaks](https://github.com/jonnypeaks)
 - Storm Heg [@Stormheg](https://github.com/Stormheg), Twitter: [@Stormheg](https://twitter.com/stormheg)
 - Coen van der Kamp [@allcaps](https://github.com/allcaps), Twitter: [@allcaps](https://twitter.com/allcaps)
 - LB [@lb-](https://github.com/lb-), Twitter: [@\_lb\_](https://twitter.com/_lb_)
