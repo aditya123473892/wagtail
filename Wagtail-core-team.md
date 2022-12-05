@@ -38,12 +38,6 @@ The Wagtail core team are:
 - Kalob Taulien ([KalobTaulien](https://github.com/kalobtaulien))
   - Canada, [UTC-6/7](https://www.timeanddate.com/worldclock/canada/edmonton)
   - Areas of interest: backend, community, documentation
-- Karl Hobley
-  ([kaedroho](https://github.com/kaedroho))
-  - [Torchbox](https://www.torchbox.com),
-    UK,
-    [UTC+0/1](https://www.timeanddate.com/worldclock/uk/oxford)
-  - Areas of interest: Developer Experience, Search, I18N, API, Architecture
 - LB Johnston
   ([lb-](https://github.com/lb-))
   - [lb.ee](https://lb.ee),
