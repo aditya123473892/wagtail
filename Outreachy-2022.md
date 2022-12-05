@@ -128,8 +128,8 @@ See our initial announcement: [Outreachy: welcoming new contributors to open sou
 - Mentors: Stephanie Brown, Jonny Peacock, Storm Heg, Thibaud Colas, Coen van der Kamp
 - [outreachy.org link](https://www.outreachy.org/outreachy-december-2022-internship-round/communities/wagtail/#improve-user-guide-documentation-for-wagtail)
 - Community discussion: [Outreachy: Improve user guide documentation for Wagtail #116](https://github.com/wagtail/guide/discussions/116)
-- GitHub team:
-- GitHub Projects board:
+- GitHub team: [`@wagtail/outreachy-guide`](https://github.com/orgs/wagtail/teams/outreachy-guide)
+- GitHub Projects board: [Outreachy: Editor Guide](https://github.com/orgs/wagtail/projects/21/views/1)
 
 ### Introduce Stimulus for interactive widgets within Wagtail
 
