@@ -22,7 +22,7 @@ Current members:
 - Jane Hughes
 - Albina Starykova
 - Sage Abdullah
-- Victoria
+- Victoria Ottah
 
 Past members: Andreas Bernacca (June 2020 – January 2021)
 
