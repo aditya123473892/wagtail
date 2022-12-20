@@ -47,4 +47,5 @@ Core team members may be volunteers, or may have varying priorities at work whic
 - [ ] PyPI packages admin – remove from all relevant Wagtail PyPI packages
 - [ ] npm packages admin – remove from [wagtail organization](https://www.npmjs.com/org/wagtail) on npm, and relevant packages
 - [ ] Vercel admin – remove from [wagtail organization](https://vercel.com/wagtail) on Vercel
+- [ ] Algolia admin – remove from our [DocSearch application `BH4D9OD16A`](https://www.algolia.com/apps/BH4D9OD16A)
 - [ ] Calendar - remove from core team meeting calendar events
