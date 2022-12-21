@@ -18,11 +18,12 @@ Current members:
 - Kyle Bayliss ([@kbayliss](https://github.com/kbayliss)), UTC + 0 or 1, since February 2021
 - Storm Heg ([@Stormheg](https://github.com/Stormheg)), UTC + 1 or 2, since February 2021
 - Saptak Sengupta ([@SaptakS](https://github.com/SaptakS)), since July 2021
-- Anuja Raj
-- Jane Hughes
-- Albina Starykova
-- Sage Abdullah
-- Victoria Ottah
+- Anuja Raj ([@anujaraj](https://github.com/anujaraj)), since June 2022
+- Jane Hughes ([@janehughes](https://github.com/janehughes)), since June 2022
+- Albina Starykova ([@albinazs](https://github.com/albinazs)), since December 2022
+- Sage Abdullah ([@laymonage](https://github.com/laymonage)), since December 2022
+- Joshua Munn ([@jams2](https://github.com/jams2)), since December 2022
+- Victoria Ottah, since December 2022
 
 Past members: Andreas Bernacca (June 2020 – January 2021)
 
