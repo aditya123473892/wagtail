@@ -4,15 +4,17 @@ This document is for Wagtail core developers. If you are looking to contribute t
 
 # Transifex setup
 
-    pip install transifex-client
+Install [Transifex CLI](https://developers.transifex.com/docs/cli#installation).
+
+Generate an [API Token](https://help.transifex.com/en/articles/6248858-generating-an-api-token).
 
 Create a `.transifexrc` file in your home directory containing the following:
 
     [https://www.transifex.com]
-    username = myusername
-    token =
-    password = mypassword
+    username = api
+    token = <paste_token_here>
     hostname = https://www.transifex.com
+    rest_hostname = https://rest.api.transifex.com
 
 Create a `logs` directory alongside the root of your Wagtail codebase. (This will help manage the output of fetch-translations.sh, which is liable to produce more output than your console history can handle...)
 
@@ -65,7 +67,7 @@ This assumes that strings have already been marked for translation throughout th
 
 Edit the file `.tx/config` to add a new section (replace `myapp` and `/path/to/myapp` as appropriate):
 
-    [wagtail.myapp]
+    [o:torchbox:p:wagtail:r:myapp]
     file_filter = wagtail/path/to/myapp/locale/<lang>/LC_MESSAGES/django.po
     source_file = wagtail/path/to/myapp/locale/en/LC_MESSAGES/django.po
     source_lang = en
