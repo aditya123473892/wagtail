@@ -2,8 +2,7 @@
 
 - [[Slack]]
 - [[Release schedule]]
-- [[Roadmap]]
-- [[Contributed apps and website code]]
+- [Roadmap](https://wagtail.org/roadmap)
 - [[Outreachy 2022]]
 - [[Google Summer of Code 2023]]
 
