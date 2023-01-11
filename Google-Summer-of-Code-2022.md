@@ -2,7 +2,6 @@ Our application for 2022 is accepted.
 
 **Links**
 
-* [GSoC 2023 timeline](https://developers.google.com/open-source/gsoc/timeline)
 * [#gsoc on Slack, open to ask us anything](https://github.com/wagtail/wagtail/wiki/Slack)
 * [Documentation](http://docs.wagtail.org/)
 * [Wagtail blog](https://wagtail.org/blog/)
