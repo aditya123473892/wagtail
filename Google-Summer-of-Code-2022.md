@@ -2,12 +2,11 @@ Our application for 2022 is accepted.
 
 **Links**
 
-* [summerofcode.withgoogle.com](https://summerofcode.withgoogle.com/programs/2022/organizations/wagtail)
+* [GSoC 2023 timeline](https://developers.google.com/open-source/gsoc/timeline)
 * [#gsoc on Slack, open to ask us anything](https://github.com/wagtail/wagtail/wiki/Slack)
 * [Documentation](http://docs.wagtail.org/)
-* [Wagtail Blog](https://wagtail.org/blog/)
-* [Wagtail Resources](https://wagtail.org/developers/)
-* Last year’s projects: [Google Summer of Code 2021](https://github.com/wagtail/wagtail/wiki/Google-Summer-of-Code-2021)
+* [Wagtail blog](https://wagtail.org/blog/)
+* Our past projects: [GSoC 2022](https://github.com/wagtail/wagtail/wiki/Google-Summer-of-Code-2022), [GSoC 2021](https://github.com/wagtail/wagtail/wiki/Google-Summer-of-Code-2021)
 
 **Table of Contents**
 
