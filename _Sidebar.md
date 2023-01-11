@@ -5,7 +5,7 @@
 - [[Roadmap]]
 - [[Contributed apps and website code]]
 - [[Outreachy 2022]]
-- [[Google Summer of Code 2022]]
+- [[Google Summer of Code 2023]]
 
 Teams
 
