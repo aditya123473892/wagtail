@@ -133,6 +133,12 @@ See our initial announcement: [Outreachy: welcoming new contributors to open sou
 
 ### Introduce Stimulus for interactive widgets within Wagtail
 
+- Contributor: Loveth Omokaro [@Lovelyfin00](https://github.com/Lovelyfin00), Twitter: [@lovelyfin00](https://twitter.com/lovelyfin00)
+- Mentors: LB, Thibaud Colas, Paarth Agarwal
+- [outreachy.org link](https://www.outreachy.org/outreachy-december-2022-internship-round/communities/wagtail/#introduce-stimulus-for-interactive-widgets-within-)
+- GitHub team: [`@wagtail/outreachy-stimulus`](https://github.com/orgs/wagtail/teams/outreachy-stimulus)
+- GitHub Projects board: [Outreachy: Stimulus (RFC 78)](https://github.com/orgs/wagtail/projects/14/views/1)
+
 ## Coordinators and mentors
 
 Our Outreachy participation is made possible thanks to our contributors volunteering to coordinate and mentor the projects.
