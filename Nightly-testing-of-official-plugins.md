@@ -8,7 +8,7 @@ This document explains how to set this up with Circle CI and Github Actions. The
 
 1) Go into the CircleCI project settings and add the Slack webhook URL into the `SLACK_WEBHOOK_URL` environment variable.
 
-    You can get this webhook from another project on Circle CI that has this configuration (such as `wagtail-localize`). Or ask Dan (@zerolab) or Karl (@kaedroho).
+    You can get this webhook from another project on Circle CI that has this configuration (such as `wagtail-localize`). Or ask Dan (@zerolab) or Matt (@mattwestcott).
 
 2) Add `.circleci/report_nightly_build_failure.py` with the following contents:
 
@@ -85,7 +85,7 @@ workflows:
 
 1) Go into the Gitlab Actions project settings and add the Slack webhook URL into the `SLACK_WEBHOOK_URL` environment variable.
 
-    You can get this webhook from another project on Circle CI that has this configuration (such as `wagtail-localize`). Or ask Dan (@zerolab) or Karl (@kaedroho).
+    You can get this webhook from another project on Circle CI that has this configuration (such as `wagtail-localize`). Or ask Dan (@zerolab) or Matt (@mattwestcott).
 
 2) Add `.github/report_nightly_build_failure.py` with the following contents:
 
