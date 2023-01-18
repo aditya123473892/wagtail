@@ -1,5 +1,3 @@
-## Wagtail Slack
-
 The Wagtail Slack workspace is open to all users and developers of Wagtail. To join, head to: https://wagtail.org/slack/ 
 
 When posting to the group, please be respectful of people's time and attention - remember that this is a community resource, not a tech support hotline. In particular, please avoid using **@here** notifications, unless your message _absolutely_ needs the attention of several hundred people!
@@ -8,19 +6,29 @@ When posting to the group, please be respectful of people's time and attention -
 
 Please read the Wagtail [Code of Conduct](https://github.com/wagtail/wagtail/blob/main/CODE_OF_CONDUCT.md). We ask that the community members respect and abide by the Code of Conduct.
 
-## #support
+## Popular channels
 
-Support queries about working with Wagtail should be directed to the #support channel. Support is provided by members of the Wagtail community on a voluntary basis, and we cannot guarantee that questions will be answered quickly (or at all). If you want to see this resource succeed, please consider sticking around to help out!
+### #announcements
+
+Announcements about Wagtail and related projects, from regular contributors, are posted in [#announcements](https://wagtailcms.slack.com/archives/C0K2WLTRS). Core team members automatically get access, other access is decided case by case.
+
+### #support
+
+Support queries about working with Wagtail should be directed to the [#support](https://wagtailcms.slack.com/archives/C81FGJR2S) channel. Support is provided by members of the Wagtail community on a voluntary basis, and we cannot guarantee that questions will be answered quickly (or at all). If you want to see this resource succeed, please consider sticking around to help out!
 
 Please keep in mind that many of Wagtail's core and expert developers prefer to handle support queries through [Stack Overflow](https://stackoverflow.com/questions/tagged/wagtail), since the non-realtime format encourages more structured and fully-formed questions. Asking questions on Stack Overflow requires more up-front effort (see Stack Overflow's advice on [how to ask a good question](https://stackoverflow.com/help/how-to-ask)), but you may well find you get a better response as a result.
 
-## #announcements
+When posting long blocks of code, instead of just creating a standard code block, please use the `+` button below the text box and look for the "Create a text snippet" feature. Text snippets support syntax highlighting and automatic collapsing (when longer than a certain number of lines).
 
-Announcements about Wagtail and related projects, from regular contributors. Core team members automatically get access, other access is decided case by case.
+### #watercooler
 
-## #new-contributors
+For _non-support-related_ discussion about general Wagtail topics, visit the [#watercooler](https://wagtailcms.slack.com/archives/C014L7KJH3N) channel (formerly named #general).
 
-Interested in contributing to Wagtail? Join #new-contributors. For developers participating in the Google Summer of Code and Outreachy programmes, there are dedicated channels #gsoc and #outreachy.
+### #new-contributors
+
+Interested in contributing to Wagtail? Join [#new-contributors](https://wagtailcms.slack.com/archives/C03QEP69VEK) and review the pinned posts and bookmarks to get started.
+
+For developers participating in the Google Summer of Code and Outreachy programmes, there are dedicated channels [#gsoc](https://wagtailcms.slack.com/archives/CTL4SFX29) and [#outreachy](https://wagtailcms.slack.com/archives/C0449AL2XD1).
 
 ## Alternatives
 
