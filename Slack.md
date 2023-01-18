@@ -20,7 +20,7 @@ Announcements about Wagtail and related projects, from regular contributors. Cor
 
 ## #new-contributors
 
-Interested in contributing to the Wagtail project? Join #new-contributors. For developers participating in the Google Summer of Code and Outreachy programmes, there are dedicated channels #gsoc and #outreachy.
+Interested in contributing to Wagtail? Join #new-contributors. For developers participating in the Google Summer of Code and Outreachy programmes, there are dedicated channels #gsoc and #outreachy.
 
 ## Alternatives
 
