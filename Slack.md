@@ -18,6 +18,10 @@ Please keep in mind that many of Wagtail's core and expert developers prefer to 
 
 Announcements about Wagtail and related projects, from regular contributors. Core team members automatically get access, other access is decided case by case.
 
+## #new-contributors
+
+Interested in contributing to the Wagtail project? Join #new-contributors. For developers participating in the Google Summer of Code and Outreachy programmes, there are dedicated channels #gsoc and #outreachy.
+
 ## Alternatives
 
 We have [discussion boards here on Github](https://github.com/wagtail/wagtail/discussions) for sharing ideas and plans for the Wagtail project.
