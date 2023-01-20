@@ -4,15 +4,13 @@ This document is for Wagtail core developers. If you are looking to contribute t
 
 # Transifex setup
 
-    pip install transifex-client
+Install the Transifex CLI following the instructions on https://github.com/transifex/cli#installation. Be aware that the `curl` script will dump the `tx` executable in _your current directory_ and add a `PATH` export to your profile. If you think this is a stupid way to install software, you can either download the binary directly (but then I ran into Mac OS security dialogs not letting me run it), or run the script from an empty directory, move `tx` somewhere sensible on your path like `/usr/local/bin/`, and remove the `PATH` line from your profile.
 
-Create a `.transifexrc` file in your home directory containing the following:
+Generate an API token through https://www.transifex.com/user/settings/api/ if you don't have one already, and create a `.transifexrc` file in your home directory containing the following:
 
     [https://www.transifex.com]
-    username = myusername
-    token =
-    password = mypassword
-    hostname = https://www.transifex.com
+    rest_hostname = https://rest.api.transifex.com
+    token         = <your API token>
 
 Create a `logs` directory alongside the root of your Wagtail codebase. (This will help manage the output of fetch-translations.sh, which is liable to produce more output than your console history can handle...)
 
