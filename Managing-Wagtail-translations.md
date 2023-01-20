@@ -43,7 +43,7 @@ All languages with >= 90% coverage should be in the `WAGTAILADMIN_PROVIDED_LANGU
 
 To be done periodically, particularly after any piece of development that involves creating / editing / moving a significant number of translatable strings. From `scripts`, run:
 
-    ./rebuild-translation-sources.sh
+    ./scripts/rebuild-translation-sources.sh
 
 and commit the updated files to git.
 
