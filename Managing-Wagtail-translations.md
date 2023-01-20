@@ -32,8 +32,8 @@ to check for any inconsistencies in format strings - if any issues are reported,
 
 Once this is done, run
 
-    python ./get-translator-credits.py > ../../logs/translators-YYYYMMDD.txt
-    diff -U10 ../../logs/translators-LAST_YYYYMMDD.txt ../../logs/translators-YYYYMMDD.txt
+    python ./scripts/get-translator-credits.py > ../logs/translators-YYYYMMDD.txt
+    diff -U10 ../logs/translators-LAST_YYYYMMDD.txt ../logs/translators-YYYYMMDD.txt
 
 and update CONTRIBUTORS.txt with any new translators / languages that show up in the diffs.
 
