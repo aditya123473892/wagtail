@@ -26,7 +26,7 @@ and 'git add' any new folders that are created.
 
 Run:
 
-    python ./check-translation-strings.py
+    python ./scripts/check-translation-strings.py
 
 to check for any inconsistencies in format strings - if any issues are reported, fix them in Transifex and re-run fetch-translations.
 
