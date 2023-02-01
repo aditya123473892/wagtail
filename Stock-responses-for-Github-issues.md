@@ -28,3 +28,14 @@ If you're able to replicate this bug on a newly-created Wagtail project, please 
 
 If you need help troubleshooting an issue that occurs on your existing project, you may be able to get assistance on [our support channels](https://docs.wagtail.io/en/stable/support.html).
 ```
+
+## Steps to reproduce provided but seem suspicious
+
+```
+Thanks for the report, @. Just to confirm: have you been able to reproduce this error by following the 'Steps to Reproduce' on a completely new site created with `wagtail start my_project`, or does it only occur on your existing project? (Often, we find that errors like this are caused by something the developer has previously done on their project, such as deleting a page model - in this case, we need to know the full sequence of events before we can investigate.)
+```
+
+## No response to "needs info"
+```
+I'll close this issue for now, as we need more details before we can investigate further - we'll be happy to reopen if you can provide the requested info. Thanks!
+```
