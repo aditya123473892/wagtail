@@ -15,6 +15,10 @@ Our application for 2023 is pending.
 * [Organisation admins](#organisation-admins)
 * [Mentors](#mentors)
 * [Project ideas](#project-ideas)
+  * [Dark theme for Wagtail admin](#dark-theme-for-wagtail-admin)
+  * [RFC 72: Background workers](#rfc-72-background-workers)
+  * [Wagtail’s climate impact](#wagtails-climate-impact)
+
 
 ## About Wagtail
 
