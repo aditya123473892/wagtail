@@ -17,7 +17,7 @@ Our application for 2023 is pending.
 * [Project ideas](#project-ideas)
   * [Dark theme for Wagtail admin](#dark-theme-for-wagtail-admin)
   * [RFC 72: Background workers](#rfc-72-background-workers)
-  * [Wagtail’s climate impact](#wagtails-climate-impact)
+  * [Greener coding: Wagtail’s climate impact](#greener-coding-wagtails-climate-impact)
 
 
 ## About Wagtail
@@ -164,7 +164,7 @@ Final list TBC
 
 Medium
 
-### Wagtail’s climate impact
+### Greener coding: Wagtail’s climate impact
 
 #### Summary
 
