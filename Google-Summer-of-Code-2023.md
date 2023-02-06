@@ -195,8 +195,10 @@ This project is suitable with a wide range of skillsets, we can adjust tasks acc
 
 #### Mentors
 
-- Lead: Thibaud Colas https://github.com/thibaudcolas
-- Support: TBC either Sage, Chris, or performance team member
+Mentoring line-up TBC between Chris, Thibaud, Sage, performance team members
+
+- Lead: TBC
+- Support: TBC
 
 #### Size
 
