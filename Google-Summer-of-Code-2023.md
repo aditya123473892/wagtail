@@ -153,7 +153,7 @@ Other CMSs such as WordPress and Drupal have background workers to accelerate th
 
 Final list TBC
 
-- Lead: Jake Howard https://github.com/RealOrangeOne
+- Lead: TBC Jake Howard https://github.com/RealOrangeOne
 - Support: TBC either Thibaud, Sage, or other core team member
 
 #### Size
