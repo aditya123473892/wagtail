@@ -18,7 +18,7 @@ Create a `logs` directory alongside the root of your Wagtail codebase. (This wil
 
 To be done periodically, ideally just before a new Wagtail release. From the root of the wagtail codebase:
 
-    ./fetch-translations.sh > ../logs/translation.out 2>../logs/translation.err
+    ./scripts/fetch-translations.sh > ../logs/translation.out 2>../logs/translation.err
 
 and 'git add' any new folders that are created.
 
