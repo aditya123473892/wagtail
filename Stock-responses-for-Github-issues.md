@@ -20,6 +20,12 @@ Thanks for your interest @...! You are welcome to work on this. We do not assign
 For further help in getting started, please see https://dev.to/lb/ten-tasty-ingredients-for-a-delicious-pull-request-hgc - you may also wish to join [our #new-contributors channel on Slack](https://github.com/wagtail/wagtail/wiki/Slack).
 ```
 
+## Claiming an issue with an existing PR
+
+```
+Thanks for your interest @...! There is already an open pull request for this issue (#...) - I'd recommend reading the full discussion above and checking the linked issues / PRs before claiming an issue. However, you're welcome to help out by reviewing and testing the existing PR locally.
+```
+
 ## No steps to reproduce
 ```
 Hi @... - thanks for the report. Unfortunately this doesn't give us enough information to investigate the issue - we need to know specific steps that will reproduce this error starting from a fresh Wagtail instance. Without these there's no way for us to tell if this is really a bug in Wagtail, some other component of your project, or user error.
