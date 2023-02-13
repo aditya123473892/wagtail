@@ -41,6 +41,16 @@ If you need help troubleshooting an issue that occurs on your existing project, 
 Thanks for the report, @. Just to confirm: have you been able to reproduce this error by following the 'Steps to Reproduce' on a completely new site created with `wagtail start my_project`, or does it only occur on your existing project? (Often, we find that errors like this are caused by something the developer has previously done on their project, such as deleting a page model - in this case, we need to know the full sequence of events before we can investigate.)
 ```
 
+## Unable to replicate
+
+```
+Thanks for the report @...! However, I'm unable to replicate this issue as described. I followed these steps, starting from a fresh Wagtail instance:
+
+*
+
+I'll close this for now, but if you can provide a set of steps that reproduce the problem, we'll be happy to reopen and investigate further.
+```
+
 ## No response to "needs info"
 ```
 I'll close this issue for now, as we need more details before we can investigate further - we'll be happy to reopen if you can provide the requested info. Thanks!
