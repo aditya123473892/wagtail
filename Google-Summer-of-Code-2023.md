@@ -37,7 +37,7 @@ Wagtail contributors should:
 - Have a good understanding of how GSoC works. Read [Contributor advice](https://developers.google.com/open-source/gsoc/help/student-advice), [Contributor guide](https://google.github.io/gsocguides/student/) and [FAQ](https://developers.google.com/open-source/gsoc/faq).
 - Have a basic familiarity with Python, Django and Git.
 - Go through the [Wagtail tutorial](https://docs.wagtail.org/en/stable/getting_started/tutorial.html). Let us know if you encounter blockers.
-- Create a [development environment](https://docs.wagtail.org/en/stable/contributing/developing.html) for working on Wagtail. There are good instructions in our [official documentation](https://docs.wagtail.org/en/stable/contributing/index.html).
+- Create a [development environment](https://docs.wagtail.org/en/stable/contributing/developing.html) for working on Wagtail. There are good instructions in our [official documentation](https://docs.wagtail.org/en/stable/contributing/index.html) and our work in progress [Guide to your first contribution](https://github.com/wagtail/wagtail/issues/10070).
 - Join [Wagtail Slack](https://github.com/wagtail/wagtail/wiki/Slack) and introduce yourself on the [#gsoc](https://wagtailcms.slack.com/archives/CTL4SFX29) channel.
 - Get to know the Wagtail community. Consider contributing to Wagtail already. Show that you understand how open-source projects work.
 - Invest time to discover what project fits you.
