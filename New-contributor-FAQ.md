@@ -1,9 +1,11 @@
+## This page has been replaced by [#10070](https://github.com/wagtail/wagtail/issues/10070)
+
 ### How can I start contributing?
 
 * Start simple -- pick something small first. The [good first issue](https://github.com/wagtail/wagtail/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22) label is a good place to look.
 * Read the entire issue, all comments (links) and related issues
 * Someone may have started work (that work may have stalled)
-* Check if assigned, we do not usually use that unless assigned to someone within the core team
+* Check if assigned, **we do not assign issues to someone outside of the core team**
 
 If you have done all of that and think you can give it a go just a comment with something like 'I will give this a go', no need to ask for permission.
 
