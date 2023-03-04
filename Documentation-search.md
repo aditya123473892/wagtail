@@ -113,3 +113,4 @@ new Crawler({
 ## Sample problematic searches
 
 - Settings potentially only appearing in code snippets: `WAGTAILIMAGES_INDEX_PAGE_SIZE`
+- https://github.com/wagtail/wagtail/issues/10139
