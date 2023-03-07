@@ -12,12 +12,18 @@ Hi @... - thanks for the contribution! However, there is already an open PR for 
 I'd recommend reading https://dev.to/lb/ten-tasty-ingredients-for-a-delicious-pull-request-hgc, particularly point 2. Best of luck for your future contributions!
 ```
 
-## "Please assign me this issue"
+## "Please assign me this issue" (first request on an issue)
 
 ```
-Thanks for your interest @...! You are welcome to work on this. We do not assign issues outside of the core team - we just ask that people indicate their intention to work on an issue (as you have now done), to avoid duplicating efforts. We recommend thoroughly reading https://github.com/wagtail/wagtail/issues/10070 before making your first contribution.
+Thanks for your interest @...! We do not assign issues outside of the core team - anyone is free to work on any issue. Now that you've expressed an interest, other people may choose to hold off on picking this up, but they are not required to. We recommend thoroughly reading https://github.com/wagtail/wagtail/issues/10070 before making your first contribution.
 
 For further help in getting started, please see https://dev.to/lb/ten-tasty-ingredients-for-a-delicious-pull-request-hgc - you may also wish to join [our #new-contributors channel on Slack](https://github.com/wagtail/wagtail/wiki/Slack).
+```
+
+## "Please assign me this issue" (subsequent requests)
+
+```
+Thanks for your interest @...! As you can see above, <n> people have already expressed an interest in working on this, so it's likely that you would be duplicating those existing efforts. Nevertheless, if you're OK with this, you can proceed.
 ```
 
 ## Claiming an issue with an existing PR
