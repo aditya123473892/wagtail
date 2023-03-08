@@ -106,7 +106,7 @@ new Crawler({
 
 </details>
 
-Faceted search by version relies on [DocSearch meta tags](https://docsearch.algolia.com/docs/required-configuration#introduce-global-information-as-meta-tags).
+Faceted search by version relies on the [`docsearch:version` meta tag](https://docsearch.algolia.com/docs/required-configuration#introduce-global-information-as-meta-tags).
 
 ## Search index
 
