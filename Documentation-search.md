@@ -106,6 +106,8 @@ new Crawler({
 
 </details>
 
+In addition, we also use [DocSearch meta tags](https://docsearch.algolia.com/docs/required-configuration#introduce-global-information-as-meta-tags) to filter results by version.
+
 ## Search index
 
 [Search index admin](https://www.algolia.com/apps/XSYGEO7KMJ/explorer/browse/wagtail)
