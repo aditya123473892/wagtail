@@ -106,7 +106,7 @@ new Crawler({
 
 </details>
 
-In addition, we also use [DocSearch meta tags](https://docsearch.algolia.com/docs/required-configuration#introduce-global-information-as-meta-tags) to filter results by version.
+Faceted search by version relies on [DocSearch meta tags](https://docsearch.algolia.com/docs/required-configuration#introduce-global-information-as-meta-tags).
 
 ## Search index
 
