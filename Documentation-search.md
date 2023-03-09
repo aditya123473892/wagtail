@@ -12,6 +12,104 @@ The v2 widget is no longer maintained but still API-compatible with a recently s
 
 <details>
 
+<summary>Current crawler configuration (2023-03-09)</summary>
+
+```js
+new Crawler({
+  rateLimit: 8,
+  maxDepth: 10,
+  startUrls: ["https://docs.wagtail.org/"],
+  renderJavaScript: false,
+  sitemaps: ["https://docs.wagtail.org/sitemap.xml"],
+  ignoreCanonicalTo: false,
+  discoveryPatterns: ["https://docs.wagtail.org/**"],
+  schedule: "at 11:26 AM on Monday",
+  actions: [
+    {
+      indexName: "wagtail",
+      pathsToMatch: ["https://docs.wagtail.org/**"],
+      recordExtractor: ({ helpers }) => {
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ["header h1", "article h1", "main h1", "h1", "head > title"],
+            content: ["article p, article li", "main p, main li", "p, li"],
+            lvl0: {
+              selectors: "",
+              defaultValue: "Documentation",
+            },
+            lvl2: ["article h2", "main h2", "h2"],
+            lvl3: ["article h3", "main h3", "h3"],
+            lvl4: ["article h4", "main h4", "h4"],
+            lvl5: ["article h5", "main h5", "h5"],
+            lvl6: ["article h6", "main h6", "h6"],
+          },
+          aggregateContent: true,
+          recordVersion: "v3",
+        });
+      },
+    },
+  ],
+  initialIndexSettings: {
+    wagtail: {
+      attributesForFaceting: ["type", "lang", "version"],
+      attributesToRetrieve: [
+        "hierarchy",
+        "content",
+        "anchor",
+        "url",
+        "url_without_anchor",
+        "type",
+      ],
+      attributesToHighlight: ["hierarchy", "content"],
+      attributesToSnippet: ["content:10"],
+      camelCaseAttributes: ["hierarchy", "content"],
+      searchableAttributes: [
+        "unordered(hierarchy.lvl0)",
+        "unordered(hierarchy.lvl1)",
+        "unordered(hierarchy.lvl2)",
+        "unordered(hierarchy.lvl3)",
+        "unordered(hierarchy.lvl4)",
+        "unordered(hierarchy.lvl5)",
+        "unordered(hierarchy.lvl6)",
+        "content",
+      ],
+      distinct: true,
+      attributeForDistinct: "url",
+      customRanking: [
+        "desc(weight.pageRank)",
+        "desc(weight.level)",
+        "asc(weight.position)",
+      ],
+      ranking: [
+        "words",
+        "filters",
+        "typo",
+        "attribute",
+        "proximity",
+        "exact",
+        "custom",
+      ],
+      highlightPreTag: '<span class="algolia-docsearch-suggestion--highlight">',
+      highlightPostTag: "</span>",
+      minWordSizefor1Typo: 3,
+      minWordSizefor2Typos: 7,
+      allowTyposOnNumericTokens: false,
+      minProximity: 1,
+      ignorePlurals: true,
+      advancedSyntax: true,
+      attributeCriteriaComputedByMinProximity: true,
+      removeWordsIfNoResults: "allOptional",
+    },
+  },
+  appId: "XSYGEO7KMJ",
+  apiKey: "c8556131d460c9e7cd8a218407329e94",
+});
+```
+
+</details>
+
+<details>
+
 <summary>Original crawler configuration from Algolia</summary>
 
 ```js
