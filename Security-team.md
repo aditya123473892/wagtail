@@ -11,8 +11,11 @@ We meet as-needed only. The team organises the response to security vulnerabilit
 Current members:
 
 - Coen van der Kamp ([@allcaps](https://github.com/allcaps)), UTC + 1 or 2, since January 2022
-- Karl Hobley ([@kaedroho](https://github.com/kaedroho)), UTC + 0 or 1, since January 2022
 - Matt Westcott ([@gasman](https://github.com/gasman)), UTC + 0 or 1, since January 2022
 - Neal Todd ([@nealtodd](https://github.com/nealtodd)), UTC + 0 or 1, since January 2022
 - Thibaud Colas ([@thibaudcolas](https://github.com/thibaudcolas)), UTC + 0 or 1, since January 2022
 - Tom Dyson ([@tomdyson](https://github.com/tomdyson)), UTC + 0 or 1, since January 2022
+
+Past members:
+
+- Karl Hobley ([@kaedroho](https://github.com/kaedroho)), January 2022 – November 2022
