@@ -10,9 +10,11 @@ The v2 widget is no longer maintained but still API-compatible with a recently s
 
 [Crawler admin & configuration](https://crawler.algolia.com/admin/crawlers/b183d2d0-c453-4b3b-bac5-c703871d0124/overview) | [Legacy configuration](https://github.com/algolia/docsearch-configs/blob/master/configs/wagtail.json)
 
+We track a copy of the configuration and history of changes here, in addition to what is visible in the Algolia UI, for transparency / ease of troubleshooting.
+
 <details>
 
-<summary>Current crawler configuration (2023-03-09)</summary>
+<summary>Current crawler configuration (last updated 2023-03-13)</summary>
 
 ```js
 new Crawler({
@@ -23,6 +25,15 @@ new Crawler({
   sitemaps: ["https://docs.wagtail.org/sitemap.xml"],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://docs.wagtail.org/**"],
+  exclusionPatterns: [
+    "https://docs.wagtail.org/en/v4.2/**",
+    "https://docs.wagtail.org/en/v4.1**",
+    "https://docs.wagtail.org/en/v4.0**",
+    "https://docs.wagtail.org/en/v3**",
+    "https://docs.wagtail.org/en/v2**",
+    "https://docs.wagtail.org/en/v1**",
+    "https://docs.wagtail.org/en/v0**",
+  ],
   schedule: "at 11:26 AM on Monday",
   actions: [
     {
@@ -107,6 +118,12 @@ new Crawler({
 ```
 
 </details>
+
+### Crawler configuration CHANGELOG
+
+- 2023-03-13: Add `exclusionPatterns` for past Wagtail releases using different search infrastructure, so the crawls are faster (Thibaud Colas)
+- 2023-03-09: Remove `release` from `attributesForFaceting`. This was added by mistake to match erroneous configuration ([sphinx_wagtail_theme#251](https://github.com/wagtail/sphinx_wagtail_theme/pull/251) (Thibaud Colas)
+- 2023-01-16: Add sitemap to `sitemaps` and `version`, `release` to `attributesForFaceting` (Thibaud Colas)
 
 <details>
 
@@ -206,7 +223,7 @@ new Crawler({
 
 </details>
 
-Faceted search by version relies on the [`docsearch:version` meta tag](https://docsearch.algolia.com/docs/required-configuration#introduce-global-information-as-meta-tags).
+Faceted search by version relies on the [`docsearch:version` meta tag](https://docsearch.algolia.com/docs/required-configuration#introduce-global-information-as-meta-tags). We set this tag to match the version _slug_ in URLs (`current_version` context variable from Read the Docs in documentation site templates), so aliases like `stable` and `latest` are indexed separately from numbered releases.
 
 ## Search index
 
