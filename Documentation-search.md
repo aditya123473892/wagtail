@@ -27,7 +27,9 @@ new Crawler({
   discoveryPatterns: ["https://docs.wagtail.org/**"],
   exclusionPatterns: [
     "https://docs.wagtail.org/en/v4.2/**",
-    "https://docs.wagtail.org/en/v4.1**",
+    "https://docs.wagtail.org/en/v4.1.2/**",
+    "https://docs.wagtail.org/en/v4.1.1/**",
+    "https://docs.wagtail.org/en/v4.1/**",
     "https://docs.wagtail.org/en/v4.0**",
     "https://docs.wagtail.org/en/v3**",
     "https://docs.wagtail.org/en/v2**",
