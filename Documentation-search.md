@@ -4,7 +4,7 @@ We use [Algolia DocSearch](https://docsearch.algolia.com/) for the documentation
 
 [Widget documentation (v3)](https://docsearch.algolia.com/docs/DocSearch-v3) | [Widget documentation (v2, legacy)](https://docsearch.algolia.com/docs/legacy/dropdown)
 
-The v2 widget is no longer maintained but still API-compatible with a recently set up index.
+We currently use the v2 widget, which is no longer maintained but still API-compatible with a recently set up index.
 
 ## Crawler configuration
 
