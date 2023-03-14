@@ -231,7 +231,14 @@ Faceted search by version relies on the [`docsearch:version` meta tag](https://d
 
 [Search index admin](https://www.algolia.com/apps/XSYGEO7KMJ/explorer/browse/wagtail)
 
-## Sample problematic searches
+## Troubleshooting
+
+### Past issues
 
 - Settings potentially only appearing in code snippets: `WAGTAILIMAGES_INDEX_PAGE_SIZE`
-- https://github.com/wagtail/wagtail/issues/10139
+- [Code blocks don't seem to be discoverable through search #10139](https://github.com/wagtail/wagtail/issues/10139)
+- [Searching documentation returns no results for pinned versions #8159](https://github.com/wagtail/wagtail/issues/8159)
+
+### Indexing of past versions
+
+Wagtail versions older than v4.2.1 use an older Algolia DocSearch instance which no longer works. To fix search on those builds, we would need to switch versions from tags to branches, which is impractical.
