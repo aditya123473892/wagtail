@@ -14,10 +14,12 @@ We track a copy of the configuration and history of changes here, in addition to
 
 <details>
 
-<summary>Current crawler configuration (last updated 2023-03-13)</summary>
+<summary>Current crawler configuration (last updated 2023-03-20)</summary>
 
 ```js
 new Crawler({
+  appId: "XSYGEO7KMJ",
+  apiKey: "c8556131d460c9e7cd8a218407329e94",
   rateLimit: 8,
   maxDepth: 10,
   startUrls: ["https://docs.wagtail.org/"],
@@ -41,23 +43,48 @@ new Crawler({
     {
       indexName: "wagtail",
       pathsToMatch: ["https://docs.wagtail.org/**"],
-      recordExtractor: ({ helpers }) => {
+      recordExtractor: ({ $, helpers }) => {
+        // Remove DOM elements we don't want to index.
+        const toRemove = "aside, header, nav, .headerlink";
+        $(toRemove).remove();
+
         return helpers.docsearch({
           recordProps: {
-            lvl1: ["header h1", "article h1", "main h1", "h1", "head > title"],
-            content: ["article p, article li", "main p, main li", "p, li"],
             lvl0: {
               selectors: "",
               defaultValue: "Documentation",
             },
+            lvl1: ["header h1", "article h1", "main h1", "h1"],
             lvl2: ["article h2", "main h2", "h2"],
-            lvl3: ["article h3", "main h3", "h3"],
-            lvl4: ["article h4", "main h4", "h4"],
-            lvl5: ["article h5", "main h5", "h5"],
-            lvl6: ["article h6", "main h6", "h6"],
+            // Index dt elements within h2 sections as h3.
+            lvl3: ["article h3", "main h3", "h3", "h2 ~ dl > dt"],
+            // Index dt elements below parent dt elements within h2 sections as h4.
+            // And index dt elements within h3 sections as h4.
+            lvl4: [
+              "article h4",
+              "main h4",
+              "h4",
+              "h2 ~ dl > dt + dd > dl > dt",
+              "h3 ~ dl > dt",
+            ],
+            lvl5: [
+              "article h5",
+              "main h5",
+              "h5",
+              "h3 ~ dl > dt + dd > dl > dt",
+              "h4 ~ dl > dt",
+            ],
+            lvl6: [
+              "article h6",
+              "main h6",
+              "h6",
+              "h4 ~ dl > dt + dd > dl > dt",
+            ],
+            content: ["article p, article li", "main p, main li", "p, li"],
           },
           aggregateContent: true,
-          recordVersion: "v3",
+          // We currently still use the v2 widget.
+          recordVersion: "v2",
         });
       },
     },
@@ -106,6 +133,8 @@ new Crawler({
       highlightPostTag: "</span>",
       minWordSizefor1Typo: 3,
       minWordSizefor2Typos: 7,
+      // Index common separators in Python identifiers and module paths.
+      separatorsToIndex: "_.",
       allowTyposOnNumericTokens: false,
       minProximity: 1,
       ignorePlurals: true,
@@ -114,8 +143,6 @@ new Crawler({
       removeWordsIfNoResults: "allOptional",
     },
   },
-  appId: "XSYGEO7KMJ",
-  apiKey: "c8556131d460c9e7cd8a218407329e94",
 });
 ```
 
@@ -123,6 +150,7 @@ new Crawler({
 
 ### Crawler configuration CHANGELOG
 
+- 2023-03-20: Add `separatorsToIndex`, `recordVersion: v2`, and indexing of definition lists as hierarchy
 - 2023-03-13: Add `exclusionPatterns` for past Wagtail releases using different search infrastructure, so the crawls are faster (Thibaud Colas)
 - 2023-03-09: Remove `release` from `attributesForFaceting`. This was added by mistake to match erroneous configuration ([sphinx_wagtail_theme#251](https://github.com/wagtail/sphinx_wagtail_theme/pull/251) (Thibaud Colas)
 - 2023-01-16: Add sitemap to `sitemaps` and `version`, `release` to `attributesForFaceting` (Thibaud Colas)
