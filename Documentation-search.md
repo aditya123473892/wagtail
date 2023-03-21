@@ -273,7 +273,7 @@ On the [Crawler admin](https://crawler.algolia.com/admin/crawlers/), we can crea
 
 To create a new crawler press "New Crawler" and then:
 
-- Name it according to what the test is for
+- Name it according to what the test is for, for example `wagtail-trial-signature-variable`
 - App ID: `XSYGEO7KMJ`
 - Start URL: https://docs.wagtail.org/ (we’ll override anyway)
 - Crawler template: Default (we’ll override anyway)
