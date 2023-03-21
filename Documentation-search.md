@@ -267,6 +267,39 @@ Faceted search by version relies on the [`docsearch:version` meta tag](https://d
 - [Code blocks don't seem to be discoverable through search #10139](https://github.com/wagtail/wagtail/issues/10139)
 - [Searching documentation returns no results for pinned versions #8159](https://github.com/wagtail/wagtail/issues/8159)
 
+### Testing new crawlers and indexes
+
+On the [Crawler admin](https://crawler.algolia.com/admin/crawlers/), we can create an arbitrary number of new crawlers. This allows us to test different versions of the documentation crawling, as well as indexing.
+
+To create a new crawler press "New Crawler" and then:
+
+- Name it according to what the test is for
+- App ID: `XSYGEO7KMJ`
+- Start URL: https://docs.wagtail.org/ (we’ll override anyway)
+- Crawler template: Default (we’ll override anyway)
+- Advanced options: leave blank
+
+Then upon saving, head straight to the "Editor" for the crawler, and paste the configuration of our production crawler, with the exception of `appId`, `apiKey`, `indexPrefix`, and index names (in `actions` and `initialIndexSettings`).
+
+`initialIndexSettings` is the only way to customise the settings of the test index associated with the crawler – make sure to set it as appropriate.
+
+Our `exclusionPatterns` can be set much more aggressively for _test_ crawlers, so they complete their crawl faster:
+
+```js
+exclusionPatterns: [
+  "https://docs.wagtail.org/en/**",
+  "!https://docs.wagtail.org/en/stable/**",
+],
+```
+
+Once you’re done in the Editor, Save, then go back to the "Get Started" page and complete the setup steps. From then on, the different crawler/index troubleshooting tools can be used – in particular "Search Preview" within the Editor.
+
+## Indexing requirements
+
+### Indexing code
+
+Since a lot of the documentation content is based on code snippets, we treat specific separators as characters to index: `_.`. Normally those separators would be stripped out when indexing the content. Retaining them leads to more relevant results when they are present in search queries.
+
 ### Indexing of past versions
 
 Wagtail versions older than v4.2.1 use an older Algolia DocSearch instance which no longer works. To fix search on those builds, we would need to switch versions from tags to branches, which is impractical.
