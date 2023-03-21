@@ -294,6 +294,8 @@ exclusionPatterns: [
 
 Once you’re done in the Editor, Save, then go back to the "Get Started" page and complete the setup steps. From then on, the different crawler/index troubleshooting tools can be used – in particular "Search Preview" within the Editor.
 
+The new crawler’s index can also be tested with the official DocSearch UI widgets, just like the production index – by using the correct API key and index name. Here is [an example](https://gist.github.com/thibaudcolas/a29959a20dafbd9ce9f54d8836e682c1).
+
 ## Indexing requirements
 
 ### Indexing code
