@@ -150,7 +150,7 @@ new Crawler({
 
 ### Crawler configuration CHANGELOG
 
-- 2023-03-20: Add `separatorsToIndex`, `recordVersion: v2`, and indexing of definition lists as hierarchy
+- 2023-03-20: Add `separatorsToIndex`, `recordVersion: v2`, and indexing of definition lists as hierarchy (Thibaud Colas)
 - 2023-03-13: Add `exclusionPatterns` for past Wagtail releases using different search infrastructure, so the crawls are faster (Thibaud Colas)
 - 2023-03-09: Remove `release` from `attributesForFaceting`. This was added by mistake to match erroneous configuration ([sphinx_wagtail_theme#251](https://github.com/wagtail/sphinx_wagtail_theme/pull/251) (Thibaud Colas)
 - 2023-01-16: Add sitemap to `sitemaps` and `version`, `release` to `attributesForFaceting` (Thibaud Colas)
