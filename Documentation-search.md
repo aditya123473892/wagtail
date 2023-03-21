@@ -270,3 +270,43 @@ Faceted search by version relies on the [`docsearch:version` meta tag](https://d
 ### Indexing of past versions
 
 Wagtail versions older than v4.2.1 use an older Algolia DocSearch instance which no longer works. To fix search on those builds, we would need to switch versions from tags to branches, which is impractical.
+
+### Indexing of autodoc content
+
+[autodoc](https://www.sphinx-doc.org/en/master/usage/extensions/autodoc.html) is a Sphinx extension to create documentation from annotated code (using docstrings in Python). This generates peculiar markup which we don’t have any control over, so needs special treatment in our crawler.
+
+Here is an example, [The Embed model](https://docs.wagtail.org/en/v4.2.1/advanced_topics/embeds.html#the-embed-model):
+
+- The whole class is rendered as a `dl` description list element, with `class wagtail.embeds.models.Embed` as a `dt` description term, and everything else in a `dd` (description detail).
+- Within this `dd`, every class attribute is a separate `dl`, with the attribute name (e.g. `url`) as the `dt`, and description as a `dd`
+
+In DocSearch, we need to make sure `dt` elements are indexed, and ideally reflect the hierarchy of the data. For example, searching for the `author_name` attribute should ideally point users straight to that attribute, rather than taking them to the whole "Embed model" section.
+
+This is possible with complex CSS selectors to identify the structure:
+
+```js
+// Index dt elements within h2 sections as h3.
+lvl3: ["article h3", "main h3", "h3", "h2 ~ dl > dt"],
+// Index dt elements below parent dt elements within h2 sections as h4.
+// And index dt elements within h3 sections as h4.
+lvl4: [
+  "article h4",
+  "main h4",
+  "h4",
+  "h2 ~ dl > dt + dd > dl > dt",
+  "h3 ~ dl > dt",
+],
+lvl5: [
+  "article h5",
+  "main h5",
+  "h5",
+  "h3 ~ dl > dt + dd > dl > dt",
+  "h4 ~ dl > dt",
+],
+lvl6: [
+  "article h6",
+  "main h6",
+  "h6",
+  "h4 ~ dl > dt + dd > dl > dt",
+],
+```
