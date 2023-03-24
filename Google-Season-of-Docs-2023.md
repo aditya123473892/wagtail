@@ -6,6 +6,10 @@
 
 Wagtail hopes to participate to this program for the first time ever, after having successfully supported a technical writer as part of [Outreachy’s December 2022 cohort](https://wagtail.org/blog/our-very-first-outreachy-interns/).
 
+### Getting involved
+
+Our application is currently pending review. To reach out, please contact [@thibaudcolas](https://github.com/thibaudcolas) or [@vossisboss](https://github.com/vossisboss) on the [Wagtail Slack workspace](https://github.com/wagtail/wagtail/wiki/Slack) or via email.
+
 ## Project ideas
 
 ### Create Wagtail developer onboarding tutorials
