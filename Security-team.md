@@ -15,6 +15,7 @@ Current members:
 - Neal Todd ([@nealtodd](https://github.com/nealtodd)), UTC + 0 or 1, since January 2022
 - Thibaud Colas ([@thibaudcolas](https://github.com/thibaudcolas)), UTC + 0 or 1, since January 2022
 - Tom Dyson ([@tomdyson](https://github.com/tomdyson)), UTC + 0 or 1, since January 2022
+- Jake Howard ([@RealOrangeOne](https://github.com/RealOrangeOne)), UTC + 0 or 1, since March 2023
 
 Past members:
 
