@@ -46,7 +46,7 @@ Work that is out-of-scope for this project:
 We have at least two strong potential candidates for this project who we have collaborated with on previous efforts. Thibaud Colas, a core Wagtail contributor and Wagtail consultant as well as Meagen Voss, an experienced writer and editor who currently leads content creation for Wagtail.org, have committed to supporting this project. After factoring in available project time and planned summer holidays, we anticipate this project will take 6 months to complete.
 
 
-##### Measuring your project's success
+##### Measuring success
 
 Our primary measure of success will be tracking the number of users who click the link within our current Getting Started tutorial to continue their learning as well as how many users progress through the onboarding series to completion. We cannot track completion of the tutorial content directly but we can compare the number of visits to each section of the tutorial and track links to determine whether people are progressing through the material.
 
