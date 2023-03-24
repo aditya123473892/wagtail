@@ -10,13 +10,13 @@ Wagtail hopes to participate to this program for the first time ever, after havi
 
 ### Create Wagtail developer onboarding tutorials
 
-#### About your organization
+#### About Wagtail
 
 Wagtail is a popular content management system (CMS). It's built on Python by an active and engaged open source community, which has grown rapidly since Wagtail's release in 2014. Wagtail is available in over 40 languages. It is used by some of the world's best-known organizations, including NASA, Google, Mozilla, MIT, and the UK's National Health Service. Our users also include museums, universities, non-profits, governments, banks, studios, restaurants, startups and bloggers around the world.
 Like Python and Django, the technologies which underpin it, Wagtail is known for its welcoming community. We have a diverse core team with representatives who are currently spread across Europe, Africa, and North America. We're keen to continue welcoming new developers as well as people who are new to programming and open source into our project so we can continue to increase the geographic and cultural diversity of the people who use Wagtail.
 Wagtail has moved fast in the last few years, and we have delivered several large improvements to our editor experience and accessibility features. We have adopted a regular quarterly release cycle to minimise upgrade time while providing compelling new features and improvements with each release. Yet keeping up with these changes can be difficult without appropriate learning resources that demonstrate new features in a practical manner. With this proposal, we’re seeking to establish a strong foundation for continuous learning within the Wagtail community.
 
-#### About your project
+#### About the project
 
 ##### Our problem
 
