@@ -8,7 +8,7 @@ Wagtail hopes to participate to this program for the first time ever, after havi
 
 ## Project ideas
 
-### Our proposal: Create Wagtail developer onboarding tutorials – Wagtail
+### Create Wagtail developer onboarding tutorials
 
 #### About your organization
 
