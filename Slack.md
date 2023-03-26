@@ -28,7 +28,7 @@ For _non-support-related_ discussion about general Wagtail topics, visit the [#w
 
 Interested in contributing to Wagtail? Join [#new-contributors](https://wagtailcms.slack.com/archives/C03QEP69VEK) and review the pinned posts and bookmarks to get started.
 
-For developers participating in the Google Summer of Code and Outreachy programmes, there are dedicated channels [#gsoc](https://wagtailcms.slack.com/archives/CTL4SFX29) and [#outreachy](https://wagtailcms.slack.com/archives/C0449AL2XD1).
+For developers participating in the Google Summer of Code program, [wagtail/gsoc Discussions](https://github.com/wagtail/gsoc/discussions) will likely be a better fit for your questions.
 
 ## Alternatives
 
