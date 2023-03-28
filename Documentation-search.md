@@ -14,7 +14,7 @@ We track a copy of the configuration and history of changes here, in addition to
 
 <details>
 
-<summary>Current crawler configuration (last updated 2023-03-20)</summary>
+<summary>Current crawler configuration (last updated 2023-03-28)</summary>
 
 ```js
 new Crawler({
@@ -80,7 +80,12 @@ new Crawler({
               "h6",
               "h4 ~ dl > dt + dd > dl > dt",
             ],
-            content: ["article p, article li", "main p, main li", "p, li"],
+            // Index caption, th, td elements for HTML tables embedded in the docs.
+            content: [
+              "article p, article li",
+              "main p, main li",
+              "p, li, th, td, caption",
+            ],
           },
           aggregateContent: true,
           // We currently still use the v2 widget.
@@ -133,7 +138,6 @@ new Crawler({
       highlightPostTag: "</span>",
       minWordSizefor1Typo: 3,
       minWordSizefor2Typos: 7,
-      // Index common separators in Python identifiers and module paths.
       separatorsToIndex: "_.",
       allowTyposOnNumericTokens: false,
       minProximity: 1,
@@ -150,6 +154,7 @@ new Crawler({
 
 ### Crawler configuration CHANGELOG
 
+- 2023-03-28: Add `caption, td, th` as elements to index as content, to index HTML tables embedded into the docs (Thibaud Colas)
 - 2023-03-20: Add `separatorsToIndex`, `recordVersion: v2`, and indexing of definition lists as hierarchy (Thibaud Colas)
 - 2023-03-13: Add `exclusionPatterns` for past Wagtail releases using different search infrastructure, so the crawls are faster (Thibaud Colas)
 - 2023-03-09: Remove `release` from `attributesForFaceting`. This was added by mistake to match erroneous configuration ([sphinx_wagtail_theme#251](https://github.com/wagtail/sphinx_wagtail_theme/pull/251) (Thibaud Colas)
