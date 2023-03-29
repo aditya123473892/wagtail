@@ -40,3 +40,9 @@ The UI team is cross-functional, with designers, UX, developers involved. We loo
 ## Packaging
 
 DRAFT: [Packaging Team](https://github.com/wagtail/wagtail/wiki/Packaging-Team)
+
+## Developer relations
+
+[Team charter & meeting notes](https://github.com/wagtail/wagtail/wiki/Developer-relations-team)
+
+The developer relations team oversees how we engage with our community of developers. Everyone is welcome regardless of skill level or background. Find us on the [Wagtail Slack](https://github.com/wagtail/wagtail/wiki/Slack) in [#developer-relations](https://app.slack.com/client/T0K33F93J/C050B5JJ1MZ).
