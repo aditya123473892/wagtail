@@ -1,4 +1,4 @@
-🙌 it’s happening!
+🙌 it’s happening! We have applied to participate in GSoD 2023. We will know whether our application was approved or not on 31st March 2023.
 
 ## What is Google Season of Docs 2023
 
