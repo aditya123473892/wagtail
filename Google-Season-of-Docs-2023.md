@@ -8,7 +8,7 @@ Wagtail hopes to participate to this program for the first time ever, after havi
 
 ### Getting involved
 
-Our application is currently pending review. To reach out, please contact [@thibaudcolas](https://github.com/thibaudcolas) or [@vossisboss](https://github.com/vossisboss) on the [Wagtail Slack workspace](https://github.com/wagtail/wagtail/wiki/Slack) or via email.
+Our application has been accepted. Interested? Fill in our [expression of interest form](https://wagtail.org/gsod-apply/) so we get in touch. For any other request, please reach out to [@thibaudcolas](https://github.com/thibaudcolas) or [@vossisboss](https://github.com/vossisboss) on the [Wagtail Slack workspace](https://github.com/wagtail/wagtail/wiki/Slack) in the [#gsod channel](https://app.slack.com/client/T0K33F93J/C051ERV9F9Q).
 
 ## Proposal: Create Wagtail developer onboarding tutorials
 
