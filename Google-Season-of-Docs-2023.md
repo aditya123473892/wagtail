@@ -14,7 +14,7 @@ Our application has been accepted. Interested? Fill in our [expression of intere
 
 - ✅ March 24: Wagtail applies for GSoD 2023
 - ✅ March 31: Wagtail selected for GSoD 2023
-- ⌛ April 1st - April 15th: accepting [expression of interest](https://wagtail.org/gsod-apply/) from technical writers
+- ⌛ April 1st - April 15th: accepting [expressions of interest](https://wagtail.org/gsod-apply/) from technical writers
 - April 15th - May 1st: reviewing expressions of interest and contacting writers
 - May 10: Technical writer hiring deadline
 
