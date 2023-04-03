@@ -1,4 +1,4 @@
-🙌 it’s happening! We have applied to participate in GSoD 2023. We will know whether our application was approved or not on 31st March 2023.
+🙌 it’s happening! We have been [selected for GSoD 2023](https://developers.google.com/season-of-docs/docs/participants). We’re now looking for a technical writer to work with. Interested? Fill in our [expression of interest form](https://wagtail.org/gsod-apply).
 
 ## What is Google Season of Docs 2023
 
