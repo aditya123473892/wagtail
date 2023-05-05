@@ -1,4 +1,4 @@
-🙌 it’s happening! We have been [selected for GSoD 2023](https://developers.google.com/season-of-docs/docs/participants). We’re now looking for a technical writer to work with. Interested? Fill in our [expression of interest form](https://wagtail.org/gsod-apply).
+🙌 it’s happening! We will be working with software engineer and technical writer [Damilola Oladele](https://twitter.com/activus_d) to produce a new tutorial series for Wagtail.
 
 ## What is Google Season of Docs 2023
 
