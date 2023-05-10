@@ -16,7 +16,7 @@ TBC
 
 ---
 
-Next meetings: TBC
+Next meetings: [see agenda](https://docs.google.com/document/d/1cCBl-_hJBHBoE8ZDBj7XxatEv9hQw540LUJPnoSB7gE/edit#)
 
 Past meetings:
 
