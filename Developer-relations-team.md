@@ -12,14 +12,15 @@ In-between meetings, we collaborate via Slack, using the [#developer-relations](
 
 Current members:
 
-TBC
+- Loveth Omokaro ([@Lovelyfin00](https://github.com/Lovelyfin00)), since May 2023
+- Tiago Castro Henriques ([@tiago-castro-henriques](https://github.com/tiago-castro-henriques)), since May 2023
+- Meagen Voss ([@vossisboss](https://github.com/vossisboss)), since May 2023
+- Thibaud Colas ([@thibaudcolas](https://github.com/thibaudcolas)), since May 2023
+- Damilola Oladele ([@activus-d](https://github.com/activus-d)), since May 2023
+- Sævar Öfjörð Magnússon ([@saevarom](https://github.com/saevarom)), since May 2023
 
 ---
 
 Next meetings: [see agenda](https://docs.google.com/document/d/1cCBl-_hJBHBoE8ZDBj7XxatEv9hQw540LUJPnoSB7gE/edit#)
 
-Past meetings:
-
-<!-- Insert meeting notes here, most recent first: -->
-
-None
+Past meetings: [Developer relations team: meeting updates](https://github.com/wagtail/wagtail/wiki/Developer-relations-team)
