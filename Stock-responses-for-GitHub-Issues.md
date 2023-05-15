@@ -9,16 +9,15 @@ Hi @... - please use [Stack Overflow or the #support channel in the Wagtail Slac
 ```
 Hi @... - thanks for the contribution! However, there is already an open PR for this (#...), so I'll close this as a duplicate.
 
-I'd recommend reading https://dev.to/lb/ten-tasty-ingredients-for-a-delicious-pull-request-hgc, particularly point 2. Best of luck for your future contributions!
+I'd recommend reading https://docs.wagtail.org/en/latest/contributing/first_contribution_guide.html, particularly point 6. Best of luck for your future contributions!
 ```
 
 ## "Please assign me this issue" (first request on an issue)
 
 ```
-Thanks for your interest @...! We do not assign issues outside of the core team - anyone is free to work on any issue. Now that you've expressed an interest, other people may choose to hold off on picking this up, but they are not required to. We recommend thoroughly reading https://github.com/wagtail/wagtail/issues/10070 before making your first contribution.
+Thanks for your interest @...! We do not assign issues outside of the core team - anyone is free to work on any issue. Now that you've expressed an interest, other people may choose to hold off on picking this up, but they are not required to.
 
-For further help in getting started, please see https://dev.to/lb/ten-tasty-ingredients-for-a-delicious-pull-request-hgc - you may also wish to join [our #new-contributors channel on Slack](https://github.com/wagtail/wagtail/wiki/Slack).
-```
+We recommend thoroughly reading https://docs.wagtail.org/en/latest/contributing/first_contribution_guide.html before making your first contribution. You may also wish to join [our #new-contributors channel on Slack](https://github.com/wagtail/wagtail/wiki/Slack).```
 
 ## "Please assign me this issue" (subsequent requests)
 
