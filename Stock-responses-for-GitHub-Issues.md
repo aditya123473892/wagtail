@@ -17,7 +17,8 @@ I'd recommend reading https://docs.wagtail.org/en/latest/contributing/first_cont
 ```
 Thanks for your interest @...! We do not assign issues outside of the core team - anyone is free to work on any issue. Now that you've expressed an interest, other people may choose to hold off on picking this up, but they are not required to.
 
-We recommend thoroughly reading https://docs.wagtail.org/en/latest/contributing/first_contribution_guide.html before making your first contribution. You may also wish to join [our #new-contributors channel on Slack](https://github.com/wagtail/wagtail/wiki/Slack).```
+We recommend thoroughly reading https://docs.wagtail.org/en/latest/contributing/first_contribution_guide.html before making your first contribution. You may also wish to join [our #new-contributors channel on Slack](https://github.com/wagtail/wagtail/wiki/Slack).
+```
 
 ## "Please assign me this issue" (subsequent requests)
 
