@@ -2,6 +2,7 @@
 
 * A 'stable' branch should exist in git, e.g. "stable/2.8.x"
 * There should be a release notes page about the release in docs/releases/ - ensure that any deprecated features are mentioned in the "Upgrade considerations" section
+  * If there are a large number of upgrade considerations, consider organising them by largest impact first, and breaking them down into "changes affecting all projects", "deprecation of old functionality", "changes affecting Wagtail customisations"
 * CHANGELOG.txt should contain a section about the new release
 * The release should be listed in the 'compatible Django / Python versions' table in docs/releases/upgrading.rst
 * Update translations - see https://github.com/torchbox/wagtail/wiki/Managing-Wagtail-translations#fetching-new-translations-from-transifex
