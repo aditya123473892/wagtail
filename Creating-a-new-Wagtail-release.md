@@ -15,7 +15,7 @@
 * Update `wagtail/project_template/requirements.txt` with the new version number
   * For a release candidate, use the exact version: `wagtail==2.8rc1`
   * For a major, minor or patch release, use a range covering the minor release (e.g. `wagtail>=2.8,<2.9`)
-* **For a major, minor or patch release:** fill in the release date in CHANGELOG.txt and remove any IN DEVELOPMENT text from the changelog and the release notes page
+* **For a major, minor or patch release:** fill in the release date, and remove any IN DEVELOPMENT text, on CHANGELOG.txt and the release notes page in docs/
 * Confirm that the latest revision is passing on [Github Actions CI](https://github.com/wagtail/wagtail/actions)
 
 ## Prerequisites
