@@ -32,10 +32,9 @@ to check for any inconsistencies in format strings - if any issues are reported,
 
 Once this is done, run
 
-    python ./scripts/get-translator-credits.py > ../logs/translators-YYYYMMDD.txt
-    diff -U10 ../logs/translators-LAST_YYYYMMDD.txt ../logs/translators-YYYYMMDD.txt
+    python ./scripts/get-translator-credits.py > ./scripts/translators.txt
 
-and update CONTRIBUTORS.txt with any new translators / languages that show up in the diffs.
+and update CONTRIBUTORS.txt with any new translators / languages that show up in the git diff of translators.txt.
 
 All languages with >= 90% coverage should be in the `WAGTAILADMIN_PROVIDED_LANGUAGES` list in [wagtail/admin/localization.py](https://github.com/wagtail/wagtail/blob/master/wagtail/admin/localization.py), which defines the default list of languages under 'language preferences' in the admin. Compare this list against the progress list at https://app.transifex.com/torchbox/wagtail/dashboard/ and add any languages with >= 90% coverage not already listed.
 
