@@ -17,7 +17,9 @@
 * Update `wagtail/project_template/requirements.txt` with the new version number
   * For a release candidate, use the exact version: `wagtail==2.8rc1`
   * For a major, minor or patch release, use a range covering the minor release (e.g. `wagtail>=2.8,<2.9`)
-* **For a major, minor or patch release:** fill in the release date, and remove any `IN DEVELOPMENT` text, in `CHANGELOG.txt` and the release notes page in `docs/`
+* **For a major, minor or patch release:** fill in the release date, and remove any `IN DEVELOPMENT` text, in:
+  * `CHANGELOG.txt`
+  * the release notes page in `docs/`
 * Confirm that the latest revision is passing on [GitHub Actions CI](https://github.com/wagtail/wagtail/actions)
 
 You can do the above steps with your existing clone of the Wagtail repository.
@@ -95,6 +97,21 @@ Readthedocs will spot the addition of a release tag with a newer version number,
 * If any documentation has been moved around since the previous release, now is a good time to add redirects via https://readthedocs.org/dashboard/wagtail/redirects/ . (Protip: [remember to add leading slashes on URLs](https://github.com/rtfd/readthedocs.org/issues/1826#issuecomment-247995569).)
 * Update docs in [Dash-User-Contributions](https://github.com/Kapeli/Dash-User-Contributions/tree/master/docsets/Wagtail) for offline docs apps [Dash](https://kapeli.com/dash) and [Zeal](https://zealdocs.org/).
   * Follow the instructions on the README.md and submit a pull request with updated docs.
+
+If you made a mistake in the documentation before the git tag was created and would like to update the documentation for the release, you can do the following steps:
+
+<details>
+
+<summary>Steps</summary>
+
+- Delete the tag via https://github.com/wagtail/wagtail/tags
+  - If a GitHub release has been created, you need to delete it before deleting the tag
+- Delete the tag locally with `git tag -D v5.0.1`
+- Create a new tag with `git tag v5.0.1`
+- Push the new tag with `git push upstream --tags`
+- Trigger a new rebuild of the documentation for the release's branch on readthedocs
+
+</details>
 
 ## releases.wagtail.org
 
