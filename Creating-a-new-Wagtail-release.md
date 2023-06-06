@@ -5,8 +5,10 @@
   * If there are a large number of upgrade considerations, consider organising them by largest impact first, and breaking them down into "changes affecting all projects", "deprecation of old functionality", "changes affecting Wagtail customisations"
 * `CHANGELOG.txt` should contain a section about the new release
 * The release should be listed in the 'compatible Django / Python versions' table in `docs/releases/upgrading.rst`
-* Update translations - see https://github.com/torchbox/wagtail/wiki/Managing-Wagtail-translations#fetching-new-translations-from-transifex
-* **For a release candidate:** Generate new translation strings (https://github.com/wagtail/wagtail/wiki/Managing-Wagtail-translations#generating-new-source-files-for-translation) and **announce through https://app.transifex.com/torchbox/communication/?q=project%3Awagtail that a new version is coming soon and needs translations**
+* Update translations
+  * See https://github.com/torchbox/wagtail/wiki/Managing-Wagtail-translations#fetching-new-translations-from-transifex
+* **For a release candidate:** Generate new translation strings
+  * (https://github.com/wagtail/wagtail/wiki/Managing-Wagtail-translations#generating-new-source-files-for-translation) and **announce through https://app.transifex.com/torchbox/communication/?q=project%3Awagtail that a new version is coming soon and needs translations**
 * Update `wagtail/__init__.py` with the new version number
   * For a release candidate: `VERSION = (2, 8, 0, 'rc', 1)`
   * For a major release: `VERSION = (3, 0, 0, 'final', 1)`
