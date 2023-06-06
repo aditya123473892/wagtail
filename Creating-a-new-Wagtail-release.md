@@ -1,10 +1,10 @@
 ## Before making a new release
 
-* A 'stable' branch should exist in git, e.g. "stable/2.8.x"
-* There should be a release notes page about the release in docs/releases/ - ensure that any deprecated features are mentioned in the "Upgrade considerations" section
+* A 'stable' branch should exist in git, e.g. `stable/2.8.x`
+* There should be a release notes page about the release in `docs/releases/` - ensure that any deprecated features are mentioned in the "Upgrade considerations" section
   * If there are a large number of upgrade considerations, consider organising them by largest impact first, and breaking them down into "changes affecting all projects", "deprecation of old functionality", "changes affecting Wagtail customisations"
-* CHANGELOG.txt should contain a section about the new release
-* The release should be listed in the 'compatible Django / Python versions' table in docs/releases/upgrading.rst
+* `CHANGELOG.txt` should contain a section about the new release
+* The release should be listed in the 'compatible Django / Python versions' table in `docs/releases/upgrading.rst`
 * Update translations - see https://github.com/torchbox/wagtail/wiki/Managing-Wagtail-translations#fetching-new-translations-from-transifex
 * **For a release candidate:** Generate new translation strings (https://github.com/wagtail/wagtail/wiki/Managing-Wagtail-translations#generating-new-source-files-for-translation) and **announce through https://app.transifex.com/torchbox/communication/?q=project%3Awagtail that a new version is coming soon and needs translations**
 * Update `wagtail/__init__.py` with the new version number
@@ -15,8 +15,10 @@
 * Update `wagtail/project_template/requirements.txt` with the new version number
   * For a release candidate, use the exact version: `wagtail==2.8rc1`
   * For a major, minor or patch release, use a range covering the minor release (e.g. `wagtail>=2.8,<2.9`)
-* **For a major, minor or patch release:** fill in the release date, and remove any IN DEVELOPMENT text, on CHANGELOG.txt and the release notes page in docs/
-* Confirm that the latest revision is passing on [Github Actions CI](https://github.com/wagtail/wagtail/actions)
+* **For a major, minor or patch release:** fill in the release date, and remove any `IN DEVELOPMENT` text, in `CHANGELOG.txt` and the release notes page in `docs/`
+* Confirm that the latest revision is passing on [GitHub Actions CI](https://github.com/wagtail/wagtail/actions)
+
+You can do the above steps with your existing clone of the Wagtail repository.
 
 ## Prerequisites
 
@@ -26,38 +28,44 @@ You will also need to be [authenticated with PyPI](https://pypi.org/help/#apitok
 
 ## Package build
 
-Create a fresh clone of the Wagtail repo, and check out the appropriate 'stable' branch.
+Create a fresh clone of the Wagtail repo, and check out the appropriate 'stable' branch. By creating a fresh clone, we minimise the risk of having random development files floating around the codebase that screw up the package.
 
-    git clone https://github.com/wagtail/wagtail.git
-    cd wagtail
-    git checkout stable/1.<x>.x
+```bash
+git clone https://github.com/wagtail/wagtail.git
+cd wagtail
+git checkout stable/1.<x>.x
+```
 
-(Using a Vagrant dev instance will not work: running the setup.py command within Vagrant will fail because it creates symlinks, which aren't supported by Virtualbox shared folders; and running it on the host machine will fail because it will try to run the copy of node-sass in node_modules, which is built for the VM's architecture. Also, by creating a fresh clone, we minimise the risk of having random development files floating around the codebase that screw up the package.)
+(Using a Vagrant dev instance will not work: running the setup.py command within Vagrant will fail because it creates symlinks, which aren't supported by Virtualbox shared folders; and running it on the host machine will fail because it will try to run the copy of node-sass in `node_modules`, which is built for the VM's architecture.)
 
 From the root of the wagtail codebase, run:
 
-    nvm use
-    npm install
-    python ./setup.py sdist bdist_wheel
+```bash
+nvm use
+npm install
+python ./setup.py sdist bdist_wheel
+```
 
-This will create a .tar.gz package and a .whl package in the 'dist' directory. We now need to test that these installs successfully - from a location other than wagtail root (because the presence of the 'wagtail' directory confuses the installer), run:
+This will create a `.tar.gz` package and a `.whl` package in the 'dist' directory. We now need to test that these installs successfully - from a location other than wagtail root (because the presence of the `wagtail` directory confuses the installer), run:
 
-    mkvirtualenv wagtailinstalltest
-    pip install /path/to/wagtail-0.x.x.tar.gz
-    wagtail start myproject
-    cd myproject
-    ./manage.py migrate
-    ./manage.py runserver
+```bash
+mkvirtualenv wagtailinstalltest
+pip install /path/to/wagtail-0.x.x.tar.gz
+wagtail start myproject
+cd myproject
+./manage.py migrate
+./manage.py runserver
+```
 
-and confirm that the site starts up successfully at http://localhost:8000/ . Repeat the test with the .whl package. (Note that bringing up a Vagrant VM will not work at this point, because the provisioning script will try to install a version of Wagtail that isn't on PyPI yet)
+and confirm that the site starts up successfully at http://localhost:8000/ . Repeat the test with the `.whl` package. (Note that bringing up a Vagrant VM will not work at this point, because the provisioning script will try to install a version of Wagtail that isn't on PyPI yet.)
 
 ## GitHub release
 
 From https://github.com/wagtail/wagtail/releases, click 'Draft a new release':
 
-* Tag version should be of the form "v0.4" - the target should be the stable/0.4.x branch (in practice, for a new 0.x version this will probably be identical to `main`)
-* Release title should be "0.4" (without the 'v')
-* For the "Describe the release", we usually just paste in the CHANGELOG.txt entry
+* Tag version should be of the form `v5.1` - the target should be the `stable/5.1.x` branch (in practice, for a new `5.x` version this will probably be identical to `main`)
+* Release title should be `5.1` (without the `v`)
+* For the "Describe the release", we usually just paste in the `CHANGELOG.txt` entry
 * Click "Publish release" - this will create a new git tag for the release, and a new entry on https://github.com/torchbox/wagtail/releases
 
 ## PyPI
@@ -73,8 +81,8 @@ The new version should now be up on https://pypi.python.org/pypi/wagtail .
 
 ## Testing the release
 
-  - install it in a clean virtualenv and check that "wagtail start myproject" creates a codebase that starts successfully under vagrant
-  - bring up a fresh instance of [bakerydemo](https://github.com/wagtail/bakerydemo) with the new version set in `requirements/base.txt`; if successful, commit the version bump to bakerydemo master
+- Install it in a clean virtualenv and check that `wagtail start myproject` creates a codebase that starts successfully (test with Vagrant as well if necessary)
+- Bring up a fresh instance of [bakerydemo](https://github.com/wagtail/bakerydemo) with the new version set in `requirements/base.txt`; if successful, commit the version bump to bakerydemo master
 
 ## Docs
 
@@ -92,10 +100,12 @@ Once the new release is out, please update https://releases.wagtail.org/latest.t
 
 Set up the AWS client, if you haven't already - `pip install awscli`, then `aws configure` and enter the credentials.
 
-Edit scripts/latest.txt with the new version details: `version` is the newest version, `url` is its release notes page, and `minorUrl` is the release notes page for the corresponding minor version, e.g. 2.15 for 2.15.1. (This is shown to users who are running an earlier minor version, so that they see the changelog for the whole minor release rather than just the .1 patch). If this is a new release (major, minor or patch) within an LTS branch, update the `lts` section too. Then, with the AWS client configured, run:
+Edit `scripts/latest.txt` with the new version details: `version` is the newest version, `url` is its release notes page, and `minorUrl` is the release notes page for the corresponding minor version, e.g. 2.15 for 2.15.1. (This is shown to users who are running an earlier minor version, so that they see the changelog for the whole minor release rather than just the .1 patch). If this is a new release (major, minor or patch) within an LTS branch, update the `lts` section too. Then, with the AWS client configured, run:
 
-    cd wagtail/scripts
-    ./latest.sh put latest.txt
+```bash
+cd wagtail/scripts
+./latest.sh put latest.txt
+```
 
 (It will take up to a day for changes to propagate to the Cloudfront cache. If you need it to update faster than that, someone with access to the AWS web console can purge it - the relevant operation to perform is "Create invalidation".)
 
@@ -116,15 +126,15 @@ _The SSL certificates for releases.wagtail.org and releases.wagtail.io needs to 
 #### Update deprecated features
 
  - Delete features deprecated in this release
- - Update wagtail.utils.deprecation
+ - Update `wagtail.utils.deprecation`
 
-For example, lets say we are releasing wagtail 3.5:
+For example, lets say we are releasing Wagtail 6.0:
 
-1. Look for RemovedInWagtail35Warning messages and remove the features they are warning about
-2. In wagtail.utils.deprecation:
-    - Delete RemovedInWagtail35Warning
-    - Change RemovedInWagtail36Warning to a DeprecationWarning
-    - Create a new warning called RemovedInWagtail37Warning which inherits from PendingDeprecationWarning
+1. Look for `RemovedInWagtail60Warning` messages and remove the features they are warning about
+2. In `wagtail.utils.deprecation`:
+    - Delete `RemovedInWagtail60Warning`
+    - Change `RemovedInWagtail70Warning` to a `DeprecationWarning`
+    - Create a new warning called `RemovedInWagtail80Warning` which inherits from `PendingDeprecationWarning`
 
 #### Drop support for old versions of Django
 
@@ -132,4 +142,4 @@ Search the code base for `django.VERSION` and `DJANGO_VERSION`. Remove any code 
 
 #### Remove old `versionadded` / `versionchanged` notes in the docs
 
-`versionadded` and `versionchanged` notes for old versions of Wagtail should be removed from the docs. These notes are kept for two releases. If Wagtail 3.5 had just been released, `versionadded` and `versionchanged` notes from version `3.4` should be dropped. This will leave notes for only version 3.5 in the docs, with notes added for 3.6 being added for the next release.
+`versionadded` and `versionchanged` notes for old versions of Wagtail should be removed from the docs. These notes are kept for two releases. If Wagtail 6.2 had just been released, `versionadded` and `versionchanged` notes from version `6.1` should be dropped. This will leave notes in the docs only for the `stable/6.1.x` and `stable/6.2.x` branches, with notes added for 6.3 being added for the next release (the `main` branch).
