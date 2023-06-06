@@ -43,7 +43,7 @@ To be done periodically, ideally just before a new Wagtail release. From the roo
 ```
 and `git add` any new folders that are created.
 
-**Important** - check the log files in `logs/` for errors, and sanity-check the changes with `git status` / `git diff` before committing. Failures during the script's run can result in files erroneously being deleted. You can monitor the log while the `fetch-translations` script is in progress by running `tail -f logs/translation.err`.
+**Important** - check the log files in `logs/` for errors, and sanity-check the changes with `git status` / `git diff` before committing. Failures during the script's run can result in files erroneously being deleted. You can monitor the log while the `fetch-translations` script is in progress by running `tail -f logs/translation.err` (or `translation.out` for the output).
 
 Run:
 
