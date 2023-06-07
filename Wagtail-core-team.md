@@ -55,6 +55,9 @@ The Wagtail core team are:
     UK,
     [UTC+0/1](https://www.timeanddate.com/worldclock/uk/oxford)
   - Areas of interest: overall architecture, security, backend, StreamField, modelcluster
+- Meagen Voss
+  ([vossisboss](https://github.com/vossisboss))
+  - [Torchbox](https://www.torchbox.com)
 - Naomi Morduch Toubman
   ([nmorduch](https://github.com/nmorduch))
   - [New America](https://www.newamerica.org/),
