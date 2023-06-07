@@ -19,6 +19,7 @@ Core team members may be volunteers, or may have varying priorities at work whic
 - Add to [Core Team page on the GitHub wiki](https://github.com/wagtail/wagtail/wiki/Wagtail-core-team)
 - Add to core team list in [CONTRIBUTORS.rst](https://github.com/wagtail/wagtail/blob/main/CONTRIBUTORS.rst)
   - Check whether they want to be listed with an affiliation
+- Add to [PyPI organisation](https://pypi.org/manage/organization/wagtail/people/) as a manager
 - Invite to the calendar events for core team meetings
 - Optionally assign someone to pair with them to familiarize with being on the core team
 
