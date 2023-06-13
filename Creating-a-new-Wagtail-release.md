@@ -32,7 +32,9 @@ You will also need to be [authenticated with PyPI](https://pypi.org/help/#apitok
 
 ## Package build
 
-Create a fresh clone of the Wagtail repo, and check out the appropriate 'stable' branch. By creating a fresh clone, we minimise the risk of having random development files floating around the codebase that screw up the package.
+Create a fresh clone of the Wagtail repository, and check out the appropriate 'stable' branch. By creating a fresh clone, we minimise the risk of having random development files floating around the codebase that screw up the package.
+
+Note: if you are preparing multiple version releases, please use different checkout directories for each version to avoid any file cross-contamination.
 
 ```bash
 git clone https://github.com/wagtail/wagtail.git
