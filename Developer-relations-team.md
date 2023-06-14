@@ -23,4 +23,4 @@ Current members:
 
 Next meetings: [see agenda](https://docs.google.com/document/d/1cCBl-_hJBHBoE8ZDBj7XxatEv9hQw540LUJPnoSB7gE/edit#)
 
-Past meetings: [Developer relations team: meeting updates](https://github.com/wagtail/wagtail/wiki/Developer-relations-team)
+Past meetings: [Developer relations team: meeting updates](https://github.com/wagtail/wagtail/discussions/10432)
