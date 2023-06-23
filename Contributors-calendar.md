@@ -1,6 +1,8 @@
 *Draft page*
 
-Our [developer relations team](https://github.com/wagtail/wagtail/wiki/Developer-relations-team) maintains a calendar of events relevant to Wagtail contributors. This includes important dates like expected release dates and major events in the Python / Django / Wagtail / open source world.
+Our [developer relations team](https://github.com/wagtail/wagtail/wiki/Developer-relations-team) maintains a calendar of events relevant to Wagtail contributors. This includes important dates like major events in the Python / Django / Wagtail / open source world, expected release dates for Wagtail, and any other major milestone.
+
+The calendar is public and everyone can use but its primary audience is Wagtail _contributors_ –. For example, it highlights ongoing internships or "internal" projects that might not be relevant to Wagtail users.
 
 There are a few options to access the calendar:
 
