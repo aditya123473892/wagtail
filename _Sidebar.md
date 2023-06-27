@@ -3,8 +3,8 @@
 - [[Slack]]
 - [[Release schedule]]
 - [Roadmap](https://wagtail.org/roadmap)
-- [[Outreachy 2022]]
 - [[Google Summer of Code 2023]]
+- [[Google Season of Docs 2023]]
 
 Teams
 
