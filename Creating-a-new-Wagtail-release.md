@@ -156,6 +156,7 @@ For example, lets say we are releasing Wagtail 6.0:
     - Delete `RemovedInWagtail60Warning`
     - Change `RemovedInWagtail70Warning` to a `DeprecationWarning`
     - Create a new warning called `RemovedInWagtail80Warning` which inherits from `PendingDeprecationWarning`
+3. Look for `RemovedInWagtail60`, which may exist in client-side code that needs to be removed but does not emit a deprecation warning.
 
 #### Drop support for old versions of Django
 
