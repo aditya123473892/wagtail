@@ -184,7 +184,9 @@ _The SSL certificates for releases.wagtail.org and releases.wagtail.io needs to 
 
 ### Housekeeping for the next release
 
-Switch back to the `main` branch of your Wagtail development clone.
+Switch back to the `main` branch of your Wagtail development clone. Make sure it's up-to-date by running `git pull upstream main`.
+
+Create and switch to a new branch from `main`, e.g. `admin/start-wagtail-5.2`.
 
 #### Update deprecated features
 
@@ -226,6 +228,10 @@ Update `CHANGELOG.txt` with a new section:
 ```
 
 Create a new file in `docs/releases/` with the following template:
+
+<details>
+
+<summary>Template</summary>
 
 ````
 # Wagtail 5.2 release notes - IN DEVELOPMENT
@@ -269,3 +275,13 @@ depth: 1
 Update `docs/releases/index.rst` to include the new version.
 
 Update the Wagtail/Django/Python version compatibility table in `docs/releases/upgrading.md` to include the new version.
+
+Commit the changes e.g. `git commit -m "Set up release notes for 5.2"`
+
+</details>
+
+#### Make a new PR
+
+Make a new PR from this branch. Core team member approval is optional.
+
+See https://github.com/wagtail/wagtail/pulls?q=is%3Apr+is%3Aclosed+in%3Atitle+housekeeping+start for past examples.
