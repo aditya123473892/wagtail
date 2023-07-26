@@ -36,7 +36,7 @@
       * Update any mentions and links of the previous version e.g. 5.0 to the current version e.g. 5.1.
       * Update the rest of the content based on the rendered release notes in the developer docs, but only include parts that are relevant for content editors.
       * Publish the page.
-      * Update `wagtail.admin.wagtail_hooks.register_whats_new_in_wagtail_version_menu_item` so the `version`'s value is correct, e.g. `"5.1"` and `wagtail.templatetags.wagtailcore_tags.wagtail_feature_release_whats_new_link` so that the link points to the page we just published.
+      * Update `wagtail.admin.wagtail_hooks.register_whats_new_in_wagtail_version_menu_item` so the `version`'s value is correct, e.g. `"5.1"` (might be done already) and `wagtail.templatetags.wagtailcore_tags.wagtail_feature_release_whats_new_link` so that the link points to the page we just published.
         * For example, see https://github.com/wagtail/wagtail/commit/15f652c9efe3a1b3ddc6afd79857e1152892a405
       * Commit the changes to the `stable/5.1.x` branch, e.g. `git commit -m "Update What's new in Wagtail version menu item to 5.1"`.
 * Update `wagtail/__init__.py` with the new version number.
@@ -214,6 +214,7 @@ Search the code base for `django.VERSION` and `DJANGO_VERSION`. Remove any code 
 
 * Update `wagtail/__init__.py` with the new version number, e.g. `VERSION = (5, 2, 0, 'alpha', 1)`
 * Update `wagtail/project_template/requirements.txt` with the new version number, e.g. `wagtail==5.2a0`
+* Update `wagtail.admin.wagtail_hooks.register_whats_new_in_wagtail_version_menu_item` so the `version`'s value is correct, e.g. `"5.2"`.
 * Commit the changes e.g. `git commit -m "Version bump to start work on 5.2"`
 
 #### Set up release notes
