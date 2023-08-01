@@ -11,7 +11,7 @@
 * `CHANGELOG.txt` should contain a section for the new release.
 * The minor version of the release should be listed in the 'compatible Django / Python versions' table in `docs/releases/upgrading.md`.
 * Update translation files.
-  * See https://github.com/torchbox/wagtail/wiki/Managing-Wagtail-translations#fetching-new-translations-from-transifex.
+  * See https://github.com/wagtail/wagtail/wiki/Managing-Wagtail-translations#fetching-new-translations-from-transifex.
 * **For a release candidate:**
   * **Generate new translation strings**
     * See https://github.com/wagtail/wagtail/wiki/Managing-Wagtail-translations#generating-new-source-files-for-translation
@@ -109,7 +109,7 @@ From https://github.com/wagtail/wagtail/releases, click 'Draft a new release':
 * Release title should be `5.1` (without the `v`)
 * For the "Describe the release", we usually just paste in the `CHANGELOG.txt` entry
 * **For a release candidate:** Check the "Set as pre-release box" checkbox
-* Click "Publish release" - this will create a new git tag for the release, and a new entry on https://github.com/torchbox/wagtail/releases
+* Click "Publish release" - this will create a new git tag for the release, and a new entry on https://github.com/wagtail/wagtail/releases
 
 ## PyPI
 
@@ -177,12 +177,15 @@ _The SSL certificates for releases.wagtail.org and releases.wagtail.io needs to 
 * Close the milestone on https://github.com/wagtail/wagtail/milestones
 * Email wagtail@googlegroups.com with the release announcement
 * Announce on #announcements on Wagtail slack (and #wagtail on Torchbox slack, if you're there)
+* Create a new discussion on GitHub: https://github.com/wagtail/wagtail/discussions ([example](https://github.com/wagtail/wagtail/discussions/10399))
 * Blog and tweet about it
   * Share with https://django-news.com/
   * Share with https://www.reddit.com/r/django/
 * Test [add-on packages in the Wagtail org](https://paper.dropbox.com/doc/Wagtail-organisation-subprojects--A0vEPub7dKgN_SsWZVYB6CZDAg-15Cg4kQNtE0LaJ6pVTrrQ) for compatibility and update as necessary
 
 ### Housekeeping for the next release
+
+This is likely only relevant if you've just released an RC release.
 
 Switch back to the `main` branch of your Wagtail development clone. Make sure it's up-to-date by running `git pull upstream main`.
 
