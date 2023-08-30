@@ -1,3 +1,5 @@
+THIS DOCUMENT IS A DRAFT
+
 Since there are many ways to host a Wagtail site, and many commercial products available, it is in our interest to help guide Wagtail users with some recommended hosting setups. If you are a hosting provider, we encourage you to support Wagtail, and offer the following framework for listing your hosting platform on the official Wagtail Docs to help gain exposure and drive new potential customers your way.
 
 All providers must meet the minimum requirements below to be listed on the Wagtail docs. Providers will then be listed alphabetically within their class, with First Class ordered first, Second Class ordered second, etc.
