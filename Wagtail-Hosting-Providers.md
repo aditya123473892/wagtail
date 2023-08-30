@@ -10,7 +10,7 @@ To be considered a Wagtail hosting provider, your platform must meet the minimum
 * Ability for new customers to sign up (i.e. open to the public).
 * Publicly available pricing guides (i.e. your prices must be clearly posted, not gated behind "contact us" links).
 * Officially support at least one non-EOL version of Python (i.e. as of 2023, this means Python 3.8 to 3.11), and a WSGI server.
-* Provide a written step-by-step guide for a customer to host a Wagtail site on your platform.
+* Provide a written step-by-step guide for a customer to host a Wagtail site on your platform. This guide will be linked in the Wagtail docs. If the guide 404s in the future, your listing will be removed.
 
 ## First Class Support
 
