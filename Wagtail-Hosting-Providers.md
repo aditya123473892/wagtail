@@ -16,9 +16,8 @@ To be considered a Wagtail hosting provider, your platform must meet the minimum
 
 This encompasses the "Application-as-a-Service" layer. This means the provider directly offers Wagtail support, without the need for the customer to configure a Python installation, hardware, Operating System, or databases. Providers who offer the following features may be considered to have "first class Wagtail support":
 * A button, command, or feature which automatically deploys a fully-working customer-owned Wagtail website, publicly hosted on the Internet with a URL. This would most likely be some kind of boilerplate website (i.e. hello world, Wagtail Bakery, etc.). This feature must not require the user to provide their own Wagtail codebase.
-* The Wagtail hosting option must include
-  * A supported Django database (SQLite, MySQL, MariaDB, PostgreSQL, Oracle).
-  * A supported media storage with a provider-supported backend (i.e. Filesystem, object/blob storage buckets)
+* A supported Django database which is automatically configured without user input (SQLite, MySQL, MariaDB, PostgreSQL, Oracle).
+* A supported media storage with a provider-supported backend which is automatically configured without user input (i.e. Filesystem, object/blob storage buckets)
 
 ## Second Class Support
 
