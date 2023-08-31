@@ -5,6 +5,7 @@
 - [Roadmap](https://wagtail.org/roadmap/)
 - [[Google Summer of Code 2023]]
 - [[Google Season of Docs 2023]]
+- [[Outreachy 2023]]
 
 Teams
 
