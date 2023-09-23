@@ -43,7 +43,7 @@ The Wagtail core team are:
   - [lb.ee](https://lb.ee),
     Australia,
     [UTC+10](https://www.timeanddate.com/worldclock/australia/brisbane)
-  - Areas of interest: backend, modeladmin, React, JavaScript
+  - Areas of interest: backend, documentation, Stimulus, React, JavaScript
 - Loïc Teixeira
   ([loicteixeira](https://github.com/loicteixeira))
   - France,
