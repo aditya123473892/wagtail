@@ -51,4 +51,5 @@ Core team members may be volunteers, or may have varying priorities at work whic
 - [ ] Vercel admin – remove from [wagtail organization](https://vercel.com/wagtail) on Vercel
 - [ ] Read the Docs admin – remove from the [Wagtail project maintainers](https://readthedocs.org/dashboard/wagtail/users/) on RTD
 - [ ] Algolia admin – remove from our [DocSearch application](https://github.com/wagtail/wagtail/wiki/Documentation-search)
-- [ ] Calendar - remove from core team meeting calendar events
+- [ ] Google Calendar - remove from core team meeting calendar events
+- [ ] Open Collective – remove from [wagtail organization admins](https://opencollective.com/wagtail)
