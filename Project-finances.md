@@ -1,3 +1,5 @@
+Join [#finances](https://app.slack.com/client/T0K33F93J/C05UDGSCRM2) on the [Wagtail Slack workspace](https://github.com/wagtail/wagtail/wiki/Slack) for any questions.
+
 ## Open Collective and Open Source Collective
 
 We manage the Wagtail project’s finances [on Open Collective](https://opencollective.com/wagtail), a platform for open source projects to manage their budgets transparently. Our _fiscal host_ is [Open Source Collective](https://docs.oscollective.org/). They hold Wagtail’s funds on our behalf in exchange for a fee on all income we receive. Our organization admins approve or reject expenses and invoices as needed.
