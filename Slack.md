@@ -8,6 +8,10 @@ Please read the Wagtail [Code of Conduct](https://github.com/wagtail/wagtail/blo
 
 ## Popular channels
 
+### #outreachy
+
+For participants to the [Outreachy 2023 programme](https://wagtail.org/outreachy/), and anyone interested in supporting them.
+
 ### #announcements
 
 Announcements about Wagtail and related projects, from regular contributors, are posted in [#announcements](https://wagtailcms.slack.com/archives/C0K2WLTRS). Core team members automatically get access, other access is decided case by case.
