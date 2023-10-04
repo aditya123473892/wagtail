@@ -18,7 +18,7 @@ The Wagtail core team are:
     Los Angeles California USA,
     [UTC-7/8](https://www.timeanddate.com/worldclock/usa/los-angeles)
   - Areas of interest: backend, modeladmin, multitenancy
-- Dan Braghis
+- Dan Braghiș
   ([zerolab](https://github.com/zerolab))
   - [Torchbox](https://www.torchbox.com),
     UK,
