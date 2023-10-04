@@ -56,3 +56,11 @@ Once there is team consensus to treat the report as a vulnerability, you can:
 2. Work on the patch in the advisory’s attached private fork.
 3. Request a CVE from GitHub once the vulnerability is described clearly enough.
 4. Ultimately publish the advisory, merging the patch.
+
+## Vulnerabilities outside Wagtail
+
+We will occasionally take action when there are vulnerabilities outside Wagtail itself, if we have good reasons to believe they would affect Wagtail websites. This can be as simple as sharing a heads’up of possible security issues on communication channels for the benefit of our community members, or making more formal announcements.
+
+Here are past examples of vulnerabilities likely affecting Wagtail websites which we’ve addressed:
+
+- [Wagtail statement on Log4j vulnerability](https://wagtail.org/blog/log4j-statement/) – 2021-12-17
