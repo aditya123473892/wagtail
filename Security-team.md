@@ -16,7 +16,7 @@ Current members:
 - Thibaud Colas ([@thibaudcolas](https://github.com/thibaudcolas)), UTC + 0 or 1, since January 2022
 - Tom Dyson ([@tomdyson](https://github.com/tomdyson)), UTC + 0 or 1, since January 2022
 - Jake Howard ([@RealOrangeOne](https://github.com/RealOrangeOne)), UTC + 0 or 1, since March 2023
-- Dan Braghiș ([@zerolab](https://github.com/zerolab)), UTC + 01 or 1, since October 2023
+- Dan Braghiș ([@zerolab](https://github.com/zerolab)), UTC + 0 or 1, since October 2023
 
 Past members:
 
