@@ -14,13 +14,13 @@ As of June 2023, our financials are publicly visible [on Open Collective](https:
 
 ## 2022
 
-- TBC – $1500 (3x $500) of mentoring stipends as part of our [Google Summer of Code 2022 participation](https://wagtail.org/blog/wagtail-cms-projects-for-google-summer-of-code-2022/).
+- $1500 (3x $500) of mentoring stipends as part of our [Google Summer of Code 2022 participation](https://wagtail.org/blog/wagtail-cms-projects-for-google-summer-of-code-2022/).
 - TBC: spent some of the GSoC budget on equipment for Outreachy 2023
 - $8000 from Torchbox for our participation to Outreachy December 2022
 
 ## 2021
 
-TBC – we took part in Google Summer of Code with two projects, under the Django organization umbrella. For those two projects, Google paid $1000 (2x $500) of mentoring stipends either to the DSF, or Wagtail, or to our mentors.
+We took part in Google Summer of Code with two projects, under the Django organization umbrella. For those two projects, Google paid $1000 (2x $500) of mentoring stipends either to the DSF, or to our mentors.
 
 ## 2014-2020
 
