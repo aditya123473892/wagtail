@@ -4,6 +4,8 @@ Join [#finances](https://app.slack.com/client/T0K33F93J/C05UDGSCRM2) on the [Wag
 
 We manage the Wagtail project’s finances [on Open Collective](https://opencollective.com/wagtail), a platform for open source projects to manage their budgets transparently. Our _fiscal host_ is [Open Source Collective](https://docs.oscollective.org/). They hold Wagtail’s funds on our behalf in exchange for a fee on all income we receive. Our organization admins approve or reject expenses and invoices as needed.
 
+<!-- Keep track of major financial transactions here, from most to least recent. -->
+
 ## 2023
 
 As of June 2023, our financials are publicly visible [on Open Collective](https://opencollective.com/wagtail).
@@ -14,9 +16,9 @@ As of June 2023, our financials are publicly visible [on Open Collective](https:
 
 ## 2022
 
-- $1500 (3x $500) of mentoring stipends as part of our [Google Summer of Code 2022 participation](https://wagtail.org/blog/wagtail-cms-projects-for-google-summer-of-code-2022/), first paid to Torchbox, and then transferred to OpenCollective in October 2023.
 - TBC: spent some of the GSoC budget on equipment for Outreachy December 2022
 - $8000 from Torchbox for our participation to Outreachy December 2022
+- $1500 (3x $500) of mentoring stipends as part of our [Google Summer of Code 2022 participation](https://wagtail.org/blog/wagtail-cms-projects-for-google-summer-of-code-2022/), first paid to Torchbox, and then transferred to OpenCollective in October 2023.
 
 ## 2021
 
