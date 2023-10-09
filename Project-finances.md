@@ -15,7 +15,7 @@ As of June 2023, our financials are publicly visible [on Open Collective](https:
 ## 2022
 
 - $1500 (3x $500) of mentoring stipends as part of our [Google Summer of Code 2022 participation](https://wagtail.org/blog/wagtail-cms-projects-for-google-summer-of-code-2022/), first paid to Torchbox, and then transferred to OpenCollective in October 2023.
-- TBC: spent some of the GSoC budget on equipment for Outreachy 2023
+- TBC: spent some of the GSoC budget on equipment for Outreachy December 2022
 - $8000 from Torchbox for our participation to Outreachy December 2022
 
 ## 2021
