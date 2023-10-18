@@ -274,6 +274,8 @@ depth: 1
 ## Upgrade considerations - deprecation of old functionality
 
 ## Upgrade considerations - changes affecting Wagtail customisations
+
+## Upgrade considerations - changes to undocumented internals
 ````
 
 Update `docs/releases/index.rst` to include the new version.
