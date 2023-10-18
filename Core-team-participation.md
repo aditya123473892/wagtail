@@ -19,6 +19,7 @@ Core team members may be volunteers, or may have varying priorities at work whic
 - Add to [Core Team page on the GitHub wiki](https://github.com/wagtail/wagtail/wiki/Wagtail-core-team)
 - Add to core team list in [CONTRIBUTORS.rst](https://github.com/wagtail/wagtail/blob/main/CONTRIBUTORS.rst)
   - Check whether they want to be listed with an affiliation
+- Add to https://wagtail.org/core-team
 - Add to [PyPI organisation](https://pypi.org/manage/organization/wagtail/people/) as a manager
 - Invite to the calendar events for core team meetings
 - Optionally assign someone to pair with them to familiarize with being on the core team
@@ -44,6 +45,7 @@ Core team members may be volunteers, or may have varying priorities at work whic
 - [ ] Wagtail admin – set account to inactive on wagtail.org
 - [ ] Wagtail admin – remove admin rights from madewithwagtail.org
 - [ ] Wagtail admin – remove admin rights from guide.wagtail.org
+- [ ] Wagtail admin – remove name from https://wagtail.org/core-team
 - [ ] npm admin – remove from [wagtail](https://www.npmjs.com/org/wagtail) organisation on npm
 - [ ] PyPI packages admin – remove from PyPI organization
 - [ ] PyPI packages admin – remove from all relevant Wagtail PyPI packages
