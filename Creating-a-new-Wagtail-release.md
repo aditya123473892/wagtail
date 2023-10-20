@@ -214,6 +214,7 @@ Search the code base for `django.VERSION` and `DJANGO_VERSION`. Remove any code 
 * Update `wagtail/__init__.py` with the new version number, e.g. `VERSION = (5, 2, 0, 'alpha', 1)`
 * Update `wagtail/project_template/requirements.txt` with the new version number, e.g. `wagtail==5.2a0`
 * Update `wagtail.admin.wagtail_hooks.register_whats_new_in_wagtail_version_menu_item` so the `version`'s value is correct, e.g. `"5.2"`.
+* Add a row for the new version to the compatibility table in `docs/releases/upgrading.md`
 * Commit the changes e.g. `git commit -m "Version bump to start work on 5.2"`
 
 #### Set up release notes
