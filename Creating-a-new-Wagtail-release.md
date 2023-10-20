@@ -16,11 +16,7 @@
   * **Generate new translation strings**
     * See https://github.com/wagtail/wagtail/wiki/Managing-Wagtail-translations#generating-new-source-files-for-translation
     * Announce through https://app.transifex.com/torchbox/communication/?q=project%3Awagtail that a new version is coming soon and needs translations.
-      * To get the number of new strings, you can run:
-        ```shell
-        git show <commit ID here> | grep '+msgid' | wc -l
-        ```
-        Note: not sure if this is accurate, can someone please verify?
+      * To get the number of new strings, looking at https://app.transifex.com/torchbox/wagtail/dashboard/ just after pushing them should give you a good indication (assuming that frequently-used languages such as Dutch and French were on 100% at that point).
   * **Push the new and updated translation files to the `main` branch.**
   * **Create a new branch for the new version, e.g. `stable/5.1.x`. We will be working on this branch from this point forward.**
   * **Update the Help menu item.**
