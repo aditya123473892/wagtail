@@ -19,22 +19,22 @@
       * To get the number of new strings, looking at https://app.transifex.com/torchbox/wagtail/dashboard/ just after pushing them should give you a good indication (assuming that frequently-used languages such as Dutch and French were on 100% at that point).
   * **Push the new and updated translation files to the `main` branch.**
   * **Create a new branch for the new version, e.g. `stable/5.1.x`. We will be working on this branch from this point forward.**
-  * **Update the Help menu item.**
-    * Sign in to https://guide.wagtail.org
-    * Go to https://guide.wagtail.org/releases/latest/
-    * If it already redirects to the page for the correct minor release, skip this step. Otherwise:
-      * From the userbar, click "Edit this page"
-      * From the three-dot menu in the header, click "Copy this page"
-      * Update the page title and slug for the new release, e.g. `What's new in Wagtail 5.1` and `new-in-wagtail-5-1`.
-      * Make sure it's copied as a child of the "Releases" page.
-      * Click "Copy this page"
-      * Go to the "Releases" page in the page explorer and edit the newly-created "What's new in Wagtail 5.1" page.
-      * Update any mentions and links of the previous version e.g. 5.0 to the current version e.g. 5.1.
-      * Update the rest of the content based on the rendered release notes in the developer docs, but only include parts that are relevant for content editors.
-      * Publish the page.
-      * Update `wagtail.admin.wagtail_hooks.register_whats_new_in_wagtail_version_menu_item` so the `version`'s value is correct, e.g. `"5.1"` (might be done already) and `wagtail.templatetags.wagtailcore_tags.wagtail_feature_release_whats_new_link` so that the link points to the page we just published.
-        * For example, see https://github.com/wagtail/wagtail/commit/15f652c9efe3a1b3ddc6afd79857e1152892a405
-      * Commit the changes to the `stable/5.1.x` branch, e.g. `git commit -m "Update What's new in Wagtail version menu item to 5.1"`.
+* **For a major / minor release** - a "What's new in Wagtail x.x" page should exist on guide.wagtail.org and be linked from the help menu.
+  * Sign in to https://guide.wagtail.org
+  * Go to https://guide.wagtail.org/releases/latest/
+  * If it already redirects to the page for the correct minor release, skip this step. Otherwise:
+    * From the userbar, click "Edit this page"
+    * From the three-dot menu in the header, click "Copy this page"
+    * Update the page title and slug for the new release, e.g. `What's new in Wagtail 5.1` and `new-in-wagtail-5-1`.
+    * Make sure it's copied as a child of the "Releases" page.
+    * Click "Copy this page"
+    * Go to the "Releases" page in the page explorer and edit the newly-created "What's new in Wagtail 5.1" page.
+    * Update any mentions and links of the previous version e.g. 5.0 to the current version e.g. 5.1.
+    * Update the rest of the content based on the rendered release notes in the developer docs, but only include parts that are relevant for content editors.
+    * Publish the page.
+    * Update `wagtail.admin.wagtail_hooks.register_whats_new_in_wagtail_version_menu_item` so the `version`'s value is correct, e.g. `"5.1"` (might be done already) and `wagtail.templatetags.wagtailcore_tags.wagtail_feature_release_whats_new_link` so that the link points to the page we just published.
+      * For example, see https://github.com/wagtail/wagtail/commit/15f652c9efe3a1b3ddc6afd79857e1152892a405
+    * Commit the changes to the `stable/5.1.x` branch, e.g. `git commit -m "Update What's new in Wagtail version menu item to 5.1"`.
 * Update `wagtail/__init__.py` with the new version number.
   * For a release candidate: `VERSION = (5, 1, 0, 'rc', 1)`
   * For a major release: `VERSION = (6, 0, 0, 'final', 1)`
