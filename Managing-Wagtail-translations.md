@@ -65,7 +65,7 @@ All languages with >= 90% coverage should be in the `WAGTAILADMIN_PROVIDED_LANGU
 
 ## Generating new source files for translation
 
-To be done periodically, particularly after any piece of development that involves creating / editing / moving a significant number of translatable strings. From `scripts`, run:
+To be done periodically, particularly after any piece of development that involves creating / editing / moving a significant number of translatable strings. From `./wagtail`, run:
 
 ```bash
 ./scripts/rebuild-translation-sources.sh
